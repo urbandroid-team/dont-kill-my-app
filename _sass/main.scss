@@ -1,0 +1,37 @@
+.cardholder {
+  display: flex;
+  flex-wrap: wrap;
+  // justify-content: center;
+}
+
+.card {
+  min-width: 40%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  margin: 1em;
+  h2 {
+  }
+  p {
+    font-size: 4em;
+  }
+}
+
+.card-vendor {
+  background-color: lightskyblue;
+}
+.card-vendor:hover {
+  background-color: dodgerblue;
+}
+.card-vendor-award {
+  background-color: pink;
+}
+.card-vendor-award:hover {
+  background-color: palevioletred;
+}
+a, a:visited {
+  color: rgb(50,50,50)
+}
+a:hover {
+  text-decoration: none;
+}

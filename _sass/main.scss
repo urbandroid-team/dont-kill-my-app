@@ -14,7 +14,6 @@
     font-size: 4em;
   }
 }
-
 .card-vendor {
   background-color: lightskyblue;
 }
@@ -32,4 +31,11 @@ a, a:visited {
 }
 a:hover {
   text-decoration: none;
+}
+
+img {
+  padding-top: 1em;
+  max-height: 25em;
+  display: block;
+  margin: 0 auto;
 }

@@ -11,9 +11,12 @@
     <div class="wrapper">
       {{ page.name }}
       {{ content }}
-      -- {{ page.explanation }}<br>
-      -- {{ page.user_solution }}<br>
-      -- {{ page.developer_solution }}<br>
+      <h3>Issue explanation</h3>
+      <p>{{ page.explanation }}</p>
+      <h3>Solution for users</h3>
+      <p>{{ page.user_solution }}</p>
+      <h3>Solution for developers</h3>
+      <p>{{ page.developer_solution }}</p>
     </div>
   </main>
 

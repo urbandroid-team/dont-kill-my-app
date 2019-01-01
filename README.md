@@ -11,6 +11,9 @@ Template:
 ---
 name: Nokia
 layout: default
+explanation: xxx
+user_solution: xxx
+developer_solution: xxx
 ---
 
 Y U say stock Android!?

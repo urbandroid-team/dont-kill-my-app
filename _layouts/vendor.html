@@ -9,14 +9,14 @@
 
   <main class="page-content" aria-label="Content">
     <div class="wrapper">
-      {{ page.name }}
+      <h2>{{ page.name }}</h2>
       {{ content }}
       <h3>Issue explanation</h3>
-      <p>{{ page.explanation }}</p>
+      <p>{{ page.explanation | markdownify }}</p>
       <h3>Solution for users</h3>
-      <p>{{ page.user_solution }}</p>
+      <p>{{ page.user_solution | markdownify }}</p>
       <h3>Solution for developers</h3>
-      <p>{{ page.developer_solution }}</p>
+      <p>{{ page.developer_solution | markdownify }}</p>
     </div>
   </main>
 

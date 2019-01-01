@@ -1,3 +1,10 @@
+h3 {
+  font-weight: 700;
+}
+blockquote {
+  font-family: 'Courier New', Courier, monospace
+}
+
 .cardholder {
   display: flex;
   flex-wrap: wrap;
@@ -6,12 +13,15 @@
 
 .card {
   min-width: 40%;
+  max-width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 1em;
   margin: 1em;
   p {
-    font-size: 4em;
+    text-align: right;
+    max-width: 50%;
+    font-size: 0.7em;
   }
 }
 .card-vendor {
@@ -27,7 +37,7 @@
   background-color: palevioletred;
 }
 a, a:visited {
-  color: rgb(50,50,50)
+  color: rgb(100,100,100)
 }
 a:hover {
   text-decoration: none;

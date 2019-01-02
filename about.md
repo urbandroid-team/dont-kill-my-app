@@ -6,9 +6,9 @@ permalink: /problem/
 
 Smartphones are getting more and more powerful, but the battery capacity is lagging behind. Vendors are always trying to squeeze some battery saving features into the firmware with each new Android release. 
 
-But same go so far that they break useful apps just to get a little more juice out of your device. This gets even so absurd that with some vendors (e.g. Nokia, Xiaomi, OnePlus or Huawei) our smart phones are becoming dumb phones again.
+But same go so far that they break useful apps just to get a little more juice out of your device. This gets even so absurd that with some vendors (e.g. Nokia, Xiaomi, OnePlus or Huawei) our smart phones are becoming **dumb phones** again.
 
-In the default settings your phone is usually unable to do any useful tasks for you in the background unless use are actively using it at the time. This affects most of the app which are not just another browser window. Most endangered are alarm clocks, health tracking, automation, calendar apps or simply anything which needs do some job for you at a particular moment.    
+Dumb phones are unable to do any useful tasks for you in the background unless use your device actively at the time. This affects most of the apps which are not just another browser window. Most affected are alarm clocks, health trackers, automation apps or simply anything which needs do some job for you at a particular moment when you don't use your phone.    
 
 With Android 6 (Marshmallow), Google has introduced Doze mode to the base Android, in an attempt to unify battery saving across the various Android phones.
 

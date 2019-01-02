@@ -8,7 +8,7 @@ Traditionally Huawei and their Android customization called EMUI belongs to the 
 There are no APIs and no documentation for those extensions. In default settings background processing simply does not work right and apps working in background will break.
 "
 
-user_solution: "
+user_solution: '
 
 Adjust your settings:
 
@@ -30,7 +30,7 @@ Huawei P20:
 
 * *Phone settings > Battery > App launch* and then set your app to “Manage manually” and make sure everything is turned on.
 
-"
+'
 
 developer_solution: "No known solution on developer end"
 

@@ -1,7 +1,7 @@
 ---
 name: Samsung
 layout: vendor
-award: 6
+award: 7
 
 explanation: "
 Yes, even Samsung - a dominant vendor in the Android market is using nasty battery saving technique which may kill background processes and render alarm clocks use-less. See below for workarounds.

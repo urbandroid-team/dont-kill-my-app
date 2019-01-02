@@ -1,7 +1,7 @@
 ---
 name: Sony
 layout: vendor
-award: 5
+award: 6
 explanation: "
 Sony gets a high rank in our listing of toxic Android vendors as historically it was Sonay which introduce the first very effective non-standard background process optimization and opened the pandora's box.
 

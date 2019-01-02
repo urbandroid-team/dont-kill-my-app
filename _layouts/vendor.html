@@ -11,12 +11,22 @@
     <div class="wrapper">
       <h2>{{ page.name }}</h2>
       {{ content }}
-      <h3>Issue explanation</h3>
-      <p>{{ page.explanation | markdownify }}</p>
+
+      {%- if page.explanation -%}
+        <h3>Issue explanation</h3>
+        <p>{{ page.explanation | markdownify }}</p>
+      {%- endif -%}
+
+      {%- if page.user_solution -%}
       <h3>Solution for users</h3>
       <p>{{ page.user_solution | markdownify }}</p>
+      {%- endif -%}
+
+      {%- if page.developer_solution -%}
       <h3>Solution for developers</h3>
       <p>{{ page.developer_solution | markdownify }}</p>
+      {%- endif -%}
+
     </div>
   </main>
 

@@ -24,5 +24,3 @@ user_solution: "Please do:
 developer_solution: "Dev solution TBD"
 
 ---
-
-Fuck you Huawei for being Chinese pirates

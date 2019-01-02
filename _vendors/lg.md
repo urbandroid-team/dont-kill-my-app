@@ -1,10 +1,5 @@
 ---
 name: LG
 layout: vendor
-explanation: "Explanation"
-user_solution: "User solution"
-developer_solution: "Dev solution"
-
+user_solution: "**Phone settings > Battery & power saving > Battery usage > Ignore optimizations > Turn on** to ignore battery optimization for Sleep as Android."
 ---
-
-Letmelive

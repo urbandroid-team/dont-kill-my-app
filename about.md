@@ -4,7 +4,8 @@ title: Our mission
 permalink: /problem/
 machine_name: problem
 excerpt: "
-## Smartphones are turning back into dumbphones. We have to fight back!
+Smartphones are turning back into dumbphones. We have to fight back!
+
 
 To squeeze a little extra juice (battery) our of your phone, 
 the Android device vendors listed below (in worst comes first order) 

@@ -14,6 +14,6 @@ With Android 6 (Marshmallow), Google has introduced Doze mode to the base Androi
 
 Unfortunately, vendors (e.g. Xiaomi, Huawei, OnePlus or even Samsung..) did not seem to catch that ball and they all have their own battery savers, usually very poorly written, saving battery only superficially with side effects.
 
-Naturally users blaim developers for their apps failing to deliver. But the truth is developers do maximim they can always investing new device specific hack to keep their apps working, but in many cases they simply fall short as vendors have full control over their apps.   
+Naturally users blaim developers for their apps failing to deliver. But the truth is developers do maximim they can. Always investigating new device specific hack to keep their (your) apps working. But in many cases they simply fall short as vendors have full control over processes on your phone.   
 
-This is the true aim of this side to help set thinks right. Communicate these issues with users and provide them with hacks, workarounds and guides to keep their apps alive and working.
+This is the true aim of this site. To help set things right when possible. Communicate these issues with users and provide them with hacks, workarounds and guides to keep their apps working and making their lives easier.

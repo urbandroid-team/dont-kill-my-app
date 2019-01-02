@@ -4,8 +4,8 @@ layout: vendor
 award: 2
 explanation: "OnePlus and their Oxygen OS Android modification is known as maximizing the stock Android experience. This may be true on the UX front but the exact opposite is valid for background process limits.
 
-When releasing their 1+5 and 1+6 phones OnePlus did introduce the most severe background limits on the market to date. Dwarfing even those performed by Xiaomi or Huawei. Not only need users enable extra settings to make there apps work properly but
-those settings even get reset with firmware update so that apps break again a users are required to reeneable those settings on regular basis.
+
+When releasing their 1+5 and 1+6 phones OnePlus did introduce the most severe background limits on the market to date. Dwarfing even those performed by Xiaomi or Huawei. Not only need users enable extra settings to make there apps work properly but those settings even get reset with firmware update so that apps break again a users are required to reeneable those settings on regular basis.
 "
 
 user_solution: 'Turn off **System Settings > Apps > Gear Icon > Special Access > Battery Optimization**.

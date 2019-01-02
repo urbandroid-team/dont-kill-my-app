@@ -48,14 +48,44 @@ blockquote {
   }
 }
 .card-vendor {
-  background-color: lightskyblue;
   h2 { color: black; }
 }
+.card-vendor-award-color-1 {
+  background-color: #f44336;
+}
+.card-vendor-award-color-2 {
+  background-color: #ff5722;
+}
+.card-vendor-award-color-3 {
+  background-color: #ff9800;
+}
+.card-vendor-award-color-4 {
+  background-color: #ffc107;
+}
+.card-vendor-award-color-5 {
+  background-color: #ffeb3b;
+}
+.card-vendor-award-color-6 {
+  background-color: #ffeb3b;
+}
+.card-vendor-award-color-7 {
+  background-color: #ffeb3b;
+}
+.card-vendor-award-color-8 {
+  background-color: #ffeb3b;
+}
+.card-vendor-award-color-9 {
+  background-color: #ffeb3b;
+}
+.card-vendor-award-color-10 {
+  background-color: #ffeb3b;
+}
+
+
 .card-vendor:hover {
   background-color: dodgerblue;
 }
 .card-vendor-award {
-  background-color: pink;
   position: relative;
   h2 {
     color: black;

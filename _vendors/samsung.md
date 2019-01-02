@@ -29,9 +29,6 @@ It’s excessive and in some cases downright misleading, using scare tactics to 
 
 "
 
-
 developer_solution: "No known solution on developer end"
-
-
 
 ---

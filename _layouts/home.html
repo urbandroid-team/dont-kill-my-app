@@ -38,8 +38,8 @@ layout: default
   var r = 255
 
   Array.from(cardArr).forEach(el => {
-    el.style.backgroundColor = "hsv(" + r/255 + ",1,1)"
-    r = r-step
+    el.style.backgroundColor = "hsv(" + r/360 + ",0.5,0.5)"
+    r = r - step
   });
 
   function hsv(h, s, v) {

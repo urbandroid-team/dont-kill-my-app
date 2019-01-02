@@ -17,11 +17,11 @@ You can read more on this issue here:
 user_solution: "
 To fix this issue, please do the following:
 
-* Go to **Phone settings > Apps > See all apps**.
+* Go to *Phone settings > Apps > See all apps*.
 
-* Tap on the **right top corner menu > Show system**.
+* Tap on the *right top corner menu > Show system*.
 
-* Find **Battery protection** app in the list, select it and **Force close**. It will remain stopped until the next restart.
+* Find *Battery protection* app in the list, select it and *Force close*. It will remain stopped until the next restart.
 
 From now on, background apps should work normally.
 
@@ -37,5 +37,4 @@ Uninstall the *com.evenwell.powersaving.g3* package via the following adb comman
 `pm uninstall --user 0 com.evenwell.powersaving.g3`
 "
 
-developer_solution: ""
----
+developer_solution: "The only workaround we found so far is to keep the screen on all time your process runs. Yes, this is very battery consuming. As usually, vendors trying to safe your battery cause much bigger battery drain on this kind of workarounds. An alternative to this is to turn the screen on only less than every 30 minutes."

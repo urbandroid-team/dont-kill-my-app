@@ -1,6 +1,7 @@
 ---
 name: Huawei
 layout: vendor
+permalink: huawei
 award: 4
 explanation: "
 Traditionally Huawei and their Android customization called EMUI belongs to the most troubled on the market with respect to non-standard background process limitations.

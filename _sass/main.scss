@@ -4,19 +4,25 @@ h3 {
 em {
   color: rgba(0,0,0,0.7);
 }
-#explanation-title:before, #explanation:before {
+#explanation-title:before, a[href="#explanation"]:before {
   content: "💩 "
 }
-#user-solution-title:before, #user-solution:before {
+#user-solution-title:before, a[href="#user-solution"]:before {
   content: "💪 "
 }
-#developer-solution-title:before, #dev-solution:before {
+#developer-solution-title:before, a[href="#dev-solution"]:before {
   content: "🤖 "
 }
 blockquote {
   font-family: 'Courier New', Courier, monospace
 }
-
+.award {
+  color: brown;
+  font-weight: 900;
+  background-color: rgba(255,255,255,0.5);
+  // border-radius: 50%;
+  // padding: 0.5em
+}
 .cardholder {
   display: flex;
   flex-wrap: wrap;
@@ -47,7 +53,18 @@ blockquote {
 }
 .card-vendor-award {
   background-color: pink;
-  h2, p { color: black; }
+  position: relative;
+  h2 {
+    color: black;
+  }
+  p {
+    color: black;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.5em;
+  }
 }
 .card-vendor-award:hover {
   background-color: palevioletred;
@@ -61,11 +78,15 @@ a:hover {
 #vendor-menu {
   margin-top: 1em;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+}
+#vendor-menu nav {
+  padding: 0.2em;
 }
 #vendor-menu nav a {
   padding: 0.5em 3em;
-  // flex: 1 1 auto;
+  // flex: 1 1 0;
   &:hover {
     background-color: grey;
     color: white;
@@ -79,4 +100,33 @@ img {
   max-height: 25em;
   display: block;
   margin: 0 auto;
+}
+
+@media only screen and (min-width: 601px) {
+  .awarded-vendor-link, .vendor-link  {
+    display: none;
+  }
+}
+.site-nav {
+  z-index: 1;
+}
+
+.dont-break-out, a {
+
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+
 }

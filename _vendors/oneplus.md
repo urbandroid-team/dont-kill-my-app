@@ -2,6 +2,7 @@
 name: OnePlus
 layout: vendor
 award: 2
+permalink: oneplus
 explanation: "OnePlus and their Oxygen OS Android modification is known as maximizing the stock Android experience. This may be true on the UX front but the exact opposite is valid for background process limits.
 
 

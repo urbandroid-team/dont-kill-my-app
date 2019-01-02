@@ -2,6 +2,7 @@
 name: Xiaomi
 layout: vendor
 award: 3
+permalink: xiaomi
 explanation: "
 Traditionally Xiaomi and their Android customization called MIUI belongs to the most troubled on the market with respect to non-standard background process limitations and non-standard permissions.
 There are no APIs and no documentation for those extensions. In default settings background processing simply does not work right and apps using them will break.

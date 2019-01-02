@@ -7,7 +7,7 @@
 <body>
   <main id="vendor-menu">
     <nav>
-      <a href="#explanation">Explanation</a>
+      <a href="#explanation">Story</a>
     </nav>
     <nav>
       <a href="#user-solution">Solution for users</a>
@@ -23,7 +23,7 @@
       {{ content }}
 
       {%- if page.explanation and page.explanation != "" -%}
-        <h2 id="explanation-title"><a id="explanation"></a>Issue explanation</h2>
+        <h2 id="explanation-title"><a id="explanation"></a>Story</h2>
         <p>{{ page.explanation | markdownify }}</p>
       {%- endif -%}
 

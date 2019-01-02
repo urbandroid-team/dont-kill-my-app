@@ -2,9 +2,9 @@
   <h2>
     {{ vendor.name }} <br/>
 
-    {% assign p = vendor.award %}
+    {% assign p = vendor.award - 10 %}
 
-    {% for i in (0..(10 - p)) %}
+    {% for i in (0..p) %}
     💩
     {% endfor %}
   </h2>

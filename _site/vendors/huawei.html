@@ -52,18 +52,22 @@
 <h2 id="explanation-title">
 <a id="explanation"></a>Issue explanation</h2>
         <p></p>
-<p>Huawei is one of the most troubled phones on the market, Chinese vendors tend to ignore Android best practices and implement very bizarre custom modifications which make background tasks nearly impossible to run.</p>
+<p>Traditionally Huawei and their Android customization called EMUI belongs to the most troubled on the market with respect to non-standard background process limitations.
+There are no APIs and no documentation for those extensions. In default settings background processing simply does not work right and apps working in background will break.</p>
 <h2 id="user-solution-title">
 <a id="user-solution"></a>Solution for users</h2>
-      <p></p>
-<p>Please do:</p>
+      <p>
+</p>
+<p>Adjust your settings: * <strong>Phone settings &gt; Advanced Settings &gt; Battery manager &gt; Power plan</strong> is set to <strong>Performance</strong> * <strong>Phone Settings &gt; Advanced Settings &gt; Battery Manager &gt; Protected apps</strong> – check for your app as <strong>Protected</strong> * <strong>Phone Settings &gt; Apps &gt; Your app &gt; Battery &gt; Power-intensive</strong> prompt [x] and <strong>Keep running after screen off [x]</strong> * <strong>Phone settings &gt; Apps &gt; Advanced (At the bottom) &gt; Ignore optimisations &gt;</strong> Press <strong>Allowed &gt; All apps &gt;</strong> Find your app on the list and set to <strong>Allow</strong>
+Huawei P9 Plus:</p>
 <ul>
-  <li>Phone settings &gt; Advanced Settings &gt; Battery manager &gt; Power plan is set to Performance</li>
-  <li>Phone Settings &gt; Advanced Settings &gt; Battery Manager &gt; Protected apps – check for [your app] as Protected</li>
-  <li>Phone Settings &gt; Apps &gt; [your app] &gt; Battery &gt; Power-intensive prompt [x] and Keep running after screen off [x]</li>
-  <li>Phone settings &gt;  Apps &gt; ‘Advanced (At the bottom) &gt; Ignore optimisations &gt; Press ‘Allowed’ &gt; All apps &gt; Find [your app] on the list and set to ‘Allow’</li>
-  <li>(Huawei P9 Plus) Phone settings &gt; Apps &gt; Settings &gt; Special access &gt; Ignore battery optimisation &gt; select allow for [your app].</li>
+  <li>
+<strong>Phone settings &gt; Apps &gt; Settings &gt; Special access &gt; Ignore battery optimisation &gt;</strong> select allow for your app.</li>
 </ul>
+<h2 id="developer-solution-title">
+<a id="dev-solution"></a>Solution for developers</h2>
+      <p></p>
+<p>No known solution on developer end</p>
 </div>
   </main><footer class="site-footer h-card">
   <data class="u-url" href="/"></data>

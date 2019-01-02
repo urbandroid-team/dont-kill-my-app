@@ -37,5 +37,6 @@ Uninstall the *com.evenwell.powersaving.g3* package via the following adb comman
 `pm uninstall --user 0 com.evenwell.powersaving.g3`
 "
 
-developer_solution: "Dev solution TBD"
+developer_solution: 
 ---
+The only workaround we found so far is to keep the screen on all time your process runs. Yes, this is very battery consuming. As usually, vendors trying to safe your battery cause much bigger battery drain on this kind of workarounds. An alternative to this is to turn the screen on only less than every 30 minutes.  

@@ -2,7 +2,7 @@
   <h2>
     {{ vendor.name }} <br/>
 
-    {% assign p = vendor.award - 10 %}
+    {% assign p = vendor.award | minus: 1 %}
 
     {% for i in (0..p) %}
     💩

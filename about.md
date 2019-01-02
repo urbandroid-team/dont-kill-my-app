@@ -4,14 +4,16 @@ title: The core of the problem
 permalink: /problem/
 ---
 
-Smartphones are getting more and more powerful, but the battery capacity is lagging behind. Vendors are always trying to squeeze some battery saving features into the firmware with each new Android release. With Android 6 (Marshmallow), Google has introduced Doze mode to the base Android, in an attempt to unify battery saving across the various Android phones.
+Smartphones are getting more and more powerful, but the battery capacity is lagging behind. Vendors are always trying to squeeze some battery saving features into the firmware with each new Android release. 
 
-Unfortunately, vendors such as Samsung, Huawei, OnePlus (and more) did not seem to catch that ball and they all have their own battery savers, usually very poorly written, saving battery only superficially.
+But same go so far that they break useful apps just to get a little more juice out of your device. This gets even so absurd that with some vendors (e.g. Nokia, Xiaomi, OnePlus or Huawei) our smart phones are becoming dumb phones again.
 
-These battery saving features have lots of side effects. They usually kill long running processes – but don’t care whether the user wants the process to run or not (think sleep tracking, fitness tracking, ...).
+In the default settings your phone is usually unable to do any useful tasks for you in the background unless use are actively using it at the time. This affects most of the app which are not just another browser window. Most endangered are alarm clocks, health tracking, automation, calendar apps or simply anything which needs do some job for you at a particular moment.    
 
-They also impose arbitrary limits on random things – like how many times can you schedule an alarm during a given period. If you go over the limit – boom! Your code doesn't run. That’s what you get for not reading the documentation on vendor modifications (oh wait, there is *no documentation*).
+With Android 6 (Marshmallow), Google has introduced Doze mode to the base Android, in an attempt to unify battery saving across the various Android phones.
 
-How to prevent the alarm and sleep tracking from failing? **Opt out of the battery savers.**
+Unfortunately, vendors (e.g. Xiaomi, Huawei, OnePlus or even Samsung..) did not seem to catch that ball and they all have their own battery savers, usually very poorly written, saving battery only superficially with side effects.
 
-Which may or may not be so simple.
+Naturally users blaim developers for their apps failing to deliver. But the truth is developers do maximim they can always investing new device specific hack to keep their apps working, but in many cases they simply fall short and vendors have full control over their apps.   
+
+This is the tru aim of this side to help set thinks right. Communicate these issues with users and provide them with hacks, workarounds and guides to keep their apps alive and working.

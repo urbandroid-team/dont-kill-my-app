@@ -19,7 +19,7 @@ Repeat this process to turn off optimization in other apps.
 
 To filter the list and see which apps have battery optimization disabled, tap All apps > Not optimized."
 
-developer_solution: "Dev solution TBD"
+developer_solution: ""
 ---
 
 HTC gets a honorable non-asshole award for having a FAQ on their website with guide on how to disable their app destroying (AKA battery saving) features.

@@ -17,28 +17,40 @@
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css">
   <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http//dontkillmyapp.com/feed.xml" title="Don't kill my app!" /></head>
-<body><header class="site-header" role="banner">
+<header class="site-header" role="banner">
 
-  <div class="wrapper">
-<a class="site-title" rel="author" href="/">Don't kill my app!</a><nav class="site-nav">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger">
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Don&#39;t kill my app!</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
           <span class="menu-icon">
-            <svg viewbox="0 0 18 15" width="18px" height="15px">
-              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
             </svg>
           </span>
         </label>
 
         <div class="trigger"><a class="page-link" href="/problem/">The core of the problem</a></div>
-      </nav>
-</div>
+      </nav></div>
+</header>
+<body>
+  <main id="vendor-menu">
+    <nav>
+      <a href="#explanation">❔❔ Explanation</a>
+    </nav>
+    <nav>
+      <a href="#user-solution">🌈 Solution for users</a>
+    </nav>
+    <nav>
+      <a href="#dev-solution">🤖 Solution for developers</a>
+    </nav>
+  </main>
 
-<main class="page-content" aria-label="Content">
+  <main class="page-content" aria-label="Content">
     <div class="wrapper">
-      <h2>Nokia</h2>
+      <h1>Nokia</h1>
       
-<h3>Issue explanation</h3>
+<h2 id="explanation-title">
+<a id="explanation"></a>Issue explanation</h2>
         <p></p>
 <p>Nokia on Android P kills any background process including sleep tracking (or any other sport tracking) after 30 minutes if the screen is off. Also all alarms are stopped which renders for example any alarm clock app useless.</p>
 
@@ -47,7 +59,8 @@
 <p>What this non-standard app does is every process gets killed after 30 minutes regardless it is actually supposed to be running and doing a useful job for the user. Also alarms are not triggered. The aim is apparently to save your battery by rendering tracking apps and other apps that use background processing useless.</p>
 
 <p>You can read more on this issue here: <a href="https://community.phones.nokia.com/discussion/3428/background-service-killed-even-when-whitelisted" target="_blank" rel="noopener noreferrer">https://community.phones.nokia.com/discussion/3428/background-service-killed-even-when-whitelisted</a></p>
-<h3>Solution for users</h3>
+<h2 id="user-solution-title">
+<a id="user-solution"></a>Solution for users</h2>
       <p></p>
 <p>To fix this issue, please do the following:</p>
 <ul>
@@ -62,9 +75,6 @@ From now on, background apps should work normally.</li>
 <p>Uninstall the <em>com.evenwell.powersaving.g3</em> package via the following adb commands:</p>
 
 <p><code class="highlighter-rouge">adb shell</code><br> <code class="highlighter-rouge">pm uninstall --user 0 com.evenwell.powersaving.g3</code></p>
-<h3>Solution for developers</h3>
-      <p></p>
-<p>Dev solution TBD</p>
 </div>
   </main><footer class="site-footer h-card">
   <data class="u-url" href="/"></data>

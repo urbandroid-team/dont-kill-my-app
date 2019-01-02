@@ -1,6 +1,18 @@
 h3 {
   font-weight: 700;
 }
+em {
+  color: rgba(0,0,0,0.7);
+}
+#explanation-title:before {
+  content: "❔❔ "
+}
+#user-solution-title:before {
+  content: "🌈 "
+}
+#developer-solution-title:before {
+  content: "🤖 "
+}
 blockquote {
   font-family: 'Courier New', Courier, monospace
 }
@@ -21,28 +33,45 @@ blockquote {
   p {
     text-align: right;
     max-width: 50%;
-    font-size: 0.7em;
+    font-size: 1.5em;
   }
 }
 .card-vendor {
   background-color: lightskyblue;
+  h2 { color: black; }
 }
 .card-vendor:hover {
   background-color: dodgerblue;
 }
 .card-vendor-award {
   background-color: pink;
+  h2, p { color: black; }
 }
 .card-vendor-award:hover {
   background-color: palevioletred;
 }
 a, a:visited {
-  color: rgb(100,100,100)
+  color: rgb(250,60,60)
 }
 a:hover {
   text-decoration: none;
 }
-
+#vendor-menu {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+}
+#vendor-menu nav a {
+  padding: 0.5em 3em;
+  // flex: 1 1 auto;
+  &:hover {
+    background-color: grey;
+    color: white;
+  }
+}
+main.page-content {
+  padding-top: 2em;
+}
 img {
   padding-top: 1em;
   max-height: 25em;

@@ -1,10 +1,8 @@
 ---
 name: Unihertz
 layout: vendor
-explanation: "Explanation"
-user_solution: "User solution"
-developer_solution: "Dev solution"
+explanation: ""
+user_solution: "**Settings > Smart Assistant > Power save manager >** add [your app] to the white list"
+developer_solution: ""
 
 ---
-
-Why not include bizarre phones?

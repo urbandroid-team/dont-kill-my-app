@@ -2,28 +2,38 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
 {%- include head.html -%}
+{%- include header.html -%}
 
 <body>
-
-  {%- include header.html -%}
+  <main id="vendor-menu">
+    <nav>
+      <a href="#explanation">❔❔ Explanation</a>
+    </nav>
+    <nav>
+      <a href="#user-solution">🌈 Solution for users</a>
+    </nav>
+    <nav>
+      <a href="#dev-solution">🤖 Solution for developers</a>
+    </nav>
+  </main>
 
   <main class="page-content" aria-label="Content">
     <div class="wrapper">
-      <h2>{{ page.name }}</h2>
+      <h1>{{ page.name }}</h1>
       {{ content }}
 
-      {%- if page.explanation -%}
-        <h3>Issue explanation</h3>
+      {%- if page.explanation and page.explanation != "" -%}
+        <h2 id="explanation-title"><a id="explanation"></a>Issue explanation</h2>
         <p>{{ page.explanation | markdownify }}</p>
       {%- endif -%}
 
-      {%- if page.user_solution -%}
-      <h3>Solution for users</h3>
+      {%- if page.user_solution and page.user_solution != "" -%}
+      <h2 id="user-solution-title"><a id="user-solution"></a>Solution for users</h2>
       <p>{{ page.user_solution | markdownify }}</p>
       {%- endif -%}
 
-      {%- if page.developer_solution -%}
-      <h3>Solution for developers</h3>
+      {%- if page.developer_solution and page.developer_solution != "" -%}
+      <h2 id="developer-solution-title"><a id="dev-solution"></a>Solution for developers</h2>
       <p>{{ page.developer_solution | markdownify }}</p>
       {%- endif -%}
 

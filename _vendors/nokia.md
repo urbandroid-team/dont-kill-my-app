@@ -37,5 +37,5 @@ Uninstall the *com.evenwell.powersaving.g3* package via the following adb comman
 `pm uninstall --user 0 com.evenwell.powersaving.g3`
 "
 
-developer_solution: "Dev solution TBD"
+developer_solution: ""
 ---

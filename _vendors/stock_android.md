@@ -1,9 +1,9 @@
 ---
 name: Stock Android
 layout: vendor
-explanation: "Explanation"
-user_solution: "User solution"
-developer_solution: "Dev solution"
+explanation: ""
+user_solution: ""
+developer_solution: ""
 
 ---
 

@@ -9,7 +9,7 @@ layout: default
 
   {% for my_page in site.pages %}
     {% if my_page.machine_name == "problem" %}
-      {{ my_page.excerpt }}
+      {{ my_page.excerpt | markdownify }}
     {% endif %}
   {% endfor %}
 

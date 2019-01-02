@@ -4,13 +4,13 @@ h3 {
 em {
   color: rgba(0,0,0,0.7);
 }
-#explanation-title:before {
-  content: "❔❔ "
+#explanation-title:before, #explanation:before {
+  content: "💩 "
 }
-#user-solution-title:before {
-  content: "🌈 "
+#user-solution-title:before, #user-solution:before {
+  content: "💪 "
 }
-#developer-solution-title:before {
+#developer-solution-title:before, #dev-solution:before {
   content: "🤖 "
 }
 blockquote {
@@ -28,8 +28,10 @@ blockquote {
   max-width: 100%;
   display: flex;
   justify-content: space-between;
+  flex: 1 1 0;
   padding: 1em;
   margin: 1em;
+  // flex-grow: 9999;
   p {
     text-align: right;
     max-width: 50%;

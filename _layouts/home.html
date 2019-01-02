@@ -7,6 +7,12 @@ layout: default
   <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
+  {% for my_page in site.pages %}
+    {% if my_page.machine_name == "problem" %}
+      {{ my_page.excerpt }}
+    {% endif %}
+  {% endfor %}
+
   <div class="cardholder">
     {%- if site.vendors.size > 0 -%}
 
@@ -23,26 +29,17 @@ layout: default
     {%- endif -%}
   </div>
 
-  <!-- {%- if site.posts.size > 0 -%}
-  <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-  <ul class="post-list">
-    {%- for post in site.posts -%}
-    <li>
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      <span class="post-meta">{{ post.date | date: date_format }}</span>
-      <h3>
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          {{ post.title | escape }}
-        </a>
-      </h3>
-      {%- if site.show_excerpts -%}
-      {{ post.excerpt }}
-      {%- endif -%}
-    </li>
-    {%- endfor -%}
-  </ul> -->
-
   <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS bitch</a></p> -->
-  {%- endif -%}
 
 </div>
+<script>
+  var cardArr = document.getElementsByClassName("card")
+  var step = (256/cardArr.length)/1.5
+  var r = 255
+
+  Array.from(cardArr).forEach(el => {
+    el.style.backgroundColor = "rgb(" + r + "," + r/4 + "," + r/6 + ")"
+    r = r-step
+  });
+  // debugger;
+</script>

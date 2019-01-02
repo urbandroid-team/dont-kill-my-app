@@ -2,6 +2,8 @@
 layout: page
 title: The core of the problem
 permalink: /problem/
+machine_name: problem
+excerpt: "There should be a nice summary line here"
 ---
 
 Smartphones are getting more and more powerful, but the battery capacity is lagging behind. Vendors are always trying to squeeze some battery saving features into the firmware with each new Android release.

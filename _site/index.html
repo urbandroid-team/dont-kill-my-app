@@ -37,54 +37,69 @@
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
         <div class="home">
-<div class="cardholder">
+    
+  
+    
+      There should be a nice summary line here
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+  <div class="cardholder">
 <a class="card card-vendor-award" href="/vendors/nokia.html">
   <h2>
     Nokia
   </h2>
-  <p>🤡 #1</p>
+  <p>💩 #1</p>
   <!-- <p>
 </p> -->
 </a><a class="card card-vendor-award" href="/vendors/oneplus.html">
   <h2>
     OnePlus
   </h2>
-  <p>🤡 #2</p>
+  <p>💩 #2</p>
   <!-- <p>
 </p> -->
 </a><a class="card card-vendor-award" href="/vendors/xiaomi.html">
   <h2>
     Xiaomi
   </h2>
-  <p>🤡 #3</p>
+  <p>💩 #3</p>
   <!-- <p>
 </p> -->
 </a><a class="card card-vendor-award" href="/vendors/huawei.html">
   <h2>
     Huawei
   </h2>
-  <p>🤡 #4</p>
+  <p>💩 #4</p>
   <!-- <p>
 </p> -->
 </a><a class="card card-vendor-award" href="/vendors/meizu.html">
   <h2>
     Meizu
   </h2>
-  <p>🤡 #5</p>
+  <p>💩 #5</p>
   <!-- <p>
 </p> -->
 </a><a class="card card-vendor-award" href="/vendors/sony.html">
   <h2>
     Sony
   </h2>
-  <p>🤡 #6</p>
+  <p>💩 #6</p>
   <!-- <p>
 </p> -->
 </a><a class="card card-vendor-award" href="/vendors/samsung.html">
   <h2>
     Samsung
   </h2>
-  <p>🤡 #7</p>
+  <p>💩 #7</p>
   <!-- <p>
 </p> -->
 </a><a class="card card-vendor" href="/vendors/htc.html">
@@ -115,16 +130,20 @@
 </a>
 </div>
 
-  <!--<h2 class="post-list-heading">Posts</h2>
-  <ul class="post-list"><li><span class="post-meta">Dec 19, 2018</span>
-      <h3>
-        <a class="post-link" href="/jekyll/update/2018/12/19/welcome-to-jekyll.html">
-          Welcome to Jekyll my ass!
-        </a>
-      </h3></li></ul> -->
-
   <!-- <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS bitch</a></p> -->
+
 </div>
+<script>
+  var cardArr = document.getElementsByClassName("card")
+  var step = (256/cardArr.length)/1.5
+  var r = 255
+
+  Array.from(cardArr).forEach(el => {
+    el.style.backgroundColor = "rgb(" + r + "," + r/4 + "," + r/6 + ")"
+    r = r-step
+  });
+  // debugger;
+</script>
       </div>
     </main><footer class="site-footer h-card">
   <data class="u-url" href="/"></data>

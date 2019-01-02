@@ -36,7 +36,7 @@ GEM
       sass (~> 3.4)
     jekyll-seo-tag (2.5.0)
       jekyll (~> 3.3)
-    jekyll-target-blank (1.1.0)
+    jekyll-target-blank (1.1.1)
       jekyll (~> 3.0)
       nokogiri (~> 1.8.2)
     jekyll-watch (2.1.2)

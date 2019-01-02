@@ -12,6 +12,13 @@ layout: default
 
     {% assign sorted_vendors = site.vendors | sort:"award" %}
 
+    {%- for vendor in sorted_vendors -%} {% if vendor.award %}
+    {%- include card-vendor-award.html -%}
+    {%- endif -%} {%- endfor -%}
+
+    {%- for vendor in site.vendors -%} {% unless vendor.award %}
+    {%- include card-vendor.html -%}
+    {%- endunless -%} {%- endfor -%}
 
     {%- endif -%}
   </div>

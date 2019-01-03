@@ -39,7 +39,8 @@ blockquote {
   justify-content: space-between;
   flex: 1 1 0;
   padding: 1em;
-  margin: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
   // flex-grow: 9999;
   p {
     text-align: right;
@@ -48,14 +49,45 @@ blockquote {
   }
 }
 .card-vendor {
-  background-color: lightskyblue;
+  background-color: #26a69a;
   h2 { color: black; }
 }
+.card-award-color-1 {
+  background-color: #ce93d8;
+}
+.card-award-color-2 {
+  background-color: #ec407a;
+}
+.card-award-color-3 {
+  background-color: #ef5350;
+}
+.card-award-color-4 {
+  background-color: #ff5722;
+}
+.card-award-color-5 {
+  background-color: #ff9800;
+}
+.card-award-color-6 {
+  background-color: #ffc107;
+}
+.card-award-color-7 {
+  background-color: #ffeb3b;
+}
+.card-award-color-8 {
+  background-color: #fff176;
+}
+.card-award-color-9 {
+  background-color: #26c6da;
+}
+.card-award-color-10 {
+  background-color: #29b6f6;
+}
+
+
 .card-vendor:hover {
-  background-color: dodgerblue;
+  background-color: #cddc39;
 }
 .card-vendor-award {
-  background-color: pink;
   position: relative;
   h2 {
     color: black;
@@ -70,7 +102,7 @@ blockquote {
   }
 }
 .card-vendor-award:hover {
-  background-color: palevioletred;
+  background-color: #cddc39;
 }
 a, a:visited {
   color: rgb(250,60,60)
@@ -131,5 +163,7 @@ img {
   -moz-hyphens: auto;
   -webkit-hyphens: auto;
   hyphens: auto;
+
+  color: #afb42b;
 
 }

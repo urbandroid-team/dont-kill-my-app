@@ -1,20 +1,16 @@
 ---
 layout: page
-title: The core of the problem
+title: Our mission
 permalink: /problem/
 machine_name: problem
 excerpt: "
-
-### Smartphones are becoming dumbphones again.
-
-
-Phone manufacturers sneak more and more *app paralyzers* into their phones and market them as battery savers.
+Smartphones are turning back into dumbphones. We have to fight back!
 
 
-We need to fight back to keep smartphones useful!
+To squeeze a little extra juice (battery) our of your phone, 
+the Android device vendors listed below (in worst comes first order) 
+cripple apps and make them useless...[Read more](/problem)"
 
-
-[Read more on what this site is about...](/problem)"
 ---
 
 Smartphones are getting more and more powerful, but the battery capacity is lagging behind. Vendors are always trying to squeeze some battery saving features into the firmware with each new Android release.

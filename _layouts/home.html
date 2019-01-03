@@ -19,7 +19,7 @@ layout: default
   <div class="cardholder">
     {%- if site.vendors.size > 0 -%}
 
-    {% assign sorted_vendors = site.vendors | sort:"award" %}
+    {% assign sorted_vendors = site.vendors | sort:"award" | reverse %}
 
     {%- for vendor in sorted_vendors -%} {% if vendor.award %}
     {%- include card-vendor-award.html -%}

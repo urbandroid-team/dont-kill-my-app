@@ -8,8 +8,7 @@ excerpt: "
 
 
 To squeeze a little extra battery our of your phone,
-the Android device vendors listed below (starting with the worst)
-cripple apps and make them useless. [Read more](/problem)"
+Android device vendors listed below (with their pooper score) cripple apps and make them useless. [Read more](/problem)"
 
 ---
 

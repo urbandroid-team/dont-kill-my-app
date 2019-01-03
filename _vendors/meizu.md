@@ -1,7 +1,7 @@
 ---
 name: Meizu
 layout: vendor
-award: 5
+award: 6
 permalink: meizu
 redirect_from: /vendors/meizu.html
 explanation: "

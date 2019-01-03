@@ -1,7 +1,7 @@
 ---
 name: Samsung
 layout: vendor
-award: 7
+award: 4
 permalink: samsung
 redirect_from: /vendors/samsung.html
 explanation: "

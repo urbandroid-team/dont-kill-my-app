@@ -108,6 +108,17 @@ blockquote {
     // padding: 0.5em;
   }
 }
+.poo {
+  display: inline;
+  height: 1em;
+  padding-top: 0;
+}
+.score {
+  margin-bottom: 1em;
+}
+#score {
+  margin-left: 1em;
+}
 .card-vendor-award:hover {
   background-color: #cddc39;
 }

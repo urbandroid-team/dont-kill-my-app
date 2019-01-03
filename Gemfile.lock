@@ -32,6 +32,8 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-feed (0.11.0)
       jekyll (~> 3.3)
+    jekyll-redirect-from (0.14.0)
+      jekyll (~> 3.3)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-seo-tag (2.5.0)
@@ -77,6 +79,7 @@ DEPENDENCIES
   hawkins
   jekyll (~> 3.8.5)
   jekyll-feed (~> 0.6)
+  jekyll-redirect-from
   jekyll-target-blank
   minima (~> 2.0)
   tzinfo-data

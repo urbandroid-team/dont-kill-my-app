@@ -2,6 +2,7 @@
 name: Stock Android
 layout: vendor
 permalink: stock_android
+redirect_from: /vendors/stock_android.html
 explanation: "
 Yes, even stock Android may kill your app when doing a task valuable to the user.
 "

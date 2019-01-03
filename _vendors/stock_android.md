@@ -8,13 +8,17 @@ redirect_from: /vendors/stock_android.html
 explanation: "
 Yes, even stock Android may kill your app when doing a task valuable to the user.
 
+
 Moreover, in Android 6.0 Google did dramatically restrict background processing with their doze mode [https://developer.android.com/training/monitoring-device-state/doze-standby](https://developer.android.com/training/monitoring-device-state/doze-standby).
+
 
 This attempt to unify various battery saving features across the Android ecosystem felt flat. Not only did 
 doze mode not prevent various vendors to implement their own battery saving. But doze mode in 6.0 was buggy 
 and did made some background processing scenarios impossible on Android (see Solution for developers). 
 
+
 A serious bug in doze mode in Android 6.0 even prevented foreground services to do their job (see Solution for developers for workaround), but luckily this was fixed in 7.0. 
+
 "
 
 

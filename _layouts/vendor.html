@@ -20,6 +20,25 @@
   <main class="page-content" aria-label="Content">
     <div class="wrapper">
       <h1>{{ page.name }}</h1>
+
+
+      {%- if page.award and page.award != "" -%}
+      <div class="score">
+        <strong>Pooper score:</strong>
+        <span id="score">
+            {% assign p = 10 | minus: page.award %}
+
+            {% for i in (1..page.award) %}
+            <img src="/assets/img/poo_full.svg" class="poo" alt="">
+            {% endfor %}
+
+            {% for i in (1..p) %}
+            <img src="/assets/img/poo.svg" class="poo" alt="">
+            {% endfor %}
+        </span>
+      </div>
+      {%- endif -%}
+
       {{ content }}
 
       {%- if page.explanation and page.explanation != "" -%}

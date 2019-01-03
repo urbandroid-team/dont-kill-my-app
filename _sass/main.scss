@@ -16,15 +16,24 @@ em {
 blockquote {
   font-family: 'Courier New', Courier, monospace
 }
+.text-center {
+  text-align: center;
+}
 .site-footer {
   font-size: 0.7em;
 }
+#punchline {
+  padding: 1.5em 0 3em;
+  font-weight: 300;
+  font-size: 1.2em
+}
+
 .award {
   color: brown;
   font-weight: 900;
-  background-color: rgba(255,255,255,0.5);
-  // border-radius: 50%;
-  // padding: 0.5em
+  // background-color: rgba(255,255,255,0.5);
+  border-radius: 4px;
+  padding: 0.3em
 }
 .cardholder {
   display: flex;
@@ -88,24 +97,36 @@ blockquote {
   background-color: #cddc39;
 }
 .card-vendor-award {
-  position: relative;
+  // position: relative;
   h2 {
     color: black;
+    // margin-right: 2em;
   }
   p {
     color: black;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 0.5em;
+    // height: calc(100% - 0.5em);
+    // position: absolute;
+    // top: 0;
+    // right: 0;
+    // padding: 0.5em;
   }
+}
+.poo {
+  display: inline;
+  height: 1em;
+  padding-top: 0;
+}
+.score {
+  margin-bottom: 1em;
+}
+#score {
+  margin-left: 1em;
 }
 .card-vendor-award:hover {
   background-color: #cddc39;
 }
 a, a:visited {
-  color: rgb(250,60,60)
+  color: #afb42b;
 }
 a:hover {
   text-decoration: none;
@@ -147,7 +168,6 @@ img {
 }
 
 .dont-break-out, a {
-
   /* These are technically the same, but use both */
   overflow-wrap: break-word;
   word-wrap: break-word;
@@ -163,7 +183,4 @@ img {
   -moz-hyphens: auto;
   -webkit-hyphens: auto;
   hyphens: auto;
-
-  color: #afb42b;
-
 }

@@ -1,13 +1,18 @@
 <a class="card card-vendor-award card-award-color-{{vendor.award}}" href="{{ vendor.url }}">
   <h2>
-    {{ vendor.name }} <br/>
-
-    {% assign p = 10 | minus: vendor.award %}
-
-    {% for i in (0..p) %}
-    💩
-    {% endfor %}
+    {{ vendor.name }}
   </h2>
-  <p class="award">#{{vendor.award}}</p>
+  <p class="award">
+    {% assign p = 5 | minus: vendor.award %}
+
+    {% for i in (1..vendor.award) %}
+      <img src="/assets/img/poo_full.svg" class="poo" alt="">
+    {% endfor %}
+
+    {% for i in (1..p) %}
+      <img src="/assets/img/poo.svg" class="poo" alt="">
+    {% endfor %}
+
+  </p>
   <!-- <p>{{vendor.excerpt}}</p> -->
 </a>

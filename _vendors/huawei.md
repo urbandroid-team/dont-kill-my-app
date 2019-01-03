@@ -2,7 +2,8 @@
 name: Huawei
 layout: vendor
 permalink: huawei
-award: 4
+redirect_from: /vendors/huawei.html
+award: 3
 explanation: "
 Traditionally Huawei and their Android customization called EMUI belongs to the most troubled on the market with respect to non-standard background process limitations.
 

@@ -5,7 +5,10 @@ permalink: /nokia
 redirect_from: /vendors/nokia.html
 award: 5
 position: 1
-explanation: "Nokia on Android P kills any background process including sleep tracking (or any other sport tracking) after 30 minutes if the screen is off. Also all alarms are stopped which renders for example any alarm clock app useless.
+explanation: "
+It seems HMD Global finally found the killer app, but unfortunately it is killing other apps!
+
+Nokia on Android P kills any background process including sleep tracking (or any other sport tracking) after 30 minutes if the screen is off. Also all alarms are stopped which renders for example any alarm clock app useless.
 
 
 We have investigated this issue in details. We did even purchase a Nokia 6.1 to be able to reproduce the issue. The problem only occurs on Nokia devices with Android Pie. Nokia started to bundle a toxic app (package: com.evenwell.powersaving.g3, name: Battery protection) with their devices by some Asian company Evenwell. This app kills apps in the most brutal way we have seen so far among Android vendors.

@@ -94,18 +94,18 @@ blockquote {
   background-color: #cddc39;
 }
 .card-vendor-award {
-  position: relative;
+  // position: relative;
   h2 {
     color: black;
-    margin-right: 2em;
+    // margin-right: 2em;
   }
   p {
     color: black;
-    height: calc(100% - 0.5em);
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 0.5em;
+    // height: calc(100% - 0.5em);
+    // position: absolute;
+    // top: 0;
+    // right: 0;
+    // padding: 0.5em;
   }
 }
 .card-vendor-award:hover {

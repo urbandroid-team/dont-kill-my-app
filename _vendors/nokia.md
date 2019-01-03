@@ -6,7 +6,9 @@ redirect_from: /vendors/nokia.html
 award: 5
 position: 1
 explanation: "
+
 It seems HMD Global finally found the killer app, but unfortunately it is killing other apps!
+
 
 Nokia on Android P kills any background process including sleep tracking (or any other sport tracking) after 30 minutes if the screen is off. Also all alarms are stopped which renders for example any alarm clock app useless.
 

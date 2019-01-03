@@ -1,7 +1,8 @@
 ---
 name: Stock Android
 layout: vendor
-award: 8
+award: 1
+position: 9
 permalink: stock_android
 redirect_from: /vendors/stock_android.html
 explanation: "

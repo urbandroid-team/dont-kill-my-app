@@ -7,7 +7,7 @@ excerpt: "
 **Smartphones are turning back into dumbphones.** We have to fight back!
 
 
-To squeeze a little extra battery our of your phone,
+To squeeze a little extra battery out of your phone,
 Android device vendors listed below (with their pooper score) cripple apps and make them useless. [Read more](/problem)"
 
 ---

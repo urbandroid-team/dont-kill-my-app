@@ -14,7 +14,8 @@ Find any vendor specific battery saver on your device and ideally uninstall if p
 
 If not try to uninstall it though **adb** (requires expect skills):
 
-`adb shell`<br>
+`adb shell`
+
 `pm uninstall --user 0 com.useless.peace.of.trash`
 
 

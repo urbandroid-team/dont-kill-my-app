@@ -11,9 +11,10 @@ Template:
 ---
 name: Nokia
 layout: default
-explanation: ''
-user_solution: ''
-developer_solution: ''
+permalink: nokia
+explanation: '<html or markdown here>'
+user_solution: '<html or markdown here>'
+developer_solution: '<html or markdown here>'
 ---
 
 Y U say stock Android!?
@@ -22,6 +23,6 @@ Y U say stock Android!?
 ### Awarding a vendor
 Add
 ```
-award: position(number)
+award: (int between 1 and 5)
 ```
 variable to the vendor.md file you wish to award.

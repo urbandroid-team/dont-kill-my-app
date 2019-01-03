@@ -10,7 +10,7 @@ Template:
 ```
 ---
 name: Nokia
-layout: default
+layout: vendor
 permalink: nokia
 explanation: '<html or markdown here>'
 user_solution: '<html or markdown here>'

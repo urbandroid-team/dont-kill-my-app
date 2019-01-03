@@ -112,7 +112,7 @@ blockquote {
   background-color: #cddc39;
 }
 a, a:visited {
-  color: rgb(250,60,60)
+  color: #afb42b;
 }
 a:hover {
   text-decoration: none;
@@ -154,7 +154,6 @@ img {
 }
 
 .dont-break-out, a {
-
   /* These are technically the same, but use both */
   overflow-wrap: break-word;
   word-wrap: break-word;
@@ -170,7 +169,4 @@ img {
   -moz-hyphens: auto;
   -webkit-hyphens: auto;
   hyphens: auto;
-
-  color: #afb42b;
-
 }

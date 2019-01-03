@@ -91,10 +91,11 @@ blockquote {
   position: relative;
   h2 {
     color: black;
+    margin-right: 2em;
   }
   p {
     color: black;
-    height: 100%;
+    height: calc(100% - 0.5em);
     position: absolute;
     top: 0;
     right: 0;

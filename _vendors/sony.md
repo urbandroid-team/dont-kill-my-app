@@ -1,7 +1,7 @@
 ---
 name: Sony
 layout: vendor
-award: 5
+award: 3
 permalink: sony
 redirect_from: /vendors/sony.html
 explanation: "

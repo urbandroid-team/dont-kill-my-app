@@ -3,7 +3,7 @@ name: Nokia
 layout: vendor
 permalink: /nokia
 redirect_from: /vendors/nokia.html
-award: 10
+award: 5
 explanation: "Nokia on Android P kills any background process including sleep tracking (or any other sport tracking) after 20 minutes if the screen is off. Also all alarms are stopped which renders for example any alarm clock app useless.
 
 

@@ -1,7 +1,7 @@
 ---
 name: Xiaomi
 layout: vendor
-award: 8
+award: 3
 permalink: xiaomi
 redirect_from: /vendors/xiaomi.html
 explanation: "

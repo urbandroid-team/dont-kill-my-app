@@ -45,7 +45,8 @@ award: (int between 1 and 5)
 ```
 variable to the vendor.md file you wish to award.
 
-## Who is behind this project?
+## Who started this project?
 
 Ultimately, every indie Android developer is at least partly affected by this issue. 
+
 We at Urbandroid Team are affected heavily with our Sleep as Android app and we gathered so much information about hacks and workarounds that we felt the need to share the information. We started by contacting individual indie developers with offers to exchange information, which led to the idea of a more effective approach in the form of a open-source website.

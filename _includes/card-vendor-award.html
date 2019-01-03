@@ -1,6 +1,6 @@
 <a class="card card-vendor-award card-award-color-{{vendor.award}}" href="{{ vendor.url }}">
   <h2>
-    #{{vendor.award}} {{vendor.name}}
+    <span class="card-award-text-color-{{vendor.award}}">#{{vendor.award}} {{vendor.name}}</span>
   </h2>
   <p class="award">
     {% assign p = 5 | minus: vendor.award %}

@@ -49,15 +49,21 @@ if all fails you can turn doze mode completely off in **Settings > Developer opt
 "
 
 developer_solution: "
+
 Some background processing scenarios are no more possible with Doze mode. For example low battery sensor logging
 using sensor batching is no more possible due to the 9 minute limit on consecutive alarms. The only workaround is keeping a partial wake lock all the time which means daramatically more battery is consumed for the same job.
 Or a nasty hack to schedule a user visible alarm though the setAlarmClock() method which can trigger more often.
+
 
 Tips:  
 * You can ask the user to make your app not battery optimized. See [https://developer.android.com/training/monitoring-device-state/doze-standby](https://developer.android.com/training/monitoring-device-state/doze-standby)
 
 ## Android 6.0
+
 A serious bug in doze mode in Android 6.0 which we did report during the 6.0 BETA does not allow foreground services to keep a wake lock every time an activity or a content provider kicks in, see [https://plus.google.com/u/0/+AndroidDevelopers/posts/94jCkmG4jff](https://plus.google.com/u/0/+AndroidDevelopers/posts/94jCkmG4jff) and search for Petr Nalevka and Dianne Hackborn.
+
+
+
 A workaround is to keep your foreground service in a separate process without any other Android components (read Activities, Receivers, Services..) in that process.       
 
 

@@ -9,9 +9,12 @@ layout: default
 
   {% for my_page in site.pages %}
     {% if my_page.machine_name == "problem" %}
+    <div id="punchline">
       {{ my_page.excerpt | markdownify }}
+    </div>
     {% endif %}
   {% endfor %}
+
 
   <div class="cardholder">
     {%- if site.vendors.size > 0 -%}

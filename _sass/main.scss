@@ -124,6 +124,12 @@ blockquote {
   background-color: #cddc39;
 }
 .card-vendor-award {
+  -moz-border-radius: 0.2em;
+  -webkit-border-radius: 0.2em;
+  border-radius: 0.2em; /* future proofing */
+  -khtml-border-radius: 0.2em; /* for old Konqueror browsers */
+
+
   // position: relative;
   h2 {
     color: black;

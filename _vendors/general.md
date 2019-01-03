@@ -4,7 +4,7 @@ layout: vendor
 permalink: general
 explanation: "
 Whatever device you are using, don't blaim the developers as the first thing when something goes wrong. 
-First check phone your settings if some background processing is not restricted on your device.  
+First check your phone settings if some background processing is not restricted on your device.  
 
 See below for general solutions.
 "

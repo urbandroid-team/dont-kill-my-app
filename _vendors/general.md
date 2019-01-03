@@ -17,6 +17,7 @@ If not try to uninstall it though **adb** (requires expect skills):
 `adb shell`<br>
 `pm uninstall --user 0 com.useless.peace.of.trash`
 
+
 Look though the vendor specific phone settings and search for anything related to battery optimization or background processing.
 If you find it try to disable it. 
 

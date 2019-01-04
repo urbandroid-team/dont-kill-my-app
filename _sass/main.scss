@@ -50,9 +50,9 @@ blockquote {
   flex: 1;
   // flex-grow: 9999;
   p {
-    text-align: left;
-    max-width: 50%;
-    font-size: 1.5em;
+    text-align: right;
+    // max-width: 50%;
+    font-size: 2em;
   }
 }
 .card-vendor {
@@ -167,16 +167,17 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
-#vendor-menu nav {
-  padding: 0.2em;
-}
-#vendor-menu nav a {
-  padding: 0em 1em;
-  // flex: 1 1 0;
-  &:hover {
-    background-color: grey;
-    color: white;
+  flex-direction: column;
+  nav {
+    padding: 0.2em;
+  }
+  nav a {
+    padding: 1em 2em;
+    // flex: 1 1 0;
+    &:hover {
+      background-color: grey;
+      color: white;
+    }
   }
 }
 main.page-content {
@@ -192,6 +193,9 @@ img {
 @media only screen and (min-width: 601px) {
   .awarded-vendor-link, .vendor-link  {
     display: none;
+  }
+  #vendor-menu {
+    flex-direction: row;
   }
 }
 .site-nav {

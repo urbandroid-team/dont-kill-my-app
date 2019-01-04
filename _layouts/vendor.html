@@ -6,15 +6,21 @@
 
 <body>
   <main id="vendor-menu">
-    <nav>
-      <a href="#explanation">Story</a>
-    </nav>
-    <nav>
-      <a href="#user-solution">Solution for users</a>
-    </nav>
-    <nav>
-      <a href="#dev-solution">Solution for developers</a>
-    </nav>
+    {%- if page.explanation and page.explanation != "" -%}
+      <nav>
+        <a href="#explanation">Story</a>
+      </nav>
+    {%- endif -%}
+    {%- if page.user_solution and page.user_solution != "" -%}
+      <nav>
+        <a href="#user-solution">Solution for users</a>
+      </nav>
+    {%- endif -%}
+    {%- if page.developer_solution and page.developer_solution != "" -%}
+      <nav>
+        <a href="#dev-solution">Solution for developers</a>
+      </nav>
+    {%- endif -%}
   </main>
 
   <main class="page-content" aria-label="Content">
@@ -26,7 +32,7 @@
       <div class="score">
         <strong>Pooper score:</strong>
         <span id="score">
-            {% assign p = 5 | minus: page.award %} 
+            {% assign p = 5 | minus: page.award %}
 
             {% for i in (1..page.award) %}
             <img src="/assets/img/poo_full.svg" class="poo" alt="">

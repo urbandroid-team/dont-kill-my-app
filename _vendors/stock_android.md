@@ -70,7 +70,7 @@ A serious bug in doze mode in Android 6.0 which we (authors of thsi site) did re
 
 
 
-A workaround is to keep your foreground service in a separate process without any other Android components (read Activities, Receivers, Services..) in that process.
+A workaround is to keep your foreground service in a separate process without any other Android components (read Activities, Receivers, Services..) in that process. This workaround is needed for all Android 6.0 devices but not needed on later devices where this is already fixed.
 
 
 

@@ -13,8 +13,9 @@ Moreover, in Android 6.0 Google did dramatically restrict background processing 
 
 
 This attempt to unify various battery saving features across the Android ecosystem fell flat. It wasn't only that
-Doze mode did not keep various vendors from implementing their own battery saving. Doze mode in 6.0 was also buggy
-and made some background processing scenarios impossible on Android or paradoxically more battery consuming e.g. gathering sensor data through sensor batching (see [Solution for developers](#dev-solution)).
+Doze mode did not keep various vendors from implementing their own battery saving. Doze mode made some background 
+processing scenarios impossible on Android or paradoxically more battery consuming e.g. gathering sensor data through
+ sensor batching (see [Solution for developers](#dev-solution)).
 
 
 A serious bug in doze mode in Android 6.0 even prevented foreground services to do their job (see [Solution for developers](#dev-solution) for workaround), but luckily this was fixed in 7.0.

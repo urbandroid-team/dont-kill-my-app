@@ -14,7 +14,7 @@ Moreover, in Android 6.0 Google did dramatically restrict background processing 
 
 This attempt to unify various battery saving features across the Android ecosystem fell flat. It wasn't only that
 Doze mode did not keep various vendors from implementing their own battery saving. Doze mode in 6.0 was also buggy
-and made some background processing scenarios impossible on Android (see [Solution for developers](#dev-solution)).
+and made some background processing scenarios impossible on Android or paradoxically more battery consuming e.g. gathering sensor data through sensor batching (see [Solution for developers](#dev-solution)).
 
 
 A serious bug in doze mode in Android 6.0 even prevented foreground services to do their job (see [Solution for developers](#dev-solution) for workaround), but luckily this was fixed in 7.0.
@@ -53,7 +53,7 @@ If all fails you can turn doze mode completely off in **Settings > Developer opt
 developer_solution: "
 
 Some background processing scenarios are no more possible with Doze mode. For example low battery sensor logging
-using sensor batching is no more possible due to the 9 minute limit on consecutive alarms. The only workaround is keeping a partial wake lock all the time which means daramatically more battery is consumed for the same job.
+using sensor batching is no more possible due to the 9 minute limit on consecutive alarms. The only workaround is keeping a partial wake lock all the time which means dramatically more battery is consumed for the same job.
 
 
 Or a nasty hack to schedule a user-visible alarm though the setAlarmClock() method which can trigger more often.

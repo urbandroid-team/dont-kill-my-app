@@ -11,9 +11,9 @@ Yes, even Samsung - a dominant vendor in the Android market - is using nasty bat
 
 user_solution: "
 
-## Samsung S8 and later
+## Galaxy S8 and later
 
-With the introduction of their flagship S8 (and with some earlier experiments), Samsung has introduced a flawed attempt at prolonging battery life called **App power monitor**.
+With the introduction of their flagship Galaxy S8 (and with some earlier experiments), Samsung has introduced a flawed attempt at prolonging battery life called **App power monitor**.
 
 
 For your apps to work correctly, please whitelist them in **App power monitor**.

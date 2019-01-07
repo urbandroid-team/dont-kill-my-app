@@ -17,13 +17,13 @@ user_solution: "Turn off **System Settings > Apps > Gear Icon > Special Access >
 
 To avoid the system to automatically revert the **not optimized** setting, you must also lock the app into the 'Recent App' list. (solution described [here](https://forum.xda-developers.com/showpost.php?p=78588761&postcount=7))
 
-Start the app you want to 'Protect'. Press the phone 'Recent app' button. Toggle the 'Lock' button on the upper right corner of the app.
+Start the app you want to 'Protect'. Press the phone **Recent app** button. Toggle the **Lock** button on the upper right corner of the app.
 
-This will avoid the app to be killed in background and the 'Battery optimisation' setting to be reverted.
+This will avoid the app to be killed in background and the **Battery optimisation** setting to be reverted.
 
 On some OnePlus phones there is also a thing called App Auto-Launch which essentially prevents apps from working in the background. Please disable it for your app.
 
-![OnePlus Settings](/assets/img/ss_oneplus_1.jpg?raw=true "OnePlus Settings")
+![OnePlus Settings](/assets/img/ss_oneplus_1.jpg?raw=true **OnePlus Settings**)
 
 Also try:
 

@@ -1,5 +1,5 @@
 ---
-name: General
+name: Other vendors
 layout: vendor
 permalink: general
 explanation: "
@@ -7,7 +7,7 @@ Whatever device you are using, don't blame the developers as the first thing whe
 First check your phone settings whether some background processing is not restricted on your device.
 
 
-See below for general solutions.
+See below for general solutions that apply for various vendors.
 "
 user_solution: "
 
@@ -37,20 +37,20 @@ Check if **Phone settings > Apps & Notifications > Your app > Background restric
 
 
 If all fails you can turn Doze mode off completely.
- 
+
 ## Turn off doze on Android 6.0 and earlier
- 
- 
+
+
 In **Settings > Developer options**. (If you don't know how to enable developer options, Google should help.)
 
 
 ## Turn off doze on Android 7+
 
 
-Requires expert skills 
+Requires expert skills
 
 
-`dumpsys deviceidle disable` 
+`dumpsys deviceidle disable`
 
 
 "

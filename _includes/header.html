@@ -25,12 +25,12 @@
             {%- endif -%}
           {%- endfor -%}
 
-          {%- assign vendor_paths = site.vendors | sort:"award" |  map: "path" -%}
+          {%- assign vendor_paths = site.vendors | sort:"award" |  reverse | map: "path" -%}
 
           {%- for path in vendor_paths -%}
             {%- assign vendor = site.vendors | where: "path", path | first -%}
             {%- if vendor.award -%}
-              <a class="awarded-vendor-link page-link" href="{{ vendor.url | relative_url }}">{{ vendor.name | escape }} <span class="award">💩 #{{ vendor.award }}</span></a>
+              <a class="awarded-vendor-link page-link" href="{{ vendor.url | relative_url }}">{{ vendor.name | escape }} <span class="award">{{ vendor.award }} 💩</span></a>
             {%- endif -%}
           {%- endfor -%}
 

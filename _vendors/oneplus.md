@@ -14,12 +14,13 @@ When releasing their 1+5 and 1+6 phones, OnePlus introduced one of the most seve
 user_solution: "Turn off **System Settings > Apps > Gear Icon > Special Access > Battery Optimization**.
 
 > WARNING: Recently OnePlus phones started reverting this setting randomly for random apps. So if you set it to be **not optimized**, the next day it may be back to **optimized**. There is no workaround and you may have to check system settings every once in a while.<br>See [a bug report filed to OnePlus](https://forums.oneplus.com/threads/in-battery-optimisation-apps-are-getting-automatically-switched-from-not-optimised-to-optimised.849162/).
-
+<br>
 To avoid the system to automatically revert the **not optimized** setting, you must also lock the app into the 'Recent App' list. (solution described [here](https://forum.xda-developers.com/showpost.php?p=78588761&postcount=7))
-
+<br>
 Start the app you want to 'Protect'. Press the phone **Recent app** button. Toggle the **Lock** button on the upper right corner of the app.
 
 This will avoid the app to be killed in background and the **Battery optimisation** setting to be reverted.
+
 
 On some OnePlus phones there is also a thing called App Auto-Launch which essentially prevents apps from working in the background. Please disable it for your app.
 

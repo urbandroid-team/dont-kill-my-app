@@ -29,6 +29,13 @@ Also try:
 Also disable **Settings > Battery > Battery optimization > (three dots) > Enhanced optimization**. This option may also be called **Advanced optimisation**.
 '
 
+To avoid the system to automatically revert the **not optimized** setting, you must also lock the app into the 'Recent App' list. (solution described [here](https://forum.xda-developers.com/showpost.php?p=78588761&postcount=7))
+
+Start the app you want to "protect". Press the phone 'Recent app' button. Toggle the 'Lock' button on the upper right corner of the app.
+
+This will avoid the app to be killed in background and the 'Battery optimisation' setting to be reverted.
+
+
 developer_solution: "No known solution on the developer end"
 
 ---

@@ -36,7 +36,23 @@ Always check the following setting
 Check if **Phone settings > Apps & Notifications > Your app > Background restrictions** or **Background limits** are not enabled for the app.
 
 
-If all fails you can turn Doze mode completely off in **Settings > Developer options**. (If you don't know how to enable developer options, Google should help.)
+If all fails you can turn Doze mode off completely.
+ 
+## Turn off doze on Android 6.0 and earlier
+ 
+ 
+In **Settings > Developer options**. (If you don't know how to enable developer options, Google should help.)
+
+
+## Turn off doze on Android 7+
+
+
+Requires expert skills 
+
+
+`dumpsys deviceidle disable` 
+
+
 "
 
 

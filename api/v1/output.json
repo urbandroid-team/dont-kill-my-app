@@ -4,8 +4,9 @@ limit: 100
 {"vendors": [
   {% for vendor in site.vendors limit: page.limit %}
     {
-      "title": {{ vendor.title | jsonify }},
+      "name": {{ vendor.name | jsonify }},
       "url": {{ vendor.url | jsonify }},
+      "explanation": {{ vendor.explanation | markdownify | jsonify }},
       "user_solution": {{ vendor.user_solution | markdownify | jsonify }},
       "developer_solution": {{ vendor.developer_solution | markdownify | jsonify }}
     }

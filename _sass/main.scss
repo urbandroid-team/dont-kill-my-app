@@ -8,7 +8,7 @@ em {
   color: rgba(0,0,0,0.7);
 }
 #explanation-title:before, a[href="#explanation"]:before {
-  content: "💩 "
+  // content: "💩 "
 }
 #user-solution-title:before, a[href="#user-solution"]:before {
   content: "💪 "
@@ -155,6 +155,9 @@ blockquote {
 }
 #score {
   margin-left: 1em;
+}
+.score-empty {
+  opacity: 0.5;
 }
 .card-vendor-award:hover {
   background-color: #cddc39;

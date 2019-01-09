@@ -5,6 +5,7 @@
     <p>
       This site is open-source, and the code is available on <a href="https://github.com/urbandroid-team/dont-kill-my-app">Github</a>.<br>Contributions, as well as discussion, are very welcome!
     </p>
+    <p id="icons-attribution"></p>
 
     <p>
       <script type="text/javascript" src="https://free-hit-counters.net/count/1i2i"></script><br>
@@ -13,4 +14,53 @@
     </p>
   </div>
 
-  </footer>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function () {
+    switch (window.location.search) {
+      case "":
+        changeScoreImages('poo.svg', 'poo_full.svg')
+        // attribute("no attribution")
+        break;
+      case "?1":
+        changeScoreImages('stalin_empty.svg', 'stalin_full.svg')
+        attribute("Icon: stalin by Greg Ellinger from the Noun Project")
+        break;
+      case "?2":
+        changeScoreImages('poo.svg', 'poo_full.svg')
+        // attribute("no attribution")
+        break;
+      case "?3":
+        changeScoreImages('thumbsdown_empty.svg', 'thumbsdown_full.svg')
+        // attribute("no attribution")
+        break;
+      case "?4":
+        changeScoreImages('trojan_empty.svg', 'trojan_full.svg')
+        attribute('<div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>')
+      default:
+      // code block
+    }
+    addScoreParameterToAllLocalLinks(window.location.search)
+  });
+
+  function attribute(author) {
+    document.getElementById('icons-attribution').innerHTML = author
+  }
+  function addScoreParameterToAllLocalLinks(parameter) {
+    $('a').each(function () {
+      if (this.host === window.location.host && !window.location.hash) {
+        this.href = this.href + parameter;
+      }
+    });
+  }
+  function changeScoreImages(imgRelativePathEmptyScore, imgRelativePathFullScore) {
+    $('.score-empty').each((i, score) => {
+      $(score).attr('src', "/assets/img/" + imgRelativePathEmptyScore)
+    })
+    $('.score-full').each((i, score) => {
+      $(score).attr('src', "/assets/img/" + imgRelativePathFullScore)
+    })
+  }
+</script>

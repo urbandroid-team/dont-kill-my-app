@@ -2,13 +2,15 @@
 limit: 100
 ---
 {"vendors": [
-  {% for vendor in site.vendors limit: page.limit %}
+  {% assign sorted_vendors = site.vendors | sort: "award" | reverse %}
+  {% for vendor in sorted_vendors limit: page.limit %}
     {
-      "name": {{ vendor.name | jsonify }},
+      "name": {{ vendor.name | jsonify}},
       "url": {{ vendor.url | jsonify }},
-      "explanation": {{ vendor.explanation | markdownify | jsonify }},
-      "user_solution": {{ vendor.user_solution | markdownify | jsonify }},
-      "developer_solution": {{ vendor.developer_solution | markdownify | jsonify }}
+      "award": {{ vendor.award | jsonify  }},
+      "explanation": {{ vendor.explanation | markdownify | absolutize_img_urls | jsonify}},
+      "user_solution": {{ vendor.user_solution | markdownify | absolutize_img_urls | jsonify }},
+      "developer_solution": {{ vendor.developer_solution | markdownify | absolutize_img_urls | jsonify }}
     }
   {% unless forloop.last %},{% endunless %}
   {% endfor %}

@@ -17,7 +17,6 @@ user_solution: '
 To let your app run successfully in the background, make sure your settings look like the following (here for example is Sleep as Android):
 <img src="/assets/img/ss_xiaomi_1.png">
 
-
 ### Power management
 
 Please enable:

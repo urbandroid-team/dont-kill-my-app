@@ -35,6 +35,7 @@ scheme:
     {
       "name": "Human-readable vendor name",
       "url": "/relative-url-to-vendor",
+      "award": number or null,
       "explanation": "JSON-escaped HTML",
       "user_solution": "JSON-escaped HTML",
       "developer_solution": "JSON-escaped HTML"

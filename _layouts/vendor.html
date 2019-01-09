@@ -8,7 +8,7 @@
   <main id="vendor-menu">
     {%- if page.explanation and page.explanation != "" -%}
       <nav>
-        <a href="#explanation">Story</a>
+        <a href="#explanation"><img src="/assets/img/placeholder.svg" class="poo score-full" alt=""> Story</a>
       </nav>
     {%- endif -%}
     {%- if page.user_solution and page.user_solution != "" -%}
@@ -48,7 +48,7 @@
       {{ content }}
 
       {%- if page.explanation and page.explanation != "" -%}
-        <h2 id="explanation-title"><a id="explanation"></a>Story</h2>
+      <h2 id="explanation-title"><img src="/assets/img/placeholder.svg" class="poo score-full" alt=""> <a id="explanation"></a>Story</h2>
         <p>{{ page.explanation | markdownify }}</p>
       {%- endif -%}
 

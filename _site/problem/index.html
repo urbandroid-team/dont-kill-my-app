@@ -92,67 +92,53 @@
     addCustomScore('?1', 'stalin_empty.svg', 'stalin_full.svg', 'Icon: stalin by Greg Ellinger from the Noun Project')
     addCustomScore('?2', 'poo.svg', 'poo_full.svg', '')
     addCustomScore('?3', 'thumbsdown_empty.svg', 'thumbsdown_full.svg', '')
-    addCustomScore('?4', 'trojan_empty.svg', 'trojan_full.svg', '<div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>')
+    addCustomScore('?4', 'trojan_empty.svg', 'trojan_full.svg', 'Icon: Troy horse by Juan Pablo Bravo from the Noun Project')
 
-    scoreCustomization.forEach(element => {
-      $('#customization-links').html(this.html() + "banna")
-
-    })
-
-    // ;((sc) => {
-    //   $('#customization-links').html(this.html() + "banna")
-    // })
-
-    switch (window.location.search) {
-      case "":
-        changeScoreImages('poo.svg', 'poo_full.svg')
-        // attribute("no attribution")
-        break;
-      case "?1":
-        changeScoreImages('stalin_empty.svg', 'stalin_full.svg')
-        attribute("Icon: stalin by Greg Ellinger from the Noun Project")
-        break;
-      case "?2":
-        changeScoreImages('poo.svg', 'poo_full.svg')
-        // attribute("no attribution")
-        break;
-      case "?3":
-        changeScoreImages('thumbsdown_empty.svg', 'thumbsdown_full.svg')
-        // attribute("no attribution")
-        break;
-      case "?4":
-        changeScoreImages('trojan_empty.svg', 'trojan_full.svg')
-        attribute('<div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>')
-      default:
-      // code block
+    console.log(scoreCustomization)
+    var arrayLength = scoreCustomization.length;
+    for (var i = 1; i < arrayLength; i++) {
+      console.log(i)
+      console.log(scoreCustomization)
+      currentHtml = $('#customization-links').html()
+      $('#customization-links').html(currentHtml + '<a class="customization-switch-link" href="' + window.location.pathname + scoreCustomization[i].param + '"><img class="customization-switch" src="'+ scoreCustomization[i].fullScore +'"></a>')
     }
+
+    var currentScoreCustomization = scoreCustomization.filter(obj => {
+      return obj.param === window.location.search
+    })
+    console.log(currentScoreCustomization)
+    changeScoreImages(currentScoreCustomization[0].emptyScore, currentScoreCustomization[0].fullScore)
+    attribute(currentScoreCustomization[0].attribution)
     addScoreParameterToAllLocalLinks(window.location.search)
   });
 
   function addCustomScore(parameter, emptyScore, fullScore, attribution) {
-    scoreCustomization << {
+    scoreCustomization.push({
       'param':parameter,
-      'emptyScore':emptyScore,
-      'fullScore':fullScore,
+      'emptyScore': "/assets/img/" + emptyScore,
+      'fullScore': "/assets/img/" + fullScore,
       'attribution':attribution
-    }
+    })
   }
   function attribute(author) {
     document.getElementById('icons-attribution').innerHTML = author
   }
   function addScoreParameterToAllLocalLinks(parameter) {
     $('a').each(function () {
-      if (this.host === window.location.host && !window.location.hash) {
+      if (this.host === window.location.host && this.className != "customization-switch-link" && this.href.indexOf('#') === -1) {
+        console.log(this.href)
         this.href = this.href + parameter;
       }
     });
   }
   function changeScoreImages(imgRelativePathEmptyScore, imgRelativePathFullScore) {
+    console.log(imgRelativePathEmptyScore)
+    console.log(imgRelativePathFullScore)
     $('.score-empty').each((i, score) => {
-      $(score).attr('src', "/assets/img/" + imgRelativePathEmptyScore)
+      $(score).attr('src', imgRelativePathEmptyScore)
     })
     $('.score-full').each((i, score) => {
-      $(score).attr('src', "/assets/img/" + imgRelativePathFullScore)
+      $(score).attr('src', imgRelativePathFullScore)
     })
   }
 </script></body>

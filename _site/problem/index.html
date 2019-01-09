@@ -7,13 +7,13 @@
 <meta name="generator" content="Jekyll v3.8.5" />
 <meta property="og:title" content="Our mission" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Smartphones are turning back into dumbphones. We have to fight back! To squeeze a little extra battery out of your phone, Android device vendors listed below (with their pooper score) cripple apps and make them useless. Read more" />
-<meta property="og:description" content="Smartphones are turning back into dumbphones. We have to fight back! To squeeze a little extra battery out of your phone, Android device vendors listed below (with their pooper score) cripple apps and make them useless. Read more" />
+<meta name="description" content="Smartphones are turning back into dumbphones. We have to fight back! To squeeze a little extra battery out of your phone, Android device vendors listed below (with their bad vendor score) cripple apps and make them useless. Read more" />
+<meta property="og:description" content="Smartphones are turning back into dumbphones. We have to fight back! To squeeze a little extra battery out of your phone, Android device vendors listed below (with their bad vendor score) cripple apps and make them useless. Read more" />
 <link rel="canonical" href="https://dontkillmyapp.com/problem/" />
 <meta property="og:url" content="https://dontkillmyapp.com/problem/" />
 <meta property="og:site_name" content="Don’t kill my app!" />
 <script type="application/ld+json">
-{"description":"Smartphones are turning back into dumbphones. We have to fight back! To squeeze a little extra battery out of your phone, Android device vendors listed below (with their pooper score) cripple apps and make them useless. Read more","@type":"WebPage","url":"https://dontkillmyapp.com/problem/","headline":"Our mission","@context":"http://schema.org"}</script>
+{"description":"Smartphones are turning back into dumbphones. We have to fight back! To squeeze a little extra battery out of your phone, Android device vendors listed below (with their bad vendor score) cripple apps and make them useless. Read more","@type":"WebPage","url":"https://dontkillmyapp.com/problem/","headline":"Our mission","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css">
   <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://dontkillmyapp.com/feed.xml" title="Don't kill my app!" /></head>
@@ -73,6 +73,7 @@
     </p>
     <p id="icons-attribution"></p>
 
+    <p id="customization-links"></p>
     <p>
       <script type="text/javascript" src="https://free-hit-counters.net/count/1i2i"></script><br>
       <a href="https://www.free-counters.org/" target="_blank" rel="noopener noreferrer">free Counters</a>
@@ -85,6 +86,23 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
   $(document).ready(function () {
+
+    scoreCustomization = []
+    addCustomScore('', 'poo.svg', 'poo_full.svg', '')
+    addCustomScore('?1', 'stalin_empty.svg', 'stalin_full.svg', 'Icon: stalin by Greg Ellinger from the Noun Project')
+    addCustomScore('?2', 'poo.svg', 'poo_full.svg', '')
+    addCustomScore('?3', 'thumbsdown_empty.svg', 'thumbsdown_full.svg', '')
+    addCustomScore('?4', 'trojan_empty.svg', 'trojan_full.svg', '<div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>')
+
+    scoreCustomization.forEach(element => {
+      $('#customization-links').html(this.html() + "banna")
+
+    })
+
+    // ;((sc) => {
+    //   $('#customization-links').html(this.html() + "banna")
+    // })
+
     switch (window.location.search) {
       case "":
         changeScoreImages('poo.svg', 'poo_full.svg')
@@ -111,6 +129,14 @@
     addScoreParameterToAllLocalLinks(window.location.search)
   });
 
+  function addCustomScore(parameter, emptyScore, fullScore, attribution) {
+    scoreCustomization << {
+      'param':parameter,
+      'emptyScore':emptyScore,
+      'fullScore':fullScore,
+      'attribution':attribution
+    }
+  }
   function attribute(author) {
     document.getElementById('icons-attribution').innerHTML = author
   }

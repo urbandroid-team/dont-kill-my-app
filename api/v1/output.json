@@ -1,0 +1,14 @@
+---
+limit: 100
+---
+{"vendors": [
+  {% for vendor in site.vendors limit: page.limit %}
+    {
+      "title": {{ vendor.title | jsonify }},
+      "user_solution": {{ vendor.user_solution | markdownify | jsonify }},
+      "developer_solution": {{ vendor.developer_solution | markdownify | jsonify }}
+    }
+  {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+  ]
+}

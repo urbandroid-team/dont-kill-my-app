@@ -18,6 +18,38 @@ Naturally users blame developers for their apps failing to deliver. But the trut
 
 This is the true aim of this site. **To help set things right whenever possible.** Communicate these issues with users and provide them with hacks, workarounds and guides to keep their apps working and making their lives easier.
 
+## API
+
+The website provides a JSON API at https://dontkillmyapp.com/api/v1/output.json for developers to use on their websites or in their apps.
+
+If you use the API, please let us know via email at jiri.richter@urbandroid.org and give credit to dontkillmyapp.com.
+
+### API v1 docs
+
+URL: https://dontkillmyapp.com/api/v1/output.json
+
+scheme:
+````
+{ "vendors" : 
+  [
+    {
+      "name": "Human-readable vendor name",
+      "url": "/relative-url-to-vendor",
+      "award": number or null,
+      "explanation": "JSON-escaped HTML",
+      "user_solution": "JSON-escaped HTML",
+      "developer_solution": "JSON-escaped HTML"
+    },
+    {
+      ...
+    },
+    {
+      ...
+    }
+  ]
+}
+````
+
 ## Contribution
 
 Pull requests are very welcome, as well as discussion using Github issues.

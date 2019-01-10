@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Power saver</string>
+    <string name="fih_power_saving_apply_notify">Power saver on</string>
+    <string name="fih_power_saving_apply_notify_msg">No items enabled</string>
+    <string name="fih_power_saving_apply_ticker_msg">Power saver on. No items enabled.</string>
+    <string name="fih_power_saving_background_activity_text">Enable the Background activity manager to extend the battery life. While this is enabled, some app/email notifications may not be retrieved instantly. You can manage the battery life by adding Apps to or removing them from the whitelist.</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">Turning on this function may prevent applications from receiving real-time information from the Internet while the screen is off.</string>
+    <string name="fih_power_saving_dialog_cancel">Cancel</string>
+    <string name="fih_power_saving_dialog_ok">set SMS Service Centre OK</string>
+    <string name="fih_power_saving_doze_high_consumption">High power consumption</string>
+    <string name="fih_power_saving_lpm_dialog_msg">Low power mode is activated.</string>
+    <string name="fih_power_saving_notice_dialog_title">Notice</string>
+    <string name="fih_power_saving_permission_cancel">Cancel</string>
+    <string name="fih_power_saving_permission_first_time_or_always_deny">To work properly, this app requires additional permissions. Please allow permissions when asked.</string>
+    <string name="fih_power_saving_permission_lpm_notification_summary">Tap to allow</string>
+    <string name="fih_power_saving_permission_lpm_notification_title">%s requires permissions</string>
+    <string name="fih_power_saving_permission_msg">To work properly, this app requires additional permissions. Please manage %s\'s permissions in Setting.</string>
+    <string name="fih_power_saving_permission_settings">Settings</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">Turning on this function may prevent applications with alarm or notification functions from waking up the device on time. We recommend that you add those applications to the whitelist for periodic wake-up from their Settings pages.</string>
+    <string name="lock_screen_ap_protect_title">Background activity manager</string>
+    <string name="switch_off_text">Off</string>
+    <string name="switch_on_text">On.</string>
+</resources>

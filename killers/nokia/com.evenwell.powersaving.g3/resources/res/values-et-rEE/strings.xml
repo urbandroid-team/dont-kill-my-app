@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Energiasäästja</string>
+    <string name="bam_notification_btn_nevershowthis">ÄRA KUNAGI SEDA NÄITA</string>
+    <string name="bam_notification_btn_turnon">LÜLITA SISSE</string>
+    <string name="bam_notification_content_text">Lülita see sisse aku tööea täiustamiseks!</string>
+    <string name="bam_notification_content_title">Taustal on akut tarbivad rakendused.</string>
+    <string name="fih_power_saving_background_activity_text">Lubage taustategevuse haldur aku eluea pikendamiseks, ent mõnede rakenduste või e-kirjade teatisi ei pruugi olla võimalik kohe tuua. Saate aku eluiga hallata, kui lisate lubatud seadmete loendisse rakendusi või neid sealt eemaldate.</string>
+    <string name="fih_power_saving_background_activity_text_blacklist">Lubage taustategevuse haldur aku eluea pikendamiseks, ent mõnede rakenduste või meilide teatisi ei pruugi olla võimalik kohe tuua. Saate aku eluiga hallata, kui lisate keelatud seadmete loendisse rakendusi või neid sealt eemaldate.</string>
+    <string name="fih_power_saving_dialog_cancel">Tühista</string>
+    <string name="fih_power_saving_dialog_ok">SMS-i teenuskeskuse seadmine OK</string>
+    <string name="fih_power_saving_doze_high_consumption">Suur energiatarbimine</string>
+    <string name="fih_power_saving_notice_dialog_title">Märkus</string>
+    <string name="fih_power_saving_permission_cancel">Tühista</string>
+    <string name="fih_power_saving_permission_settings">Sätted</string>
+    <string name="lock_screen_ap_protect_title">Taustategevuse haldur</string>
+    <string name="switch_off_text">VÄLJAS</string>
+    <string name="switch_on_text">Sees.</string>
+</resources>

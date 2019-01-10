@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">పవర్ ఆదా సాధనం</string>
+    <string name="bam_notification_btn_nevershowthis">దీనిని ఎప్పుడూ చూపవద్దు</string>
+    <string name="bam_notification_btn_turnon">ఆన్ చేయి</string>
+    <string name="bam_notification_content_text">బ్యాటరీ జీవితకాలాన్ని మెరుగుపరచడం కోసం దీనిని ఆన్ చేయండి!</string>
+    <string name="bam_notification_content_title">ఈ అనువర్తనాలు నేపథ్యంలో బ్యాటరీని ఉపయోగిస్తున్నాయి.</string>
+    <string name="fih_power_saving_apply_notify">పవర్ ఆదా ఆన్ చేయబడింది</string>
+    <string name="fih_power_saving_apply_notify_msg">ఏ అంశం ప్రారంభించబడలేదు</string>
+    <string name="fih_power_saving_apply_ticker_msg">పవర్ ఆదా ఆన్ చేయబడింది, ఏ అంశం ప్రారంభించబడలేదు</string>
+    <string name="fih_power_saving_background_activity_text">బ్యాటరీ జీవితకాలాన్ని పొడిగించడం కోసం నేపథ్య కార్యాచరణ నిర్వాహికిని ప్రారంభించండి, కానీ కొన్ని అనువర్తనాలు లేదా ఇమెయిల్‌ల యొక్క నోటిఫికేషన్‌లను తక్షణమే పొందలేకపోవచ్చు. అనుమతి జాబితాలో అనువర్తనాలను జోడించడం లేదా తీసివేయడం ద్వారా మీరు బ్యాటరీ జీవితకాలాన్ని నిర్వహించవచ్చు.</string>
+    <string name="fih_power_saving_background_activity_text_blacklist">బ్యాటరీ జీవితకాలాన్ని పొడిగించడం కోసం నేపథ్య కార్యాచరణ నిర్వాహికిని ప్రారంభించండి, కానీ కొన్ని అనువర్తనాలు లేదా ఇమెయిల్‌ల యొక్క నోటిఫికేషన్‌లను తక్షణమే పొందలేకపోవచ్చు. నిరోధిత జాబితాలో అనువర్తనాలను జోడించడం లేదా తీసివేయడం ద్వారా మీరు బ్యాటరీ జీవితకాలాన్ని నిర్వహించవచ్చు.</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">ఈ ప్రక్రియను ఆన్ చేసినట్లయితే, స్క్రీన్ ఆఫ్ చేయబడినప్పుడు అనువర్తనాలు నిజ సమయ సమాచారాన్ని ఇంటర్నెట్ నుండి సేకరించలేవు.</string>
+    <string name="fih_power_saving_dialog_cancel">రద్దు చేయి</string>
+    <string name="fih_power_saving_dialog_ok">సరే</string>
+    <string name="fih_power_saving_doze_high_consumption">ఎక్కువ శక్తి వినియోగం</string>
+    <string name="fih_power_saving_lpm_dialog_msg">తక్కువ పవర్ మోడ్ సక్రియం చేయబడింది.</string>
+    <string name="fih_power_saving_notice_dialog_title">నోటీసు</string>
+    <string name="fih_power_saving_permission_cancel">రద్దు చేయి</string>
+    <string name="fih_power_saving_permission_first_time_or_always_deny">ఈ అనువర్తనం సరిగ్గా పని చేయాలంటే దీనికి కింది అనుమతులను అందించాలి. దయచేసి అవసరమైనప్పుడు అనుమతిని మంజూరు చేయండి.</string>
+    <string name="fih_power_saving_permission_lpm_notification_summary">అనుమతించడం కోసం నొక్కండి</string>
+    <string name="fih_power_saving_permission_lpm_notification_title">%sకు అనుమతులు కావాలి</string>
+    <string name="fih_power_saving_permission_msg">ఈ అనువర్తనం సరిగ్గా పని చేయాలంటే, దీనికి అదనపు అనుమతులు అవసరం. దయచేసి సెట్టింగ్‌లలో %s అనుమతిని నిర్వహించండి.</string>
+    <string name="fih_power_saving_permission_settings">సెట్టింగ్‌లు</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">ఈ ప్రక్రియను ఆన్ చేసినట్లయితే, అలారం లేదా నోటిఫికేషన్ విధులను కలిగిన అనువర్తనాలు పరికరాన్ని సరైన సమయంలో మేల్కొల్పలేవు. ఆ అనువర్తనాలను దీని సెట్టింగ్‌ల పేజీ నుండి కాలానుగుణ మేల్కొల్పు అనుమతి జాబితాకు జోడించాల్సిందిగా సిఫార్సు చేస్తున్నాము.</string>
+    <string name="lock_screen_ap_protect_title">నేపథ్య కార్యాచరణ నిర్వాహికి</string>
+    <string name="switch_off_text">ఆఫ్ చేయి</string>
+    <string name="switch_on_text">ఆన్</string>
+</resources>

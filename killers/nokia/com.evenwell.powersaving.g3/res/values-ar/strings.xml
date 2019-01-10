@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">موفر الطاقة</string>
+    <string name="fih_power_saving_apply_notify">تشغيل موفر الطاقة</string>
+    <string name="fih_power_saving_apply_notify_msg">لا توجد عناصر ممكّنة</string>
+    <string name="fih_power_saving_apply_ticker_msg">‏‫تشغيل موفر الطاقة، لا توجد عناصر ممكّنة</string>
+    <string name="fih_power_saving_background_activity_text">قم بتمكين مدير نشاط الخلفية لتمديد عمر البطارية، ولكن قد يتعذر جلب إشعارات بعض التطبيقات أو الرسائل الإلكترونية بشكل فوري. يمكنك التحكم في عمر البطارية عن طريق إضافة التطبيقات إلى القائمة البيضاء أو إزالتها منها.</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">قد ينتج عن تشغيل الآلية عدم استقبال التطبيقات معلومات الوقت الفعلي من الإنترنت أثناء إغلاق الشاشة.</string>
+    <string name="fih_power_saving_dialog_cancel">الغاء</string>
+    <string name="fih_power_saving_dialog_ok">ठीक</string>
+    <string name="fih_power_saving_doze_high_consumption">الاستهلاك العالي للطاقة</string>
+    <string name="fih_power_saving_lpm_dialog_msg">تم تنشيط وضع توفير الطاقة.</string>
+    <string name="fih_power_saving_notice_dialog_title">ملاحظات</string>
+    <string name="fih_power_saving_permission_cancel">الغاء</string>
+    <string name="fih_power_saving_permission_first_time_or_always_deny">للعمل بشكل صحيح، يحتاج هذا التطبيق إلى أذون إضافية. يرجى السماح بالإذن عند طلب ذلك.</string>
+    <string name="fih_power_saving_permission_lpm_notification_summary">النقر للسماح</string>
+    <string name="fih_power_saving_permission_lpm_notification_title">%s يتطلب ‏‫أذونات</string>
+    <string name="fih_power_saving_permission_msg">يتطلب هذا التطبيق أذونات إضافية ليعمل بصورة صحيحة. الرجاء إدارة أذونات %s في الإعدادات.</string>
+    <string name="fih_power_saving_permission_settings">الإعدادات</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">قد ينتج عن تشغيل الآلية تعذر تنبيه الجهاز في الوقت المناسب باستخدام التطبيقات التي تحتوي على منبه أو وظائف إشعار. يوصى بإضافة هذه التطبيقات لقائمة التنبيه الدوري البيضاء من صفحة الإعدادات.</string>
+    <string name="lock_screen_ap_protect_title">مدير نشاط الخلفية</string>
+    <string name="switch_off_text">متوقف</string>
+    <string name="switch_on_text">نشط</string>
+</resources>

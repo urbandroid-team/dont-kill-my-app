@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Кубат үнөмдөгүч</string>
+    <string name="fih_power_saving_apply_notify">Кубат үнөмдөгүч күйгүзүлгөн</string>
+    <string name="fih_power_saving_apply_notify_msg">Бир да нерсе иштетилген жок</string>
+    <string name="fih_power_saving_apply_ticker_msg">Кубат үнөмдөгүч күйгүзулүп, бир да нерсе иштетилген жок</string>
+    <string name="fih_power_saving_background_activity_text">Батареянын иштөө мөөнөтүн узартуу үчүн, фондук иш-аракет көзөмөлдөөсүн күйгүзүңүз. Бирок, айрым колдонмолордун же электрондук каттардын эскертүүлөрү дароо алынбашы мүмкүн. Сиз батареянын иштөө мөөнөтүн Колдонмолорду ак тизмекке кошуу же өчүрүү менен башкара аласыз.</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">Механизмди күйгүзсөңүз, бул колдонмолордун экран өчүк кезде Интернетте учурдагы убакта маалыматтарды алып турбашы мумкүн.</string>
+    <string name="fih_power_saving_dialog_cancel">Жокко чыгр</string>
+    <string name="fih_power_saving_dialog_ok">Жарайт</string>
+    <string name="fih_power_saving_doze_high_consumption">Чоң кубат керектөө</string>
+    <string name="fih_power_saving_lpm_dialog_msg">Төмөн кубат режими иштетилген.</string>
+    <string name="fih_power_saving_notice_dialog_title">Эскертме</string>
+    <string name="fih_power_saving_permission_cancel">Жокко чыгр</string>
+    <string name="fih_power_saving_permission_first_time_or_always_deny">Тиешелүү түрдө иштеш үчүн, бул колдонмо кошумча уруксаттарды талап кылат. Суралганда уруксат бериңиз.</string>
+    <string name="fih_power_saving_permission_lpm_notification_summary">Уруксат берүү үчүн басыңыз</string>
+    <string name="fih_power_saving_permission_lpm_notification_title">%s уруксатты талап кылат</string>
+    <string name="fih_power_saving_permission_msg">Тиешелтүрдө иштеш үчүн, бул колдонмо кошумча уруксаттарды талап кылат. Жөндөөлөрдөн %s дегенден уруксатты башкарыңыз.</string>
+    <string name="fih_power_saving_permission_settings">Уюк таркатмаларынын жөндөөлөрү</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">Механизмди иштетсеңиз, ойготкучу же эстеткич функциялары бар колдонмолор түзмөктү убагында ойготпошуна алып келиши мүмкүн. Ал колдонмолорду кйталанма ойготкучунун ак тизмесине жөндөө баракчасына кошуу сунушталат.</string>
+    <string name="lock_screen_ap_protect_title">Фондук иш-аракет башкаргычы</string>
+    <string name="switch_off_text">Өчүрүү</string>
+    <string name="switch_on_text">Күйүк</string>
+</resources>

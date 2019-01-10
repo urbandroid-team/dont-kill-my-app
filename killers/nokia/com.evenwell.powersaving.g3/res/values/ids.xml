@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="allApp">false</item>
+    <item type="id" name="allAppCheckBoxBAM">false</item>
+    <item type="id" name="allAppCheckBoxDisAuto">false</item>
+    <item type="id" name="appCheckBoxhWidgetBAM">false</item>
+    <item type="id" name="appCheckBoxhWidgetDisAuto">false</item>
+    <item type="id" name="appIcon">false</item>
+    <item type="id" name="appName">false</item>
+    <item type="id" name="appNameProtect">false</item>
+    <item type="id" name="appSwitchWidget">false</item>
+    <item type="id" name="applist">false</item>
+    <item type="id" name="auto_avtivate">false</item>
+    <item type="id" name="background_activity_text">false</item>
+    <item type="id" name="batteryImageView">false</item>
+    <item type="id" name="center">false</item>
+    <item type="id" name="check_all_layout">false</item>
+    <item type="id" name="check_all_text_layout">false</item>
+    <item type="id" name="lock_screen">false</item>
+    <item type="id" name="progres">false</item>
+    <item type="id" name="timeRemain">false</item>
+</resources>

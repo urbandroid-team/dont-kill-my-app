@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">ذخیره باتری</string>
+    <string name="fih_power_saving_apply_notify">ذخیره نیروروشن</string>
+    <string name="fih_power_saving_apply_notify_msg">موردی فعال نیست</string>
+    <string name="fih_power_saving_apply_ticker_msg">ذخیره نیرو روشن، مورد فعال نیست</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">برای روشن کردن مکانیسمی که برنامه اطلاعات آنی را از اینترنت در حین خاموشی صفحه دریافت نمی کند.</string>
+    <string name="fih_power_saving_dialog_cancel">لغو</string>
+    <string name="fih_power_saving_dialog_ok">قبول</string>
+    <string name="fih_power_saving_lpm_dialog_msg">حالت صرفه جویی فعال می شود.</string>
+    <string name="fih_power_saving_notice_dialog_title">اعلان</string>
+    <string name="fih_power_saving_permission_cancel">لغو</string>
+    <string name="fih_power_saving_permission_first_time_or_always_deny">برای کارکرد درست، این برنامه به مجوز دیگر نیاز دارد. لطفاً در صورت درخواست، اجازه دهید.</string>
+    <string name="fih_power_saving_permission_lpm_notification_summary">ضربه بزنید</string>
+    <string name="fih_power_saving_permission_lpm_notification_title">%s به مجوز نیاز دارد</string>
+    <string name="fih_power_saving_permission_msg">برای کارکرد درست، این برنامه به مجوزهای دیگر نیاز دارد. مجوز %sرا در تنظیمات مدیریت کنید.</string>
+    <string name="fih_power_saving_permission_settings">تنظیمات</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">با روشن کردن این مکانیسم ممکن است برنامه های با عملکرد هشدار یا اعلان، نتوانند دستگاه را به موقع بیدار کنند. پیشنهادمی شود که از صفحه تنظیمات برنامه، آن برنامه ها را به لیست سفید بیدارباش دوره ای اضافه کنید.</string>
+    <string name="switch_off_text">خاموش</string>
+    <string name="switch_on_text">روشن</string>
+</resources>

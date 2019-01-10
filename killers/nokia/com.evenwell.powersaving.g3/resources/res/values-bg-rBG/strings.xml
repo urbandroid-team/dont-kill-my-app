@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bam_notification_btn_nevershowthis">НИКОГА НЕ ПОКАЗВАЙ ТОВА</string>
+    <string name="bam_notification_btn_turnon">ВКЛЮЧВАНЕ</string>
+    <string name="bam_notification_content_text">Включете това, за да удължите живота на батерията!</string>
+    <string name="bam_notification_content_title">Има приложения, които използват батерията във фонов режим.</string>
+    <string name="fih_power_saving_background_activity_text">Активирайте диспечера на активност във фонов режим, за да удължите живота на батерията, но е възможно известията за някои приложения или имейли да не могат да бъдат извличани незабавно. Можете да управлявате живота на батерията, като добавяте или премахвате приложенията във или от белия списък.</string>
+    <string name="fih_power_saving_background_activity_text_blacklist">Активирайте диспечера на активност във фонов режим, за да удължите живота на батерията, но е възможно известията за някои приложения или имейли да не могат да бъдат извличани незабавно. Можете да управлявате живота на батерията, като добавяте или премахвате приложенията във или от черния списък.</string>
+    <string name="fih_power_saving_dialog_cancel">Отказ</string>
+    <string name="fih_power_saving_dialog_ok">ОK</string>
+    <string name="fih_power_saving_doze_high_consumption">Силно потребление на енергия</string>
+    <string name="fih_power_saving_permission_cancel">Отказ</string>
+    <string name="lock_screen_ap_protect_title">Диспечер на активност във фонов режим</string>
+    <string name="switch_off_text">Изключено</string>
+    <string name="switch_on_text">Включено</string>
+</resources>

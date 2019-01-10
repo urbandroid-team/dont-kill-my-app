@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">බල සුරැකිය</string>
+    <string name="bam_notification_btn_nevershowthis">කිසි විටෙක මෙය නොපෙන්වන්න</string>
+    <string name="bam_notification_btn_turnon">සක්‍රිය කරන්න</string>
+    <string name="bam_notification_content_text">බැටරි ආයු කාලය වැඩි කිරීමට මෙය සක්‍රිය කරන්න!</string>
+    <string name="bam_notification_content_title">පසුබිමෙහි බැටරිය පරිහරණ කරන යෙදුම් තිබේ.</string>
+    <string name="fih_power_saving_apply_notify">බල සුරැකිය සජීවයි</string>
+    <string name="fih_power_saving_apply_notify_msg">අයිතම කිසිවක් සබල කර නැත</string>
+    <string name="fih_power_saving_apply_ticker_msg">බල සුරැකිය සජීවයි, අයිතම කිසිවක් සබල කර නැත</string>
+    <string name="fih_power_saving_background_activity_text">බැටරි ආයු කාලය දීර්ඝ කිරීමට පසුබිම් ක්‍රියාකාරකම් කළමනාකරු සක්‍රීය කරන්න, නමුත් සමහර යෙදුම් හෝ ඊමේල්වල දැනුම්දීම් ක්‍ෂණිකව සොයා ලබාගැනීමට නොහැකි විය හැකිය. ධවල ලැයිස්තුවට යෙදුම් එක් කිරීමෙන් හෝ එයින් ඉවත් කිරීමෙන් ඔබට බැටරි ආයු කාලය කළමනාකරණය කළ හැකිය.</string>
+    <string name="fih_power_saving_background_activity_text_blacklist">බැටරි ආයු කාලය දීර්ඝ කිරීමට පසුබිම් ක්‍රියාකාරකම් කළමනාකරු සක්‍රීය කරන්න, නමුත් සමහර යෙදුම් හෝ විද්‍යුත් තැපැල්වල දැනුම් දීම් ක්‍ෂණිකව සොයා ලබා ගැනීමට නොහැකි වීමට ඉඩ ඇත. අසාධු ලැයිස්තුවට යෙදුම් එක් කිරීමෙන් හෝ එයින් ඉවත් කිරීමෙන් ඔබට බැටරි ආයු කාලය කළමනාකරණ කළ හැක.</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">අජීවනය යාන්ත්‍රණයකිරීම තිරය අජීව විට අන්තර්ජාලය වෙතින් එම යෙදුම් වලට තත්කාලීන තොරතුරු නොලැබීම ප්‍රතිඵලය වීම විය හැකිය.</string>
+    <string name="fih_power_saving_dialog_cancel">අවලංගු කරන්න</string>
+    <string name="fih_power_saving_dialog_ok">හරි</string>
+    <string name="fih_power_saving_doze_high_consumption">ඉහළ බල පරිභෝජනය</string>
+    <string name="fih_power_saving_lpm_dialog_msg">පහළ බල ප්‍රකාරය සක්‍රීය කර ඇත.</string>
+    <string name="fih_power_saving_notice_dialog_title">දැන්වීම</string>
+    <string name="fih_power_saving_permission_cancel">අවලංගු කරන්න</string>
+    <string name="fih_power_saving_permission_first_time_or_always_deny">නියම ක්‍රියාකාරිත්වය පිණිස, මෙම යෙදුම අතිරේක අවසරය සොයයි. විමසන විට අවසර ඉඩ දෙන්න.</string>
+    <string name="fih_power_saving_permission_lpm_notification_summary">ඉඩ දීමට තට්ටු කරන්න</string>
+    <string name="fih_power_saving_permission_lpm_notification_title">%s හට අවසර අවශ්‍යයි</string>
+    <string name="fih_power_saving_permission_msg">නියම ක්‍රියාකාරිත්වය පිණිස, මෙම යෙදුම අතිරේක අවසර සොයයි. පසුතල තුළ %s හි අවසර කළමනාකරණය කරන්න.</string>
+    <string name="fih_power_saving_permission_settings">සැකසීම්</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">යාන්ත්‍රණය අජීවනය කිරීම එලාම් හෝ දැනුම්දීම් ක්‍රියාකාරිත්ව සහිත යෙදුම් වලට උපාංගය නියම වේලාවට අවදි කිරීමට නොහැකි වීම ප්‍රතිඵලය වීම විය හැකිය. එම යෙදුම් පසුතල පිටුව තුළ වාරකාලීන අවදි ධවල ලැයිස්තුව කරා එක් කිරීම නිර්දේශ කෙරේ.</string>
+    <string name="lock_screen_ap_protect_title">පසුබිම් ක්‍රියාකාරකම් කළමනාකරු</string>
+    <string name="switch_off_text">ක්‍රියාවිරහිතයි</string>
+    <string name="switch_on_text">සක්‍රීයයි.</string>
+</resources>

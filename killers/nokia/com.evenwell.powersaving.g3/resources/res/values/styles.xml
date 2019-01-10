@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ActionBar.Subtitle">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#787878</item>
+    </style>
+    <style name="CustomActionBarTheme_O">
+        <item name="android:actionBarSize">64dp</item>
+        <item name="android:colorAccent">@color/nokia_blue</item>
+        <item name="android:navigationBarColor">@color/navigation_bar_light</item>
+    </style>
+    <style name="TextAppearance.Medium">
+    </style>
+    <style name="TextAppearance.Switch">
+    </style>
+    <style name="ThemeOverlay.SwitchBar">
+        <item name="android:colorAccent">@color/switch_accent_color</item>
+    </style>
+    <style name="Transparent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

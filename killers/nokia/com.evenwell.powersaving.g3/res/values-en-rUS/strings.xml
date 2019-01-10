@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Power saver</string>
+    <string name="fih_power_saving_apply_notify">Power saver on</string>
+    <string name="fih_power_saving_apply_notify_msg">No item enabled</string>
+    <string name="fih_power_saving_apply_ticker_msg">Power saver on, no item enabled</string>
+    <string name="fih_power_saving_background_activity_text">Enable the Background activity manager to extend battery life, but the notifications of some Apps or Emails may not be able to be retrieved instantly. You can manage the battery life by adding or removing the Apps to or from the whitelist.</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">To turn on the mechanism may result in that the applications cannot receive realtime information from the Internet during screen off.</string>
+    <string name="fih_power_saving_dialog_cancel">Cancel</string>
+    <string name="fih_power_saving_dialog_ok">OK</string>
+    <string name="fih_power_saving_doze_high_consumption">High power consumption</string>
+    <string name="fih_power_saving_lpm_dialog_msg">Low power mode is activated.</string>
+    <string name="fih_power_saving_notice_dialog_title">Notice</string>
+    <string name="fih_power_saving_permission_cancel">Cancel</string>
+    <string name="fih_power_saving_permission_first_time_or_always_deny">To work properly, this app requires additional permission. Please allow permission when asked.</string>
+    <string name="fih_power_saving_permission_lpm_notification_summary">Tap to allow</string>
+    <string name="fih_power_saving_permission_lpm_notification_title">%s requires permissions</string>
+    <string name="fih_power_saving_permission_msg">"To work properly, this app requires additional permissions. Please manage %s's permission in Setting."</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">To turn on the mechanism may result in that the applications with alarm or notification functions cannot wake up device on time. It is recommended to add those applications into periodic wakeup white list from its setting page.</string>
+    <string name="switch_off_text">Off</string>
+    <string name="switch_on_text">On</string>
+</resources>

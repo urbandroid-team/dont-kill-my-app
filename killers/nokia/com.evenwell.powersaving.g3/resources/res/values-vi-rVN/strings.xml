@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bam_notification_btn_nevershowthis">KHÔNG HIỂN THỊ</string>
+    <string name="bam_notification_btn_turnon">BẬT</string>
+    <string name="bam_notification_content_text">Bật t.năng này để nâng cao t.thọ pin!</string>
+    <string name="bam_notification_content_title">Có các Ứng dụng đang tiêu thụ pin trong nền.</string>
+    <string name="fih_power_saving_background_activity_text">Bật Trình quản lý hoạt động nền để kéo dài tuổi thọ pin, tuy nhiên, thông báo về một số Ứng dụng hoặc Email không thể được truy xuất tức thì. Bạn có thể quản lý tuổi thọ pin bằng cách thêm hoặc xóa Ứng dụng vào hoặc khỏi danh sách trắng.</string>
+    <string name="fih_power_saving_background_activity_text_blacklist">Bật Trình quản lý hoạt động nền để kéo dài tuổi thọ pin, tuy nhiên, thông báo về một số Ứng dụng hoặc Email không thể được truy xuất tức thì. Bạn có thể quản lý tuổi thọ pin bằng cách thêm hoặc xóa Ứng dụng vào hoặc khỏi danh sách đen.</string>
+    <string name="fih_power_saving_dialog_cancel">Hủy</string>
+    <string name="fih_power_saving_dialog_ok">OK</string>
+    <string name="fih_power_saving_doze_high_consumption">Tiêu thụ nhiều điện</string>
+    <string name="fih_power_saving_permission_cancel">Hủy</string>
+    <string name="lock_screen_ap_protect_title">Trình quản lý hoạt động nền</string>
+    <string name="switch_off_text">Tắt</string>
+    <string name="switch_on_text">Bật</string>
+</resources>

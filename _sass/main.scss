@@ -167,6 +167,25 @@ blockquote {
 .card-vendor-award:hover {
   background-color: #cddc39;
 }
+#contribute {
+  float: right;
+  background-image: url('/assets/img/pencil-outline.svg');
+  background-size: contain;
+  height: 1.2em;
+  margin: 0.4em;
+  padding: 0.4em;
+  padding-bottom: 0.6em;
+  padding-left: 2.2em;
+  // border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  &:hover {
+    background-color: grey;
+    color: white;
+  }
+
+}
+
 a, a:visited {
   color: #F57C00;
 }

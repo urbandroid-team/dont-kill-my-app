@@ -1,7 +1,7 @@
 ---
 name: Nokia
 layout: vendor
-permalink: /nokia
+permalink: nokia
 redirect_from: /vendors/nokia.html
 award: 5
 position: 1

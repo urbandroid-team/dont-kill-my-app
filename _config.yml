@@ -21,6 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dontkillmyapp.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: UrbandroidTeam
 github_username:  urbandroid-team
+repository: urbandroid-team/dont-kill-my-app
 
 # Build settings
 markdown: kramdown

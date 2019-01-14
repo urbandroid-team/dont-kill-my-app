@@ -25,3 +25,16 @@ Unfortunately, vendors (e.g. Xiaomi, Huawei, OnePlus or even Samsung..) did not 
 Naturally users blame developers for their apps failing to deliver. But the truth is developers do the maximum they can. Always investigating new device specific hacks to keep their (your!) apps working. But in many cases they simply fall short as vendors have full control over processes on your phone.
 
 This is the true aim of this site. **To help set things right whenever possible.** Communicate these issues with users and provide them with hacks, workarounds and guides to keep their apps working and making their lives easier.
+
+
+***
+
+### Sources
+
+The information on the site is gathered from multiple sources. The big part is from the experience of the Urbandroid Team, but increasingly information is added from FAQs of other developers and from personal experience shared on the Github repo.
+
+* Urbandroid Team
+* [Tasker](https://tasker.joaoapps.com/userguide/en/faqs/faq-problem.html#00)
+* [Slack](https://get.slack.help/hc/en-us/articles/360001562747-Known-issues-with-Android-notifications)
+* [ACR](https://bitbucket.org/copluk/acr/issues/607)
+* [Kayako](https://support.kayako.com/article/1461-why-aren-t-push-notifications-working-on-my-android-app)

@@ -13,7 +13,7 @@ It seems HMD Global finally found the killer app, but unfortunately it is killin
 Nokia on Android O and P kills any background process including sleep tracking (or any other sport tracking) after 20 minutes if the screen is off. Also when killed all alarms are stopped which renders for example any alarm clock apps useless.
 
 
-We have investigated this issue in details. We did even purchase a Nokia 6.1 to be able to reproduce the issue. The problem only occurs on Nokia devices with Android Pie. Nokia started to bundle a toxic app (package: com.evenwell.powersaving.g3, name: Battery protection) with their devices by some Asian company Evenwell. This app kills apps in the most brutal way we have seen so far among Android vendors.
+We have investigated this issue in details. We did even purchase a Nokia 6.1 to be able to reproduce the issue. The problem only occurs on Nokia devices with Android Pie. Nokia started to bundle a toxic app (package: com.evenwell.powersaving.g3 or com.evenwell.emm, name: Battery protection) with their devices by some 3rd party company Evenwell. This app kills apps in the most brutal way we have seen so far among Android vendors.
 
 
 Whitelisting apps from battery optimizations does not help! Evenwell kills even whitelisted apps.
@@ -34,11 +34,21 @@ To fix this issue, please do the following:
 
 * Find **Battery protection** app in the list, select it and **Force close**. It will remain stopped until the next restart.
 
-From now on, background apps should work normally.
+From now on, background apps should work normally and use the standard Android battery optimizations.
 
 
 Alternative solution for tech-savvy users:
 
+### Nokia 1 (Android Go)
+
+Uninstall the *com.evenwell.emm* package via the following adb commands:
+
+
+`adb shell`<br>
+`pm uninstall --user 0 com.evenwell.emm`
+
+
+### Other Nokia models
 
 
 Uninstall the *com.evenwell.powersaving.g3* package via the following adb commands:

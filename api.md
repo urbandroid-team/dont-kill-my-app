@@ -1,7 +1,7 @@
 ---
 layout: page
 title: API
-permalink: /apidoc/
+permalink: apidoc
 machine_name: api
 ---
 

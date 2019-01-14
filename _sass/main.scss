@@ -176,7 +176,7 @@ blockquote {
   padding: 0.4em;
   padding-bottom: 0.6em;
   padding-left: 2.2em;
-  // border: 1px solid rgba(0,0,0,0.2);
+  // border: 1px solid rgba(0,0,0,0.8);
   border-radius: 4px;
   background-repeat: no-repeat;
   &:hover {
@@ -191,6 +191,10 @@ a, a:visited {
 }
 a:hover {
   text-decoration: none;
+}
+
+.page-link#press {
+  color: rgba(0,0,0,0.5);
 }
 #vendor-menu {
   margin-top: 1em;

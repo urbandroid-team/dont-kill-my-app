@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Our mission
-permalink: /problem/
+permalink: problem
 machine_name: problem
 excerpt: "
 **Smartphones are turning back into dumbphones.** We have to fight back!

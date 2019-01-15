@@ -22,12 +22,9 @@
   $(document).ready(function () {
 
     scoreCustomization = []
-    addCustomScore('', 'poo.svg', 'poo_full.svg', '')
-    addCustomScore('?1', 'stalin_empty.svg', 'stalin_full.svg', 'Icon: stalin by Greg Ellinger from the Noun Project')
-    addCustomScore('?2', 'poo.svg', 'poo_full.svg', '')
-    addCustomScore('?3', 'thumbsdown_empty.svg', 'thumbsdown_full.svg', '')
-    addCustomScore('?4', 'trojan_empty.svg', 'trojan_full.svg', 'Icon: Troy horse by Juan Pablo Bravo from the Noun Project')
-    addCustomScore('?5', 'trash.svg', 'trash_full.svg', '')
+    {% for img in site.data.award_images %}
+      addCustomScore({{img.parameter}}, {{img.emptyImg}}, {{img.fullImg}}, {{img.attribution}})
+    {% endfor %}
 
     console.log(scoreCustomization)
     var arrayLength = scoreCustomization.length;

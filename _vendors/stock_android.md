@@ -3,7 +3,6 @@ name: Stock Android
 layout: vendor
 award: 1
 position: 9
-permalink: stock_android
 redirect_from: /vendors/stock_android.html
 explanation: "
 Yes, even stock Android may kill your app when doing a task valuable to the user.
@@ -13,7 +12,7 @@ Moreover, in Android 6.0 Google did dramatically restrict background processing 
 
 
 This attempt to unify various battery saving features across the Android ecosystem fell flat. It wasn't only that
-Doze mode did not keep various vendors from implementing their own battery saving. Doze mode made some background 
+Doze mode did not keep various vendors from implementing their own battery saving. Doze mode made some background
 processing scenarios impossible on Android or paradoxically more battery consuming e.g. gathering sensor data through
  sensor batching (see [Solution for developers](#dev-solution)).
 

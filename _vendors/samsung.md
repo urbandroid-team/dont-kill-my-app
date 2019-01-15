@@ -3,7 +3,6 @@ name: Samsung
 layout: vendor
 award: 2
 position: 7
-permalink: samsung
 redirect_from: /vendors/samsung.html
 explanation: "
 Yes, even Samsung - a dominant vendor in the Android market - is using nasty battery saving technique which may kill background processes and render alarm clocks useless. See below for workarounds.

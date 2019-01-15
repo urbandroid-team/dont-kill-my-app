@@ -8,6 +8,7 @@ limit: 100
       "name": {{ vendor.name | jsonify }},
       "url": {{ vendor.url | jsonify }},
       "award": {{ vendor.award | jsonify }},
+      "position": {{ vendor.position | jsonify }},
       "explanation": {{ vendor.explanation | markdownify | replace: 'src="/assets/img/',
           'src="https://dontkillmyapp.com/assets/img/' | jsonify }},
       "user_solution": {{ vendor.user_solution | markdownify | replace: 'src="/assets/img/',

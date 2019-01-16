@@ -4,7 +4,7 @@ title: Our mission
 permalink: problem
 machine_name: problem
 excerpt: "
-**Smartphones are turning back into dumbphones.** We have to fight back!
+**Smartphones are turning back into dumbphones.**
 
 
 To squeeze a little extra battery out of your phone,

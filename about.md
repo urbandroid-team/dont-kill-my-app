@@ -38,3 +38,4 @@ The information on the site is gathered from multiple sources. The big part is f
 * [Slack](https://get.slack.help/hc/en-us/articles/360001562747-Known-issues-with-Android-notifications)
 * [ACR](https://bitbucket.org/copluk/acr/issues/607)
 * [Kayako](https://support.kayako.com/article/1461-why-aren-t-push-notifications-working-on-my-android-app)
+* [DAVx<sup>5</sup>](https://www.davx5.com/faq/synchronization-is-not-run-as-expected)

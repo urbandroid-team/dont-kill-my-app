@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Ušteda en.</string>
+    <string name="fih_power_saving_apply_notify">Ušt. bat. uk.</string>
+    <string name="fih_power_saving_apply_notify_msg">St. nisu omog.</string>
+    <string name="fih_power_saving_apply_ticker_msg">Ušteda uklj., stavke onem.</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">Ako uključite mehanizam, aplikacije možda neće moći da primaju podatke sa interneta u realnom vremenu kad je ekran isključen.</string>
+    <string name="fih_power_saving_dialog_cancel">Откажи</string>
+    <string name="fih_power_saving_dialog_ok">У реду</string>
+    <string name="fih_power_saving_lpm_dialog_msg">Režim uštede je aktiviran.</string>
+    <string name="fih_power_saving_notice_dialog_title">Обавештење</string>
+    <string name="fih_power_saving_permission_cancel">Откажи</string>
+    <string name="fih_power_saving_permission_first_time_or_always_deny">Ovoj aplikaciji je potrebna dodatna dozvola za rad. Odobrite dozvolu kada zatreba.</string>
+    <string name="fih_power_saving_permission_lpm_notification_summary">Dozvolite</string>
+    <string name="fih_power_saving_permission_lpm_notification_title">%s zahteva dozvole</string>
+    <string name="fih_power_saving_permission_msg">Ovoj aplikaciji su potrebne dodatne dozvole za rad. Podesite dozvolu za %s u Postavkama.</string>
+    <string name="fih_power_saving_permission_settings">Подешавања A-GPS</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">Uključenje mehanizma može dovesti do toga da aplikacije sa opcijama alarma ili obaveštenja ne mogu da probude uređaj na vreme. Preporučujemo dodavanje ovih aplikacija u belu listu povremenog buđenja u Postavkama.</string>
+    <string name="switch_off_text">Искључено</string>
+    <string name="switch_on_text">Укључи</string>
+</resources>

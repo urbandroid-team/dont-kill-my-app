@@ -1,7 +1,6 @@
 ---
 name: HTC
 layout: vendor
-permalink: htc
 position: 8
 award: 1
 redirect_from: /vendors/htc.html

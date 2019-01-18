@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Güç tasarrufu</string>
+    <string name="fih_power_saving_apply_notify">Güç tasarrufu açık</string>
+    <string name="fih_power_saving_apply_notify_msg">Etkin öğe yok</string>
+    <string name="fih_power_saving_apply_ticker_msg">Güç tasarrufu açık, etkin öğe yok</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">Mekanizmanın kapatılması uygulamaların ekran kapalıyken internetten gerçek zamanlı bilgi alamamasına neden olabilir</string>
+    <string name="fih_power_saving_dialog_cancel">İptal</string>
+    <string name="fih_power_saving_dialog_ok">USB belleği</string>
+    <string name="fih_power_saving_lpm_dialog_msg">Düşük güç modu etkinleştirildi.</string>
+    <string name="fih_power_saving_notice_dialog_title">Dikkat</string>
+    <string name="fih_power_saving_permission_cancel">İptal</string>
+    <string name="fih_power_saving_permission_first_time_or_always_deny">Bu uygulamanın düzgün çalışabilmesi için ek izinler verilmesi lazım. Lütfen sorulduğunda izin verin.</string>
+    <string name="fih_power_saving_permission_lpm_notification_summary">İzin vermek için dokunun</string>
+    <string name="fih_power_saving_permission_lpm_notification_title">%s izin gerektiriyor</string>
+    <string name="fih_power_saving_permission_msg">Bu uygulamanın düzgün çalışması için ek izinler gerekiyor. Ayarlar\'da %s iznini düzenleyin.</string>
+    <string name="fih_power_saving_permission_settings">Ayarları</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">Mekanizmanın açılması alarm veya bildirim işlevleri olan uygulamaların cihazı zamanında uyandıramamasıyla sonuçlanabilir. Bu uygulamaları ilgili ayarlar sayfasından periyodik uyandırma beyaz listesine eklemeniz önerilir.</string>
+    <string name="switch_off_text">Kapat</string>
+    <string name="switch_on_text">Aktif</string>
+</resources>

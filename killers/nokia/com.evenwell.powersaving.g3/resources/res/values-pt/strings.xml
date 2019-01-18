@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Poupança de energia</string>
+    <string name="fih_power_saving_apply_notify">Poupança de energia ativada</string>
+    <string name="fih_power_saving_apply_notify_msg">Nenhum item ativado</string>
+    <string name="fih_power_saving_apply_ticker_msg">Poupança de energia ativada. Nenhum item ativado</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">Ao ativar o mecanismo, as aplicações poderão não receber informações em tempo real a partir da Internet enquanto o ecrã está desligado.</string>
+    <string name="fih_power_saving_dialog_cancel">Cancelar</string>
+    <string name="fih_power_saving_dialog_ok">OK</string>
+    <string name="fih_power_saving_lpm_dialog_msg">O modo de alimentação baixa está ativado.</string>
+    <string name="fih_power_saving_notice_dialog_title">Aviso</string>
+    <string name="fih_power_saving_permission_cancel">Cancelar</string>
+    <string name="fih_power_saving_permission_first_time_or_always_deny">Para funcionar corretamente, esta aplicação requer permissões adicionais. Conceda a permissão quando lhe for solicitada.</string>
+    <string name="fih_power_saving_permission_lpm_notification_summary">Toque para permitir</string>
+    <string name="fih_power_saving_permission_lpm_notification_title">%s requer permissões</string>
+    <string name="fih_power_saving_permission_msg">Para funcionar corretamente, esta aplicação requer permissões adicionais. Faça a gestão da permissão de %s nas Definições.</string>
+    <string name="fih_power_saving_permission_settings">Definições</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">Ao ativar o mecanismo, as aplicações com alarme ou as funções de notificação poderão não ativar o dispositivo a tempo. Recomendamos que adicione essas aplicações à lista branca de ativações periódicas a partir da respetiva página de definições.</string>
+    <string name="switch_off_text">Desativado</string>
+    <string name="switch_on_text">Ativado</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Orkusparnaður</string>
+    <string name="bam_notification_btn_nevershowthis">EKKI SÝNA ÞETTA AFTUR</string>
+    <string name="bam_notification_btn_turnon">KVEIKJA</string>
+    <string name="bam_notification_content_text">Kveiktu á þessu til að auka endingu rafhlöðunnar!</string>
+    <string name="bam_notification_content_title">Forrit eru að nota rafhlöðuna í bakgrunni.</string>
+    <string name="fih_power_saving_apply_notify">Kveikt á orkusparnaði</string>
+    <string name="fih_power_saving_apply_notify_msg">Ekkert atriði virkt</string>
+    <string name="fih_power_saving_apply_ticker_msg">Kveikt á orkusparnaði, ekkert atriði virkt</string>
+    <string name="fih_power_saving_background_activity_text">Kveiktu að Bakgrunnsstjórnun til að lengja líftíma rafhlöðunnar. Ekki er víst að tilkynningar frá einhverjum forritum eða póstforritum birtist strax. Hægt er að stjórna líftíma rafhlöðunnar með því að bæta við eða fjarlægja forrit af lista yfir leyfð forrit.</string>
+    <string name="fih_power_saving_background_activity_text_blacklist">Kveiktu á \"Bakgrunnsstjórnun\" til að lengja endingu rafhlöðunnar. Ekki er víst að tilkynningar frá einhverjum forritum eða póstforritum birtist strax. Hægt er að stjórna endingu rafhlöðunnar með því að bæta við eða fjarlægja forrit af svarta listanum.</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">Ef kveikt er á þessu er mögulegt að forrit geti ekki sótt rauntímaupplýsingar af netinu á meðan slökkt er á skjánum.</string>
+    <string name="fih_power_saving_dialog_cancel">Hætta við</string>
+    <string name="fih_power_saving_dialog_ok">Ókei</string>
+    <string name="fih_power_saving_doze_high_consumption">Mikil orkunotkun</string>
+    <string name="fih_power_saving_lpm_dialog_msg">Kveikt er á orkusparnaði.</string>
+    <string name="fih_power_saving_notice_dialog_title">Tilkynning</string>
+    <string name="fih_power_saving_permission_cancel">Hætta við</string>
+    <string name="fih_power_saving_permission_first_time_or_always_deny">Þetta forrit þarf frekari heimildir til að virka rétt. Veittu heimildina þegar um það er beðið.</string>
+    <string name="fih_power_saving_permission_lpm_notification_summary">Ýttu til að leyfa</string>
+    <string name="fih_power_saving_permission_lpm_notification_title">%s krefst heimilda</string>
+    <string name="fih_power_saving_permission_msg">Þetta forrit þarf frekari heimildir til að virka rétt. Opnaðu stillingarnar til að stjórna heimildum %s.</string>
+    <string name="fih_power_saving_permission_settings">Stillingar…</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">Ef kveikt er á þessu er mögulegt að forrit sem bjóða upp á vekjara eða tilkynningar geti ekki vakið tækið á réttum tíma. Mælt er með að setja slík forrit á undanþágulista reglulegrar vakningar á stillingasíðu þeirra.</string>
+    <string name="lock_screen_ap_protect_title">Bakgrunnsstjórnun</string>
+    <string name="switch_off_text">Slökkva</string>
+    <string name="switch_on_text">Kveikt.</string>
+</resources>

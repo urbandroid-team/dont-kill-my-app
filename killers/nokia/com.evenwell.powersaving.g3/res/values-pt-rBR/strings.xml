@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">economia de energia</string>
+    <string name="bam_notification_btn_nevershowthis">NUNCA EXIBIR ISSO</string>
+    <string name="bam_notification_btn_turnon">ATIVAR</string>
+    <string name="bam_notification_content_text">Ative para aumentar a vida da bateria!</string>
+    <string name="bam_notification_content_title">Existem aplicativos consumindo a bateria em segundo plano.</string>
+    <string name="fih_power_saving_apply_notify">economia de energia ativada</string>
+    <string name="fih_power_saving_apply_ticker_msg">economia de energia ativada. Nenhum item ativado</string>
+    <string name="fih_power_saving_background_activity_text">Permite que o gerenciador de atividade de segundo plano estenda a vida útil da bateria, mas as notificações de alguns apps ou e-mails podem não estar disponíveis para recuperação imediata. Você pode gerenciar a vida útil da bateria adicionando ou removendo os apps da lista de permissões.</string>
+    <string name="fih_power_saving_background_activity_text_blacklist">Permite que o gerenciador de atividade de segundo plano estenda a vida útil da bateria, mas as notificações de alguns apps ou e-mails podem não estar disponíveis para recuperação imediata. Você pode gerenciar a vida útil da bateria adicionando ou removendo os apps da lista negra.</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">Ao ativar o mecanismo, os aplicativos poderão não receber informações em tempo real a partir da Internet enquanto a tela está desligada,</string>
+    <string name="fih_power_saving_dialog_cancel">Cancelar</string>
+    <string name="fih_power_saving_dialog_ok">OK</string>
+    <string name="fih_power_saving_doze_high_consumption">Alto consumo de energia</string>
+    <string name="fih_power_saving_notice_dialog_title">Notificação</string>
+    <string name="fih_power_saving_permission_cancel">Cancelar</string>
+    <string name="fih_power_saving_permission_msg">Para funcionar corretamente, este aplicativo requer permissões adicionais. Faça a gestão da permissão de %s nas configurações.</string>
+    <string name="fih_power_saving_permission_settings">Configurações</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">Ao ativar o mecanismo, os aplicativos com alarme ou as funções de notificação poderão não ativar o dispositivo a tempo. Recomendamos que adicione esses aplicativos à lista branca de ativações periódicas a partir da respectiva página de configurações.</string>
+    <string name="lock_screen_ap_protect_title">Gerenciador de atividade de segundo plano</string>
+    <string name="switch_off_text">Desligado</string>
+    <string name="switch_on_text">Ligado</string>
+</resources>

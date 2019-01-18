@@ -3,7 +3,6 @@ name: Samsung
 layout: vendor
 award: 2
 position: 7
-permalink: samsung
 redirect_from: /vendors/samsung.html
 explanation: "
 Yes, even Samsung - a dominant vendor in the Android market - is using nasty battery saving technique which may kill background processes and render alarm clocks useless. See below for workarounds.
@@ -34,7 +33,7 @@ It’s excessive and in some cases downright misleading, using scare tactics to 
 
 **Phone settings > Applications > select three dot menu (top right corner) > Special Access > Optimize Battery usage >** Find your app on the list and make sure that it is not selected.
 
-> NOTE:  If you enable Edge Lighting for your app, then the app will not be able to wake up your screen. To allow your app to wake up your screen, please remove it from the Edge Ligthing applications list.
+> NOTE:  If you enable Edge Lighting for your app, then the app will not be able to wake up your screen. To allow your app to wake up your screen, please remove it from the Edge Lighting applications list.
 
 "
 

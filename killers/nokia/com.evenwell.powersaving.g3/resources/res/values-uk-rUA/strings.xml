@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bam_notification_btn_nevershowthis">НІКОЛИ ЦЕ НЕ ПОКАЗУВАТИ</string>
+    <string name="bam_notification_btn_turnon">УВІМКНУТИ</string>
+    <string name="bam_notification_content_text">Увімкніть для економії заряду акумулятора!</string>
+    <string name="bam_notification_content_title">У фоновому режимі працюють додатки, які споживають заряд.</string>
+    <string name="fih_power_saving_background_activity_text">Увімкніть Диспетчер фонової активності, щоб подовжити час роботи від акумулятора. Однак у такому разі сповіщення певних програм або електронної пошти можуть затримуватися. Ви можете додавати програми до білого списку й вилучати їх звідти, щоб керувати економією заряду.</string>
+    <string name="fih_power_saving_background_activity_text_blacklist">Увімкніть Диспетчер фонової активності, щоб подовжити час роботи від акумулятора. Однак у такому разі сповіщення певних програм або електронної пошти можуть затримуватися. Ви можете додавати програми до чорного списку та вилучати їх звідти, щоб керувати економією заряду.</string>
+    <string name="fih_power_saving_dialog_cancel">Скасувати</string>
+    <string name="fih_power_saving_dialog_ok">ОК</string>
+    <string name="fih_power_saving_doze_high_consumption">Високе енергоспоживання</string>
+    <string name="fih_power_saving_permission_cancel">Скасувати</string>
+    <string name="lock_screen_ap_protect_title">Диспетчер фонової активності</string>
+    <string name="switch_off_text">Вимкнуто</string>
+    <string name="switch_on_text">Увімкнуто</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Bateria-aurrezlea</string>
+    <string name="fih_power_saving_apply_notify">Bateria-aurrezlea aktibatuta</string>
+    <string name="fih_power_saving_apply_notify_msg">Elementurik ez gaituta</string>
+    <string name="fih_power_saving_apply_ticker_msg">Bateria-aurrezlea aktibatuta, elementurik ez gaituta</string>
+    <string name="fih_power_saving_background_activity_text">Gaitu Atzeko planoko jarduera-kudeatzailea bateriaren iraupena luzatzeko. Beharbada zenbait aplikazio edo mezu elektronikoren jakinarazpenak ezingo dira berehala eskuratu. Aplikazioak zerrenda zurian gehituz edo bertatik kenduz kudea dezakezu bateriaren iraupena.</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">Mekanismoa aktibatuz gero, pantaila itzalita dagoen bitartean beharbada aplikazioek ezingo dute denbora errealean informaziorik jaso Internetetik.</string>
+    <string name="fih_power_saving_dialog_cancel">Utzi</string>
+    <string name="fih_power_saving_dialog_ok">Ados</string>
+    <string name="fih_power_saving_doze_high_consumption">Bateria-kontsumo handia</string>
+    <string name="fih_power_saving_lpm_dialog_msg">Bateria gutxiko modua aktibatuta dago.</string>
+    <string name="fih_power_saving_notice_dialog_title">Oharra</string>
+    <string name="fih_power_saving_permission_cancel">Utzi</string>
+    <string name="fih_power_saving_permission_first_time_or_always_deny">Ondo funtzionatzeko, aplikazio honek baimen gehigarria behar du. Onartu baimena eskatutakoan.</string>
+    <string name="fih_power_saving_permission_lpm_notification_summary">Sakatu onartzeko</string>
+    <string name="fih_power_saving_permission_lpm_notification_title">%s: baimenak behar ditu</string>
+    <string name="fih_power_saving_permission_msg">Ondo funtzionatzeko, aplikazio honek baimen gehigarriak behar ditu. Kudeatu honen baimenak Ezarpenetan: %s.</string>
+    <string name="fih_power_saving_permission_settings">Ezarpenak</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">Mekanismoa aktibatuz gero, pantaila itzalita dagoen bitartean beharbada alarmaren edo jakinarazpenen funtzioek ezingo dute gailua garaiz esnatu. Aplikazio horiek noizean behin esnatzeko zerrenda zurian gehitzea gomendatzen da ezarpenen orritik.</string>
+    <string name="lock_screen_ap_protect_title">Atzeko planoko jardueraren kudeatzailea</string>
+    <string name="switch_off_text">Itzalita</string>
+    <string name="switch_on_text">Piztuta</string>
+</resources>

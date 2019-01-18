@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bam_notification_btn_nevershowthis">BUNU ASLA GÖSTERME</string>
+    <string name="bam_notification_btn_turnon">AÇ</string>
+    <string name="bam_notification_content_text">Pil ömrünü iyileştirmek için bu özelliği açın!</string>
+    <string name="bam_notification_content_title">Arka planda pil kullanan Uygulamalar var.</string>
+    <string name="fih_power_saving_background_activity_text">Pil ömrünü uzatmak için Arka plan etkinlik yöneticisini etkinleştirin, ama bazı Uygulama ve E-posta bildirimleri hemen alınamayabilir. Pil ömrünü, Uygulamaları onaylananlar listesine ekleyerek ya da listeden çıkararak yönetebilirsiniz.</string>
+    <string name="fih_power_saving_background_activity_text_blacklist">Pil ömrünü uzatmak için, Arka plan etkinlik yöneticisini etkinleştirin, ancak bazı Uygulama ve E-posta bildirimleri hemen alınamayabilir. Pil ömrünü; Uygulamaları kara listeye ekleyerek ya da listeden çıkararak yönetebilirsiniz.</string>
+    <string name="fih_power_saving_dialog_cancel">İptal</string>
+    <string name="fih_power_saving_dialog_ok">Tamam</string>
+    <string name="fih_power_saving_doze_high_consumption">Yüksek güç tüketimi</string>
+    <string name="fih_power_saving_permission_cancel">İptal</string>
+    <string name="lock_screen_ap_protect_title">Arka plan etkinlik yöneticisi</string>
+    <string name="switch_off_text">Kapalı</string>
+    <string name="switch_on_text">Açık</string>
+</resources>

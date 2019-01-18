@@ -3,7 +3,6 @@ name: Meizu
 layout: vendor
 award: 3
 position: 5
-permalink: meizu
 redirect_from: /vendors/meizu.html
 explanation: "
 Meizu is probably on par with Huawei and Xiaomi in their approach to background process limitations, but they get a better rank probably just because those devices are not that common on the market and thus do not cause such a pain to the developers as the aforementioned.

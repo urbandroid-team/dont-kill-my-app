@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bam_notification_btn_nevershowthis">ALDRI VIS DETTE</string>
+    <string name="bam_notification_btn_turnon">SLÅ PÅ</string>
+    <string name="bam_notification_content_text">Slå dette på for å forbedre batterilevetiden.</string>
+    <string name="bam_notification_content_title">Noen apper bruker batteri i bakgrunnen.</string>
+    <string name="fih_power_saving_background_activity_text">Aktiver Bakgrunnsaktvitetsadministrator for å forlenge batterilevetiden, men det kan hende at varslinger av enkelte apper eller e-poster ikke kan hentes umiddelbart. Du kan administrere batterilevetiden ved å legge til eller fjerne apper i hvitelisten.</string>
+    <string name="fih_power_saving_background_activity_text_blacklist">Aktiver Bakgrunnsaktvitetsadministrator for å forlenge batterilevetiden, men det kan hende at varslinger av enkelte apper eller e-poster ikke kan hentes umiddelbart. Du kan administrere batterilevetiden ved å legge til eller fjerne apper i svartelisten.</string>
+    <string name="fih_power_saving_dialog_cancel">Avbryt</string>
+    <string name="fih_power_saving_dialog_ok">OK</string>
+    <string name="fih_power_saving_doze_high_consumption">Høyt strømforbruk</string>
+    <string name="fih_power_saving_permission_cancel">Avbryt</string>
+    <string name="lock_screen_ap_protect_title">Bakgrunnsaktivitetsadministrator</string>
+    <string name="switch_off_text">Av</string>
+    <string name="switch_on_text">På</string>
+</resources>

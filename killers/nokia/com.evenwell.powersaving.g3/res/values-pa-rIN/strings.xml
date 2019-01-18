@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">ਊਰਜਾ ਬਚਾਊ</string>
+    <string name="bam_notification_btn_nevershowthis">ਇਹ ਕਦੇ ਵੀ ਨਾ ਦਿਖਾਓ</string>
+    <string name="bam_notification_btn_turnon">ਚਾਲੂ ਕਰੋ</string>
+    <string name="bam_notification_content_text">ਬੈਟਰੀ ਦਾ ਜੀਵਨ ਕਾਲ ਵਧਾਉਣ ਲਈ ਇਸ ਨੂੰ ਚਾਲੂ ਕਰੋ!</string>
+    <string name="bam_notification_content_title">ਪਿਛੋਕੜ ਵਿੱਚ ਐਪਾਂ ਬੈਟਰੀ ਦੀ ਖਪਤ ਕਰ ਰਹੀਆਂ ਹਨ।</string>
+    <string name="fih_power_saving_apply_notify">ਪਾਵਰ ਸੇਵਲ ਚਾਲੂ</string>
+    <string name="fih_power_saving_apply_notify_msg">ਕੋਈ ਆਈਟਮ ਸਮਰੱਥ ਨਹੀਂ ਹੈ</string>
+    <string name="fih_power_saving_apply_ticker_msg">ਪਾਵਰ ਸੇਵਲ ਚਾਲੂ, ਕੋਈ ਆਈਟਮ ਸਮਰੱਥ ਨਹੀਂ ਹੈ</string>
+    <string name="fih_power_saving_background_activity_text">ਬੈਟਰੀ ਦੀ ਉਮਰ ਵਧਾਉਣ ਲਈ ਪਿਛੋਕੜ ਸਰਗਰਮੀ ਮੈਨੇਜਰ ਸਮਰੱਥ ਕਰੋ, ਪਰ ਹੋ ਸਕਦਾ ਹੈ ਕਿ ਕੁਝ ਐਪਾਂ ਜਾਂ ਈਮੇਲਾਂ ਦੀਆਂ ਸੂਚਨਾਵਾਂ ਨੂੰ ਤੁਰੰਤ ਪ੍ਰਾਪਤ ਨਾ ਕੀਤਾ ਜਾ ਸਕੇ। ਤੁਸੀਂ ਸਫੇਦ ਸੂਚੀ ਵਿੱਚ ਐਪਾਂ ਸ਼ਾਮਲ ਕਰਕੇ ਜਾਂ ਕੱਢ ਕੇ ਬੈਟਰੀ ਦੀ ਉਮਰ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰ ਸਕਦੇ ਹੋ।</string>
+    <string name="fih_power_saving_background_activity_text_blacklist">ਬੈਟਰੀ ਦੀ ਉਮਰ ਵਧਾਉਣ ਲਈ ਪਿਛੋਕੜ ਸਰਗਰਮੀ ਮੈਨੇਜਰ ਸਮਰੱਥ ਕਰੋ, ਪਰ ਹੋ ਸਕਦਾ ਹੈ ਕਿ ਕੁਝ ਐਪਾਂ ਜਾਂ ਈਮੇਲਾਂ ਦੀਆਂ ਸੂਚਨਾਵਾਂ ਨੂੰ ਤੁਰੰਤ ਪ੍ਰਾਪਤ ਨਾ ਕੀਤਾ ਜਾ ਸਕੇ। ਤੁਸੀਂ ਕਾਲੀ-ਸੂਚੀ ਵਿੱਚ ਐਪਾਂ ਸ਼ਾਮਲ ਕਰਕੇ ਜਾਂ ਕੱਢ ਕੇ ਬੈਟਰੀ ਦੀ ਉਮਰ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰ ਸਕਦੇ ਹੋ।</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">ਯੰਤਰ ਵਿਧੀ ਨੂੰ ਚਾਲੂ ਕਰਨ ਦੇ ਨਤੀਜੇ ਵਜੋਂ ਐਪਲੀਕੇਸ਼ਨਾਂ ਸਕਰੀਨ ਬੰਦ ਹੋਣ ਦੌਰਾਨ ਇੰਟਰਨੈੱਟ ਤੋਂ ਰੀਅਲਟਾਈਮ ਜਾਣਕਾਰੀ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕਰ ਸਕਦੀਆਂ ਹਨ।</string>
+    <string name="fih_power_saving_dialog_cancel">ਰੱਦ ਕਰੋ</string>
+    <string name="fih_power_saving_dialog_ok">ਓਕੇ</string>
+    <string name="fih_power_saving_doze_high_consumption">ਉੱਚ ਪਾਵਰ ਖਪਤ</string>
+    <string name="fih_power_saving_lpm_dialog_msg">ਘੱਟ ਪਾਵਰ ਮੋਡ ਸਕ੍ਰਿਯ ਹੈ।</string>
+    <string name="fih_power_saving_notice_dialog_title">ਸੂਚਨਾ</string>
+    <string name="fih_power_saving_permission_cancel">ਰੱਦ ਕਰੋ</string>
+    <string name="fih_power_saving_permission_first_time_or_always_deny">ਸਹੀ ਢੰਗ ਨਾਲ ਕੰਮ ਕਰਨ ਲਈ, ਇਸ ਐਪ ਨੂੰ ਵਾਧੂ ਇਜਾਜ਼ਤ ਦੀ ਲੋੜ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਪੁੱਛਣ ਤੇ ਇਜਾਜ਼ਤ ਲਈ ਸਹਿਮਤੀ ਦਿਓ।</string>
+    <string name="fih_power_saving_permission_lpm_notification_summary">ਇਜਾਜ਼ਤ ਦੇਣ ਲਈ ਟੈਪ ਕਰੋ</string>
+    <string name="fih_power_saving_permission_lpm_notification_title">%s ਨੂੰ ਇਜਾਜ਼ਤਾਂ ਦੀ ਲੋੜ ਹੈ</string>
+    <string name="fih_power_saving_permission_msg">ਸਹੀ ਤਰ੍ਹਾਂ ਕੰਮ ਕਰਨ ਲਈ, ਇਸ ਐਪ ਨੂੰ ਵਾਧੂ ਇਜਾਜ਼ਤਾਂ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਸੈੱਟਿੰਗ ਵਿੱਚ %s ਇਜਾਜ਼ਤ ਦਾ ਪ੍ਰਬੰਧ ਕਰੋ।</string>
+    <string name="fih_power_saving_permission_settings">ਸੈਟਿੰਗਸ</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">ਯੰਤਰ ਵਿਧੀ ਨੂੰ ਚਾਲੂ ਕਰਨ ਦੇ ਨਤੀਜੇ ਵਜੋਂ ਅਲਾਰਮ ਜਾਂ ਸੂਚਨਾ ਦੇ ਕਾਰਜਾਂ ਵਾਲੀਆਂ ਐਪਲੀਕੇਸ਼ਨਾਂ ਡਿਵਾਇਸ ਨੂੰ ਸਮੇਂ ਤੇ ਨਾ ਉਠਾ ਸਕਣ। ਉਨ੍ਹਾਂ ਐਪਲੀਕੇਸ਼ਨਾਂ ਨੂੰ ਇਸ ਦੇ ਸੈਟਿੰਗ ਪੰਨੇ ਤੋਂ ਮਿਆਦੀ ਉਠਾਉਣ ਦੀ ਸਫੇਦ ਸੂਚੀ ਵਿੱਚ ਜੋੜਣ ਦੀ ਸਿਫਾਰਿਸ਼ ਕੀਤੀ ਜਾਂਦੀ ਹੈ।</string>
+    <string name="lock_screen_ap_protect_title">ਪਿਛੋਕੜ ਗਤੀਵਿਧੀ ਪ੍ਰਬੰਧਕ</string>
+    <string name="switch_off_text">ਬੰਦ</string>
+    <string name="switch_on_text">ਤੇ</string>
+</resources>

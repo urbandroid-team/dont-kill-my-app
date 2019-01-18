@@ -1,9 +1,8 @@
 ---
-name: Stock Android
+name: Google (Pixel, Nexus)
 layout: vendor
 award: 1
 position: 9
-permalink: stock_android
 redirect_from: /vendors/stock_android.html
 explanation: "
 Yes, even stock Android may kill your app when doing a task valuable to the user.
@@ -13,7 +12,7 @@ Moreover, in Android 6.0 Google did dramatically restrict background processing 
 
 
 This attempt to unify various battery saving features across the Android ecosystem fell flat. It wasn't only that
-Doze mode did not keep various vendors from implementing their own battery saving. Doze mode made some background 
+Doze mode did not keep various vendors from implementing their own battery saving. Doze mode made some background
 processing scenarios impossible on Android or paradoxically more battery consuming e.g. gathering sensor data through
  sensor batching (see [Solution for developers](#dev-solution)).
 
@@ -67,7 +66,7 @@ Tips:
 
 ## Android 6.0
 
-A serious bug in doze mode in Android 6.0 which we (authors of thsi site) did report to Google (Dianne Hackborn) during the 6.0 BETA does not allow foreground services to keep a wake lock every time an activity or a broadcast receiver kicks in, see [https://plus.google.com/u/0/+AndroidDevelopers/posts/94jCkmG4jff](https://plus.google.com/u/0/+AndroidDevelopers/posts/94jCkmG4jff) and search for Petr Nalevka and Dianne Hackborn.
+A serious bug in doze mode in Android 6.0 which we (authors of this site) did report to Google (Dianne Hackborn) during the 6.0 BETA does not allow foreground services to keep a wake lock every time an activity or a broadcast receiver kicks in, see [https://plus.google.com/u/0/+AndroidDevelopers/posts/94jCkmG4jff](https://plus.google.com/u/0/+AndroidDevelopers/posts/94jCkmG4jff) and search for Petr Nalevka and Dianne Hackborn.
 
 
 

@@ -13,8 +13,8 @@
    id="Capa_1"
    x="0px"
    y="0px"
-   width="36.289px"
-   height="36.289px"
+   width="36.289"
+   height="36.289"
    viewBox="0 0 36.289 36.289"
    style="enable-background:new 0 0 36.289 36.289;"
    xml:space="preserve"
@@ -24,7 +24,7 @@
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
          rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
    id="defs39">
-	
+
 </defs><sodipodi:namedview
    pagecolor="#ffffff"
    bordercolor="#666666"

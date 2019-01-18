@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="preferenceBackgroundColor" format="color" />
+    <attr name="switchBarMarginEnd" format="dimension" />
+    <attr name="switchBarMarginStart" format="dimension" />
+    <attr name="switchBarTheme" format="reference" />
+</resources>

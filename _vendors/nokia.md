@@ -1,7 +1,6 @@
 ---
 name: Nokia
 layout: vendor
-permalink: /nokia
 redirect_from: /vendors/nokia.html
 award: 5
 position: 1
@@ -13,7 +12,7 @@ It seems HMD Global finally found the killer app, but unfortunately it is killin
 Nokia on Android O and P kills any background process including sleep tracking (or any other sport tracking) after 20 minutes if the screen is off. Also when killed all alarms are stopped which renders for example any alarm clock apps useless.
 
 
-We have investigated this issue in details. We did even purchase a Nokia 6.1 to be able to reproduce the issue. The problem only occurs on Nokia devices with Android Pie. Nokia started to bundle a toxic app (package: com.evenwell.powersaving.g3, name: Battery protection) with their devices by some Asian company Evenwell. This app kills apps in the most brutal way we have seen so far among Android vendors.
+We have investigated this issue in details. We did even purchase a Nokia 6.1 to be able to reproduce the issue. The problem only occurs on Nokia devices with Android Pie. Nokia started to bundle a toxic app (package: com.evenwell.powersaving.g3 or com.evenwell.emm, name: Battery protection) with their devices by some 3rd party company Evenwell. This app kills apps in the most brutal way we have seen so far among Android vendors.
 
 
 Whitelisting apps from battery optimizations does not help! Evenwell kills even whitelisted apps.
@@ -35,15 +34,25 @@ To fix this issue, please do the following:
 
 * Find **Battery protection** app in the list, select it and **Force close**. It will remain stopped until the next restart.
 
-From now on, background apps should work normally.
+From now on, background apps should work normally and use the standard Android battery optimizations.
 
 Still 3rd party alarm clock will be broken and we do not have any solution for this at the moment. Also scheduling tasks in the background for a particular time won't work.
 
 Alternative solution for tech-savvy users:
 
+### Nokia 1 (Android Go) Rooted
+
+Uninstall the *com.evenwell.emm* package via the following adb commands:
 
 
-For rooted devices, uninstall the *com.evenwell.powersaving.g3* package via the following adb commands:
+`adb shell`<br>
+`pm uninstall --user 0 com.evenwell.emm`
+
+
+### Other Nokia models rooted
+
+
+Uninstall the *com.evenwell.powersaving.g3* package via the following adb commands:
 
 
 `adb shell`<br>
@@ -54,6 +63,9 @@ developer_solution: "The only workaround we found so far is to keep the screen o
 
 
 This would not work for alarms or even user visible alarms scheduled via *setAlarmClock()*. Alarms are triggering at the scheduled moment, but even foreground services cannot be started either directly from AlarmManager or from broadcast receiver.
+
+
+If anybody is interested to take a look at how the Nokia app killer (com.evenwell.powersaving.g3) works internally, take a look at [the decompiled APK](https://github.com/urbandroid-team/dont-kill-my-app/tree/master/killers/nokia/com.evenwell.powersaving.g3)."
 "
 
 ---

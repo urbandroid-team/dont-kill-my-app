@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Hali ya kuokoa nishati</string>
+    <string name="fih_power_saving_apply_notify">Hali ya kuokoa nishati imewashwa</string>
+    <string name="fih_power_saving_apply_notify_msg">Hakuna kipengee kilichowezeshwa</string>
+    <string name="fih_power_saving_apply_ticker_msg">Hali ya kuokoa nishati imewashwa, hakuna kipengee kilichowezeshwa</string>
+    <string name="fih_power_saving_background_activity_text">Wezesha kidhibiti cha shughuli za chinichini ili kuongeza maisha ya betri, lakini taarifa za baadhi ya Programu au Barua pepe zinaweza kosa kupakuliwa papo hapo. Unaweza kudhibiti maisha ya betri kwa kuongeza au kuondoa Programu kwenye au kutoka orodha ya zilizoruhusiwa.</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">Kuwasha mbinu kunaweza kufanya programu hizo haziwezi kupokea maelezo ya papo hapo kutoka kwa Intaneti wakati skrini imezimwa.</string>
+    <string name="fih_power_saving_dialog_cancel">Kata simu</string>
+    <string name="fih_power_saving_dialog_ok">Tayari</string>
+    <string name="fih_power_saving_doze_high_consumption">Matumizi ya juu ya nishati</string>
+    <string name="fih_power_saving_lpm_dialog_msg">Hali ya kutumia nishati kidogo imeanzishwa</string>
+    <string name="fih_power_saving_notice_dialog_title">Tangazo</string>
+    <string name="fih_power_saving_permission_cancel">Kata simu</string>
+    <string name="fih_power_saving_permission_first_time_or_always_deny">Ili ifanye kazi vizuri, programu hii inahitaji vibali vinavyofaa. Tafadhali ruhusu kibali ukiulizwa.</string>
+    <string name="fih_power_saving_permission_lpm_notification_summary">gonga ili uruhusu</string>
+    <string name="fih_power_saving_permission_lpm_notification_title">%s inahitaji vibali</string>
+    <string name="fih_power_saving_permission_msg">Ili ifanye kazi vizuri, programu hii inahitaji vibali vya ziada. Tafadhali dhibiti faida za「%s」katika「Mipangilio」</string>
+    <string name="fih_power_saving_permission_settings">Mipangilio</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">Kuwasha mbinu hii kunaweza kufanya programu zenye vitendaji vya kengele au arifa kutoweza kuamsha kifaa kwa wakati unaofaa. Inapendezwa uongeze programu hizi kwenye orodha iliyoruhusiwa ya kuamsha mara kwa mara kutoka kwenye ukurasa wake wa mpangilio.</string>
+    <string name="lock_screen_ap_protect_title">Kidhibiti cha shughuli za chinichini</string>
+    <string name="switch_off_text">Zima</string>
+    <string name="switch_on_text">Washa</string>
+</resources>

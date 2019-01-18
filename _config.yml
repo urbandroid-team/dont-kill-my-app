@@ -34,8 +34,22 @@ plugins:
 collections:
   vendors:
     output: true
-    permalink: :title
-  badges:
+  api:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: "_vendors"
+    values:
+      layout: vendor
+      permalink: :title
+  -
+    scope:
+      path: "_api"
+    values:
+      layout: api
+      permalink: /api/v2/:title/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

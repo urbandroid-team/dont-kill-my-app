@@ -2,7 +2,6 @@
 name: Samsung
 manufacturer:
   - samsung
-layout: vendor
 award: 2
 position: 7
 redirect_from: /vendors/samsung.html

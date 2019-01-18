@@ -1,6 +1,5 @@
 ---
 name: Meizu
-layout: vendor
 manufacturer:
   - meizu
 award: 3

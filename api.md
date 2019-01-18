@@ -34,36 +34,36 @@ scheme:
 
 Android example (Java):
 ````
-                    new AsyncTask<Void, Void, String>() {
-                        @Override
-                        protected String doInBackground(Void... voids) {
-                            try {
-                                return ((JSONObject) new JSONTokener(InputStreamUtil.read(new URL("https://dontkillmyapp.com/api/v2/"+Build.MANUFACTURER.toLowerCase().replaceAll(" ", "-")+".json").openStream())).nextValue()).getString("user_solution");
-                            } catch (Exception e) {
-                                // This vendor is not in the DontKillMyApp list
-                            }
-                            return null;
-                        }
+new AsyncTask<Void, Void, String>() {
+    @Override
+    protected String doInBackground(Void... voids) {
+        try {
+            return ((JSONObject) new JSONTokener(InputStreamUtil.read(new URL("https://dontkillmyapp.com/api/v2/"+Build.MANUFACTURER.toLowerCase().replaceAll(" ", "-")+".json").openStream())).nextValue()).getString("user_solution");
+        } catch (Exception e) {
+            // This vendor is not in the DontKillMyApp list
+        }
+        return null;
+    }
 
-                        @Override
-                        protected void onPostExecute(String result) {
-                            if (result != null) {
-                                WebView wv = new WebView(context);
-                                wv.loadData(result, "text/html; charset=utf-8", "UTF-8");
-                                wv.setWebViewClient(new WebViewClient() {
-                                    @Override
-                                    public boolean shouldOverrideUrlLoading(WebView view, String url) {
-                                        view.loadUrl(url);
-                                        return true;
-                                    }
-                                });
+    @Override
+    protected void onPostExecute(String result) {
+        if (result != null) {
+            WebView wv = new WebView(context);
+            wv.loadData(result, "text/html; charset=utf-8", "UTF-8");
+            wv.setWebViewClient(new WebViewClient() {
+                @Override
+                public boolean shouldOverrideUrlLoading(WebView view, String url) {
+                    view.loadUrl(url);
+                    return true;
+                }
+            });
 
-                                new AlertDialog.Builder(context)
-                                        .setTitle("How to make my app work")
-                                        .setView(wv).setPositiveButton(android.R.string.ok, null).show();
-                            }
-                        }
-                    }.execute();
+            new AlertDialog.Builder(context)
+                    .setTitle("How to make my app work")
+                    .setView(wv).setPositiveButton(android.R.string.ok, null).show();
+        }
+    }
+}.execute();
 
 ````
 

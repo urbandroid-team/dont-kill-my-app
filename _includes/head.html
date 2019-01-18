@@ -7,6 +7,82 @@
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
-    {%- include google-analytics.html -%}
+  {%- include google-analytics.html -%}
   {%- endif -%}
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+
+      scoreCustomization = []
+      {% for img in site.data.award_images %}
+      addCustomScore({{ img.parameter }}, {{ img.emptyImg }}, {{ img.fullImg }}, {{ img.attribution }})
+      {% endfor %}
+
+      var arrayLength = scoreCustomization.length;
+      for (var i = 1; i < arrayLength; i++) { currentHtml=$('#customization-links').html()
+      $('#customization-links').html(currentHtml + '<a class="customization-switch-link" href="' + window.location.pathname
+      + scoreCustomization[i].param + '"><img class="customization-switch" src="' + scoreCustomization[i].fullScore +'"></a>')
+    }
+
+    var currentScoreCustomization = scoreCustomization.filter(obj => {
+      return obj.param === window.location.search
+    })
+    changeScoreImages(currentScoreCustomization[0].emptyScore, currentScoreCustomization[0].fullScore)
+    attribute(currentScoreCustomization[0].attribution)
+    addScoreParameterToAllLocalLinks(window.location.search)
+
+    changeScoreParameterInBadgeSrc()
+  });
+
+
+
+  
+  function addCustomScore(parameter, emptyScore, fullScore, attribution) {
+    scoreCustomization.push({
+      'param': parameter,
+      'emptyScore': "/assets/img/" + emptyScore,
+      'fullScore': "/assets/img/" + fullScore,
+      'attribution': attribution
+    })
+  }
+  function attribute(author) {
+    document.getElementById('icons-attribution').innerHTML = author
+  }
+  function addScoreParameterToAllLocalLinks(parameter) {
+    $('a').each(function () {
+      if (this.host === window.location.host && this.className != "customization-switch-link" && this.href.indexOf('#') ===
+      -1) {
+        this.href = this.href + parameter;
+      }
+    });
+  }
+  function changeScoreImages(imgRelativePathEmptyScore, imgRelativePathFullScore) {
+    $('.score-empty').each((i, score) => {
+      $(score).attr('src', imgRelativePathEmptyScore)
+    })
+    $('.score-full').each((i, score) => {
+      $(score).attr('src', imgRelativePathFullScore)
+    })
+  }
+
+
+  function changeScoreParameterInBadgeSrc() {
+    $('#badge-shareable').attr('src', 'https://dontkillmyapp.com/badge{{page.url}}' + window.location.search.substring(1)
+    + '.svg')
+    console.log("fuui")
+  }
+
+  function hideBadge() {
+    $('#badge').hide()
+  }
+
+  function copyEmbedToClipboard() {
+    const el = document.createElement('textarea');
+    el.value = document.getElementById("embed").innerHTML
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand('copy');
+    document.body.removeChild(el);
+  }
+</script>
 </head>

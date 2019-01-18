@@ -78,28 +78,7 @@
 
   {%- include footer.html -%}
 
-  <script>
-    $(document).ready(function () {
-      changeScoreParameterInBadgeSrc()
-    })
 
-    function changeScoreParameterInBadgeSrc() {
-      $('#badge-shareable').attr('src', 'https://dontkillmyapp.com/badge{{page.url}}' + window.location.search.substring(1) + '.svg')
-      console.log("fuui")
-    }
-
-
-    function copyEmbedToClipboard() {
-        const el = document.createElement('textarea');
-        el.value = document.getElementById("embed").innerHTML
-        document.body.appendChild(el);
-        el.select();
-        document.execCommand('copy');
-        document.body.removeChild(el);
-    }
-
-
-  </script>
 
 </body>
 

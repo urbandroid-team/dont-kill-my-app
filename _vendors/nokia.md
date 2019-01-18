@@ -40,6 +40,8 @@ Still 3rd party alarm clock will be broken and we do not have any solution for t
 
 Alternative solution for tech-savvy users:
 
+
+
 ### Nokia 1 (Android Go) Rooted
 
 Uninstall the *com.evenwell.emm* package via the following adb commands:

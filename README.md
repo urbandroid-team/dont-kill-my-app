@@ -58,6 +58,8 @@ scheme:
 
 URL: https://dontkillmyapp.com/api/v2/[vendor].json
 
+example: [https://dontkillmyapp.com/api/v2/nokia.json](https://dontkillmyapp.com/api/v2/nokia.json)
+
 API v2 provides one JSON URL per vendor.
 
 scheme:

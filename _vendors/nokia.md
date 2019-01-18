@@ -5,7 +5,6 @@ manufacturer:
   - hmd global
 redirect_from:
   - /vendors/nokia.html
-  - /hmd%20global
 award: 5
 position: 1
 explanation: "

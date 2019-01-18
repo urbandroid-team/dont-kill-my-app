@@ -34,3 +34,25 @@ scheme:
   ]
 }
 ````
+
+### Crap score badges
+
+We encourage anyone to include DontKillMyApp badges to his site or device review.
+
+* Example
+
+````<img src="https://dontkillmyapp.com/badge/nokia2.svg">````
+
+
+* URL format
+
+
+````https://dontkillmyapp.com/badge/VENDOR+ICON_NUMBER.svg````
+
+
+* Result
+
+
+<img src="https://dontkillmyapp.com/badge/nokia2.svg">
+
+

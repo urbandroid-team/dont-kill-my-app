@@ -54,7 +54,7 @@ We encourage anyone to include DontKillMyApp badges to their sites or device rev
 ````<a href="https://dontkillmyapp.com/xiaomi?3"><img width="306px" src="https://dontkillmyapp.com/badge/xiaomi3.svg"></a>````
 
 
-<a href="https://dontkillmyapp.com/xioami?3"><img width="306px" src="https://dontkillmyapp.com/badge/xiaomi3.svg"></a>
+<a href="https://dontkillmyapp.com/xiaomi?3"><img width="306px" src="https://dontkillmyapp.com/badge/xiaomi3.svg"></a>
 
 
 

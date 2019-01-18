@@ -27,25 +27,24 @@
     <div class="wrapper">
       <div>
         <a href="https://github.com/urbandroid-team/dont-kill-my-app/edit/master/{{page.path}}" id="contribute">Contribute</a>
-        <h1>{{ page.name }}</h1>
+        <h1>{{ page.name }}
+          {%- if page.award and page.award != "" -%}
+            <span id="score">
+                {% assign p = 5 | minus: page.award %}
+
+                {% for i in (1..page.award) %}
+                <img src="/assets/img/placeholder.svg" class="poo score-full" alt="">
+                {% endfor %}
+
+                {% for i in (1..p) %}
+                <img src="/assets/img/placeholder.svg" class="poo score-empty" alt="">
+                {% endfor %}
+            </span>
+          {%- endif -%}
+
+        </h1>
       </div>
 
-      {%- if page.award and page.award != "" -%}
-      <div class="score">
-        <strong>Bad vendor score:</strong>
-        <span id="score">
-            {% assign p = 5 | minus: page.award %}
-
-            {% for i in (1..page.award) %}
-            <img src="/assets/img/placeholder.svg" class="poo score-full" alt="">
-            {% endfor %}
-
-            {% for i in (1..p) %}
-            <img src="/assets/img/placeholder.svg" class="poo score-empty" alt="">
-            {% endfor %}
-        </span>
-      </div>
-      {%- endif -%}
 
       {{ content }}
 

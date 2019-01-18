@@ -65,7 +65,7 @@ developer_solution: "The only workaround we found so far is to keep the screen o
 This would not work for alarms or even user visible alarms scheduled via *setAlarmClock()*. Alarms are triggering at the scheduled moment, but even foreground services cannot be started either directly from AlarmManager or from broadcast receiver.
 
 
-If anybody is interested to take a look at how the Nokia app killer (com.evenwell.powersaving.g3) works internally, take a look at [the decompiled APK](https://github.com/urbandroid-team/dont-kill-my-app/tree/master/killers/nokia/com.evenwell.powersaving.g3)."
+If anybody is interested to take a look at how the Nokia app killer (com.evenwell.powersaving.g3) works internally, take a look at [the decompiled APK](https://github.com/urbandroid-team/dont-kill-my-app/tree/master/killers/nokia/com.evenwell.powersaving.g3).
 "
 
 ---

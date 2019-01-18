@@ -13,7 +13,7 @@ user_solution: "
 Look for any vendor-specific battery saver on your device and ideally uninstall if possible, disable if possible.
 
 
-If not try to uninstall it though **adb** (requires some expert skills though):
+If not, you are left if the option to root your device and uninstall it though **adb** (requires some expert skills though):
 
 
 `adb shell`

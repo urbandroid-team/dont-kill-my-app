@@ -20,6 +20,7 @@ Whitelisting apps from battery optimizations does not help! Evenwell kills even 
 
 What this non-standard app does is every process gets killed after 20 minutes regardless it is actually supposed to be running and doing a useful job for the user. Also alarms are not triggered. The aim is apparently to save your battery by rendering tracking apps and other apps that use background processing useless.
 
+Moreover event 3rd party user visible alarms (alarm clock alarms) are not triggering properly on Nokia. This is a serious issue unraralleled to any other vendor. We did not yet find a workaround for this :(. 3rd party alarms clock won't be realiable on Nokia.
 
 You can read more on this issue here:
 [https://community.phones.nokia.com/discussion/3428/background-service-killed-even-when-whitelisted](https://community.phones.nokia.com/discussion/3428/background-service-killed-even-when-whitelisted)
@@ -35,10 +36,13 @@ To fix this issue, please do the following:
 
 From now on, background apps should work normally and use the standard Android battery optimizations.
 
+Still 3rd party alarm clock will be broken and we do not have any solution for this at the moment. Also scheduling tasks in the background for a particular time won't work.
 
 Alternative solution for tech-savvy users:
 
-### Nokia 1 (Android Go)
+
+
+### Nokia 1 (Android Go) Rooted
 
 Uninstall the *com.evenwell.emm* package via the following adb commands:
 
@@ -47,7 +51,7 @@ Uninstall the *com.evenwell.emm* package via the following adb commands:
 `pm uninstall --user 0 com.evenwell.emm`
 
 
-### Other Nokia models
+### Other Nokia models rooted
 
 
 Uninstall the *com.evenwell.powersaving.g3* package via the following adb commands:
@@ -60,6 +64,10 @@ Uninstall the *com.evenwell.powersaving.g3* package via the following adb comman
 developer_solution: "The only workaround we found so far is to keep the screen on all time your process runs. Yes, this is very battery consuming. As usually, vendors trying to safe your battery cause much bigger battery drain on this kind of workarounds. An alternative to this is to turn the screen on only less than every 20 minutes.
 
 
-If anybody is interested to take a look at how the Nokia app killer (com.evenwell.powersaving.g3) works internally, take a look at [the decompiled APK](https://github.com/urbandroid-team/dont-kill-my-app/tree/master/killers/nokia/com.evenwell.powersaving.g3)."
+This would not work for alarms or even user visible alarms scheduled via *setAlarmClock()*. Alarms are triggering at the scheduled moment, but even foreground services cannot be started either directly from AlarmManager or from broadcast receiver.
+
+
+If anybody is interested to take a look at how the Nokia app killer (com.evenwell.powersaving.g3) works internally, take a look at [the decompiled APK](https://github.com/urbandroid-team/dont-kill-my-app/tree/master/killers/nokia/com.evenwell.powersaving.g3).
+"
 
 ---

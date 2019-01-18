@@ -1,5 +1,5 @@
 ---
-name: Stock Android
+name: Google (Pixel, Nexus)
 layout: vendor
 award: 1
 position: 9

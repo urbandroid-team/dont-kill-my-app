@@ -41,18 +41,26 @@ We encourage anyone to include DontKillMyApp badges to his site or device review
 
 #### Example
 
-````<img height="153" width="46" src="https://dontkillmyapp.com/badge/nokia2.svg">````
+````<a href="https://dontkillmyapp.com/nokia?2"><img height="153" width="46" src="https://dontkillmyapp.com/badge/nokia2.svg"></a>````
 
 
 #### URL format
 
 
+Image source
+
+
 ````https://dontkillmyapp.com/badge/VENDOR+ICON_NUMBER.svg````
+
+Link
+
+
+````https://dontkillmyapp.com/VENDOR?ICON_NUMBER````
 
 
 #### Result
 
 
-<img height="153" width="46" src="https://dontkillmyapp.com/badge/nokia2.svg">
+<a href="https://dontkillmyapp.com/nokia?2"><img height="153" width="46" src="https://dontkillmyapp.com/badge/nokia2.svg"></a>
 
 

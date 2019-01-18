@@ -38,7 +38,7 @@ scheme:
 ### Crap score badges
 
 
-We encourage anyone to include DontKillMyApp badges to his site or device reviews.
+We encourage anyone to include DontKillMyApp badges to their sites or device reviews.
 
 
 #### Example
@@ -50,10 +50,12 @@ We encourage anyone to include DontKillMyApp badges to his site or device review
 <a href="https://dontkillmyapp.com/nokia?2"><img width="306px" src="https://dontkillmyapp.com/badge/nokia2.svg"></a>
 
 
+
 ````<a href="https://dontkillmyapp.com/xiaomi?3"><img width="306px" src="https://dontkillmyapp.com/badge/xiaomi3.svg"></a>````
 
 
 <a href="https://dontkillmyapp.com/xioami?3"><img width="306px" src="https://dontkillmyapp.com/badge/xiaomi3.svg"></a>
+
 
 
 #### URL format

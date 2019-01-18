@@ -39,20 +39,20 @@ scheme:
 
 We encourage anyone to include DontKillMyApp badges to his site or device review.
 
-* Example
+#### Example
 
-````<img src="https://dontkillmyapp.com/badge/nokia2.svg">````
+````<img height="153" width="46" src="https://dontkillmyapp.com/badge/nokia2.svg">````
 
 
-* URL format
+#### URL format
 
 
 ````https://dontkillmyapp.com/badge/VENDOR+ICON_NUMBER.svg````
 
 
-* Result
+#### Result
 
 
-<img src="https://dontkillmyapp.com/badge/nokia2.svg">
+<img height="153" width="46" src="https://dontkillmyapp.com/badge/nokia2.svg">
 
 

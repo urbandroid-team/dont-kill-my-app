@@ -1,5 +1,7 @@
 ---
 name: Samsung
+manufacturer:
+  - samsung
 layout: vendor
 award: 2
 position: 7

@@ -1,5 +1,7 @@
 ---
 name: Xiaomi
+manufacturer:
+  - xiaomi
 layout: vendor
 position: 3
 award: 3

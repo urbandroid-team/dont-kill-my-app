@@ -1,5 +1,7 @@
 ---
 name: Google (Pixel, Nexus)
+manufacturer:
+  - google
 layout: vendor
 award: 1
 position: 9

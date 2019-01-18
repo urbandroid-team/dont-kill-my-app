@@ -1,5 +1,7 @@
 ---
 name: OnePlus
+manufacturer:
+  - oneplus
 layout: vendor
 award: 4
 position: 2

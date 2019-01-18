@@ -1,6 +1,8 @@
 ---
 name: HTC
 layout: vendor
+manufacturer:
+  - htc
 position: 8
 award: 1
 redirect_from: /vendors/htc.html

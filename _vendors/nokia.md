@@ -1,7 +1,12 @@
 ---
 name: Nokia
+manufacturer:
+  - nokia
+  - hmd global
 layout: vendor
-redirect_from: /vendors/nokia.html
+redirect_from:
+  - /vendors/nokia.html
+  - /hmd%20global
 award: 5
 position: 1
 explanation: "

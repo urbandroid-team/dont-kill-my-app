@@ -1,6 +1,8 @@
 ---
 name: Meizu
 layout: vendor
+manufacturer:
+  - meizu
 award: 3
 position: 5
 redirect_from: /vendors/meizu.html

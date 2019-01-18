@@ -1,6 +1,8 @@
 ---
 name: Huawei
 layout: vendor
+manufacturer:
+  - huawei
 redirect_from: /vendors/huawei.html
 award: 3
 position: 4

@@ -1,5 +1,7 @@
 ---
 name: Sony
+manufacturer:
+  - sony
 layout: vendor
 award: 3
 position: 6

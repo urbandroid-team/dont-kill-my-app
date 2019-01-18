@@ -35,6 +35,29 @@ scheme:
 }
 ````
 
+### API v2 docs
+
+URL: https://dontkillmyapp.com/api/v2/[vendor].json
+
+
+example: [https://dontkillmyapp.com/api/v2/nokia.json](https://dontkillmyapp.com/api/v2/nokia.json)
+
+API v2 provides one JSON URL per vendor.
+
+scheme:
+````
+{
+  "name": "Human-readable vendor name",
+  "manufacturer": ["name","alias1","alias2"],
+  "url": "/relative-url-to-vendor",
+  "award": number or null,
+  "position": number or null,
+  "explanation": "JSON-escaped HTML",
+  "user_solution": "JSON-escaped HTML",
+  "developer_solution": "JSON-escaped HTML"
+}
+````
+
 ### Crap score badges
 
 

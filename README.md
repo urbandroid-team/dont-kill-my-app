@@ -28,14 +28,18 @@ If you use the API, please let us know via email at jiri.richter@urbandroid.org 
 
 URL: https://dontkillmyapp.com/api/v1/output.json
 
+API v1 outputs information on all vendors in one big JSON. If you want one JSON URL per vendor, see API v2.
+
 scheme:
 ````
-{ "vendors" : 
+{ "vendors" :
   [
     {
       "name": "Human-readable vendor name",
+      "manufacturer": ["name","alias1","alias2"],
       "url": "/relative-url-to-vendor",
       "award": number or null,
+      "position": number or null,
       "explanation": "JSON-escaped HTML",
       "user_solution": "JSON-escaped HTML",
       "developer_solution": "JSON-escaped HTML"
@@ -47,6 +51,26 @@ scheme:
       ...
     }
   ]
+}
+````
+
+### API v2 docs
+
+URL: https://dontkillmyapp.com/api/v2/[vendor].json
+
+API v2 provides one JSON URL per vendor.
+
+scheme:
+````
+{
+  "name": "Human-readable vendor name",
+  "manufacturer": ["name","alias1","alias2"],
+  "url": "/relative-url-to-vendor",
+  "award": number or null,
+  "position": number or null,
+  "explanation": "JSON-escaped HTML",
+  "user_solution": "JSON-escaped HTML",
+  "developer_solution": "JSON-escaped HTML"
 }
 ````
 
@@ -82,6 +106,6 @@ variable to the vendor.md file you wish to award.
 
 ## Who started this project?
 
-Ultimately, every indie Android developer is at least partly affected by this issue. 
+Ultimately, every indie Android developer is at least partly affected by this issue.
 
 We at Urbandroid Team are affected heavily with our Sleep as Android app and we gathered so much information about hacks and workarounds that we felt the need to share the information. We started by contacting individual indie developers with offers to exchange information, which led to the idea of a more effective approach in the form of an open-source website.

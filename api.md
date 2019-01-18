@@ -37,7 +37,9 @@ scheme:
 
 ### Crap score badges
 
+
 We encourage anyone to include DontKillMyApp badges to his site or device reviews.
+
 
 #### Example
 

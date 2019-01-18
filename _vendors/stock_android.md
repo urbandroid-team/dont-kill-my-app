@@ -2,7 +2,6 @@
 name: Google (Pixel, Nexus)
 manufacturer:
   - google
-layout: vendor
 award: 1
 position: 9
 redirect_from: /vendors/stock_android.html

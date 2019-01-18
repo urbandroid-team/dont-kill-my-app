@@ -3,7 +3,6 @@ name: Nokia
 manufacturer:
   - nokia
   - hmd global
-layout: vendor
 redirect_from:
   - /vendors/nokia.html
   - /hmd%20global

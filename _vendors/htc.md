@@ -1,6 +1,5 @@
 ---
 name: HTC
-layout: vendor
 manufacturer:
   - htc
 position: 8

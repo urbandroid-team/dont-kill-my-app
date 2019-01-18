@@ -2,7 +2,6 @@
 name: Xiaomi
 manufacturer:
   - xiaomi
-layout: vendor
 position: 3
 award: 3
 redirect_from: /vendors/xiaomi.html

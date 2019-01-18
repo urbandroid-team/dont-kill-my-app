@@ -1,6 +1,5 @@
 ---
 name: Huawei
-layout: vendor
 manufacturer:
   - huawei
 redirect_from: /vendors/huawei.html

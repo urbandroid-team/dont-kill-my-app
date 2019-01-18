@@ -2,7 +2,6 @@
 name: OnePlus
 manufacturer:
   - oneplus
-layout: vendor
 award: 4
 position: 2
 redirect_from: /vendors/oneplus.html

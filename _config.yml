@@ -28,14 +28,27 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-target-blank
   - jekyll-redirect-from
 
 collections:
   vendors:
     output: true
-    permalink: :title
-  badges:
+  api:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: "_vendors"
+    values:
+      layout: vendor
+      permalink: :title
+  -
+    scope:
+      path: "_api"
+    values:
+      layout: api
+      permalink: /api/v2/:title.json
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

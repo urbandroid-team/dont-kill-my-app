@@ -2,7 +2,6 @@
 name: Sony
 manufacturer:
   - sony
-layout: vendor
 award: 3
 position: 6
 redirect_from: /vendors/sony.html

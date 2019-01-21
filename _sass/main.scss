@@ -193,7 +193,7 @@ blockquote {
   border-radius: 4px;
   background-repeat: no-repeat;
   &:hover {
-    background-color: grey;
+    background-color: lightgrey;
     color: white;
   }
 
@@ -222,7 +222,7 @@ a:hover {
     padding: 1em 2em;
     // flex: 1 1 0;
     &:hover {
-      background-color: grey;
+      background-color: lightgrey;
       color: white;
     }
   }

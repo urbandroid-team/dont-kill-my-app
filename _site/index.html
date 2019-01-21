@@ -13,28 +13,172 @@
 <meta property="og:url" content="https://dontkillmyapp.com/" />
 <meta property="og:site_name" content="Don’t kill my app!" />
 <script type="application/ld+json">
-{"description":"Hey Android vendors, don’t kill my app!","@type":"WebSite","name":"Don’t kill my app!","url":"https://dontkillmyapp.com/","headline":"Don’t kill my app!","@context":"http://schema.org"}</script>
+{"description":"Hey Android vendors, don’t kill my app!","headline":"Don’t kill my app!","@type":"WebSite","name":"Don’t kill my app!","url":"https://dontkillmyapp.com/","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css">
-  <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://dontkillmyapp.com/feed.xml" title="Don't kill my app!" /></head>
+  <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://dontkillmyapp.com/feed.xml" title="Don't kill my app!" /><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      handleUrlParams()
+    });
+
+
+    // Function declarations below
+
+    function handleUrlParams() {
+      params = new URLSearchParams(window.location.search);
+      awardImageParam = getAwardImageParam()
+
+      for(var entry of params.entries()) {
+        if (entry[0] == "app") {
+            makeSiteUserFacing(entry[1])
+        }
+      }
+
+      console.log(awardImageParam)
+      handleAwardImages("?" + awardImageParam)
+      changeScoreParameterInBadgeSrc(awardImageParam)
+      persistUrlParameters()
+    }
+
+    function getAwardImageParam() {
+      params = new URLSearchParams(window.location.search);
+      awardImageParam = "3"
+      for(var entry of params.entries()) {
+        console.log(entry[0])
+        if (/\??\d/.test(entry[0])) {
+          awardImageParam = entry[0]
+          if (entry[0].length > 1) {
+            awardImageParam = entry[0].substring(1,2)
+          }
+        }
+      }
+      console.log(awardImageParam)
+      return awardImageParam
+    }
+
+    function makeSiteUserFacing(appName) {
+      // Turn all [your app] mentions into specific app
+      $('p').each(function (index,el) {
+        el.innerHTML = el.innerHTML.replace(/your app/gi, appName);
+      });
+
+      // Hide Story and Dev solution section + hide menu
+      $('#vendor-menu').hide()
+      $('#apidoc').hide()
+      $('#contribute').hide()
+      $('#explanation-section').hide()
+      $('#developer-solution-section').hide()
+      $('#badge-section').hide()
+      $('#customization-links').hide()
+    }
+
+    function persistUrlParameters() {
+      urlParams = new URLSearchParams(window.location.search)
+
+      $('a').each(function () {
+        if (this.host === window.location.host && this.href.indexOf('#') === -1) {
+          if (this.className == "customization-switch-link") {
+            this.href = this.href.replace(/\??\d/, window.location.search)
+          } else {
+            this.href = this.href + window.location.search
+          }
+        }
+      });
+    }
+
+    function handleAwardImages(awardImageParam) {
+      scoreCustomization = []
+      
+        addBadgeImage('',  'poo.svg',  'poo_full.svg',  '')
+      
+        addBadgeImage('?1',  'stalin_empty.svg',  'stalin_full.svg',  'Icon: stalin by Greg Ellinger from the Noun Project')
+      
+        addBadgeImage('?2',  'poo.svg',  'poo_full.svg',  '')
+      
+        addBadgeImage('?3',  'thumbsdown_empty.svg',  'thumbsdown_full.svg',  '')
+      
+        addBadgeImage('?4',  'trojan_empty.svg',  'trojan_full.svg',  'Icon: Troy horse by Juan Pablo Bravo from the Noun Project')
+      
+        addBadgeImage('?5',  'trash.svg',  'trash_full.svg',  '')
+      
+
+      var arrayLength = scoreCustomization.length;
+      for (var i = 1; i < arrayLength; i++) {
+        currentHtml = $('#customization-links').html()
+        $('#customization-links').html(currentHtml + '<a class="customization-switch-link" href="' + window.location.pathname + scoreCustomization[i].param + '"><img class="customization-switch" src="' + scoreCustomization[i].fullScore + '"></a>')
+      }
+
+      var currentScoreCustomization = scoreCustomization.filter(obj => {
+        return obj.param === awardImageParam
+      })
+      changeScoreImages(currentScoreCustomization[0].emptyScore, currentScoreCustomization[0].fullScore)
+      attributeIcon(currentScoreCustomization[0].attribution)
+      //addScoreParameterToAllLocalLinks(awardImageParam)
+    }
+
+    function addBadgeImage(parameter, emptyScore, fullScore, attribution) {
+      scoreCustomization.push({
+        'param': parameter,
+        'emptyScore': "/assets/img/" + emptyScore,
+        'fullScore': "/assets/img/" + fullScore,
+        'attribution': attribution
+      })
+    }
+    function attributeIcon(author) {
+      document.getElementById('icons-attribution').innerHTML = author
+    }
+    function addScoreParameterToAllLocalLinks(parameter) {
+      $('a').each(function () {
+        if (this.host === window.location.host && this.className != "customization-switch-link" && this.href.indexOf('#') ===
+        -1) {
+          this.href = this.href + parameter;
+        }
+      });
+    }
+    function changeScoreImages(imgRelativePathEmptyScore, imgRelativePathFullScore) {
+      $('.score-empty').each((i, score) => {
+        $(score).attr('src', imgRelativePathEmptyScore)
+      })
+      $('.score-full').each((i, score) => {
+        $(score).attr('src', imgRelativePathFullScore)
+      })
+    }
+
+    function changeScoreParameterInBadgeSrc(parameter) {
+      $('#badge-shareable').attr('src', 'https://dontkillmyapp.com/badge/' + parameter
+      + '.svg')
+    }
+
+    function hideBadge() {
+      $('#badge').hide()
+    }
+
+    function copyEmbedToClipboard() {
+      const el = document.createElement('textarea');
+      el.value = document.getElementById("embed").innerHTML
+      document.body.appendChild(el);
+      el.select();
+      document.execCommand('copy');
+      document.body.removeChild(el);
+    }
+
+  </script>
+</head>
 <body><header class="site-header" role="banner">
 
-  <div class="wrapper">
-<a class="site-title" rel="author" href="/">Don't kill my app!</a><nav class="site-nav">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger">
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Don&#39;t kill my app!</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
           <span class="menu-icon">
-            <svg viewbox="0 0 18 15" width="18px" height="15px">
-              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
             </svg>
           </span>
         </label>
 
-        <div class="trigger">
-<a class="page-link" id="problem" href="/problem">Our mission</a><a class="page-link" id="apidoc" href="/apidoc">API</a><a class="page-link" id="press" href="/press">Press</a><a class="awarded-vendor-link page-link" href="/nokia">Nokia <span class="award">5 💩</span></a><a class="awarded-vendor-link page-link" href="/oneplus">OnePlus <span class="award">4 💩</span></a><a class="awarded-vendor-link page-link" href="/xiaomi">Xiaomi <span class="award">3 💩</span></a><a class="awarded-vendor-link page-link" href="/sony">Sony <span class="award">3 💩</span></a><a class="awarded-vendor-link page-link" href="/meizu">Meizu <span class="award">3 💩</span></a><a class="awarded-vendor-link page-link" href="/huawei">Huawei <span class="award">3 💩</span></a><a class="awarded-vendor-link page-link" href="/samsung">Samsung <span class="award">2 💩</span></a><a class="awarded-vendor-link page-link" href="/stock_android">Stock Android <span class="award">1 💩</span></a><a class="awarded-vendor-link page-link" href="/htc">HTC <span class="award">1 💩</span></a><a class="vendor-link page-link" href="/general">Other vendors</a>
-</div>
-      </nav>
-</div>
+        <div class="trigger"><a class="page-link" id="problem" href="/problem">Our mission</a><a class="page-link" id="apidoc" href="/apidoc">API</a><a class="page-link" id="press" href="/press">Press</a><a class="awarded-vendor-link page-link" href="/nokia">Nokia <span class="award">5 💩</span></a><a class="awarded-vendor-link page-link" href="/hmd-global">Nokia <span class="award">5 💩</span></a><a class="awarded-vendor-link page-link" href="/oneplus">OnePlus <span class="award">4 💩</span></a><a class="awarded-vendor-link page-link" href="/xiaomi">Xiaomi <span class="award">3 💩</span></a><a class="awarded-vendor-link page-link" href="/meizu">Meizu <span class="award">3 💩</span></a><a class="awarded-vendor-link page-link" href="/huawei">Huawei <span class="award">3 💩</span></a><a class="awarded-vendor-link page-link" href="/samsung">Samsung <span class="award">2 💩</span></a><a class="awarded-vendor-link page-link" href="/stock_android">Google (Pixel, Nexus) <span class="award">1 💩</span></a><a class="awarded-vendor-link page-link" href="/sony">Sony <span class="award">1 💩</span></a><a class="awarded-vendor-link page-link" href="/lenovo">Lenovo <span class="award">1 💩</span></a><a class="awarded-vendor-link page-link" href="/htc">HTC <span class="award">1 💩</span></a><a class="awarded-vendor-link page-link" href="/google">Google (Pixel, Nexus) <span class="award">1 💩</span></a><a class="vendor-link page-link" href="/general">Other vendors</a></div>
+      </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
@@ -43,7 +187,7 @@
   
     
     <div id="punchline">
-      <p><strong>Smartphones are turning back into dumbphones.</strong> We have to fight back!</p>
+      <p><strong>Smartphones are turning back into dumbphones.</strong></p>
 
 <p>To squeeze a little extra battery out of your phone, Android device vendors listed below (with their bad vendor score) cripple apps and make them useless. <a href="/problem">Read more</a></p>
 
@@ -84,10 +228,216 @@
   
     
   
-
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
 
   <div class="cardholder">
-<a class="card card-vendor-award card-award-color-1" href="/nokia">
+    
+
+    
+      
+        
+          
+          
+    
+      
+        
+      
+        
+          
+          
+    
+      
+        
+      
+        
+      
+        
+          
+          
+    
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          
+    
+
+    <a class="card card-vendor-award card-award-color-1" href="/hmd-global">
   <h2>
     <span class="card-award-text-color-1">#1 Nokia</span>
   </h2>
@@ -207,9 +557,9 @@
   </p>
   <!-- <p>
 </p> -->
-</a><a class="card card-vendor-award card-award-color-6" href="/sony">
+</a><a class="card card-vendor-award card-award-color-6" href="/samsung">
   <h2>
-    <span class="card-award-text-color-6">#6 Sony</span>
+    <span class="card-award-text-color-6">#6 Samsung</span>
   </h2>
   <p class="award">
     
@@ -219,9 +569,9 @@
     
       <img src="/assets/img/placeholder.svg" class="poo score-full" alt="">
     
-      <img src="/assets/img/placeholder.svg" class="poo score-full" alt="">
-    
 
+    
+      <img src="/assets/img/placeholder.svg" class="poo score-empty" alt="">
     
       <img src="/assets/img/placeholder.svg" class="poo score-empty" alt="">
     
@@ -231,9 +581,9 @@
   </p>
   <!-- <p>
 </p> -->
-</a><a class="card card-vendor-award card-award-color-7" href="/samsung">
+</a><a class="card card-vendor-award card-award-color-7" href="/sony">
   <h2>
-    <span class="card-award-text-color-7">#7 Samsung</span>
+    <span class="card-award-text-color-7">#7 Sony</span>
   </h2>
   <p class="award">
     
@@ -241,9 +591,9 @@
     
       <img src="/assets/img/placeholder.svg" class="poo score-full" alt="">
     
-      <img src="/assets/img/placeholder.svg" class="poo score-full" alt="">
-    
 
+    
+      <img src="/assets/img/placeholder.svg" class="poo score-empty" alt="">
     
       <img src="/assets/img/placeholder.svg" class="poo score-empty" alt="">
     
@@ -280,9 +630,33 @@
   <!-- <p><p>HTC gets a honorable non-asshole award for having a FAQ on their website with guide on how to disable their app destroying (AKA battery saving) features.</p>
 
 </p> -->
-</a><a class="card card-vendor-award card-award-color-9" href="/stock_android">
+</a><a class="card card-vendor-award card-award-color-9" href="/google">
   <h2>
-    <span class="card-award-text-color-9">#9 Stock Android</span>
+    <span class="card-award-text-color-9">#9 Google (Pixel, Nexus)</span>
+  </h2>
+  <p class="award">
+    
+
+    
+      <img src="/assets/img/placeholder.svg" class="poo score-full" alt="">
+    
+
+    
+      <img src="/assets/img/placeholder.svg" class="poo score-empty" alt="">
+    
+      <img src="/assets/img/placeholder.svg" class="poo score-empty" alt="">
+    
+      <img src="/assets/img/placeholder.svg" class="poo score-empty" alt="">
+    
+      <img src="/assets/img/placeholder.svg" class="poo score-empty" alt="">
+    
+
+  </p>
+  <!-- <p>
+</p> -->
+</a><a class="card card-vendor-award card-award-color-10" href="/lenovo">
+  <h2>
+    <span class="card-award-text-color-10">#10 Lenovo</span>
   </h2>
   <p class="award">
     
@@ -310,10 +684,7 @@
   </h2>
   <!-- <p>
 </p> -->
-</a>
-</div>
-
-  <!-- <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS bitch</a></p> -->
+</a></div>
 
 </div>
 <script>
@@ -353,78 +724,18 @@
 
   <div class="wrapper text-center">
     <p>
-      This site is open-source, and the code is available on <a href="https://github.com/urbandroid-team/dont-kill-my-app" target="_blank" rel="noopener noreferrer">Github</a>.<br>Contributions, as well as discussion, are very welcome!
+      This site is open-source, and the code is available on <a href="https://github.com/urbandroid-team/dont-kill-my-app">Github</a>.<br>Contributions, as well as discussion, are very welcome!
     </p>
     <p id="icons-attribution"></p>
 
     <p id="customization-links"></p>
     <p>
       <script type="text/javascript" src="https://free-hit-counters.net/count/1i2i"></script><br>
-      <a href="https://www.free-counters.org/" target="_blank" rel="noopener noreferrer">free Counters</a>
-      <script type="text/javascript" src="https://whomania.com/ctr?id=ab8be8e1c507e506c62a6c4ff3a44e2aa512b73f"></script>
+      <a href='https://www.free-counters.org/'>free Counters</a>
+      <script type='text/javascript' src='https://whomania.com/ctr?id=ab8be8e1c507e506c62a6c4ff3a44e2aa512b73f'></script>
     </p>
   </div>
 
-</footer>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
-  $(document).ready(function () {
-
-    scoreCustomization = []
-    addCustomScore('', 'poo.svg', 'poo_full.svg', '')
-    addCustomScore('?1', 'stalin_empty.svg', 'stalin_full.svg', 'Icon: stalin by Greg Ellinger from the Noun Project')
-    addCustomScore('?2', 'poo.svg', 'poo_full.svg', '')
-    addCustomScore('?3', 'thumbsdown_empty.svg', 'thumbsdown_full.svg', '')
-    addCustomScore('?4', 'trojan_empty.svg', 'trojan_full.svg', 'Icon: Troy horse by Juan Pablo Bravo from the Noun Project')
-
-    console.log(scoreCustomization)
-    var arrayLength = scoreCustomization.length;
-    for (var i = 1; i < arrayLength; i++) {
-      console.log(i)
-      console.log(scoreCustomization)
-      currentHtml = $('#customization-links').html()
-      $('#customization-links').html(currentHtml + '<a class="customization-switch-link" href="' + window.location.pathname + scoreCustomization[i].param + '"><img class="customization-switch" src="'+ scoreCustomization[i].fullScore +'"></a>')
-    }
-
-    var currentScoreCustomization = scoreCustomization.filter(obj => {
-      return obj.param === window.location.search
-    })
-    console.log(currentScoreCustomization)
-    changeScoreImages(currentScoreCustomization[0].emptyScore, currentScoreCustomization[0].fullScore)
-    attribute(currentScoreCustomization[0].attribution)
-    addScoreParameterToAllLocalLinks(window.location.search)
-  });
-
-  function addCustomScore(parameter, emptyScore, fullScore, attribution) {
-    scoreCustomization.push({
-      'param':parameter,
-      'emptyScore': "/assets/img/" + emptyScore,
-      'fullScore': "/assets/img/" + fullScore,
-      'attribution':attribution
-    })
-  }
-  function attribute(author) {
-    document.getElementById('icons-attribution').innerHTML = author
-  }
-  function addScoreParameterToAllLocalLinks(parameter) {
-    $('a').each(function () {
-      if (this.host === window.location.host && this.className != "customization-switch-link" && this.href.indexOf('#') === -1) {
-        console.log(this.href)
-        this.href = this.href + parameter;
-      }
-    });
-  }
-  function changeScoreImages(imgRelativePathEmptyScore, imgRelativePathFullScore) {
-    console.log(imgRelativePathEmptyScore)
-    console.log(imgRelativePathFullScore)
-    $('.score-empty').each((i, score) => {
-      $(score).attr('src', imgRelativePathEmptyScore)
-    })
-    $('.score-full').each((i, score) => {
-      $(score).attr('src', imgRelativePathFullScore)
-    })
-  }
-</script></body>
+</footer></body>
 
 </html>

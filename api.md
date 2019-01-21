@@ -38,7 +38,9 @@ new AsyncTask<Void, Void, String>() {
     @Override
     protected String doInBackground(Void... voids) {
         try {
-            return ((JSONObject) new JSONTokener(InputStreamUtil.read(new URL("https://dontkillmyapp.com/api/v2/"+Build.MANUFACTURER.toLowerCase().replaceAll(" ", "-")+".json").openStream())).nextValue()).getString("user_solution");
+            return ((JSONObject) new JSONTokener(
+                InputStreamUtil.read(new URL("https://dontkillmyapp.com/api/v2/"+Build.MANUFACTURER.toLowerCase().replaceAll(" ", "-")+".json").openStream())).nextValue()
+              ).getString("user_solution").replaceAll("\\[[Yy]our app\\]", context.getString(R.string.app_name));
         } catch (Exception e) {
             // This vendor is not in the DontKillMyApp list
         }

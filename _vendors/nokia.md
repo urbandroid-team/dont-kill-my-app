@@ -23,7 +23,7 @@ Whitelisting apps from battery optimizations does not help! Evenwell kills even 
 
 What this non-standard app does is every process gets killed after 20 minutes regardless it is actually supposed to be running and doing a useful job for the user. Also alarms are not triggered. The aim is apparently to save your battery by rendering tracking apps and other apps that use background processing useless.
 
-Moreover event 3rd party user visible alarms (alarm clock alarms) are not triggering properly on Nokia. This is a serious issue unraralleled to any other vendor. We did not yet find a workaround for this :(. 3rd party alarms clock won't be realiable on Nokia.
+Moreover event 3rd party user visible alarms (alarm clock alarms) are not triggering properly on Nokia as foreground services cannost be started from background on Nokia. This is a serious issue unraralleled to any other vendor. We did not yet find a workaround for this :(. 3rd party alarms clock / calendars etc... won't be realiable on Nokia.
 
 You can read more on this issue here:
 [https://community.phones.nokia.com/discussion/3428/background-service-killed-even-when-whitelisted](https://community.phones.nokia.com/discussion/3428/background-service-killed-even-when-whitelisted)
@@ -67,8 +67,11 @@ Uninstall the *com.evenwell.powersaving.g3* package via the following adb comman
 developer_solution: "The only workaround we found so far is to keep the screen on all time your process runs. Yes, this is very battery consuming. As usually, vendors trying to safe your battery cause much bigger battery drain on this kind of workarounds. An alternative to this is to turn the screen on only less than every 20 minutes.
 
 
-This would not work for alarms or even user visible alarms scheduled via *setAlarmClock()*. Alarms are triggering at the scheduled moment, but even foreground services cannot be started either directly from AlarmManager or from broadcast receiver.
+Another serious issue which we did not find a workaround for is that Nokia does not allow to start service using `startForegroundService()` when the process is not on background. We cannot reproduce it in few minutes after the process gets to background, but after ~hours there is the following message in the log:
 
+`ActivityManager: *Background start not allowed*: service Intent { act=com.myapp.ALARM_ALERT flg=0x4 pkg=com.myapp (has extras) } to com.myapp/.MyService from pid=-1 uid=666 pkg=com.myapp *startFg?=true*`
+
+This reders any alarm clocks, calendars, schedulers, automation tasks or any other processing at specified time useless.
 
 If anybody is interested to take a look at how the Nokia app killer (com.evenwell.powersaving.g3) works internally, take a look at [the decompiled APK](https://github.com/urbandroid-team/dont-kill-my-app/tree/master/killers/nokia/com.evenwell.powersaving.g3).
 "

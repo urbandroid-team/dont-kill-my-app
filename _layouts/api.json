@@ -3,7 +3,7 @@
 {
   "name": {{ page.name | jsonify }},
   "manufacturer": [{% for v in page.manufacturer %}"{{ v }}"{% unless forloop.last %},{% endunless %}{% endfor %}],
-  "url": {{ page.url | jsonify }},
+  "url": {{ "/" | append:page.manufacturer.first | jsonify }},
   "award": {{ page.award | jsonify }},
   "position": {{ page.position | jsonify }},
   "explanation": {{ page.explanation | markdownify | replace: 'src="/assets/img/',

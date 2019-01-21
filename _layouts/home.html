@@ -15,24 +15,33 @@ layout: default
     {% endif %}
   {% endfor %}
 
-
   <div class="cardholder">
     {%- if site.vendors.size > 0 -%}
 
-    {% assign sorted_vendors = site.vendors | sort:"position" %}
+    {% assign uniqTitles = site.vendors | map: 'name' | uniq %}
+    {% assign unique_vendors = "" | split: ',' %}
+
+    {% for title in uniqTitles %}
+      {% for vendor in site.vendors %}
+        {% if vendor.name contains title %}
+          {% assign unique_vendors = unique_vendors | push: vendor %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+
+    {% assign sorted_vendors = unique_vendors | sort:"position" %}
 
     {%- for vendor in sorted_vendors -%} {% if vendor.award %}
-    {%- include card-vendor-award.html -%}
+      {%- include card-vendor-award.html -%}
     {%- endif -%} {%- endfor -%}
 
     {%- for vendor in site.vendors -%} {% unless vendor.award %}
-    {%- include card-vendor.html -%}
+      {%- include card-vendor.html -%}
     {%- endunless -%} {%- endfor -%}
 
     {%- endif -%}
   </div>
-
-  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS bitch</a></p> -->
 
 </div>
 <script>

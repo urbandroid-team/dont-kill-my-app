@@ -70,7 +70,7 @@ developer_solution: "The only workaround we found so far is to keep the screen o
 Another serious issue which we did not find a workaround for is that Nokia does not allow to start service using `startForegroundService()` when the process is not on background. We cannot reproduce it in few minutes after the process gets to background, but after ~hours there is the following message in the log:
 
 
-`ActivityManager: *Background start not allowed*: service Intent { act=com.myapp.ALARM_ALERT flg=0x4 pkg=com.myapp (has extras) } to com.myapp/.MyService from pid=-1 uid=666 pkg=com.myapp *startFg?=true*`
+`ActivityManager: Background start not allowed: service Intent { act=com.myapp.ALARM_ALERT flg=0x4 pkg=com.myapp (has extras) } to com.myapp/.MyService from pid=-1 uid=666 pkg=com.myapp startFg?=true`
 
 
 This reders any alarm clocks, calendars, schedulers, automation tasks or any other processing at specified time useless.

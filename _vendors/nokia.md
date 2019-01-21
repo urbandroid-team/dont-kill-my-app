@@ -50,7 +50,7 @@ Alternative solution for tech-savvy users:
 
 
 
-### Nokia 1 (Android Go) Rooted
+### Nokia 1 (Android Go)
 
 Uninstall the *com.evenwell.emm* package via the following adb commands:
 
@@ -59,7 +59,7 @@ Uninstall the *com.evenwell.emm* package via the following adb commands:
 `pm uninstall --user 0 com.evenwell.emm`
 
 
-### Other Nokia models rooted
+### Other Nokia models
 
 
 Uninstall the *com.evenwell.powersaving.g3* package via the following adb commands:

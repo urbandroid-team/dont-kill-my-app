@@ -18,7 +18,7 @@ processing scenarios impossible on Android or paradoxically more battery consumi
  sensor batching (see [Solution for developers](#dev-solution)).
 
 
-A serious bug in doze mode in Android 6.0 even prevented foreground services to do their job (see [Solution for developers](#dev-solution) for workaround), but luckily this was fixed in 7.0.
+A serious bug in doze mode in Android 6.0 even prevented foreground services to do their job (see [Solution for devs](#dev-solution) for workaround), but luckily this was fixed in 7.0.
 
 "
 

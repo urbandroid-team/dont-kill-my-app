@@ -80,7 +80,7 @@
       $('a').each(function () {
         if (this.host === window.location.host && this.href.indexOf('#') === -1) {
           if (this.className == "customization-switch-link") {
-            this.href = this.href.replace(/\??\d/, window.location.search)
+            //console.log(this.href)
           } else {
             this.href = this.href + window.location.search
           }

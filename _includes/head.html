@@ -10,6 +10,7 @@
   {%- include google-analytics.html -%}
   {%- endif -%}
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="/assets/js/findAndReplaceDOMText.js"></script>
   <script>
     $(document).ready(function () {
       handleUrlParams()
@@ -52,9 +53,12 @@
 
     function makeSiteUserFacing(appName) {
       // Turn all [your app] mentions into specific app
-      $('p').each(function (index,el) {
-        el.innerHTML = el.innerHTML.replace(/your app/gi, appName);
-      });
+      findAndReplaceDOMText(document.body, {
+          find: new RegExp('[\\[ ]your app[.,?! \\]]', 'gi'),
+          replace: " " + appName + " ",
+          preset: 'prose'
+        }
+      );
 
       // Hide Story and Dev solution section + hide menu
       $('#vendor-menu').hide()
@@ -64,7 +68,11 @@
       $('#developer-solution-section').hide()
       $('#badge-section').hide()
       $('#customization-links').hide()
+
+      $('#user-solution-title').contents().last()[0].textContent=' Solution'
     }
+
+
 
     function persistUrlParameters() {
       urlParams = new URLSearchParams(window.location.search)

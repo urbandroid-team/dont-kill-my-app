@@ -35,10 +35,10 @@ Example
 ### JSON API
 
 
-**Don't kill my app** provides a JSON API at [https://dontkillmyapp.com/api/v1/output.json](https://dontkillmyapp.com/api/v1/output.json) for developers to use on their websites or in their apps.
+**Don't kill my app** provides a JSON API for developers to use on their websites or in their apps.
 
 
-If you use the API, please let us know via email at jiri.richter@urbandroid.org and give credit to dontkillmyapp.com.
+Please let us know when you use the API via email jiri.richter@urbandroid.org and give credit to dontkillmyapp.com.
 
 
 ### JSON API v2 docs

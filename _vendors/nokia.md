@@ -29,6 +29,9 @@ Moreover even 3rd party user visible alarms (alarm clock alarms) are not trigger
 
 You can read more on this issue here:
 [https://community.phones.nokia.com/discussion/3428/background-service-killed-even-when-whitelisted](https://community.phones.nokia.com/discussion/3428/background-service-killed-even-when-whitelisted)
+
+
+For fun investigative read about Evenwell, check out [Who is Nokia?](https://medium.com/@roundedeverett/who-is-nokia-cb24ecbc52a9)
 "
 user_solution: "
 To fix this issue, please do the following:

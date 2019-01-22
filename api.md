@@ -5,18 +5,53 @@ permalink: apidoc
 machine_name: api
 ---
 
+### URL Parameters
+
+
+Use your app's real name in all guides and referrences
+
+
+`https://dontkillmyapp.com?app=[MyAppName]`
+
+
+Example
+
+
+`https://dontkillmyapp.com?app=Sleep%20as%20Android`
+
+
+Choose crap score icon of your taste
+
+
+`https://dontkillmyapp.com?[Icon_Number]`
+
+
+Example
+
+
+`https://dontkillmyapp.com?2`
+
+
+### JSON API
+
+
 **Don't kill my app** provides a JSON API at [https://dontkillmyapp.com/api/v1/output.json](https://dontkillmyapp.com/api/v1/output.json) for developers to use on their websites or in their apps.
+
 
 If you use the API, please let us know via email at jiri.richter@urbandroid.org and give credit to dontkillmyapp.com.
 
-### API v2 docs
+
+### JSON API v2 docs
+
 
 URL: https://dontkillmyapp.com/api/v2/[vendor].json
 
 
 example: [https://dontkillmyapp.com/api/v2/nokia.json](https://dontkillmyapp.com/api/v2/nokia.json)
 
+
 API v2 provides one JSON URL per vendor.
+
 
 scheme:
 ````
@@ -71,7 +106,7 @@ new AsyncTask<Void, Void, String>() {
 
 
 
-### API v1 docs
+### JSON API v1 docs
 
 URL: [https://dontkillmyapp.com/api/v1/output.json](https://dontkillmyapp.com/api/v1/output.json)
 

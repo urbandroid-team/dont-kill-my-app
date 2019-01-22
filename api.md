@@ -8,17 +8,21 @@ machine_name: api
 ### URL Parameters
 
 
+#### App name
+
 Use your app's real name in all guides and referrences
 
 
 `https://dontkillmyapp.com?app=[MyAppName]`
 
 
-Example
+#### Example
 
 
 `https://dontkillmyapp.com?app=Sleep%20as%20Android`
 
+
+#### Crap score icon
 
 Choose crap score icon of your taste
 
@@ -26,7 +30,7 @@ Choose crap score icon of your taste
 `https://dontkillmyapp.com?[Icon_Number]`
 
 
-Example
+#### Example
 
 
 `https://dontkillmyapp.com?2`

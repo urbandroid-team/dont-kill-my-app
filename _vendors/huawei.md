@@ -33,6 +33,7 @@ Huawei P20:
 
 * *Phone settings > Battery > App launch* and then set your app to “Manage manually” and make sure everything is turned on.
 
+
 Huawei Honor 9 Lite:
 
 * *Phone settings > Battery > Launch* and then set your app to “Manage manually” and make sure everything is turned on.

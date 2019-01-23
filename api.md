@@ -10,13 +10,13 @@ machine_name: api
 
 #### App name
 
-Use your app's real name in all guides and referrences
+Use your app's real name in all guides and references
 
 
 `https://dontkillmyapp.com?app=[MyAppName]`
 
 
-#### Example
+##### Example
 
 
 `https://dontkillmyapp.com?app=Sleep%20as%20Android`
@@ -30,10 +30,15 @@ Choose crap score icon of your taste
 `https://dontkillmyapp.com?[Icon_Number]`
 
 
-#### Example
+##### Example
 
 
 `https://dontkillmyapp.com?2`
+
+
+#### Combine parameters
+
+`https://dontkillmyapp.com?2&app=Sleep` or `https://dontkillmyapp.com?app=Sleep&2` or `https://dontkillmyapp.com?app=Sleep&?2`
 
 
 ### JSON API

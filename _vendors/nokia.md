@@ -43,7 +43,7 @@ To fix this issue, please do the following:
 From now on, background apps should work normally and use the standard Android battery optimizations.
 
 
-Still 3rd party alarm clock will be broken and we do not have any solution for this at the moment. Also scheduling tasks in the background for a particular time won't work.
+till 3rd party alarm clock will be broken and we ~~do not have any solution for this at the moment~~ UPDATE: in our preliminary tests it seems that force stopping or uninstalling the **Power saver** app also fixes alarms and starting of foreground services. Also scheduling tasks in the background for a particular time won't work.
 
 
 Alternative solution for tech-savvy users:

@@ -1,6 +1,7 @@
 ---
 name: Google (Pixel, Nexus)
 manufacturer:
+  - stock_android
   - google
 award: 1
 position: 9

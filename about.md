@@ -8,7 +8,8 @@ excerpt: "
 
 
 To squeeze a little extra battery out of your phone,
-Android device vendors listed below break apps and make them of little use. [Read more](/problem)"
+Android OEMs listed below break apps and make your
+phone less capable. [Read more](/problem)"
 
 ---
 

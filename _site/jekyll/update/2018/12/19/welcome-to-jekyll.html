@@ -78,18 +78,19 @@
       $('#badge-section').hide()
       $('#customization-links').hide()
 
-      $('#user-solution-title').contents().last()[0].textContent=' Solution'
+      solutionTitle = $('#user-solution-title').contents().last()[0]
+      if (solutionTitle) { solutionTitle.textContent=' Solution' }
     }
 
 
 
     function persistUrlParameters() {
       urlParams = new URLSearchParams(window.location.search)
-
+      console.log("presisting")
       $('a').each(function () {
         if (this.host === window.location.host && this.href.indexOf('#') === -1) {
           if (this.className == "customization-switch-link") {
-            console.log(this.href)
+            //console.log(this.href)
           } else {
             this.href = this.href + window.location.search
           }

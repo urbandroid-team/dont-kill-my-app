@@ -3,6 +3,7 @@ layout: page
 title: Score
 permalink: about_score
 machine_name: about_score
+
 ---
 
 We want to be maximally transparent about how we evaluate vendors and give them our crap score. So here it is.

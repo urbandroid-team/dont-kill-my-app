@@ -3,6 +3,7 @@ layout: page
 title: API
 permalink: apidoc
 machine_name: api
+menu: true
 ---
 
 ### URL Parameters

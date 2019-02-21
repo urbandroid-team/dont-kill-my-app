@@ -3,6 +3,7 @@ layout: page
 title: Press
 permalink: press
 machine_name: press
+menu: true
 ---
 
 * [Android Police](https://www.androidpolice.com/2019/01/13/dontkillmyapp-com-shames-oems-that-needlessly-kill-useful-background-processes-to-save-battery-life/)

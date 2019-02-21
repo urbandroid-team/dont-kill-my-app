@@ -3,6 +3,7 @@ layout: page
 title: About crap score
 permalink: about_score
 machine_name: about_score
+
 ---
 
 <div id="about_score">

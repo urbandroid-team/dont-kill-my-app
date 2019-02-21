@@ -3,6 +3,7 @@ layout: page
 title: Our mission
 permalink: problem
 machine_name: problem
+menu: true
 excerpt: "
 **Smartphones are turning back into dumbphones.**
 

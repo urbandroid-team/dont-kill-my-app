@@ -34,7 +34,7 @@
         <a href="https://github.com/urbandroid-team/dont-kill-my-app/edit/master/{{page.path}}" id="contribute">Contribute</a>
         <h1>{{ page.name }}
           {%- if page.award and page.award != "" -%}
-            <span id="score">
+            <span id="score"><a href="/about_score">
                 {% assign p = 5 | minus: page.award %}
 
                 {% for i in (1..page.award) %}
@@ -44,7 +44,7 @@
                 {% for i in (1..p) %}
                 <img src="/assets/img/placeholder.svg" class="poo score-empty" alt="">
                 {% endfor %}
-            </span>
+            </a></span>
           {%- endif -%}
 
         </h1>

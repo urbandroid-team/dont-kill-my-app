@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About crap score
+title: Score
 permalink: about_score
 machine_name: about_score
 ---

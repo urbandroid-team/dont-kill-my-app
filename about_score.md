@@ -47,4 +47,4 @@ We want to be maximally transparent about how we evaluate vendors and give them 
 
 * Particular foreground services are killed only when user explicitly configure those services so.
 
-We reserve the right to make little adjustments to the score in favour of vendors publishes who e. g. publish documentation on their non-standard battery savings or kill processes more gently :).
+We reserve the right to make little adjustments to the score in favour of vendors who e. g. publish documentation on their non-standard battery savings or kill processes more gently :).

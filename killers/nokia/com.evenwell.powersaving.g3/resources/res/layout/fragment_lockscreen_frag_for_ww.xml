@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
-    <TextView android:textSize="14sp" android:textColor="@color/secondary_text_color" android:gravity="center_vertical" android:id="@+id/background_activity_text" android:paddingTop="15dp" android:paddingBottom="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fih_power_saving_background_activity_text_blacklist" android:paddingStart="72dp" android:paddingEnd="16dp"/>
-    <View android:background="@drawable/list_divider" android:layout_width="match_parent" android:layout_height="1dp"/>
-    <ListView android:id="@+id/applist" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@null" android:dividerHeight="0dp"/>
-</LinearLayout>

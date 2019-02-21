@@ -83,8 +83,6 @@ Another serious issue which we did not find a workaround for is that Nokia does 
 
 This renders any alarm clocks, calendars, schedulers, automation tasks or any other processing at specified time useless.
 
-
-If anybody is interested to take a look at how the Nokia app killer (com.evenwell.powersaving.g3) works internally, take a look at [the decompiled APK](https://github.com/urbandroid-team/dont-kill-my-app/tree/master/killers/nokia/com.evenwell.powersaving.g3).
 "
 
 ---

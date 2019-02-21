@@ -7,43 +7,43 @@ machine_name: about_score
 
 We want to be maximally transparent about how we evaluate vendors and give them our crap score. So here it is.
 
-####<img src="/assets/img/placeholder.svg" class="poo score-full" alt="">
+<h4><img src="/assets/img/placeholder.svg" class="poo score-full" alt="">
 <img src="/assets/img/placeholder.svg" class="poo score-full" alt="">
 <img src="/assets/img/placeholder.svg" class="poo score-full" alt="">
 <img src="/assets/img/placeholder.svg" class="poo score-full" alt="">
-<img src="/assets/img/placeholder.svg" class="poo score-full" alt="">
+<img src="/assets/img/placeholder.svg" class="poo score-full" alt=""></h4>
 
 * Foreground services are killed by default and users cannot configure it otherwise
 
-####<img src="/assets/img/placeholder.svg" class="poo score-full" alt="">
+<h4><img src="/assets/img/placeholder.svg" class="poo score-full" alt="">
 <img src="/assets/img/placeholder.svg" class="poo score-full" alt="">
 <img src="/assets/img/placeholder.svg" class="poo score-full" alt="">
 <img src="/assets/img/placeholder.svg" class="poo score-full" alt="">
-<img src="/assets/img/placeholder.svg" class="poo score-empty" alt="">
+<img src="/assets/img/placeholder.svg" class="poo score-empty" alt=""></h4>
 
 * Foreground services are killed by default and users cannot reliably configure it otherwise
 
-####<img src="/assets/img/placeholder.svg" class="poo score-full" alt="">
+<h4><img src="/assets/img/placeholder.svg" class="poo score-full" alt="">
 <img src="/assets/img/placeholder.svg" class="poo score-full" alt="">
 <img src="/assets/img/placeholder.svg" class="poo score-full" alt="">
 <img src="/assets/img/placeholder.svg" class="poo score-empty" alt="">
-<img src="/assets/img/placeholder.svg" class="poo score-empty" alt="">
+<img src="/assets/img/placeholder.svg" class="poo score-empty" alt=""></h4>
 
 * Foreground services are killed by default but users can reliably configure it otherwise
 
-####<img src="/assets/img/placeholder.svg" class="poo score-full" alt="">
+<h4><img src="/assets/img/placeholder.svg" class="poo score-full" alt="">
 <img src="/assets/img/placeholder.svg" class="poo score-full" alt="">
 <img src="/assets/img/placeholder.svg" class="poo score-empty" alt="">
 <img src="/assets/img/placeholder.svg" class="poo score-empty" alt="">
-<img src="/assets/img/placeholder.svg" class="poo score-empty" alt="">
+<img src="/assets/img/placeholder.svg" class="poo score-empty" alt=""></h4>
 
 * Foreground services are killed only when user explicitly configure there phone to do so..
 
-####<img src="/assets/img/placeholder.svg" class="poo score-full" alt="">
+<h4><img src="/assets/img/placeholder.svg" class="poo score-full" alt="">
 <img src="/assets/img/placeholder.svg" class="poo score-empty" alt="">
 <img src="/assets/img/placeholder.svg" class="poo score-empty" alt="">
 <img src="/assets/img/placeholder.svg" class="poo score-empty" alt="">
-<img src="/assets/img/placeholder.svg" class="poo score-empty" alt="">
+<img src="/assets/img/placeholder.svg" class="poo score-empty" alt=""></h4>
 
 * Particular foreground services are killed only when user explicitly configure those services so.
 

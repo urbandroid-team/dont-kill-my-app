@@ -240,6 +240,12 @@ img {
   display: block;
   margin: 0 auto;
 }
+.img-block {
+  text-align: center;
+  img {
+    display: inline-block;
+  }
+}
 
 @media only screen and (min-width: 601px) {
   .awarded-vendor-link, .vendor-link  {

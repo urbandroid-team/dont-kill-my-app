@@ -17,3 +17,4 @@ menu: true
 * [MalayMail](https://www.malaymail.com/s/1712481/does-your-smartphone-kill-important-apps-here-are-the-top-offenders-and-how)
 * [Frandroid](https://www.frandroid.com/android/560912_nokia-oneplus-huawei-et-xiaomi-epingles-pour-tuer-trop-facilement-vos-applications)
 * [Android Portal SK](https://androidportal.zoznam.sk/2019/01/programatori-nestastni-vyrobcovia-prehanaju-setrenim/)
+* [Tweakers](https://tweakers.net/nieuws/147914/app-ontwikkelaars-stellen-ranglijst-agressiefste-appkillers-op.html)

@@ -2,7 +2,7 @@
 name: Sony
 manufacturer:
   - sony
-award: 1
+award: 2
 position: 7
 redirect_from: /vendors/sony.html
 explanation: "

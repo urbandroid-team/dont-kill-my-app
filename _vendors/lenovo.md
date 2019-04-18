@@ -3,7 +3,7 @@ name: Lenovo
 manufacturer:
   - lenovo
 position: 9
-award: 1
+award: 2
 explanation: "We're still gathering more information on battery saving features on Lenovo phones."
 
 user_solution: "

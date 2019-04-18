@@ -3,7 +3,7 @@ name: Xiaomi
 manufacturer:
   - xiaomi
 position: 3
-award: 3
+award: 4
 redirect_from: /vendors/xiaomi.html
 explanation: "
 Traditionally Xiaomi and their Android customization called MIUI belongs to the most troubled on the market with respect to non-standard background process limitations and non-standard permissions.

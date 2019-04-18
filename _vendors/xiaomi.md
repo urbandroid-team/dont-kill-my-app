@@ -2,7 +2,7 @@
 name: Xiaomi
 manufacturer:
   - xiaomi
-position: 3
+position: 4
 award: 4
 redirect_from: /vendors/xiaomi.html
 explanation: "

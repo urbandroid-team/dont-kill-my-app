@@ -4,7 +4,7 @@ manufacturer:
   - stock_android
   - google
 award: 1
-position: 9
+position: 10
 redirect_from: /vendors/stock_android.html
 explanation: "
 Yes, even stock Android may kill your app when doing a task valuable to the user.

@@ -9,7 +9,7 @@ excerpt: "
 
 
 To squeeze a little extra battery out of your phone,
-Android OEMs listed below break apps and make your
+Android OEMs with highest crap score below break apps and make your
 phone less capable. [Read more](/problem)"
 
 ---

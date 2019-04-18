@@ -24,7 +24,9 @@ This will avoid the app to be killed in background and the **Battery optimisatio
 
 On some OnePlus phones there is also a thing called App Auto-Launch which essentially prevents apps from working in the background. Please disable it for your app.
 
-![OnePlus Settings](/assets/img/ss_oneplus_1.jpg?raw=true **OnePlus Settings**)
+<div class=\"img-block\">
+  <img src=\"/assets/img/ss_oneplus_1.jpg\">
+</div>
 
 Also try:
 
@@ -33,6 +35,15 @@ Also try:
 > NOTE: Some of our users indicated that you need to disable Doze mode in Developer options in 1+3 and earlier.
 
 Also disable **Settings > Battery > Battery optimization > (three dots) > Enhanced optimization**. This option may also be called **Advanced optimisation**.
+
+
+Recent app clear behaviour manager is also a likely culprit:
+
+<div class=\"img-block\">
+  <img src=\"/assets/img/ss_oneplus_2a.jpg\">
+  <img src=\"/assets/img/ss_oneplus_2b.jpg\">
+</div>
+
 "
 
 developer_solution: "No known solution on the developer end"

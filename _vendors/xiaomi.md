@@ -15,7 +15,12 @@ user_solution: '
 ### MIUI 10
 
 To let your app run successfully in the background, make sure your settings look like the following (here for example is Sleep as Android):
-<img src="/assets/img/ss_xiaomi_1.png">
+
+<div class="img-block">
+  <img src="/assets/img/ss_xiaomi_1a.png">
+  <img src="/assets/img/ss_xiaomi_1b.png">
+  <img src="/assets/img/ss_xiaomi_1c.png">
+</div>
 
 ### Power management
 

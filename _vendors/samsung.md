@@ -2,7 +2,7 @@
 name: Samsung
 manufacturer:
   - samsung
-award: 3
+award: 2
 position: 6
 redirect_from: /vendors/samsung.html
 explanation: "

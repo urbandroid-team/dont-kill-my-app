@@ -34,7 +34,7 @@ There a special option in **Settings > Apps > Your app > Advanced > Battery > Ba
 
 ## Pie and pre-Pie
 
-If you see background processing issues, overall it is a good idea to make your app not battery optimized to ensure it gets the freedom it needs to perform in the background.
+Overall it is a good idea to make your app not battery optimized to ensure it gets the freedom it needs to perform in the background.
 
 
 For that:
@@ -47,8 +47,6 @@ For that:
 
 4. Choose **Not optimized**
 
-
-## Android O
 
 Make sure **Settings > Apps > Your app > Advanced > Battery > Background limitations** is not enabled. If the app is not yet optimized for Oreo API level it will break their background processing.
 

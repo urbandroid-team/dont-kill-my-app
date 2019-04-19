@@ -2,7 +2,6 @@
 name: HTC
 manufacturer:
   - htc
-award:
 redirect_from: /vendors/htc.html
 explanation: "
 When you have connections such as Wi‍-Fi on while the phone is in sleep mode, some apps may still continue to use the battery. Starting from Android 6.0, battery optimization is enabled for all apps by default which helps prolong battery standby time when you’re not using the phone.

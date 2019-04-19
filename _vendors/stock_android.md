@@ -33,7 +33,7 @@ There a special option in **Settings > Apps > Your app > Advanced > Battery > Ba
 
 ## Pie and pre-Pie
 
-Overall it is a good idea to make your app not battery optimized to ensure it gets the freedom it needs to perform in the background.
+If you see background processing issues, overall it is a good idea to make your app not battery optimized to ensure it gets the freedom it needs to perform in the background.
 
 
 For that:
@@ -47,13 +47,25 @@ For that:
 4. Choose **Not optimized**
 
 
+## Android O
+
 Make sure **Settings > Apps > Your app > Advanced > Battery > Background limitations** is not enabled. If the app is not yet optimized for Oreo API level it will break their background processing.
+
+
+## If all fails
 
 
 If all fails you can turn doze mode completely off in **Settings > Developer options**. (If you don't know how to enable developer options, Google should help.)
 "
 
 developer_solution: "
+
+
+Android P Background restriction
+
+
+For apps whose core functionality is background processing this option basically means 'Break the app core functionality' and this is not always obvious for users. You would be surprised how many support cases we see when we spend hours with debugging only to find out users did enable this. In our opinion this option is unnecessary or even evil. If users don't want the app to do its job, they can still - force close or uninstall. Maybe this is a matter of naming as most users don't know what are background processes, but I guess whatever you do in terms of explanation it is so hard to understand (even for experienced users) what are all the consequences of this that there always will be people enabling it unintentionally.
+
 
 Some background processing scenarios are no more possible with Doze mode. For example low battery sensor logging
 using sensor batching is no more possible due to the 9 minute limit on consecutive alarms. The only workaround is keeping a partial wake lock all the time which means dramatically more battery is consumed for the same job.

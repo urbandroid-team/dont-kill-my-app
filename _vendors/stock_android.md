@@ -66,7 +66,7 @@ If all fails you can turn doze mode completely off in **Settings > Developer opt
 developer_solution: "
 
 
-Android P Background restriction
+## Android P Background restriction
 
 
 For apps whose core functionality is background processing this option basically means "Break the app core functionality" and this is not always obvious for users. You would be surprised how many support cases we see when we spend hours with debugging only to find out users did enable this. In our opinion this option is unnecessary or even evil. If users don't want the app to do its job, they can still - force close or uninstall. Maybe this is a matter of naming as most users don't know what are background processes, but I guess whatever you do in terms of explanation it is so hard to understand (even for experienced users) what are all the consequences of this that there always will be people enabling it unintentionally.
@@ -94,3 +94,5 @@ A workaround is to keep your foreground service in a separate process without an
 
 
 "
+
+---

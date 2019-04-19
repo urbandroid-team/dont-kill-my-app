@@ -36,7 +36,7 @@ layout: default
       {%- include card-vendor-award.html -%}
     {%- endif -%} {%- endfor -%}
 
-    {%- for vendor in site.vendors -%} {% unless vendor.award %}
+    {%- for vendor in sorted_vendors -%} {% unless vendor.award %}
       {%- include card-vendor.html -%}
     {%- endunless -%} {%- endfor -%}
 

@@ -2,7 +2,7 @@
 name: Lenovo
 manufacturer:
   - lenovo
-position: 8
+position: 6
 award: 2
 explanation: "We're still gathering more information on battery saving features on Lenovo phones."
 

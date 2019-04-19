@@ -3,8 +3,7 @@ name: Google (Pixel, Nexus)
 manufacturer:
   - stock_android
   - google
-award: 0
-position: 10
+award:
 redirect_from: /vendors/stock_android.html
 explanation: "
 We are giving ASOP or stock Android a zero crap score. Even it is not perfect and you can still expect issues with background processing (see below) on such devices with Android 6+, it is still the best we have :(. The truth is, if OEMs would stop adding battery saving features on top of AOSP, Android would be a much better place for users and app developers.

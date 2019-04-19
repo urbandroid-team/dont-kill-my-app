@@ -61,10 +61,13 @@ If all fails you can turn doze mode completely off in **Settings > Developer opt
 developer_solution: "
 
 
-Android P Background restriction
+## Android P Background restriction
 
 
 For apps whose core functionality is background processing this option basically means 'Break the app core functionality' and this is not always obvious for users. You would be surprised how many support cases we see when we spend hours with debugging only to find out users did enable this. In our opinion this option is unnecessary or even evil. If users don't want the app to do its job, they can still - force close or uninstall. Maybe this is a matter of naming as most users don't know what are background processes, but I guess whatever you do in terms of explanation it is so hard to understand (even for experienced users) what are all the consequences of this that there always will be people enabling it unintentionally.
+
+
+## Doze mode
 
 
 Some background processing scenarios are no more possible with Doze mode. For example low battery sensor logging
@@ -81,13 +84,12 @@ Tips:
 
 ## Android 6.0
 
+
 A serious bug in doze mode in Android 6.0 which we (authors of this site) did report to Google (Dianne Hackborn) during the 6.0 BETA does not allow foreground services to keep a wake lock every time an activity or a broadcast receiver kicks in, see [https://plus.google.com/u/0/+AndroidDevelopers/posts/94jCkmG4jff](https://plus.google.com/u/0/+AndroidDevelopers/posts/94jCkmG4jff) and search for Petr Nalevka and Dianne Hackborn.
 
 
 
 A workaround is to keep your foreground service in a separate process without any other Android components (read Activities, Receivers, Services..) in that process. This workaround is needed for all Android 6.0 devices but not needed on later devices where this is already fixed.
-
-
 
 
 "

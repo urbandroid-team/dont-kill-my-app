@@ -7,7 +7,10 @@ award: 0
 position: 10
 redirect_from: /vendors/stock_android.html
 explanation: "
-Yes, even stock Android may kill your app when doing tasks valuable to the user. Especially if users enable Background restrictions for a particular app.
+We are giving ASOP or stock Android a zero crap score. Even it is not perfect and you can still expect issues with background processing (see below) on such devices with Android 6+, it is still the best we have :(. The truth is, if OEMs would stop adding battery saving features on top of AOSP, Android would be a much better place for users and app developers.
+
+
+So even stock Android may kill your app when doing tasks valuable to the user. Especially if users enable Background restrictions for a particular app.
 
 
 Moreover, in Android 6.0 Google did dramatically restrict background processing with their Doze mode [https://developer.android.com/training/monitoring-device-state/doze-standby](https://developer.android.com/training/monitoring-device-state/doze-standby).
@@ -90,10 +93,4 @@ A serious bug in doze mode in Android 6.0 which we (authors of this site) did re
 A workaround is to keep your foreground service in a separate process without any other Android components (read Activities, Receivers, Services..) in that process. This workaround is needed for all Android 6.0 devices but not needed on later devices where this is already fixed.
 
 
-
-
 "
-
----
-
-We are giving ASOP or stock Android a zero crap score. Even it is not perfect and you can still expect issues with background processing (see below) on such devices since Android 6+, it is still the best we have :(. The truth is, if OEMs would stop adding battery saving features on top of AOSP, Android would be a much better place for users and app developers.

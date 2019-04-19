@@ -33,7 +33,7 @@
       <div>
         <a href="https://github.com/urbandroid-team/dont-kill-my-app/edit/master/{{page.path}}" id="contribute">Contribute</a>
         <h1>{{ page.name }}
-          {%- if page.award and page.award != "" -%}
+          {%- if page.award and page.award != "" and page.award != "0" -%}
             <span id="score"><a href="/about_score">
                 {% assign p = 5 | minus: page.award %}
 

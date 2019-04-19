@@ -3,6 +3,8 @@
   <h2>
     <span class="card-award-text-color-{{vendor.position}}">#{{vendor.position}} {{vendor.name}}</span>
   </h2>
+
+  {%- if page.award != "" and page.award != "0" -%}
   <p class="award">
     {% assign p = 5 | minus: vendor.award %}
 
@@ -15,5 +17,6 @@
     {% endfor %}
 
   </p>
+  {%- endif -%}
   <!-- <p>{{vendor.excerpt}}</p> -->
 </a>

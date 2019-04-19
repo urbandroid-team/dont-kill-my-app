@@ -3,7 +3,7 @@ name: Google (Pixel, Nexus)
 manufacturer:
   - stock_android
   - google
-award: 1
+award: 0
 position: 10
 redirect_from: /vendors/stock_android.html
 explanation: "

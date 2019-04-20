@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">ตัวประหยัดพลังงาน</string>
+    <string name="fih_power_saving_apply_notify">ตัวประหยัดพลังงาน เปิด</string>
+    <string name="fih_power_saving_apply_notify_msg">ไม่มีรายการเปิดทำงาน</string>
+    <string name="fih_power_saving_apply_ticker_msg">ตัวประหยัดพลังงาน เปิด, ไม่มีรายการเปิดทำงาน</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">ในการเปิดกลไกอาจทำให้แอปพลิเคชั่นไม่สามารถรับข้อมูลเรียลไทม์จากอินเทอร์เน็ตระหว่างหน้าจอดับได้</string>
+    <string name="fih_power_saving_dialog_cancel">ยกเลิก</string>
+    <string name="fih_power_saving_dialog_ok">ตกลง</string>
+    <string name="fih_power_saving_lpm_dialog_msg">โหมดพลังงานต่ำ เปิดใช้งาน</string>
+    <string name="fih_power_saving_notice_dialog_title">ข้อสังเกต</string>
+    <string name="fih_power_saving_permission_cancel">ยกเลิก</string>
+    <string name="fih_power_saving_permission_first_time_or_always_deny">เพื่อให้ทำงานอย่างเหมาะสม แอปนี้ต้องการสิทธิ์เพิ่มเติม โปรดอนุญาตสิทธิ์เมื่อมีการขอ</string>
+    <string name="fih_power_saving_permission_lpm_notification_summary">แทปเพื่ออนุญาต</string>
+    <string name="fih_power_saving_permission_lpm_notification_title">%s ต้องการสิทธิ์</string>
+    <string name="fih_power_saving_permission_msg">เพื่อให้ทำงานอย่างเหมาะสม แอปนี้ต้องการสิทธิ์เพิ่มเติม โปรดจัดการสิทธิ์ของ %s ใน การตั้งค่า</string>
+    <string name="fih_power_saving_permission_settings">การตั้งค่า</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">ในการเปิดกลไก อาจทำให้แอปพลิเคชั่นที่มีฟังก์ชั่นการปลุกหรือการแจ้งเตือนไม่สามารถปลุกอุปกรณ์ได้ทันเวลา แนะนำให้เพิ่มแอปพลิเคชั่นเหล่านั้นลงในบัญชีขาวของการปลุกเป็นช่วงจากหน้าการตั้งค่า</string>
+    <string name="switch_off_text">ปิด</string>
+    <string name="switch_on_text">เปิด</string>
+</resources>

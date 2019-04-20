@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">പവർ ലാഭിക്കൽ</string>
+    <string name="bam_notification_btn_nevershowthis">ഒരിക്കലും ഇത് കാണിക്കരുത്</string>
+    <string name="bam_notification_btn_turnon">ഓണാക്കുക</string>
+    <string name="bam_notification_content_text">ബാറ്ററി ലൈഫ് വർദ്ധിപ്പിക്കാൻ ഇത് ഓണാക്കുക!</string>
+    <string name="bam_notification_content_title">പശ്ചാത്തലത്തിൽ ബാറ്ററി ഉപയോഗിക്കുന്ന ആപ്പുകളുണ്ട്.</string>
+    <string name="fih_power_saving_apply_notify">പവർ സേവർ ഓൺ</string>
+    <string name="fih_power_saving_apply_notify_msg">ഇനങ്ങളൊന്നും പ്രവർത്തനക്ഷമമാക്കിയിട്ടില്ല</string>
+    <string name="fih_power_saving_apply_ticker_msg">പവർ സേവർ ഓൺ, ഇനങ്ങളൊന്നും പ്രവർത്തനക്ഷമമാക്കിയിട്ടില്ല</string>
+    <string name="fih_power_saving_background_activity_text">ബാറ്ററി ലൈഫ് വർദ്ധിപ്പിക്കുന്നതിന് പശ്ചാത്തല ആക്റ്റിവിറ്റി പ്രവർത്തനക്ഷമമാക്കുക, എന്നാൽ ചില ആപ്പുകളുടെ അറിയിപ്പുകളോ ഇമെയിലുകളോ പെട്ടെന്ന് വീണ്ടെടുക്കാൻ കഴിഞ്ഞേക്കില്ല. വൈറ്റ്‌ലിസ്റ്റിലേക്ക് ആപ്പുകൾ ചേർത്തോ നീക്കംചെയ്തോ നിങ്ങൾക്ക് ബാറ്ററി ലൈഫ് മാനേജുചെയ്യാവുന്നതാണ്.</string>
+    <string name="fih_power_saving_background_activity_text_blacklist">ബാറ്ററി ലൈഫ് വർദ്ധിപ്പിക്കുന്നതിന് പശ്ചാത്തല ആക്റ്റിവിറ്റി പ്രവർത്തനക്ഷമമാക്കുക, എന്നാൽ ചില ആപ്പുകളുടെ അറിയിപ്പുകളോ ഇമെയിലുകളോ പെട്ടെന്ന് വീണ്ടെടുക്കാൻ കഴിഞ്ഞേക്കില്ല. ബ്ലാക്ക്‌ലിസ്റ്റിലേക്ക് ആപ്പുകൾ ചേർത്തോ നീക്കംചെയ്തോ നിങ്ങൾക്ക് ബാറ്ററി ലൈഫ് മാനേജുചെയ്യാവുന്നതാണ്.</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">മെക്കാനിസം ഓണാക്കുന്നത്, സ്ക്രീൻ ഓഫായിരിക്കുമ്പോൾ ഇന്റർനെറ്റിൽ നിന്നും തത്സമയ വിവരങ്ങൾ ആപ്ലിക്കേഷനുകൾക്ക് സ്വീകരിക്കാൻ കഴിയാത്തതിന് ഇടയാക്കാം.</string>
+    <string name="fih_power_saving_dialog_cancel">റദ്ദാക്കുക</string>
+    <string name="fih_power_saving_dialog_ok">ശരി</string>
+    <string name="fih_power_saving_doze_high_consumption">ഉയർന്ന പവർ ഉപയോഗം</string>
+    <string name="fih_power_saving_lpm_dialog_msg">പവർ കുറവാണ് മോഡ് സജീവമാക്കി.</string>
+    <string name="fih_power_saving_notice_dialog_title">അറിയിപ്പ്</string>
+    <string name="fih_power_saving_permission_cancel">റദ്ദാക്കുക</string>
+    <string name="fih_power_saving_permission_first_time_or_always_deny">ശരിയായി പ്രവർത്തിക്കാൻ, ഈ ആപ്പിന് അധിക അനുമതി ആവശ്യമാണ്. ആവശ്യപ്പെടുമ്പോൾ, അനുമതി നൽകുക.</string>
+    <string name="fih_power_saving_permission_lpm_notification_summary">അനുവദിക്കാൻ ടാപ് ചെയ്യുക</string>
+    <string name="fih_power_saving_permission_lpm_notification_title">%s അനുമതികൾ ആവശ്യമാണ്</string>
+    <string name="fih_power_saving_permission_msg">ശരിയായി പ്രവർത്തിക്കാൻ, ഈ ആപ്പിന് അധിക അനുമതികൾ ആവശ്യമാണ്. ക്രമീകരണത്തിൽ %s\'s അനുമതി മാനേജുചെയ്യുക.</string>
+    <string name="fih_power_saving_permission_settings">ക്രമീകരണങ്ങൾ</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">മെക്കാനിസം ഓണാക്കുന്നത്, അലാറം അല്ലെങ്കിൽ അറിയിപ്പ് പ്രവർത്തനങ്ങളുള്ള ആപ്ലിക്കേഷനുകൾ യഥാസമയം ഉപകരണത്തെ സജീവമാക്കാതിരിക്കുന്നതിന് ഇടയാക്കാം. ആ ആപ്ലിക്കേഷനുകളുടെ ക്രമീകരണ പേജിൽ നിന്നും ആനുകാലികമായി സജീവമാക്കൽ വൈറ്റ് ലിസ്റ്റിലേക്ക് അവയെ ചേർക്കാൻ ശുപാർശചെയ്യുന്നു.</string>
+    <string name="lock_screen_ap_protect_title">പശ്ചാത്തല ആക്റ്റിവിറ്റി മാനേജർ</string>
+    <string name="switch_off_text">ഓഫ്</string>
+    <string name="switch_on_text">ഓൺ</string>
+</resources>

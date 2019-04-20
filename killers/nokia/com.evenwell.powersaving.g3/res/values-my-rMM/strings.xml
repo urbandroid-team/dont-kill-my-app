@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">ပါဝါချွေတာရေး</string>
+    <string name="bam_notification_btn_nevershowthis">ဤအရာကို ဘယ်တော့မှ မပြပါနှင့်</string>
+    <string name="bam_notification_btn_turnon">ဖွင့်ပါ</string>
+    <string name="bam_notification_content_text">ဘက်ထရီ ကြာရှည်ခံရန် ဤအရာကို ဖွင့်ပါ။</string>
+    <string name="bam_notification_content_title">ဤအက်ပ်များ နောက်ခံတွင် အလုပ်လုပ်နေသောကြောင့် ဘက်ထရီ အကုန်မြန်ပါသည်။</string>
+    <string name="fih_power_saving_apply_notify">ပါဝါချွေတာရေးဖွင့်ပါ</string>
+    <string name="fih_power_saving_apply_notify_msg">မည်သည့်အရာမှ ဖွင့်မထားပါ</string>
+    <string name="fih_power_saving_apply_ticker_msg">ပါဝါချွေတာရေး ဖွင့်ထားသည်၊ မည်သည့်အရာမှ ဖွင့်မထားပါ</string>
+    <string name="fih_power_saving_background_activity_text">နောက်ကြောင်းလုပ်ဆောင်ချက်များစီမံခန့်ခွဲသူမှ ဘတ္ထရီသက်တမ်းတိုးခြင်း လုပ်ဆောင်နိုင်သည်၊ သို့သော် တချို့အက်ပ်များ သို့မဟုတ် အီးမေးလ်များ၏ အကြောင်းကြားချက်များ မြန်မြန်ရရှိမည်မဟုတ်ပါ။ သန့်ရှင်းသည့် စာရင်းသို့ ထည့်သွင်းခြင်း သို့မဟုတ် ဖယ်ရှားခြင်းဖြင့် ဘက်ထရီသက်တမ်းကို စီမံနိုင်ပါသည်။</string>
+    <string name="fih_power_saving_background_activity_text_blacklist">နောက်ကွယ်မှ လုပ်ဆောင်ချက်များစီမံခန့်ခွဲသူမှ ဘတ္ထရီသက်တမ်းတိုးခြင်း လုပ်ဆောင်နိုင်သည်၊ သို့သော် တချို့အက်ပ်များ သို့မဟုတ် အီးမေးလ်များ၏ အကြောင်းကြားချက်များ မြန်မြန်ရရှိမည်မဟုတ်ပါ။ အမည်ပျက်စာရင်းမှ သို့မဟုတ် စာရင်းသို့ အက်ပ်များ ထည့်ခြင်း သို့မဟုတ် ဖယ်ရှားခြင်းဖြင့် ဘက်ထရီသက်တမ်းကို စီမံနိုင်ပါသည်။</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">စက်ပစ္စည်းများ ဖွင့်ခြင်းကြောင့် စခရင်ပိတ်ထားချိန်တွင် အက်ပလီကေးရှင်းများသည် လက်ရှိ အချက်အလက်များ မရရှိနိုင်တော့ပါ။</string>
+    <string name="fih_power_saving_dialog_cancel">ဤလုပ်ဆောင်ရန်အရာများကိုဖျက်သိမ်းပစ်မည်</string>
+    <string name="fih_power_saving_dialog_ok">ေကာင္းၿပီ</string>
+    <string name="fih_power_saving_doze_high_consumption">ပါဝါသုံးစွဲမှု များလွန်းသည်</string>
+    <string name="fih_power_saving_lpm_dialog_msg">ပါဝါအားနည်းသည့်မုဒ် အသက်ဝင်နေသည်</string>
+    <string name="fih_power_saving_notice_dialog_title">အသိေပးျခင္း</string>
+    <string name="fih_power_saving_permission_cancel">ဤလုပ်ဆောင်ရန်အရာများကိုဖျက်သိမ်းပစ်မည်</string>
+    <string name="fih_power_saving_permission_first_time_or_always_deny">မှန်ကန်စွာ အလုပ်လုပ်စေရန်၊ ဤအက်ပ်သည် ထပ်တိုး ခွင့်ပြုချက် လိုအပ်သည်။ ကျေးဇူးပြု၍ ခွင့်ပြုချက်ကို တောင်းခံသောအခါ ခွင့်ပြုပေးပါ။</string>
+    <string name="fih_power_saving_permission_lpm_notification_summary">ခွင့်ပြုရန် တို့ပါ</string>
+    <string name="fih_power_saving_permission_lpm_notification_title">%s သည် ခွင့်ပြုချက်များ လိုအပ်သည်</string>
+    <string name="fih_power_saving_permission_msg">မှန်ကန်စွာ အလုပ်လုပ်စေရန်၊ ဤအက်ပ်သည် ထပ်တိုး ခွင့်ပြုချက်များ လိုအပ်သည်။ %s၏ ခွင့်ပြုချက်ကို သတ်မှတ်ချက်ထဲတွင် ကျေးဇူးပြု၍ စီမံပါ။</string>
+    <string name="fih_power_saving_permission_settings">အပြင်အဆင်များ</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">စက်ပစ္စည်းများ ဖွင့်ခြင်းကြောင့် စခရင်ပိတ်ထားချိန်တွင် နှိုးစက် သို့မဟုတ် အကြောင်းကြားချက် လုပ်ဆောင်မှုများပါဝင်သည့် အက်ပလီကေးရှင်းများသည် အချိန်မှန် မနှိုးနိုင်တော့ပါ။ ၎င်းကို သူ၏ သတ်မှတ်ချက်များ စာမျက်နှာရှိ ပုံမှန်နှိုးထသည့် အဖြူရောင်စာရင်းတွင် ထည့်ထားပေးရန် အကြံပြုထားသည်။</string>
+    <string name="lock_screen_ap_protect_title">နောက်ကွယ်မှ လုပ်ဆောင်ချက်များစီမံခန့်ခွဲသူ</string>
+    <string name="switch_off_text">ဗီဒီယိုကြာချိန်</string>
+    <string name="switch_on_text">ဖွင့်ပါ</string>
+</resources>

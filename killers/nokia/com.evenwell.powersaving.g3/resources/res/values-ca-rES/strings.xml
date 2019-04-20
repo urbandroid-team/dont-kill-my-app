@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Estalvi d\'energia</string>
+    <string name="fih_power_saving_apply_notify">Estalvi d\'energia activat</string>
+    <string name="fih_power_saving_apply_notify_msg">Cap element habilitat</string>
+    <string name="fih_power_saving_apply_ticker_msg">Estalvi d\'energia activat, cap element habilitat</string>
+    <string name="fih_power_saving_background_activity_text">Habilita l\'administrador d\'activitat de fons per ampliar la vida de la bateria, però les notificacions d\'algunes aplicacions o correus electrònics no es podran recuperar a l\'instant. Per administrar la vida de la bateria, elimineu aplicacions de la llista d\'aplicacions de confiança o afegiu-n\'hi.</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">Si activeu el mecanisme mentre la pantalla està desactivada, les aplicacions podrien deixar de rebre informació en temps real d\'Internet.</string>
+    <string name="fih_power_saving_dialog_ok">D\'ACORD</string>
+    <string name="fih_power_saving_doze_high_consumption">Consum alt d\'energia</string>
+    <string name="fih_power_saving_lpm_dialog_msg">El mode de baix consum està activat.</string>
+    <string name="fih_power_saving_permission_first_time_or_always_deny">Per funcionar correctament, aquesta aplicació necessita un permís addicional. Quan se us pregunti, autoritzeu el permís.</string>
+    <string name="fih_power_saving_permission_lpm_notification_summary">Tocar per permetre</string>
+    <string name="fih_power_saving_permission_lpm_notification_title">%s necessita permisos</string>
+    <string name="fih_power_saving_permission_msg">Per funcionar correctament, aquesta aplicació necessita permisos addicionals. A Configuració, administreu els permisos de %s.</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">Si activeu el mecanisme, és possible que les aplicacions amb funcions d\'alarma o de notificació no puguin reactivar el dispositiu a temps. És recomanable que afegiu les aplicacions a la llista d\'aplicacions de confiança de reactivació periòdica des de la seva pàgina de configuració.</string>
+    <string name="lock_screen_ap_protect_title">Administrador d\'activitat de fons</string>
+</resources>

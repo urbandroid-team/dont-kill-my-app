@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bam_notification_btn_nevershowthis">VISA ALDRIG DETTA</string>
+    <string name="bam_notification_btn_turnon">AKTIVERA</string>
+    <string name="bam_notification_content_text">Aktivera detta för att förlänga batteritiden!</string>
+    <string name="bam_notification_content_title">Det finns appar som förbrukar batteri i bakgrunden.</string>
+    <string name="fih_power_saving_background_activity_text">Aktivera hanteraren för bakgrundsaktivitet för att förlänga batteritiden. Aviseringar för vissa appar och e-postmeddelanden kanske inte hämtas omedelbart. Du kan hantera batteritiden genom att lägga till eller ta bort appar i vitlistan.</string>
+    <string name="fih_power_saving_background_activity_text_blacklist">Aktivera hanteraren för bakgrundsaktivitet för att förlänga batteritiden. Aviseringar för vissa appar och e-postmeddelanden kanske inte hämtas omedelbart. Du kan hantera batteritiden genom att lägga till eller ta bort appar i svartlistan.</string>
+    <string name="fih_power_saving_dialog_cancel">Avbryt</string>
+    <string name="fih_power_saving_dialog_ok">OK</string>
+    <string name="fih_power_saving_doze_high_consumption">Hög strömförbrukning</string>
+    <string name="fih_power_saving_permission_cancel">Avbryt</string>
+    <string name="lock_screen_ap_protect_title">Hanterare för bakgrundsaktivitet</string>
+    <string name="switch_off_text">Av</string>
+    <string name="switch_on_text">På</string>
+</resources>

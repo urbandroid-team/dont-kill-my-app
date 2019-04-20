@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">የኃይል ቆጣቢ</string>
+    <string name="bam_notification_btn_nevershowthis">ይህን በፍጹም አታሳይ</string>
+    <string name="bam_notification_btn_turnon">አብራ</string>
+    <string name="bam_notification_content_text">የባትሪ ዕድሜን ለማሻሻል ይህን ያብሩ!</string>
+    <string name="bam_notification_content_title">ባትሪ የሚጠቀሙ መተግበሪያዎች ከበስተጀርባ አሉ</string>
+    <string name="fih_power_saving_background_activity_text">የባትሪ ዕድሜን ለማሻሻል የበስተጀርባ እንቅስቃሴ አስተዳዳሪን ያንቁ፣ ነገር ግን የተውሰኑ መተግበሪያዎች ወይም ኢሜይሎች ማሳወቂያዎች ወዲያውኑ ላይገኙ ይችላሉ። መተግበሪያዎችን ወደተፈቀደላቸው ዝርዝር በማከል ወይም ከዚያ በማስወጣት የባትሪ ዕድሜን ማስተዳደር ይችላሉ።</string>
+    <string name="fih_power_saving_background_activity_text_blacklist">የባትሪ ዕድሜን ለማሻሻል የበስተጀርባ እንቅስቃሴ አስተዳዳሪን ያንቁ፣ ነገር ግን የተወሰኑ መተግበሪያዎች ወይም ኢሜይሎች ማሳወቂያዎች ወዲያውኑ ላይገኙ ይችላሉ። መተግበሪያዎችን ወደ ጥቁር መዝገብ በማልከል ወይም ከዚያ በማስወጣት የባትሪ ዕድሜን መቆጣጠር ይችላሉ።</string>
+    <string name="fih_power_saving_dialog_ok">እሺ</string>
+    <string name="fih_power_saving_doze_high_consumption">ከፍተኛ የኃይል ፍጆታ</string>
+    <string name="lock_screen_ap_protect_title">የበስተጀርባ እንቅስቃሴ አስተዳዳሪ</string>
+    <string name="switch_off_text">አጥፋ</string>
+    <string name="switch_on_text">አብራ</string>
+</resources>

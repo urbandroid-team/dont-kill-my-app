@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bam_notification_btn_nevershowthis">VIS ALDRIG DETTE</string>
+    <string name="bam_notification_btn_turnon">SLÅ TIL</string>
+    <string name="bam_notification_content_text">Slå dette til for at forlænge batteriets levetid!</string>
+    <string name="bam_notification_content_title">Nogle apps bruger batteristrøm i baggrunden.</string>
+    <string name="fih_power_saving_background_activity_text">Aktivér styring af baggrundsaktivitet for at forlænge batteriets levetid, men underretningerne for visse apps og mails kan muligvis ikke hentes med det samme. Du kan styre batteriets levetid ved at føje eller fjerne apps til/fra hvidlisten.</string>
+    <string name="fih_power_saving_background_activity_text_blacklist">Aktivér styring af baggrundsaktivitet for at forlænge batteriets levetid, men underretningerne for visse apps og mails kan muligvis ikke hentes med det samme. Du kan styre batteriets levetid ved at føje eller fjerne apps til/fra sortlisten.</string>
+    <string name="fih_power_saving_dialog_cancel">Annuller</string>
+    <string name="fih_power_saving_dialog_ok">OK</string>
+    <string name="fih_power_saving_doze_high_consumption">Højt strømforbrug</string>
+    <string name="fih_power_saving_permission_cancel">Annuller</string>
+    <string name="lock_screen_ap_protect_title">Styring af baggrundsaktiviteter</string>
+    <string name="switch_off_text">Fra</string>
+    <string name="switch_on_text">Til</string>
+</resources>

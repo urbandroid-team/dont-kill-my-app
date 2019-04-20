@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">પાવર સેવર</string>
+    <string name="bam_notification_btn_nevershowthis">આ ક્યારેય ન બતાવો</string>
+    <string name="bam_notification_btn_turnon">ચાલુ કરો</string>
+    <string name="bam_notification_content_text">બૅટરીની આવરદા વધારવા માટે આને ચાલુ કરો!</string>
+    <string name="bam_notification_content_title">કેટલીક ઍપ એવી છે, જે પૃષ્ઠભૂમિમાં બૅટરી વાપરી રહી છે.</string>
+    <string name="fih_power_saving_apply_notify">પાવર સેવર ચાલુ છે</string>
+    <string name="fih_power_saving_apply_notify_msg">કોઈ વસ્તુ સક્ષમ કરેલ નથી</string>
+    <string name="fih_power_saving_apply_ticker_msg">પાવર સેવર ચાલુ છે, કોઈ વસ્તુ સક્ષમ કરેલ નથી</string>
+    <string name="fih_power_saving_background_activity_text">બૅટરીની આવરદા વધારવા માટે પૃષ્ઠભૂમિ પ્રવૃત્તિ સંચાલકને સક્ષમ કરો, પરંતુ કેટલીક ઍપ્લિકેશનો અથવા ઇમેલની સૂચનાઓ તાત્કાલિક પુન:પ્રાપ્ત ન થાય તેવું બની શકે છે. તમે ઍપ્લિકેશનોને વ્હાઇટલિસ્ટમાં ઉમેરી અથવા તેમાંથી કાઢી નાખીને બૅટરીની આવરદાનું સંચાલન કરી શકો છો.</string>
+    <string name="fih_power_saving_background_activity_text_blacklist">બૅટરીની આવરદા વધારવા માટે પૃષ્ઠભૂમિ પ્રવૃત્તિ સંચાલકને સક્ષમ કરો, પરંતુ કેટલીક ઍપ્લિકેશનો અથવા ઇમેલની સૂચનાઓ તાત્કાલિક પુન:પ્રાપ્ત ન થાય તેવું બની શકે છે. તમે ઍપ્લિકેશનોને બ્લેકલિસ્ટમાં ઉમેરી અથવા તેમાંથી કાઢી નાખીને બૅટરીની આવરદાનું સંચાલન કરી શકો છો.</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">પદ્ધતિ ચાલુ કરવાના પરિણામ રૂપે સ્ક્રીન બંધ હોય તે દરમ્યાન એપ્લિકેશનો ઇન્ટરનેટ પરથી વાસ્તવિક સમયની માહિતી પ્રાપ્ત કરી શકતી નથી.</string>
+    <string name="fih_power_saving_dialog_cancel">રદ કરો</string>
+    <string name="fih_power_saving_dialog_ok">ઓકે</string>
+    <string name="fih_power_saving_doze_high_consumption">ઉચ્ચ પાવર વપરાશ</string>
+    <string name="fih_power_saving_lpm_dialog_msg">નિમ્ન પાવર મોડ સક્ષમ કરેલ છે.</string>
+    <string name="fih_power_saving_notice_dialog_title">સૂચના</string>
+    <string name="fih_power_saving_permission_cancel">રદ કરો</string>
+    <string name="fih_power_saving_permission_first_time_or_always_deny">યોગ્ય રીતે કાર્ય કરવા માટે, આ એપ્લિકેશનને વધારાની પરવાનગીની જરૂર પડે છે. જ્યારે કેહવામાં આવે ત્યારે કૃપા કરીને પરવાનગીની મંજૂરી આપો.</string>
+    <string name="fih_power_saving_permission_lpm_notification_summary">અનુમતિ આપવા માટે ટૅપ કરો</string>
+    <string name="fih_power_saving_permission_lpm_notification_title">%s ને પરવાનગીઓની જરૂર છે</string>
+    <string name="fih_power_saving_permission_msg">યોગ્ય રીતે કાર્ય કરવા માટે, આ એપ્લિકેશનને વધારાની પરવાનગીઓની આવશ્યકતા છે. કૃપા કરીને સેટિંગમાં %s ની પરવાનગી સંચાલિત કરો.</string>
+    <string name="fih_power_saving_permission_settings">સેટિંગ્સ</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">પદ્ધતિ ચાલુ કરવાના પરિણામ રૂપે અલાર્મ અથવા સૂચના ફંક્શન્સ ધરાવતી એપ્લિકેશનો ઉપકરણને સમયસર વેકઅપ કરી શકશે નહીં. તે એપ્લિકેશનને તેના સેટિંગ પૃષ્ઠ પરથી સામયિક વેકઅપ વ્હાઈટ યાદીમાં ઉમેરવાની ભલામણ કરવામાં આવે છે.</string>
+    <string name="lock_screen_ap_protect_title">પૃષ્ઠભૂમિ પ્રવૃત્તિ સંચાલક</string>
+    <string name="switch_off_text">બંધ</string>
+    <string name="switch_on_text">ચાલુ</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Խնայող ռեժիմ</string>
+    <string name="fih_power_saving_apply_notify">Խնայող ռեժիմը միացրած է</string>
+    <string name="fih_power_saving_apply_notify_msg">Միացրած տարր չկա</string>
+    <string name="fih_power_saving_apply_ticker_msg">Խնայող ռեժիմը միացրած է, միացրած տարր չկա</string>
+    <string name="fih_power_saving_background_activity_text">Միացրեք Հետնաշերտի գործողությունների կառավարիչը՝ մարտկոցի լիցքը խնայելու համար, սակայն նկատի ունեցեք, որ որոշ Հավելվածների և Էլ. փոստերի ծանուցումներն ակնթարթորեն չեն առբերվի: Մարտկոցի լիցքը կարող եք կառավարել՝ Հավելվածները ավելացնելով կամ հեռացնելով թույլատրված հավելվածների ցանկից:</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">Մեխանիզմը միացնելու դեպքում հավելվածները չեն կարող իրական ժամանակով տեղեկություններ ստանալ Համացանցից, երբ էկրանն անջատված լինի:</string>
+    <string name="fih_power_saving_dialog_ok">Լավ</string>
+    <string name="fih_power_saving_doze_high_consumption">Հոսանքի ծախսի բարձր մակարդակ</string>
+    <string name="fih_power_saving_lpm_dialog_msg">Հոսանքի սպառման ցածր ռեժիմը ակտիվացված է:</string>
+    <string name="fih_power_saving_notice_dialog_title">Ծանուցում</string>
+    <string name="fih_power_saving_permission_first_time_or_always_deny">Այս հավելվածի պատշաճ աշխատանքի համար պահանջվում է լրացուցիչ թույլտվություն: Տվեք թույլտվությունը, երբ առաջարկվի:</string>
+    <string name="fih_power_saving_permission_lpm_notification_summary">Տոփեք՝ թույլ տալու համար</string>
+    <string name="fih_power_saving_permission_lpm_notification_title">%s-ի համար թույլտվություններ են պահանջվում</string>
+    <string name="fih_power_saving_permission_msg">Այս հավելվածի պատշաճ աշխատանքի համար պահանջվում են լրացուցիչ թույլտվություններ: Կառավարեք %s-ի թույլտվությունը Կարգավորումներում:</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">Մեխանիզմը միացնելու դեպքում ազդանշանների կամ ծանուցումների գործառույթներով հավելվածները չեն կարող ժամանակին արթնացնել սարքը: Խորհուրդ ենք տալիս ավելացնել այդ հավելվածները պարբերական արթնացումների առաջարկվող ցանկին՝ անցնելով դրանց կարգավորումների էջ:</string>
+    <string name="lock_screen_ap_protect_title">Հետնաշերտի գործողությունների կառավարիչ</string>
+</resources>

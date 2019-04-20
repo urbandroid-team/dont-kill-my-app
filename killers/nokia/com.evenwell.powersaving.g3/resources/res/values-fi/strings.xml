@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Virransäästäjä</string>
+    <string name="fih_power_saving_apply_notify">Virransäästäjä käytössä</string>
+    <string name="fih_power_saving_apply_notify_msg">Ei aktiivisia kohteita</string>
+    <string name="fih_power_saving_apply_ticker_msg">Virransäästäjä käytössä, ei aktiivisia kohteita</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">Mekanismin käyttöönotto voi estää sovelluksia vastaanottamasta reaaliaikaista tietoa internetistä, kun näyttö on sammutettu.</string>
+    <string name="fih_power_saving_dialog_cancel">لغو</string>
+    <string name="fih_power_saving_dialog_ok">تاييد</string>
+    <string name="fih_power_saving_lpm_dialog_msg">Pienitehoinen tila aktivoitu.</string>
+    <string name="fih_power_saving_notice_dialog_title">Ilmoitus</string>
+    <string name="fih_power_saving_permission_cancel">لغو</string>
+    <string name="fih_power_saving_permission_first_time_or_always_deny">Toimiakseen oikein tämä sovellus edellyttää lisävaltuutta. Myönnä lisävaltuus pyydettäessä.</string>
+    <string name="fih_power_saving_permission_lpm_notification_summary">Salli napauttamalla</string>
+    <string name="fih_power_saving_permission_lpm_notification_title">%s edellyttää valtuuksia</string>
+    <string name="fih_power_saving_permission_msg">Toimiakseen oikein tämä sovellus edellyttää lisävaltuuksia. Muuta %s-valtuuksia asetuksissa.</string>
+    <string name="fih_power_saving_permission_settings">Asetukset</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">Mekanismin käyttöönotto voi estää hälytyksiä tai ilmoituksia sisältäviä sovelluksia heräämästä ajallaan. On suositeltavaa lisätä nämä sovellukset ajoittaisen herätyksen sallittujen luetteloon sen asetussivulla.</string>
+    <string name="switch_off_text">Pois päältä</string>
+    <string name="switch_on_text">Päällä</string>
+</resources>

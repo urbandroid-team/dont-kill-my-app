@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Қуат үнемдегіш</string>
+    <string name="bam_notification_btn_nevershowthis">МҰНЫ ЕШҚАШАН КӨРСЕТПЕУ</string>
+    <string name="bam_notification_btn_turnon">ҚОСУ</string>
+    <string name="bam_notification_content_text">Батарея мерзімін ұзарту үшін мұны қосыңыз!</string>
+    <string name="bam_notification_content_title">Фонда батарея қуатын қолданатын қолданбалар бар.</string>
+    <string name="fih_power_saving_apply_notify">Қуат үнемдегіш қосулы</string>
+    <string name="fih_power_saving_apply_notify_msg">Ешқандай элемент қосылмады</string>
+    <string name="fih_power_saving_apply_ticker_msg">Қуат үнемдегіш қосулы, ешқандай элемент қосылмады</string>
+    <string name="fih_power_saving_background_activity_text">Батарея пайдалану мерзімін ұзарту үшін фондық әрекет реттеушісін қосыңыз, бірақ кейбір қолданбалардың немесе электрондық хабарлардың хабарландыруларын бірден алу мүмкін емес. Қолданбаларды ақ тізімге қосу не одан алу арқылы батарея пайдалану мерзімін басқаруға болады.</string>
+    <string name="fih_power_saving_background_activity_text_blacklist">Батарея пайдалану мерзімін ұзарту үшін фондық әрекет реттеушісін қосыңыз, бірақ кейбір қолданбалардың немесе электрондық хабарлардың хабарландыруларын бірден алу мүмкін емес. Қолданбаларды қара тізімге қосу не одан алу арқылы батарея пайдалану мерзімін басқаруға болады.</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">Егер қосқыңыз келсе, экран өшірулі кезде, механизм салдарынан қолданбалар нақты уақыттағы ақпаратты интернеттен ала алмауы мүмкін.</string>
+    <string name="fih_power_saving_dialog_cancel">Болдырмау</string>
+    <string name="fih_power_saving_dialog_ok">OK</string>
+    <string name="fih_power_saving_doze_high_consumption">Жоғары қуатты тұтыну</string>
+    <string name="fih_power_saving_lpm_dialog_msg">Төмен қуат режимі іске қосылған.</string>
+    <string name="fih_power_saving_notice_dialog_title">Ескерту</string>
+    <string name="fih_power_saving_permission_cancel">Болдырмау</string>
+    <string name="fih_power_saving_permission_first_time_or_always_deny">Дұрыс жұмыс істеу үшін бұл бағдарламаға қосымша рұқсат қажет. Сұралған кезде рұқсат беріңіз.</string>
+    <string name="fih_power_saving_permission_lpm_notification_summary">Рұқсат беру үшін түртіңіз</string>
+    <string name="fih_power_saving_permission_lpm_notification_title">%s рұқсаттарды қажет етеді</string>
+    <string name="fih_power_saving_permission_msg">Дұрыс жұмыс істеу үшін бұл бағдарламаға қосымша рұқсаттар қажет. Параметрлер бөлімінде %s рұқсатын реттеңіз.</string>
+    <string name="fih_power_saving_permission_settings">Параметрлер</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">Егер қосқыңыз келсе, механизм салдарынан оятқыш немесе хабарландыру функциялары бар қолданбалар құрылғыны уақытында қоса алмауы мүмкін. Сол қолданбаларды кезеңдік қосу ақ тізіміне оның параметрлер бетінен қосқан дұрыс.</string>
+    <string name="lock_screen_ap_protect_title">Фондық әрекет реттеушісі</string>
+    <string name="switch_off_text">Өшіру</string>
+    <string name="switch_on_text">Қосулы.</string>
+</resources>

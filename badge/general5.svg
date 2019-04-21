@@ -93,7 +93,8 @@
     <g
        id="poo1"
        transform="matrix(0.83476004,0.01565134,-0.01565134,0.83476004,2.2853171,269.56733)"
-       inkscape:label="poo1">         version="1.1"
+       inkscape:label="poo1">      <svg
+         version="1.1"
          id="Capa_1"
          x="0px"
          y="0px"

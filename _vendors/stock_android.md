@@ -5,7 +5,7 @@ manufacturer:
   - google
 redirect_from: /vendors/stock_android.html
 explanation: "
-We are giving ASOP or stock Android a zero crap score. Even it is not perfect and you can still expect issues with background processing (see below) on devices with Android 6+, it is still the best we have :(. The truth is, if OEMs would stop adding battery saving features on top of AOSP, Android would be a much better place for users and app developers.
+We are giving AOSP or stock Android a zero crap score. Even if it's not perfect and you can still expect issues with background processing (see below) on devices with Android 6+, it is still the best we have :(. The truth is, if OEMs would stop adding battery saving features on top of AOSP, Android would be a much better place for users and app developers.
 
 
 So even stock Android may kill your app when doing tasks valuable to the user. Especially if users enable Background restrictions for a particular app.
@@ -29,7 +29,7 @@ user_solution: "
 
 ## Android P
 
-There a special option in **Settings > Apps > Your app > Advanced > Battery > Background restrictions**. If users accidentally enable this option it will break their apps. And users do enable that option!
+There's a special option in **Settings > Apps > Your app > Advanced > Battery > Background restrictions**. If users accidentally enable this option it will break their apps. And users do enable that option!
 
 ## Pie and pre-Pie
 

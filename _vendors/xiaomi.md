@@ -65,7 +65,11 @@ Enable Autostart for desired apps.
 <div class="img-block">
   <img src="/assets/img/ss_xiaomi_as_1.png">
   <img src="/assets/img/ss_xiaomi_as_2.png">
-  <img src="/assets/img/ss_xiaomi_as_3.png">
+    <div class="img-block">
+     <figure>
+          <img src="/assets/img/ss_xiaomi_as_3.png">
+       <figcaption>Search for Your app and tap to enable</figcaption>
+     </figure>
 </div>
 
 

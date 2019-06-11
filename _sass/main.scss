@@ -63,6 +63,15 @@ blockquote {
     // max-width: 50%;
     font-size: 2em;
   }
+  h2 {
+    margin-bottom: 0;
+  }
+  & .card-subtitle {
+    // color: #888;
+    min-height: 1em;
+    font-size: 0.7em;
+    font-weight: 100;
+  }
 }
 .card-vendor {
   border-radius: 10px;

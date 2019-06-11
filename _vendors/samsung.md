@@ -9,7 +9,48 @@ explanation: "
 Yes, even Samsung - a dominant vendor in the Android market - is using nasty battery saving technique which may kill background processes and render alarm clocks useless. See below for workarounds.
 "
 
-user_solution: "
+user_solution: '
+
+## Galaxy S9 / S10
+
+Battery optimization is *turned on by default*. At some unclear moments (maybe on app update, OS update?), the settings also do revert back to the defaults, forcing you to turn them off again and again.
+
+Below are walkthrough screenshots for Galaxy S10. Please let us know your feedback about whether it works for S9 (or others) as well. Thanks!
+
+### Sleeping apps
+
+<div class="img-block">
+  <figure>
+    <img src="/assets/img/samsung/s10_1.jpg">
+    <figcaption>1. Start <strong>Device care</strong><br>from phone settings</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/img/samsung/s10_2.jpg">
+    <figcaption>2. Tap Battery</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/img/samsung/s10_3.jpg">
+    <figcaption>3. Tap the 3-dot menu > Settings</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/img/samsung/s10_5.jpg">
+    <figcaption>4. Disable all toggles<br>(except Notifications)</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/img/samsung/s10_6.jpg">
+    <figcaption>5. Tap Sleeping apps</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/img/samsung/s10_8.jpg">
+    <figcaption>6. Wake up all the apps<br>using the trashcan icon</figcaption>
+  </figure>
+
+</div>
 
 ## Galaxy S8 (j6ltedx) and later
 
@@ -36,7 +77,7 @@ It’s excessive and in some cases downright misleading, using scare tactics to 
 
 > NOTE:  If you enable Edge Lighting for your app, then the app will not be able to wake up your screen. To allow your app to wake up your screen, please remove it from the Edge Lighting applications list.
 
-"
+'
 
 developer_solution: "No known solution on developer end"
 

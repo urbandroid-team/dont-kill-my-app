@@ -13,7 +13,7 @@ user_solution: "
 Look for any vendor-specific battery saver on your device and ideally uninstall if possible, disable if possible.
 
 
-If not, you are left if the option to root your device and uninstall it though **adb** (requires some expert skills though):
+If not, you are left with the option to root your device or uninstall it though **adb** (requires some expert skills though):
 
 
 `adb shell`
@@ -22,7 +22,7 @@ If not, you are left if the option to root your device and uninstall it though *
 `pm uninstall --user 0 com.useless.piece.of.trash`
 
 
-Look though the vendor-specific phone settings and search for anything related to battery optimization or background processing.
+Look through the vendor-specific phone settings and search for anything related to battery optimization or background processing.
 If you find it try to disable it.
 
 ## Android 6+

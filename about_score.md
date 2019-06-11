@@ -38,7 +38,7 @@ We want to be maximally transparent about how we evaluate vendors and give them 
 <img src="/assets/img/placeholder.svg" class="poo score-empty" alt="">
 <img src="/assets/img/placeholder.svg" class="poo score-empty" alt=""></h4>
 
-* Foreground services are killed only when user explicitly configure there phone to do so..
+* Foreground services are killed only when user explicitly configure their phone to do so..
 
 <h4><img src="/assets/img/placeholder.svg" class="poo score-full" alt="">
 <img src="/assets/img/placeholder.svg" class="poo score-empty" alt="">

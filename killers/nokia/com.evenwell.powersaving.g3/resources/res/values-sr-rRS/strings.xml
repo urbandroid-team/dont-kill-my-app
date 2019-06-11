@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Уштеда батерије</string>
+    <string name="app_label">Уштеда батерије</string>
+    <string name="bam_notification_btn_nevershowthis">НИКАД НЕ ПРИКАЗУЈ ОВО</string>
+    <string name="bam_notification_btn_turnon">УКЉУЧИ</string>
+    <string name="bam_notification_content_text">Укључите да бисте побољшали трајање батерије!</string>
+    <string name="bam_notification_content_title">Постоје апликације које троше батерију у позадини.</string>
+    <string name="fih_power_saving_apply_notify">Уштеда батерије је укључена</string>
+    <string name="fih_power_saving_apply_notify_msg">Није омогућена ниједна ставка</string>
+    <string name="fih_power_saving_apply_ticker_msg">Уштеда батерије је укључена, није омогућена ниједна ставка</string>
+    <string name="fih_power_saving_background_activity_text">Ако омогућите Менаџер активности у позадини, то ће да продужи трајање батерије, али обавештења за неке апликације или имејлове можда неће моћи тренутно да се преузимају. Трајањем батерије можете да управљате тако што ћете додати апликације на белу листу или их уклонити са ње.</string>
+    <string name="fih_power_saving_background_activity_text_blacklist">Ако омогућите Менаџер активности у позадини, то ће да продужи трајање батерије, али обавештења за неке апликације или имејлове можда неће моћи тренутно да се преузимају. Трајањем батерије можете да управљате тако што ћете додати апликације на црну листу или их уклонити са ње.</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">Укључивање механизма може да доведе до тога да апликације не могу да примају информације у реалном времену од интернета након искључивања екрана.</string>
+    <string name="fih_power_saving_dialog_cancel">Откажи</string>
+    <string name="fih_power_saving_dialog_ok">Потврди</string>
+    <string name="fih_power_saving_dialog_ok">У РЕДУ</string>
+    <string name="fih_power_saving_doze_high_consumption">Велика потрошња енергије</string>
+    <string name="fih_power_saving_lpm_dialog_msg">Активиран је режим Низак ниво батерије.</string>
+    <string name="fih_power_saving_notice_dialog_title">Обавештење</string>
+    <string name="fih_power_saving_permission_cancel">Откажи</string>
+    <string name="fih_power_saving_permission_first_time_or_always_deny">За правилан рад ове апликације неопходна је додатна дозвола. Доделите дозволе које се траже.</string>
+    <string name="fih_power_saving_permission_lpm_notification_summary">Додирните да бисте дозволили</string>
+    <string name="fih_power_saving_permission_lpm_notification_title">За %s су потребне дозволе</string>
+    <string name="fih_power_saving_permission_msg">За правилан рад ове апликације неопходне су додатне дозволе. Подесите дозволу за %s у менију Подешавања.</string>
+    <string name="fih_power_saving_permission_settings">Подешавања</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">Укључивање механизма може да доведе до тога да апликације са алармом или функцијама обавештења не могу на време да активирају уређај. Препоручујемо да те апликације додате на белу листу за периодичну активацију на страници подешавања.</string>
+    <string name="lock_screen_ap_protect_title">Менаџер активности у позадини</string>
+    <string name="lock_screen_ap_protect_title">Менаџер активности у позадини</string>
+    <string name="switch_off_text">Искључено</string>
+    <string name="switch_off_text">Искључено</string>
+    <string name="switch_on_text">Укључено</string>
+    <string name="switch_on_text">Укључено</string>
+</resources>

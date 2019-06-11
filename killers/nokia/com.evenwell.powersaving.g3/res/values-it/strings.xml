@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Risparmio energetico</string>
+    <string name="fih_power_saving_apply_notify">Sì risparmio energetico</string>
+    <string name="fih_power_saving_apply_notify_msg">No elementi attivi</string>
+    <string name="fih_power_saving_apply_ticker_msg">Sì risparmio energetico. No elementi attivi.</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">Se la modalità è in esecuzione, è possibile che le applicazioni non ricevano dati in tempo reale da Internet con lo schermo spento.</string>
+    <string name="fih_power_saving_dialog_cancel">Cancella</string>
+    <string name="fih_power_saving_dialog_ok">OK</string>
+    <string name="fih_power_saving_lpm_dialog_msg">Risparmio energetico attivato.</string>
+    <string name="fih_power_saving_notice_dialog_title">Notare</string>
+    <string name="fih_power_saving_permission_cancel">Cancella</string>
+    <string name="fih_power_saving_permission_first_time_or_always_deny">"E' necessario un permesso aggiuntivo affinché l'app funzioni correttamente. Concedi il permesso al momento della richiesta."</string>
+    <string name="fih_power_saving_permission_lpm_notification_summary">Tocca e consenti</string>
+    <string name="fih_power_saving_permission_lpm_notification_title">%s richiede autorizzazioni</string>
+    <string name="fih_power_saving_permission_msg">Per funzionare, questa app necessita di altre autorizzazioni. Gestire autorizzazione %s in Impostazioni.</string>
+    <string name="fih_power_saving_permission_settings">Impostazioni</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">Se la modalità è in esecuzione è possibile che le applicazioni con funzioni di allarme o notifica non si riattivino in tempo. Si consiglia di inserirle nella whitelist di attivazione periodica dalla pagina delle impostazioni.</string>
+    <string name="switch_off_text">Off</string>
+    <string name="switch_on_text">On</string>
+</resources>

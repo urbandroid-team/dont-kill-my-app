@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Tiết kiệm pin</string>
+    <string name="fih_power_saving_apply_notify">Tiết kiệm pin bật</string>
+    <string name="fih_power_saving_apply_notify_msg">Chưa bật mục nào</string>
+    <string name="fih_power_saving_apply_ticker_msg">Tiết kiệm pin bật, chưa bật mục nào</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">Bật cơ chế này có thể khiến cho các ứng dụng không thể nhận thông tin trực tiếp từ internet trong khi màn hình tắt.</string>
+    <string name="fih_power_saving_dialog_cancel">Hủy</string>
+    <string name="fih_power_saving_dialog_ok">OK</string>
+    <string name="fih_power_saving_lpm_dialog_msg">Đã kích hoạt c.độ tiết kiệm pin.</string>
+    <string name="fih_power_saving_notice_dialog_title">Thông báo</string>
+    <string name="fih_power_saving_permission_cancel">Hủy</string>
+    <string name="fih_power_saving_permission_first_time_or_always_deny">Để h.động thích hợp, ứng dụng này cần g.phép bổ sung. Hãy cấp phép khi được yêu cầu.</string>
+    <string name="fih_power_saving_permission_lpm_notification_summary">Chạm để cho phép</string>
+    <string name="fih_power_saving_permission_lpm_notification_title">Yêu cầu cấp phép cho %s</string>
+    <string name="fih_power_saving_permission_msg">Để h.động thích hợp, ứng dụng này cần các g.phép bổ sung. Hãy quản lý giấy phép của %s trong Cài đặt.</string>
+    <string name="fih_power_saving_permission_settings">Cài đặt</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">Bật cơ chế này có thể khiến cho các ứng dụng có chức năng báo thức hoặc thông báo không thể khởi động thiết bị đúng giờ. Bạn nên thêm các ứng dụng đó vào d.sách trắng khởi động định kỳ từ trang cài đặt liên quan.</string>
+    <string name="switch_off_text">Tắt</string>
+    <string name="switch_on_text">Bật</string>
+</resources>

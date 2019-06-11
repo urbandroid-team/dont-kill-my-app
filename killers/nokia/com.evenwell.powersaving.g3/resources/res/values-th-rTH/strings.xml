@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bam_notification_btn_nevershowthis">อย่าแสดงข้อความนี้</string>
+    <string name="bam_notification_btn_turnon">เปิด</string>
+    <string name="bam_notification_content_text">เปิดเพื่อเพิ่มอายุการใช้งานแบตเตอรี่</string>
+    <string name="bam_notification_content_title">มีแอปที่ใช้งานแบตเตอรี่ในพื้นหลัง</string>
+    <string name="fih_power_saving_background_activity_text">เปิดใช้งานโปรแกรมจัดการกิจกรรมพื้นหลังเพื่อยืดอายุการใช้งานแบตเตอรี่ แต่อาจไม่ได้รับการแจ้งเตือนเกี่ยวกับแอปหรืออีเมลบางรายการในทันที คุณสามารถจัดการอายุการใช้งานแบตเตอรี่ได้โดยเพิ่มหรือลบแอปออกจากไวท์ลิสต์</string>
+    <string name="fih_power_saving_background_activity_text_blacklist">เปิดใช้งานโปรแกรมจัดการกิจกรรมพื้นหลังเพื่อยืดอายุการใช้งานแบตเตอรี่ แต่อาจไม่ได้รับการแจ้งเตือนเกี่ยวกับแอปหรืออีเมลบางรายการในทันที คุณสามารถจัดการอายุการใช้งานแบตเตอรี่ได้โดยเพิ่มหรือลบแอปออกจากแบล็คลิสต์</string>
+    <string name="fih_power_saving_dialog_cancel">ยกเลิก</string>
+    <string name="fih_power_saving_dialog_ok">ตกลง</string>
+    <string name="fih_power_saving_doze_high_consumption">การใช้พลังงานสูง</string>
+    <string name="fih_power_saving_permission_cancel">ยกเลิก</string>
+    <string name="lock_screen_ap_protect_title">โปรแกรมจัดการกิจกรรมพื้นหลัง</string>
+    <string name="switch_off_text">ปิด</string>
+    <string name="switch_on_text">เปิด</string>
+</resources>

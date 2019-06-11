@@ -25,7 +25,7 @@ To filter the list and see which apps have battery optimization disabled, tap Al
 developer_solution: ""
 ---
 
-So far we did not find out about any non-standard battery optimizations on HTC. It seems the standard ASOP doze mode restrictions apply in your are on Android 6+ as described below.
+So far we did not find out about any non-standard battery optimizations on HTC. It seems the standard AOSP doze mode restrictions apply if your are on Android 6+ as described below.
 
 Below are direct copypastes from their [website](https://www.htc.com/us/support/htc-one-m9/howto/696906.html).
 

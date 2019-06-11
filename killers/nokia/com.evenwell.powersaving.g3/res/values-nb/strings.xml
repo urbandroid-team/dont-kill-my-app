@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Strømsparer</string>
+    <string name="fih_power_saving_apply_notify">Strømsparer på</string>
+    <string name="fih_power_saving_apply_notify_msg">I. elem. aktiv.</string>
+    <string name="fih_power_saving_apply_ticker_msg">Strømsparer på, 0 elem. aktiv.</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">Hvis du aktiverer funksjonen, kan det føre til at appene ikke kan motta sanntidsinformasjon fra Internett når skjermen er slått av.</string>
+    <string name="fih_power_saving_dialog_cancel">Avbryt</string>
+    <string name="fih_power_saving_dialog_ok">SMS-servicesenter er satt</string>
+    <string name="fih_power_saving_lpm_dialog_msg">Strømsparemodus er aktivert.</string>
+    <string name="fih_power_saving_notice_dialog_title">Merknad</string>
+    <string name="fih_power_saving_permission_cancel">Avbryt</string>
+    <string name="fih_power_saving_permission_first_time_or_always_deny">Denne appen krever ekstra tillatelse for å fungere riktig. Gi tillatelse ved forespørsel.</string>
+    <string name="fih_power_saving_permission_lpm_notification_summary">Trykk f till</string>
+    <string name="fih_power_saving_permission_lpm_notification_title">%s krever tillatelser</string>
+    <string name="fih_power_saving_permission_msg">Denne appen krever flere tillatelser for å fungere riktig. Du kan endre %ss tillatelse i Innstilling.</string>
+    <string name="fih_power_saving_permission_settings">Innstillinger</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">Hvis du aktiverer funksjonen, kan det føre til at appene med alarm- eller varslingsfunksjoner ikke kan vekke enheten tidsnok. Vi anbefaler å legge til disse appene i den periodiske vekkehvitlisten fra innstillingssiden.</string>
+    <string name="switch_off_text">Av</string>
+    <string name="switch_on_text">På.</string>
+</resources>

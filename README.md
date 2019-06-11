@@ -18,6 +18,11 @@ Naturally users blame developers for their apps failing to deliver. But the trut
 
 This is the true aim of this site. **To help set things right whenever possible.** Communicate these issues with users and provide them with hacks, workarounds and guides to keep their apps working and making their lives easier.
 
+## Licence
+
+This project's source code is open but not intended to be copied in its entirety.
+The content (compiled site), as it shows at www.dontkillmyapp.com, is licenced under CC-BY licence, and thus free to be shared, adapted, even commercially, under the condition of mentioning the original authors of the site, as either www.dontkillmyapp.com, or Urbandroid Team. 
+
 ## API
 
 The website provides a JSON API at https://dontkillmyapp.com/api/v1/output.json for developers to use on their websites or in their apps.

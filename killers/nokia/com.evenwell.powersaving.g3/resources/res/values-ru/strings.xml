@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Энергосбережение</string>
+    <string name="fih_power_saving_apply_notify">Энергосбережение включено</string>
+    <string name="fih_power_saving_apply_notify_msg">Ни один элемент не активирован</string>
+    <string name="fih_power_saving_apply_ticker_msg">Энергосбережение включено, ни один элемент не активирован</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">Включение этого механизма может привести к тому, что приложения не смогут получать из Интернета информацию в режиме реального времени, пока отключен экран.</string>
+    <string name="fih_power_saving_dialog_cancel">Удалить</string>
+    <string name="fih_power_saving_dialog_ok">хорошо</string>
+    <string name="fih_power_saving_lpm_dialog_msg">Активирован режим низкого энергопотребления.</string>
+    <string name="fih_power_saving_notice_dialog_title">Уведомление</string>
+    <string name="fih_power_saving_permission_cancel">Удалить</string>
+    <string name="fih_power_saving_permission_first_time_or_always_deny">Для нормальной работы приложения нужно дополнительное разрешение. Дайте разрешение, когда будет предложено это сделать.</string>
+    <string name="fih_power_saving_permission_lpm_notification_summary">Нажмите, чтобы разрешить</string>
+    <string name="fih_power_saving_permission_lpm_notification_title">Для %s требуются разрешения</string>
+    <string name="fih_power_saving_permission_msg">Для нормальной работы приложения нужны дополнительные разрешения. Задайте в «Настройках» разрешения для %s.</string>
+    <string name="fih_power_saving_permission_settings">Сохранить</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">Включение этого механизма может привести к тому, что приложения, у которых есть функции уведомлений или сигналов, не смогут вовремя активировать устройство. Рекомендуется внести эти приложения на странице настроек в Белый список для периодической активации.</string>
+    <string name="switch_off_text">Отключено</string>
+    <string name="switch_on_text">Включено</string>
+</resources>

@@ -19,7 +19,7 @@ There are confirmed reports of three different app killing mechanisms:
 
 * *com.evenwell.emm* on Android Go (Oreo?) for **Nokia 1**
 
-* *DuraSpeed* on Android Pie (build 00WW_3_180) for the US **Nokia 3.1** (TA-1049)
+* *DuraSpeed* on Android Pie (build 00WW_3_180) for the US **Nokia 3.1** (TA-1049, TA-1063) and **Nokia 5.1**
 
 
 ### Most Nokia phones (Power saver AKA com.evenwell.powersaving.g3)
@@ -54,7 +54,7 @@ For fun investigative read about Evenwell, check out [Who is Nokia?](https://med
 On Nokia 1 there is an alternative package that works very similar to what the com.evenwell.powersaving.g3 package is doing on the higher end models.
 
 
-### Nokia 3.1 (DuraSpeed)
+### Nokia 3.1 and 5.1 (DuraSpeed)
 
 HMD Global included Mediatek's *DuraSpeed* task killer as a system service. Since DuraSpeed is not packaged as an app, it cannot simply be uninstalled, but it does have a secret settings switch that will enable or disable the service.
 
@@ -100,7 +100,7 @@ Disable the *com.evenwell.emm* package via the following adb commands:
 `pm disable-user com.evenwell.emm`
 
 
-### Nokia 3.1
+### Nokia 3.1 and 5.1
 
 DuraSpeed is not packaged as an app, it cannot simply be uninstalled, but it does have a secret settings switch that will enable or disable the service. The flag is not exposed in the Settings app; it can only be manipulated through adb.
 

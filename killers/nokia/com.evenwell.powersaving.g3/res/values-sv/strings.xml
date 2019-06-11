@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Energibesparing</string>
+    <string name="fih_power_saving_apply_notify">Energibesparing på</string>
+    <string name="fih_power_saving_apply_notify_msg">Inget objekt aktiverat</string>
+    <string name="fih_power_saving_apply_ticker_msg">Energibesparing på. Inget objekt aktiverat.</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">Om funktionen aktiveras kan det hända att applikationen inte får realtidsinformation från internet medan skärmen är av.</string>
+    <string name="fih_power_saving_dialog_cancel">Avbryt</string>
+    <string name="fih_power_saving_dialog_ok">OK</string>
+    <string name="fih_power_saving_lpm_dialog_msg">Lågenergiläget är aktiverat.</string>
+    <string name="fih_power_saving_notice_dialog_title">Obs</string>
+    <string name="fih_power_saving_permission_cancel">Avbryt</string>
+    <string name="fih_power_saving_permission_first_time_or_always_deny">Appen behöver fler behörigheter för att fungera korrekt. Tillåt behörighet när du tillfrågas.</string>
+    <string name="fih_power_saving_permission_lpm_notification_summary">Tryck för att tillåta</string>
+    <string name="fih_power_saving_permission_lpm_notification_title">%s kräver behörigheter</string>
+    <string name="fih_power_saving_permission_msg">Appen behöver fler behörigheter för att fungera korrekt. Hantera behörighet för %s i Inställningar.</string>
+    <string name="fih_power_saving_permission_settings">Inställningar</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">Om funktionen aktiveras kan det hända att applikationer med alarm- och aviseringsfunktioner inte hinner aktivera enheten i tid. Du bör lägga till dessa applikationer i vitlistan för periodisk aktivering på deras inställningssidor.</string>
+    <string name="switch_off_text">Inaktiv</string>
+    <string name="switch_on_text">Aktiv</string>
+</resources>

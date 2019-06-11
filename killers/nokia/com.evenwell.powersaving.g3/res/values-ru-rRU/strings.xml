@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bam_notification_btn_nevershowthis">НЕ ПОКАЗЫВАТЬ ЭТО</string>
+    <string name="bam_notification_btn_turnon">ВКЛЮЧИТЬ</string>
+    <string name="bam_notification_content_text">Включите, чтобы увеличить время работы от батареи!</string>
+    <string name="bam_notification_content_title">Существуют приложения в фоновом режиме, потребляющие заряд батареи.</string>
+    <string name="fih_power_saving_background_activity_text">Включите диспетчер действий в фоновом режиме для увеличения времени работы от батареи, однако уведомления некоторых приложений или почтовых систем, возможно, нельзя будет получить немедленно. Вы можете управлять временем работы от батареи, добавляя приложения в белый список или удаляя из него.</string>
+    <string name="fih_power_saving_background_activity_text_blacklist">Включите диспетчер действий в фоновом режиме для увеличения времени работы от батареи, однако уведомления некоторых приложений или почтовых систем, возможно, нельзя будет получить немедленно. Вы можете управлять временем работы от батареи, добавляя приложения в черный список или удаляя из него.</string>
+    <string name="fih_power_saving_dialog_cancel">Отмена</string>
+    <string name="fih_power_saving_dialog_ok">ОК</string>
+    <string name="fih_power_saving_doze_high_consumption">Высокое потребление энергии</string>
+    <string name="fih_power_saving_permission_cancel">Отмена</string>
+    <string name="lock_screen_ap_protect_title">Диспетчер действий в фоновом режиме</string>
+    <string name="switch_off_text">Выкл.</string>
+    <string name="switch_on_text">Вкл.</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">पॉवर सेव्हर</string>
+    <string name="bam_notification_btn_nevershowthis">हे कधीही दाखवू नका</string>
+    <string name="bam_notification_btn_turnon">चालू करा</string>
+    <string name="bam_notification_content_text">बॅटरी आयुष्‍य वाढवण्यासाठी हे चालू करा!</string>
+    <string name="bam_notification_content_title">पार्श्वभूमीत बॅटरी वापरणारी अ‍ॅप्स आहेत.</string>
+    <string name="fih_power_saving_apply_notify">पॉवर सेव्हर चालू</string>
+    <string name="fih_power_saving_apply_notify_msg">आयटम सक्षम केला नाही</string>
+    <string name="fih_power_saving_apply_ticker_msg">पॉवर सेव्हर चालू, आयटम सक्षम केला नाही</string>
+    <string name="fih_power_saving_background_activity_text">बॅटरी आयुष्य लांबवण्यासाठी पार्श्वभूमी क्रियाकलाप व्यवस्थापक सक्षम करा, परंतु काही अ‍ॅप्स किंवा ईमेल्सच्या सूचना कदाचित त्वरित पुनर्प्राप्त करता येणार नाहीत. श्वेतसूचीमध्ये अ‍ॅप्स जोडून किंवा त्यामधून काढून आपण बॅटरी आयुष्य व्यवस्थापित करू शकता.</string>
+    <string name="fih_power_saving_background_activity_text_blacklist">बॅटरी आयुष्य लांबवण्यासाठी पार्श्वभूमी क्रियाकलाप व्यवस्थापक सक्षम करा, परंतु काही अ‍ॅप्स किंवा ईमेल्सच्या सूचना कदाचित त्वरित पुनर्प्राप्त करता येणार नाहीत. ब्लॅकलिस्टमध्ये अ‍ॅप्स जोडून किंवा त्यामधून काढून आपण बॅटरी आयुष्य व्यवस्थापित करू शकता.</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">यंत्रणा चालू केल्यामुळे स्क्रीन बंद असताना अनुप्रयोग रिअल टाइम माहिती प्राप्त करू शकत नाही.</string>
+    <string name="fih_power_saving_dialog_cancel">रद्द करा</string>
+    <string name="fih_power_saving_dialog_ok">ओके</string>
+    <string name="fih_power_saving_doze_high_consumption">उच्च ऊर्जा वापर</string>
+    <string name="fih_power_saving_lpm_dialog_msg">निम्न पॉवर मोड सक्रिय केला आहे.</string>
+    <string name="fih_power_saving_notice_dialog_title">सूचना</string>
+    <string name="fih_power_saving_permission_cancel">रद्द करा</string>
+    <string name="fih_power_saving_permission_first_time_or_always_deny">योग्यरित्या कार्य करण्यासाठी, या अ‍ॅपला अतिरिक्त परवानग्या आवश्यक आहेत. विचारल्यावर कृपया परवानगीला अनुमती द्या.</string>
+    <string name="fih_power_saving_permission_lpm_notification_summary">अनुमती देण्यासाठी टॅप करा</string>
+    <string name="fih_power_saving_permission_lpm_notification_title">%s ला परवानग्या आवश्यक आहेत</string>
+    <string name="fih_power_saving_permission_msg">योग्यरित्या कार्य करण्यासाठी, या अ‍ॅपला अतिरिक्त परवानग्या आवश्यक आहेत. कृपया सेटिंगमध्ये %s परवानगी व्यवस्थापित करा.</string>
+    <string name="fih_power_saving_permission_settings">सेटिंग्ज</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">यंत्रणा चालू केल्यामुळे अलार्म किंवा अधिसूचना फंक्शन्ससह तो अनुप्रयोग वेळेवर सक्रिय करू शकत नाही. ते अनुप्रयोग त्याच्या सेटिंग पृष्ठामधून नियमित सक्रिय व्हाइट लिस्टमध्ये जोडण्याची शिफारस केली आहे.</string>
+    <string name="lock_screen_ap_protect_title">पार्श्वभूमी क्रियाकलाप व्यवस्थापक</string>
+    <string name="switch_off_text">बंद</string>
+    <string name="switch_on_text">चालू</string>
+</resources>

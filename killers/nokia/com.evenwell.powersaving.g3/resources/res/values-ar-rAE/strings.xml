@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bam_notification_btn_nevershowthis">عدم الإظهار أبدًا</string>
+    <string name="bam_notification_btn_turnon">تشغيل</string>
+    <string name="bam_notification_content_text">قم بتشغيل هذا لتحسين عمر البطارية!</string>
+    <string name="bam_notification_content_title">هناك تطبيقات تستهلك البطارية في الخلفية.</string>
+    <string name="fih_power_saving_background_activity_text_blacklist">تمكين مدير نشاط الخلفية لإطالة عمر البطارية، ولكن قد لا يتم التمكن من استرداد إشعارات بعض التطبيقات أو رسائل البريد الإلكتروني بشكل فوري. يمكنك إدارة عمر البطارية عن طريق إضافة التطبيقات إلى القائمة السوداء إو إزالتها منها.</string>
+    <string name="fih_power_saving_dialog_ok">موافق</string>
+    <string name="lock_screen_ap_protect_title">مدير نشاط الخلفية</string>
+    <string name="switch_off_text">إيقاف</string>
+    <string name="switch_on_text">تشغيل</string>
+</resources>

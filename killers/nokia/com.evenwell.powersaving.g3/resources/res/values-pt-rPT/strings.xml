@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bam_notification_btn_nevershowthis">NUNCA MOSTRAR ISTO</string>
+    <string name="bam_notification_btn_turnon">ATIVAR</string>
+    <string name="bam_notification_content_text">Ative esta opção para melhorar a duração da bateria!</string>
+    <string name="bam_notification_content_title">Existem Aplicações a consumir bateria em segundo plano.</string>
+    <string name="fih_power_saving_background_activity_text">Permita que o Gestor de atividade em segundo plano prolongue a duração da bateria, apesar não poder não ser possível obter imediatamente as notificações de algumas Aplicações ou E-mails. Pode gerir a duração da bateria ao adicionar ou remover as Aplicações da lista de permissões.</string>
+    <string name="fih_power_saving_background_activity_text_blacklist">Permita que o Gestor de atividade em segundo plano prolongue a duração da bateria, apesar não poder não ser possível obter imediatamente as notificações de algumas Aplicações ou E-mails. Pode gerir a duração da bateria ao adicionar ou remover as Aplicações da lista negra.</string>
+    <string name="fih_power_saving_dialog_cancel">Cancelar</string>
+    <string name="fih_power_saving_dialog_ok">OK</string>
+    <string name="fih_power_saving_doze_high_consumption">Consumo energético elevado</string>
+    <string name="fih_power_saving_permission_cancel">Cancelar</string>
+    <string name="lock_screen_ap_protect_title">Gestor de atividade em segundo plano</string>
+    <string name="switch_off_text">Desativar</string>
+    <string name="switch_on_text">Ativar</string>
+</resources>

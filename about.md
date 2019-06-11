@@ -31,6 +31,12 @@ This is the true aim of this site. **To help set things right whenever possible.
 
 ***
 
+The issues have been reported to Google on the Android Public Tracker:
+
+* [Chinese OEMs constantly violating Android compliance](https://issuetracker.google.com/issues/122098785)
+* [Request: Don't let manufacturers to ruin how apps start themselves](https://issuetracker.google.com/issues/123653024)
+
+
 ### Sources
 
 The information on the site is gathered from multiple sources. The big part is from the experience of the Urbandroid Team, but increasingly information is added from FAQs of other developers and from personal experience shared on the Github repo.

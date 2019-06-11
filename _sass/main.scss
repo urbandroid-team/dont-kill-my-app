@@ -184,7 +184,7 @@ blockquote {
 .card-vendor-award:hover {
   background-color: grey;
 }
-#contribute {
+#vendor-btn-contribute {
   float: right;
   background-image: url('/assets/img/pencil-outline.svg');
   background-size: contain;
@@ -197,10 +197,26 @@ blockquote {
   border-radius: 4px;
   background-repeat: no-repeat;
   &:hover {
-    background-color: lightgrey;
-    color: grey;
+    font-weight: bold;
+    transform: scale(1.1)
   }
-
+}
+#vendor-btn-feedback {
+  float: right;
+  background-image: url('/assets/img/pencil-outline.svg');
+  background-size: contain;
+  height: 1.2em;
+  margin: 0.4em;
+  padding: 0.4em;
+  padding-bottom: 0.6em;
+  padding-left: 2.2em;
+  // border: 1px solid rgba(0,0,0,0.8);
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  &:hover {
+    font-weight: bold;
+    transform: scale(1.1)
+  }
 }
 
 a, a:visited {

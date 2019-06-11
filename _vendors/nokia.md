@@ -5,8 +5,8 @@ manufacturer:
   - hmd global
 redirect_from:
   - /vendors/nokia.html
-award: 5
-position: 1
+award: 4
+position: 3
 explanation: "
 
 It seems HMD Global finally found the killer app, but unfortunately it is killing other apps!

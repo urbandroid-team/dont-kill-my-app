@@ -41,6 +41,7 @@ The information on the site is gathered from multiple sources. The big part is f
 * [ACR](https://bitbucket.org/copluk/acr/issues/607)
 * [Kayako](https://support.kayako.com/article/1461-why-aren-t-push-notifications-working-on-my-android-app)
 * [DAVx<sup>5</sup>](https://www.davx5.com/faq/synchronization-is-not-run-as-expected)
+* [Nine](http://nine-faq.9folders.com/categories/2758-troubleshooting)
 
 ### How we evaluate the crap score
 

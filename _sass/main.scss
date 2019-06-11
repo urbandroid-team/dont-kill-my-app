@@ -261,6 +261,10 @@ img {
   img {
     display: inline-block;
   }
+  figure {
+    display: inline-block;
+    vertical-align: top;
+  }
 }
 
 @media only screen and (min-width: 601px) {

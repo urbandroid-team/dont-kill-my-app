@@ -8,6 +8,16 @@ redirect_from:
 award: 4
 position: 3
 explanation: "
+<div class='caution-box'>
+UPDATE: With the Pie update to Nokia Android One devices, Nokia started to roll out a whitelist policy based task killer app internationally.
+This caused unprecedented background processing issues. Now it seems they realized the mistake and Nokia is slowly rolling out fixes
+to use a blacklist approach instead for the western world market, where Chinese releases still use the whitelist approach. We are still
+monitoring this and are happy for any feedback. For the time being we did improve the crap score of Nokia by one and we hope this
+issue will be completely resolved. For details on this please see <a href=\"https://github.com/urbandroid-team/dont-kill-my-app/issues/55\">here</a>.
+</div>
+
+
+
 
 It seems HMD Global finally found the killer app, but unfortunately it is killing other apps!
 

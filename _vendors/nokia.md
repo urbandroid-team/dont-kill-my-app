@@ -1,5 +1,6 @@
 ---
 name: Nokia
+subtitle: including Android One
 manufacturer:
   - nokia
   - hmd global

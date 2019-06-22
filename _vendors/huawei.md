@@ -82,8 +82,8 @@ Here is how you can workaround this in code:
 String tag = YOUR_TAG;
 
 
-if (Build.VERSION.SDK_INT == Build.VERSION_CODES.M && Build.MANUFACTURER.equals(\"Huawei\") {
-    tag = \"LocationManagerService\"
+if (Build.VERSION.SDK_INT == Build.VERSION_CODES.M && Build.MANUFACTURER.equals(\"Huawei\")) {
+    tag = \"LocationManagerService\";
 }
 
 

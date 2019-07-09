@@ -33,8 +33,7 @@ Always check the following setting
 ## Android 8+
 
 Check if **Phone settings > Apps & Notifications > Your app > Background restrictions** or **Background limits** are not enabled for the app.
-
-
+. i
 If all fails you can turn Doze mode off completely.
 
 ## Turn off doze on Android 6.0 and earlier

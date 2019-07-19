@@ -1,4 +1,4 @@
----
+J4+
 name: Samsung
 manufacturer:
   - samsung

@@ -62,7 +62,8 @@
       {%- if page.user_solution and page.user_solution != "" -%}
         <section id="user-solution-section">
           <h2 id="user-solution-title"><a id="user-solution"></a><img src="/assets/img/muscle.svg" class="poo" alt=""> Solution for users</h2>
-          <a href="https://github.com/urbandroid-team/dont-kill-my-app/issues/new?title=Feedback%20for%20{{page.name}}%page" id="vendor-btn-feedback">Feedback</a>
+          {% assign feedbackUrl = "https://github.com/urbandroid-team/dont-kill-my-app/issues/new?title=Feedback for" %}
+          <a href="{{ 'https://github.com/urbandroid-team/dont-kill-my-app/issues/new?title=Feedback for ' | append: page.name | append: ' page' | uri_escape }}" id="vendor-btn-feedback">Feedback</a>
 
           <p>{{ page.user_solution | markdownify }}</p>
         </section>

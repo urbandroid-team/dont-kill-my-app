@@ -1,5 +1,6 @@
 ---
-name: Xiaomi (Andr.One N/I)
+name: Xiaomi
+subtitle: except Android One
 manufacturer:
   - xiaomi
 position: 4

@@ -1,5 +1,6 @@
 ---
 name: Huawei
+subtitle: except Nexus 6P
 manufacturer:
   - huawei
 redirect_from: /vendors/huawei.html
@@ -81,8 +82,8 @@ Here is how you can workaround this in code:
 String tag = "com.my_app:LOCK";
 
 
-if (Build.VERSION.SDK_INT == Build.VERSION_CODES.M && Build.MANUFACTURER.equals(\"Huawei\") {
-    tag = \"LocationManagerService\"
+if (Build.VERSION.SDK_INT == Build.VERSION_CODES.M && Build.MANUFACTURER.equals(\"Huawei\")) {
+    tag = \"LocationManagerService\";
 }
 
 

@@ -79,7 +79,7 @@ Here is how you can workaround this in code:
 
 ```
 
-String tag = "com.my_app:LOCK";
+String tag = YOUR_TAG;
 
 
 if (Build.VERSION.SDK_INT == Build.VERSION_CODES.M && Build.MANUFACTURER.equals(\"Huawei\")) {
@@ -87,8 +87,7 @@ if (Build.VERSION.SDK_INT == Build.VERSION_CODES.M && Build.MANUFACTURER.equals(
 }
 
 
-PowerManager.WakeLock wakeLock = ((PowerManager) getSystemService(Context.POWER_SERVICE)).newWakeLock(1, tag);
-wakeLock.acquire();
+((PowerManager) getSystemService(\"power\")).newWakeLock(1, tag);
 
 ```
 

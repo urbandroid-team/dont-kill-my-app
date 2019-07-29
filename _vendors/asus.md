@@ -3,7 +3,7 @@ name: Asus
 manufacturer:
   - asus
 award: 4
-position: 6
+position: 7
 redirect_from: /vendors/asus.html
 explanation: '
 We are still collection feedback on Asus device so the following may not be a exhaustive list of issues.

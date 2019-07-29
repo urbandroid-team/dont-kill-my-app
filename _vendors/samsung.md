@@ -1,5 +1,6 @@
 ---
 name: Samsung
+subtitle: Especially after Android Pie update
 manufacturer:
   - samsung
 award: 4

@@ -8,7 +8,7 @@ position: 5
 redirect_from: /vendors/samsung.html
 explanation: "
 <div class='caution-box'>
-UPDATE: We record an significantly increased number of app killing on Samsung's Android Pie flavor. The hints show on adaptive battery being much more eager than in stock Android. We strongly suggest to turn off any adaptive battery and putting apps to sleep options as of below.
+UPDATE: We record significantly increased number of app killing on Samsung's Android Pie flavor. The hints show adaptive battery being much more eager than in stock Android. We strongly suggest to turn off *adaptive battery* and *put apps to sleep* options per instructions below.
 </div>
 
 Yes, even Samsung - a dominant vendor in the Android market - is using nasty battery saving technique which may kill background processes and render alarm clocks useless. See below for workarounds.

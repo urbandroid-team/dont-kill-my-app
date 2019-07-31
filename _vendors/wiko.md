@@ -22,7 +22,7 @@ user_solution: '
 <div class=\"img-block\">
   <figure>
     <img src=\"/assets/img/wiko/wiko_1.png\">
-    <figcaption>1. Start <strong>Phone assist</strong> and tap <string>Tap Power Saver</strong></figcaption>
+    <figcaption>1. Start <strong>Phone assist</strong> and tap <strong>Tap Power Saver</strong></figcaption>
   </figure>
 
   <figure>

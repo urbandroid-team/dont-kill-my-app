@@ -19,7 +19,6 @@ user_solution: '
 * Tap on the *Gear icon* on top right *> Background apps whitelist >* Now select *Your app*
 
 
-.jpg
 <div class="img-block">
   <figure>
     <img src="/assets/img/wiko/wiko_1.png">

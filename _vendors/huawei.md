@@ -47,10 +47,10 @@ You need to:
 3. Enable [Developer options](https://developer.android.com/studio/debug/dev-options.html)
 
 
-4. Enable USB debugging within Developer options\
+4. Enable USB debugging within Developer options on your phone
 
 
-5. Run the following commands:
+5. Run the following commands on your computer:
 
 
 `adb shell pm uninstall --user 0 com.huawei.powergenie`

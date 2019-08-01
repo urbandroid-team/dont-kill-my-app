@@ -72,7 +72,9 @@ We did not yet had thsi confirmed but it is possible you can alternatively just 
 
 * *Phone settings > Battery > App launch* and then set your app to “Manage manually” and make sure everything is turned on.
 
-+ For realible background processes you need to uninstall PowerGenie as described above.
+Alo for realible background processes you need to uninstall PowerGenie as described above.
+
+
 
 ### Huawei Honor 9 Lite, Huawei Mate 9 Pro
 

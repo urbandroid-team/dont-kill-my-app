@@ -17,6 +17,29 @@ In some of the EMUI versions (we know about EMUI 4 at and we have some reports a
 
 user_solution: '
 
+### EMUI 9+ devices
+
+
+Huawei is extremely inventive in breaking apps on there device. It seems on Android Pie, in addition to all the non-standard power management measures described below
+they introduced a new task killer app build right into EMUI 9. It is called PowerGenie and you cannot add custom apps on their pre-defined whitelist. This means there is 
+no other way to fix proper app functionality on Huawei than installing PowerGenie. 
+
+
+
+Unfortunately this is a system app and can only be fully uninstalled using ADB (Android Debug Bridge) Source: [XDA](https://forum.xda-developers.com/mate-20-pro/themes/remove-powergenie-to-allow-background-t3890409).
+
+
+You need to:
+1. [install ABD](https://www.xda-developers.com/install-adb-windows-macos-linux/) on your computed
+2. Connect your phone with a data cable
+3. Enable [Developer options](https://developer.android.com/studio/debug/dev-options.html)
+4. Enable USB debugging within Developer options\
+5. Run the following commands:
+
+`adb shell pm uninstall --user 0 com.huawei.powergenie`
+
+
+Please still follow the steps below and Huawei does not have a single power saving mechanism but rather multiple.  
 
 
 ### EMUI 6+ devices (and some EMUI 5 devices)

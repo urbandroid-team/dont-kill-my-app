@@ -7,6 +7,12 @@ redirect_from: /vendors/huawei.html
 award: 5
 position: 1
 explanation: "
+
+<div class='caution-box'>
+UPDATE: It seems on EMUI 9+ (Android P+) Huawei introduced a new task killer app called PowerGenie which kills everything not whitelisted form Huawei and does not give users any configuration options. See below how to uninstall it.
+</div>
+
+
 Traditionally Huawei and their Android customization called EMUI belongs to the most troubled on the market with respect to non-standard background process limitations.
 
 There are no APIs and no documentation for those extensions. In default settings background processing simply does not work right and apps working in background will break.
@@ -20,7 +26,7 @@ user_solution: '
 ### EMUI 9+ devices
 
 
-Huawei is extremely inventive in breaking apps on there device. It seems on Android Pie, in addition to all the non-standard power management measures described below
+Huawei is extremely inventive in breaking apps on there devices. It seems on Android Pie, in addition to all the non-standard power management measures described below
 they introduced a new task killer app build right into EMUI 9. It is called PowerGenie and you cannot add custom apps on their pre-defined whitelist. This means there is 
 no other way to fix proper app functionality on Huawei than installing PowerGenie. 
 
@@ -41,6 +47,10 @@ You need to:
 
 Please still follow the steps below and Huawei does not have a single power saving mechanism but rather multiple.  
 
+
+We did not yet had thsi confirmed but it is possible you can alternatively just disable PowerGenie in *Phone settings > Apps* but this setting needs to be re-applied every time you reboot your device.
+
+ 
 
 ### EMUI 6+ devices (and some EMUI 5 devices)
 

@@ -36,13 +36,25 @@ Unfortunately this is a system app and can only be fully uninstalled using ADB (
 
 
 You need to:
+
+
 1. [install ABD](https://www.xda-developers.com/install-adb-windows-macos-linux/) on your computed
+
+
 2. Connect your phone with a data cable
+
+
 3. Enable [Developer options](https://developer.android.com/studio/debug/dev-options.html)
+
+
 4. Enable USB debugging within Developer options\
+
+
 5. Run the following commands:
 
+
 `adb shell pm uninstall --user 0 com.huawei.powergenie`
+
 
 
 Please still follow the steps below and Huawei does not have a single power saving mechanism but rather multiple.  

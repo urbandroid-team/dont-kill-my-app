@@ -8,7 +8,7 @@ position: 2
 redirect_from: /vendors/samsung.html
 explanation: "
 <div class='caution-box'>
-UPDATE: We record significantly increased number of app killing on Samsung's Android Pie flavor. The hints show adaptive battery being much more eager than in stock Android.<br>After 3 days any unused app will not be able to start from background (e.g. alarms will not work anymore). Imagine, you won't use your alarm clock for a the weekend +1 day and bang no alarms any more and you miss work! We strongly suggest to turn off <strong>adaptive battery</strong> and <strong>put apps to sleep</strong> options per instructions below.
+UPDATE: We record significantly increased number of app killing on Samsung's Android Pie flavor. The hints show adaptive battery being much more eager than in stock Android.<br>After 3 days any unused app will not be able to start from background (e.g. alarms will not work anymore). Imagine, you won't use your alarm clock for a the weekend +1 day and bang no alarms any more and you miss work! We strongly suggest to turn off <strong>Adaptive battery</strong> and <strong>Put apps to sleep</strong> options per instructions below.
 </div>
 
 Yes, even Samsung - a dominant vendor in the Android market - is using nasty battery saving technique which may kill background processes and render alarm clocks useless. See below for workarounds.

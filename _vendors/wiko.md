@@ -52,9 +52,10 @@ user_solution: "
 </div>
 
 
-Alternatively:
+#### Alternatively:
 
-Go to dialer and put the code \"##86569726##\" and uncheck *Lowram Enable* And *Background enable*. **NOTE**: this needs to be done again after reboot
+Go to dialer and put the code `*#*#86569726#*#*` and uncheck *Lowram Enable* And *Background enable*.<br>
+**NOTE**: this needs to be done again after reboot.
 
 "
 

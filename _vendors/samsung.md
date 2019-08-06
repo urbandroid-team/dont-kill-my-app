@@ -24,7 +24,7 @@ Below are walkthrough screenshots for Galaxy S10. Please let us know your feedba
 
 ### Sleeping apps
 
-Sleeping apps menu is the hive nest for Samsung's app killing policies. Make sure to follow the instructions very carefully to prevent the apps from being killed.
+Sleeping apps menu is the sniper's nest for Samsung's app killing policies. Make sure to follow the instructions very carefully to prevent the apps from being killed.
 
 
 Checklist:

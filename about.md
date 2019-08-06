@@ -16,7 +16,7 @@ phone less capable. [Read more](/problem)"
 
 Smartphones are getting more and more powerful, but the battery capacity is lagging behind. Vendors are always trying to squeeze some battery saving features into the firmware with each new Android release.
 
-But some go so far that they break useful apps just to get a little more juice out of your device. This even gets so absurd that with some vendors (e.g. Nokia, Xiaomi, OnePlus or Huawei) our smart phones are becoming **dumbphones** again.
+But some go so far that they break useful apps just to get a little more juice out of your device. This even gets so absurd that with some vendors (e.g. Nokia, Xiaomi, OnePlus, Samsung or Huawei) our smart phones are becoming **dumbphones** again.
 
 Dumbphones are unable to do any useful tasks for you in the background unless you actively use your device at the time. This affects most of the apps which are not just another browser window. Most affected are alarm clocks, health trackers, automation apps or simply anything which needs to do some job for you at a particular moment when you don't use your phone.
 

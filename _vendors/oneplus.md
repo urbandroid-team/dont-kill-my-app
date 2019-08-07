@@ -34,7 +34,9 @@ Also try:
 
 > NOTE: Some of our users indicated that you need to disable Doze mode in Developer options in 1+3 and earlier.
 
-Also disable **Settings > Battery > Battery optimization > (three dots) > Enhanced optimization**. This option may also be called **Advanced optimisation**.
+Also disable **Settings > Battery > Battery optimization > (three dots) > Enhanced optimization**. This option may also be called **Advanced optimisation** (OnePlus 6).
+
+> NOTE: This solves the problem where you lose BlueTooth connection to your Smart Watch / Fitness Tracker during the night (e.g. for sleep tracking).
 
 
 Recent app clear behaviour manager is also a likely culprit:

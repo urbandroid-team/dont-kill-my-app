@@ -38,7 +38,7 @@ Unfortunately this is a system app and can only be fully uninstalled using ADB (
 You need to:
 
 
-1. [install ABD](https://www.xda-developers.com/install-adb-windows-macos-linux/) on your computed
+1. [install ADB](https://www.xda-developers.com/install-adb-windows-macos-linux/) on your computed
 
 
 2. Connect your phone with a data cable

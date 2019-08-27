@@ -1,4 +1,4 @@
----
+Mi A2 Lite
 name: Xiaomi
 subtitle: except Android One
 manufacturer:
@@ -32,7 +32,8 @@ To let your app run successfully in the background, make sure your settings look
 ### Power management
 
 
-Please enable:
+Please enable:yes
+
 
 * *Settings > Advanced Settings > Battery manager > Power plan* is set to Performance
 

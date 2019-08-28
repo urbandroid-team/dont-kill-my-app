@@ -99,6 +99,6 @@ It’s excessive and in some cases downright misleading, using scare tactics to 
 
 "
 
-developer_solution: "No known solution on developer end"
+developer_solution: "On Android pie they can only prompt users to enable 'allow background activity' for their application in app info & redirect them with one tap there, and they can also prompt users to dissable 'adaptive power usage' for their own app & redirect them in app info again flash showing the option (just like the notifications options when you go to notification settings via tap&hold a specific kind of notification) (I have seen tubemate (tubemate.net) app using that method) but the users have to tap on it and search for the app in the optimized apps category and remove it from that list"
 
 ---

@@ -11,7 +11,11 @@ explanation: "OnePlus and their Oxygen OS Android modification is known as maxim
 When releasing their 1+5 and 1+6 phones, OnePlus introduced one of the most severe background limits on the market to date, dwarfing even those performed by Xiaomi or Huawei. Not only did users need to enable extra settings to make their apps work properly, but those settings even get reset with firmware update so that apps break again and users are required to re-enable those settings on a regular basis.
 "
 
-user_solution: "Turn off **System Settings > Apps > Gear Icon > Special Access > Battery Optimization**.
+user_solution: "
+
+## OnePlus 1 - 6
+
+Turn off **System Settings > Apps > Gear Icon > Special Access > Battery Optimization**.
 
 > WARNING: Recently OnePlus phones started reverting this setting randomly for random apps. So if you set it to be **not optimized**, the next day it may be back to **optimized**. There is no workaround and you may have to check system settings every once in a while.<br>See [a bug report filed to OnePlus](https://forums.oneplus.com/threads/in-battery-optimisation-apps-are-getting-automatically-switched-from-not-optimised-to-optimised.849162/).
 <br>
@@ -44,6 +48,13 @@ Recent app clear behaviour manager is also a likely culprit:
   <img src=\"/assets/img/ss_oneplus_2b.jpg\">
 </div>
 
+## OnePlus 7 - 7 Pro
+
+In addition to previous configurations, you can take a look here :
+
+**Settings > Battery > Battery optimization > (three dots) > Advanced optimisation > Deep Optimisation.** (And eventually Sleep standby optimisation).
+
+This can have an impact on the reception of a background notification.
 "
 
 developer_solution: "No known solution on the developer end"

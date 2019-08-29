@@ -67,6 +67,12 @@ On Nokia 1 there is an alternative package that works very similar to what the c
 
 ### Nokia 3.1 and 5.1 (DuraSpeed)
 
+<div class='caution-box'>
+UPDATE: August 2019: Good news. It seems Nokia has fixed the issue and removed these battery saving apps in recent firmware update
+Nokia 3.1 SW 00WW_3_190
+Nokia 5.1 SW 00WW_3_180
+<div/>
+
 HMD Global included Mediatek's *DuraSpeed* task killer as a system service. Since DuraSpeed is not packaged as an app, it cannot simply be uninstalled, but it does have a secret settings switch that will enable or disable the service.
 
 

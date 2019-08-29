@@ -6,55 +6,60 @@ manufacturer:
   - hmd global
 redirect_from:
   - /vendors/nokia.html
-award: 4
-position: 3
+award: 3
+position: 7
 explanation: "
+
 <div class='caution-box'>
-UPDATE: With the Pie update to Nokia Android One devices, Nokia started to roll out a whitelist policy based task killer app internationally.
-This caused unprecedented background processing issues. Now it seems they realized the mistake and Nokia is slowly rolling out fixes
-to use a blacklist approach instead for the western world market, where Chinese releases still use the whitelist approach. We are still
-monitoring this and are happy for any feedback. For the time being we did improve the crap score of Nokia by one and we hope this
-issue will be completely resolved. For details on this please see <a href=\"https://github.com/urbandroid-team/dont-kill-my-app/issues/55\">here</a>.
+  8/2019 update
+  <br><br>
+  <b>GOOD NEWS</b>: HMD Global <a href=\"https://community.phones.nokia.com/discussion/51246/tapping-into-android-pies-adaptive-battery-for-optimum-battery-performance\">claims to disable Evenwell powersaving apps</a> on all devices running Android Pie or newer.
+  <br>
+  <b>NOT SO GOOD NEWS</b>: DuraSpeed remains.
 </div>
 
+HMD Global/Nokia was the main reason this website came to exist. They had the most aggressive app killers preinstalled on their phones.
 
 
-
-It seems HMD Global finally found the killer app, but unfortunately it is killing other apps!
-
-
-There are confirmed reports of three different app killing mechanisms:
+There were three different app killing mechanisms:
 
 
-* *com.evenwell.powersaving.g3* on Android Pie for **most Nokia phones**
+* *com.evenwell.powersaving.g3* on Android Pie for most Nokia phones - **this one has been disabled since 8/2019 on devices running Pie or greater**
 
-* *com.evenwell.emm* on Android Go (Oreo?) for **Nokia 1**
+* *com.evenwell.emm* on Android Go (Oreo?) for Nokia 1 - **probably still in the wild since HMD only disabled Evenwell apps for Pie or greater**
 
-* *DuraSpeed* on Android Pie (build 00WW_3_180) for the US **Nokia 3.1** (TA-1049, TA-1063) and **Nokia 5.1**
+* *DuraSpeed* on Android Pie (build 00WW_3_180) for the US Nokia 3.1 (TA-1049, TA-1063) and Nokia 5.1 - **this one is still in the wild**
 
 
 ### Most Nokia phones (Power saver AKA com.evenwell.powersaving.g3)
 
-Note: In Feb/March 2019, apparently on a few models distributed in Europe and US, the Evenwell Power Saver has been reworked to not kill the apps as aggressively, which largely resolves all issues for those models.
+<div class='caution-box'>
+  The Evenwell Power saver *(com.evenwell.powersaving.g3)* has been disabled by HMD Global for devices running Pie or greater as of 8/2019.
+</div>
+
+The text below has been left here for a historical read.
 
 
-Nokia on Android O and P kills any background process including sleep tracking (or any other sport tracking) after 20 minutes if the screen is off. Also when killed all alarms are stopped which renders for example any alarm clock apps useless.
+~~Note: In Feb/March 2019, apparently on a few models distributed in Europe and US, the Evenwell Power Saver has been reworked to not kill the apps as aggressively, which largely resolves all issues for those models.~~
 
 
-We have investigated this issue in details. We did even purchase a Nokia 6.1 to be able to reproduce the issue. The problem only occurs on Nokia devices with Android Pie. Nokia started to bundle a toxic app (package: com.evenwell.powersaving.g3 or com.evenwell.emm, name: Power saver) with their devices by some 3rd party company Evenwell. This app kills apps in the most brutal way we have seen so far among Android vendors.
+~~Nokia on Android O and P kills any background process including sleep tracking (or any other sport tracking) after 20 minutes if the screen is off. Also when killed all alarms are stopped which renders for example any alarm clock apps useless.~~
 
 
-Whitelisting apps from battery optimizations does not help! Evenwell kills even whitelisted apps.
+~~We have investigated this issue in details. We did even purchase a Nokia 6.1 to be able to reproduce the issue. The problem only occurs on Nokia devices with Android Pie. Nokia started to bundle a toxic app (package: com.evenwell.powersaving.g3 or com.evenwell.emm, name: Power saver) with their devices by some 3rd party company Evenwell. This app kills apps in the most brutal way we have seen so far among Android vendors.~~
 
 
-What this non-standard app does is every process gets killed after 20 minutes regardless it is actually supposed to be running and doing a useful job for the user. Also alarms are not triggered. The aim is apparently to save your battery by rendering tracking apps and other apps that use background processing useless.
+~~Whitelisting apps from battery optimizations does not help! Evenwell kills even whitelisted apps.~~
 
 
-Moreover even 3rd party user visible alarms (alarm clock alarms) are not triggering properly on Nokia as foreground services cannot be started from background on Nokia. This is a serious issue unparalleled to any other vendor. We did not yet find a workaround for this :(. 3rd party alarms clock / calendars etc... won't be realiable on Nokia.
+~~What this non-standard app does is every process gets killed after 20 minutes regardless it is actually supposed to be running and doing a useful job for the user. Also alarms are not triggered. The aim is apparently to save your battery by rendering tracking apps and other apps that use background processing useless.~~
 
 
-You can read more on this issue here:
-[https://community.phones.nokia.com/discussion/3428/background-service-killed-even-when-whitelisted](https://community.phones.nokia.com/discussion/3428/background-service-killed-even-when-whitelisted)
+~~Moreover even 3rd party user visible alarms (alarm clock alarms) are not triggering properly on Nokia as foreground services cannot be started from background on Nokia. This is a serious issue unparalleled to any other vendor. We did not yet find a workaround for this :(. 3rd party alarms clock / calendars etc... won't be realiable on Nokia.~~
+
+
+~~You can read more on this issue here:
+[https://community.phones.nokia.com/discussion/3428/background-service-killed-even-when-whitelisted](https://community.phones.nokia.com/discussion/3428/background-service-killed-even-when-whitelisted)~~
 
 
 For fun investigative read about Evenwell, check out [Who is Nokia?](https://medium.com/@roundedeverett/who-is-nokia-cb24ecbc52a9)
@@ -66,12 +71,6 @@ On Nokia 1 there is an alternative package that works very similar to what the c
 
 
 ### Nokia 3.1 and 5.1 (DuraSpeed)
-
-<div class='caution-box'>
-UPDATE: August 2019: Good news. It seems Nokia has fixed the issue and removed these battery saving apps in recent firmware update
-Nokia 3.1 SW 00WW_3_190
-Nokia 5.1 SW 00WW_3_180
-<div/>
 
 HMD Global included Mediatek's *DuraSpeed* task killer as a system service. Since DuraSpeed is not packaged as an app, it cannot simply be uninstalled, but it does have a secret settings switch that will enable or disable the service.
 
@@ -99,6 +98,10 @@ Still 3rd party alarm clocks or any task scheduling of foreground tasks at a par
 Alternative solution for tech-savvy users:
 
 ### Most Nokia models
+
+<div class='caution-box'>
+  The Evenwell Power saver *(com.evenwell.powersaving.g3)* has been disabled by HMD Global for devices running Pie or greater as of 8/2019.
+</div>
 
 
 Disable the *com.evenwell.powersaving.g3* package via the following adb commands:

@@ -38,7 +38,7 @@ Unfortunately this is a system app and can only be fully uninstalled using ADB (
 You need to:
 
 
-1. [install ADB](https://www.xda-developers.com/install-adb-windows-macos-linux/) on your computed
+1. [install ADB](https://www.xda-developers.com/install-adb-windows-macos-linux/) on your computer
 
 
 2. Connect your phone with a data cable
@@ -60,7 +60,7 @@ You need to:
 Please still follow the steps below and Huawei does not have a single power saving mechanism but rather multiple.  
 
 
-We did not yet had thsi confirmed but it is possible you can alternatively just disable PowerGenie in *Phone settings > Apps* but this setting needs to be re-applied every time you reboot your device.
+We did not yet had this confirmed but it is possible you can alternatively just disable PowerGenie in *Phone settings > Apps* but this setting needs to be re-applied every time you reboot your device.
 
  
 

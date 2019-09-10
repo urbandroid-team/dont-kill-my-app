@@ -9,26 +9,31 @@ position: 1
 explanation: "
 
 <div class='caution-box'>
-UPDATE: It seems on EMUI 9+ (Android P+) Huawei introduced a new task killer app called PowerGenie which kills everything not whitelisted form Huawei and does not give users any configuration options. See below how to uninstall it.
+<strong>UPDATE</strong>: On some phones with EMUI 9+ (Android P+) Huawei introduced a new task killer app called PowerGenie which kills everything not whitelisted by Huawei and does not give users any configuration options. See below how to uninstall it.
+<br>
+We have mixed reviews on Huawei - the PowerGenie app is present on some EMUI 9+ systems, while on others it isn't.
 </div>
 
 
 Traditionally Huawei and their Android customization called EMUI belongs to the most troubled on the market with respect to non-standard background process limitations.
 
-There are no APIs and no documentation for those extensions. In default settings background processing simply does not work right and apps working in background will break.
+There are no APIs and no documentation for those extensions. On default settings, background processing simply does not work right and apps working in background will break.
 
 
 In some of the EMUI versions (we know about EMUI 4 at and we have some reports about EMUI 5 and now the latest EMUI 9) no user accessible settings can prevent the system to break background processing longer than 60 minutes. This is done by an evil custom service called HwPFWService (and in EMUI 9 this is called PowerGenie) developed and bundled with EMUI by Huawei.
 "
 
-user_solution: '
+user_solution: "
 
 ### EMUI 9+ devices
 
 
 Huawei is extremely inventive in breaking apps on there devices. It seems on Android Pie, in addition to all the non-standard power management measures described below
-they introduced a new task killer app build right into EMUI 9. It is called PowerGenie and you cannot add custom apps on their pre-defined whitelist. This means there is 
-no other way to fix proper app functionality on Huawei than uninstalling PowerGenie. 
+they introduced a new task killer app build right into EMUI 9.
+
+
+It is called <b>PowerGenie</b> and it kills all apps that are not on its whitelist. You cannot add custom apps on their pre-defined whitelist. This means there is
+no other way to fix proper app functionality on Huawei than uninstalling PowerGenie.
 
 
 
@@ -56,13 +61,15 @@ You need to:
 `adb shell pm uninstall --user 0 com.huawei.powergenie`
 
 
+We did not yet have this confirmed but it is possible you can alternatively just disable PowerGenie in *Phone settings > Apps*. This setting would need to be re-applied every time you reboot your device.
 
-Please still follow the steps below and Huawei does not have a single power saving mechanism but rather multiple.  
 
+<div class=\"caution-box\">
+Please still follow the steps below - Huawei phones usually have multiple powersaving mechanisms.
+<br><br>
+Also, you may not have PowerGenie on your phone, but your apps may still get killed by another mechanism.
+</div>
 
-We did not yet had this confirmed but it is possible you can alternatively just disable PowerGenie in *Phone settings > Apps* but this setting needs to be re-applied every time you reboot your device.
-
- 
 
 ### EMUI 6+ devices (and some EMUI 5 devices)
 
@@ -80,11 +87,11 @@ We did not yet had this confirmed but it is possible you can alternatively just 
 * *Phone settings > Apps > Settings > Special access > Ignore battery optimisation >* select allow for your app.
 
 
-### Huawei P20
+### Huawei P20, Huawei P20 Lite, Huawei Mate 10
 
 * *Phone settings > Battery > App launch* and then set your app to “Manage manually” and make sure everything is turned on.
 
-Alo for reliable background processes you need to uninstall PowerGenie as described above.
+Also for reliable background processes you may need to uninstall PowerGenie as described above.
 
 
 
@@ -92,9 +99,9 @@ Alo for reliable background processes you need to uninstall PowerGenie as descri
 
 * *Phone settings > Battery > Launch* and then set your app to “Manage manually” and make sure everything is turned on.
 
-On EMUI 4 there is no way out, sorry, but you can ask developers of your apps to implement the workaround described in <a href="#developer-solution-section">Developer section</a>
+On EMUI 4 there is no way out, sorry, but you can ask developers of your apps to implement the workaround described in <a href=\"#developer-solution-section\">Developer section</a>
 
-'
+"
 
 developer_solution: "
 

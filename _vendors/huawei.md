@@ -28,12 +28,10 @@ user_solution: "
 ### EMUI 9+ devices
 
 
-Huawei is extremely inventive in breaking apps on there devices. It seems on Android Pie, in addition to all the non-standard power management measures described below
-they introduced a new task killer app build right into EMUI 9.
+Huawei is extremely inventive in breaking apps on their devices. In addition to all the non-standard power management measures described below, they introduced a new task killer app build right into EMUI 9 on Android Pie.
 
 
-It is called <b>PowerGenie</b> and it kills all apps that are not on its whitelist. You cannot add custom apps on their pre-defined whitelist. This means there is
-no other way to fix proper app functionality on Huawei than uninstalling PowerGenie.
+It is called <b>PowerGenie</b> and it kills all apps that are not on its whitelist. You cannot add custom apps on their pre-defined whitelist. This means there is no other way to fix proper app functionality on Huawei than uninstalling PowerGenie.
 
 
 

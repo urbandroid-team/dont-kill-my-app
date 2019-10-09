@@ -3,7 +3,7 @@ name: Oppo
 manufacturer:
   - oppo
 award: 3
-position: 10
+position: 9
 redirect_from: /vendors/samsung.html
 explanation: "
 We have currently only information for Oppo F1S, but on other models the situation may well be similar.

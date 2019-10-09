@@ -6,7 +6,7 @@ machine_name: about_score
 
 ---
 
-We want to be maximally transparent about how we evaluate vendors and give them our crap score. So here it is.
+We want to be maximally transparent about how we evaluate vendors and give them our negative score. So here it is.
 
 <h4><img src="/assets/img/placeholder.svg" class="poo score-full" alt="">
 <img src="/assets/img/placeholder.svg" class="poo score-full" alt="">

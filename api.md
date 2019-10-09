@@ -25,7 +25,7 @@ Use your app's real name in all guides and references
 
 #### Crap score icon
 
-Choose crap score icon of your taste
+Choose negative score icon of your taste
 
 
 `https://dontkillmyapp.com?[Icon_Number]`

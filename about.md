@@ -9,7 +9,7 @@ excerpt: "
 
 
 To squeeze a little extra battery out of your phone,
-Android OEMs with highest crap score below break apps and make your
+Android OEMs with highest negative score below break apps and make your
 phone less capable. [Read more](/problem)"
 
 ---
@@ -50,6 +50,6 @@ The information on the site is gathered from multiple sources. The big part is f
 * [Nine](http://nine-faq.9folders.com/categories/2758-troubleshooting)
 * [Maël A for Huawei/Honor](mailto:mael.a@tutanota.com)
 
-### How we evaluate the crap score
+### How we evaluate the negative score
 
-We want to be maximally transparent about how we evaluate vendors and give them our crap score. So <a href="/about_score">here</a> it is.
+We want to be maximally transparent about how we evaluate vendors and give them our negative score. So <a href="/about_score">here</a> it is.

@@ -14,7 +14,7 @@ menu: true
 
 #### [Doki](https://github.com/DoubleDotLabs/doki) 
 
-Doki by James Fenn is an UI Library helping you with displaying information from https://dontkillmyapp.com. It provides a nice UI easily embeddable into your app if you do not want to mess with the APIs below.
+Doki by Double Dot Labs is an UI Library helping you with displaying information from https://dontkillmyapp.com. It provides a nice UI easily embeddable into your app if you do not want to mess with the APIs below.
 
 #### [AutoStarter](https://github.com/judemanutd/AutoStarter) 
 

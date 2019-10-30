@@ -13,7 +13,7 @@ menu: true
 Doki by James Fenn is an UI Library helping you with displaying information from https://dontkillmyapp.com. It provides a nice UI easily embeddable into your app if you do not want to mess with the APIs below.
 
 
-<div class="img-block">
+<div class="img-block" style="float:right">
   <img src="/assets/img/ss_doki.png">
 </div>
 

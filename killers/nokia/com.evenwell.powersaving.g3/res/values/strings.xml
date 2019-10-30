@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="alert_message_auto_activate_all_off">Disable all applications to automatically activate in the background may cause some applications to be unable to receive messages, mails in time, or not work properly</string>
-    <string name="alert_message_auto_activate_all_on">Allowing all applications to automatically activate in the background may result in a serious increase in power consumption of mobile phones</string>
-    <string name="alert_message_auto_activate_off">Disable this application to automatically activate in the background may cause the app to be unable to receive messages in time or not work properly</string>
+    <string name="alert_message_auto_activate_all_off">Disallowing all applications from automatically activating in the background may cause some apps to be unable to receiving messages on time, or otherwise not work properly</string>
+    <string name="alert_message_auto_activate_all_on">Allowing all applications to automatically activate in the background may result in a serious increase in your device's power consumption</string>
+    <string name="alert_message_auto_activate_off">Disallowing this application from automatically activating in the background may cause the app to be unable to receive messages on time, or otherwise not work properly</string>
     <string name="alert_message_auto_activate_on">Allowing this application to automatically activate in the background can result in increased power consumption</string>
     <string name="alert_message_bam_all_off">Disable all applications to continue running in the background after the screen is closed</string>
     <string name="alert_message_bam_all_on">Allow all applications to continue running in the background after the screen is closed</string>
@@ -24,16 +24,16 @@ Activate"</string>
     <string name="fih_power_saving_apply_notify">Power saver on</string>
     <string name="fih_power_saving_apply_notify_msg">No item enabled</string>
     <string name="fih_power_saving_apply_ticker_msg">Power saver on, no item enabled</string>
-    <string name="fih_power_saving_background_activity_text">Enable the Background activity manager to extend battery life, but the notifications of some Apps or Emails may not be able to be retrieved instantly. You can manage the battery life by adding or removing the Apps to or from the whitelist.</string>
-    <string name="fih_power_saving_background_activity_text_blacklist">Adding applications into restricted APP list can extend battery life, but the notifications of some Apps or Emails may not be able to be retrieved instantly. You can manage the battery life by adding or removing the Apps to or from the restricted APP list.</string>
+    <string name="fih_power_saving_background_activity_text">Enable the Background activity manager to extend battery life, but the notifications of some Apps or Emails may not be retrieved instantly. You can manage battery life by adding or removing whitelisted Apps.</string>
+    <string name="fih_power_saving_background_activity_text_blacklist">Adding applications to the restricted APP list can extend battery life, but the notifications of some Apps or Emails may not be retrieved instantly. You can manage battery life by adding or removing Apps on the restricted APP list.</string>
     <string name="fih_power_saving_battery_Approx">Approx. %1$s left</string>
-    <string name="fih_power_saving_data_turn_on_dialog_msg">To turn on the mechanism may result in that the applications cannot receive realtime information from the Internet during screen off.</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">Enabling this mechanism may prevent some applications from receiving realtime information from the Internet while the screen is off.</string>
     <string name="fih_power_saving_dialog_cancel">Cancel</string>
     <string name="fih_power_saving_dialog_ok">OK</string>
     <string name="fih_power_saving_doze_high_consumption">High power consumption</string>
     <string name="fih_power_saving_enabled_notify_2">Battery Saver enabled.</string>
     <string name="fih_power_saving_enabled_notify_channel_name">General notifications</string>
-    <string name="fih_power_saving_enabled_notify_summary">Tap to see the detail</string>
+    <string name="fih_power_saving_enabled_notify_summary">Tap to see details</string>
     <string name="fih_power_saving_grayscale_mode_summary">Adjust the screen to grayscale display</string>
     <string name="fih_power_saving_grayscale_mode_title">Grayscale mode</string>
     <string name="fih_power_saving_lpm_dialog_msg">Low power mode is activated.</string>
@@ -49,8 +49,8 @@ Activate"</string>
     <string name="fih_power_saving_power_saver_summary">Limit the CPU performance, reduce display brightness, turn off Mobile data, Bluetooth, GPS, Hotspot services and unused Wi-Fi, turn on Data saver, turn off vibrations and animations</string>
     <string name="fih_power_saving_power_saver_summary_wlan">Limit the CPU performance, reduce display brightness, turn off Mobile data, Bluetooth, GPS, Hotspot services and unused WLAN, turn on Data saver, turn off vibrations and animations</string>
     <string name="fih_power_saving_power_saver_title_2">Battery Saver</string>
-    <string name="fih_power_saving_pw_turn_on_dialog_msg">To turn on the mechanism may result in that the applications with alarm or notification functions cannot wake up device on time. It is recommended to add those applications into periodic wakeup white list from its setting page.</string>
-    <string name="fih_power_saving_reduce_resolution_summary">Reduce display resolution helps save power, and some applications that are currently running may be closed and need to be reopened</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">Enabling this mechanism may prevent applications with alarm or notification functions from waking up the device on time. It is recommended to add those applications to the periodic wakeup white list from its setting page.</string>
+    <string name="fih_power_saving_reduce_resolution_summary">Reducing display resolution helps save power. Some applications that are currently running may be closed and need to be reopened</string>
     <string name="fih_power_saving_reduce_resolution_title">Reduce display resolution</string>
     <string name="fih_power_saving_request_dialog_cancel">CANCEL</string>
     <string name="fih_power_saving_request_dialog_enable">ENABLE</string>

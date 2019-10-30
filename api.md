@@ -8,14 +8,15 @@ menu: true
 
 ### Friend projects (big thanks!)
 
+<div class="img-block" style="float:right">
+  <img src="/assets/img/ss_doki.png">
+</div>
+
 #### [Doki](https://github.com/DoubleDotLabs/doki) 
 
 Doki by James Fenn is an UI Library helping you with displaying information from https://dontkillmyapp.com. It provides a nice UI easily embeddable into your app if you do not want to mess with the APIs below.
 
 
-<div class="img-block" style="float:right">
-  <img src="/assets/img/ss_doki.png">
-</div>
 
 
 #### [AutoStarter](https://github.com/judemanutd/AutoStarter) 

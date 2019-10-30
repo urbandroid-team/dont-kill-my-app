@@ -6,6 +6,21 @@ machine_name: api
 menu: true
 ---
 
+### Friend projects (big thanks!)
+
+#### [Doki](https://github.com/DoubleDotLabs/doki) 
+
+Doki by James Fenn is an UI Library helping you with displaying information from https://dontkillmyapp.com. It provides a nice UI easily embeddable into your app if you do not want to mess with the APIs below.
+
+<div class=\"img-block\">
+  <img src=\"/assets/img/ss_doki.png\">
+</div>
+
+
+#### [AutoStarter](https://github.com/judemanutd/AutoStarter) 
+
+AutoStart by Jude Fernandes is a library that helps bring up the autostart permission manager for different OEMs so that users can allows apps to start automatically. AOSP does not use this permission, but some OEMs (usually highly rated in our list) require it. This permission is essential for alarm clocks, calendars health tracking apps or anything which needs to work permanently or regularly on a phone.
+
 ### URL Parameters
 
 

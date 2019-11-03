@@ -30,8 +30,7 @@
 
   <main class="page-content" aria-label="Content">
     <div class="wrapper">
-      <div>
-        <a href="https://github.com/urbandroid-team/dont-kill-my-app/edit/master/{{page.path}}" id="vendor-btn-contribute">Contribute</a>
+      <section id="vendor-head">
         <h1>{{ page.name }}
           {%- if page.award and page.award != "" and page.award != "0" -%}
             <span id="score"><a href="/about_score">
@@ -48,7 +47,11 @@
           {%- endif -%}
 
         </h1>
-      </div>
+        <div class="text-right">
+          <!-- <img src="/assets/img/pencil-outline.svg" alt=""> -->
+          <a href="https://github.com/urbandroid-team/dont-kill-my-app/edit/master/{{page.path}}" id="vendor-btn-contribute">Contribute</a>
+        </div>
+      </section>
 
       {{ content }}
 
@@ -61,10 +64,13 @@
 
       {%- if page.user_solution and page.user_solution != "" -%}
         <section id="user-solution-section">
-          <h2 id="user-solution-title"><a id="user-solution"></a><img src="/assets/img/muscle.svg" class="poo" alt=""> Solution for users</h2>
-          {% assign feedbackUrl = "https://github.com/urbandroid-team/dont-kill-my-app/issues/new?title=Feedback for" %}
-          <a href="{{ 'https://github.com/urbandroid-team/dont-kill-my-app/issues/new?title=Feedback for ' | append: page.name | append: ' page' | uri_escape }}" id="vendor-btn-feedback">Feedback</a>
-
+          <div id="user-solution-section-header">
+            <h2 id="user-solution-title"><a id="user-solution"></a><img src="/assets/img/muscle.svg" class="poo" alt=""> Solution for users</h2>
+            <div class="text-right">
+              {% assign feedbackUrl = "https://github.com/urbandroid-team/dont-kill-my-app/issues/new?title=Feedback for" %}
+              <a href="{{ 'https://github.com/urbandroid-team/dont-kill-my-app/issues/new?title=Feedback for ' | append: page.name | append: ' page' | uri_escape }}" id="vendor-btn-feedback">Feedback</a>
+            </div>
+          </div>
           <p>{{ page.user_solution | markdownify }}</p>
         </section>
       {%- endif -%}

@@ -6,5 +6,5 @@ award: '4'
 position: '6'
 redirect_from: "/vendors/asus.html"
 explanation: Ahoj ahoj
-developer_solution: No developer solution at the moment
+developer_solution: Momentálně žádné vývojové řešení
 ---

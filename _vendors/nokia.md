@@ -139,6 +139,17 @@ Then create a task, triggered at **Device Boot**, that performs the following:
 1. System Setting: type **Global**, name **setting.duraspeed.enabled**, value **2**
 2. System Setting: type **Global**, name **setting.duraspeed.enabled**, value **0**
 
+<div class="img-block">
+  <figure>
+     <img src="/assets/img/nokia/duraspeed_macrodroid_kyrasantae.png">
+     <figcaption>MacroDroid example task</figcaption>
+  </figure>
+  <figure>
+     <img src="/assets/img/nokia/duraspeed_tasker_yoryan.png">
+     <figcaption>Tasker example task</figcaption>
+  </figure>
+</div>
+
 Run this task and verify there are no errors. If all is well, then DuraSpeed will be immediately disabled, and it will also be disabled on reboot.
 
 "

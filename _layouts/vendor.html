@@ -82,6 +82,13 @@
         </section>
       {%- endif -%}
 
+      {%- if page.links and page.links != "" -%}
+      <section id="links-section">
+        <h2 id="links-title"><a id="links"></a><img src="/assets/img/read.svg" class="poo" alt=""> Further read</h2>
+        {{ page.links | markdownify }}
+      </section>
+      {%- endif -%}
+
       {%- if page.award and page.award != "" -%}
         <section id="badge-section">
           <h2 id="badge-title"><a id="badge"></a><img src="/assets/img/placeholder.svg" class="poo score-full" alt=""> Badge</h2>

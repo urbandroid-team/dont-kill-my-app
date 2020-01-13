@@ -5,45 +5,57 @@ manufacturer:
 award: 5
 position: 3
 redirect_from: /vendors/oneplus.html
-explanation: "OnePlus and their Oxygen OS Android modification is known as maximizing the stock Android experience. This may be true on the UX front but the exact opposite is valid for background process limits.
+explanation: "OnePlus and their OxygenOS Android modification is known for maximizing the stock Android experience. This may be true on the UX front but the exact opposite is valid for background process limits.
 
 
-When releasing their 1+5 and 1+6 phones, OnePlus introduced one of the most severe background limits on the market to date, dwarfing even those performed by Xiaomi or Huawei. Not only did users need to enable extra settings to make their apps work properly, but those settings even get reset with firmware update so that apps break again and users are required to re-enable those settings on a regular basis.
+When releasing their 1+5 and 1+6 phones, OnePlus introduced one of the most severe background limits on the market to date, dwarfing even those performed by Xiaomi or Huawei. Not only did users need to enable extra settings to make their apps work properly, but those settings even got reset with firmware updates. So apps break again and users are required to re-enable those settings on a regular basis.
 "
 
-user_solution: "Turn off **System Settings > Apps > Gear Icon > Special Access > Battery Optimization**.
+user_solution: "
 
-> WARNING: Recently OnePlus phones started reverting this setting randomly for random apps. So if you set it to be **not optimized**, the next day it may be back to **optimized**. There is no workaround and you may have to check system settings every once in a while.<br>See [a bug report filed to OnePlus](https://forums.oneplus.com/threads/in-battery-optimisation-apps-are-getting-automatically-switched-from-not-optimised-to-optimised.849162/).
+### Battery optimization
+
+- Turn off **System Settings > Apps > Gear Icon > Special Access > Battery Optimization**.
+
+
+**WARNING:** Recently OnePlus phones started reverting this setting randomly for random apps. So if you set it to be *not optimized*, the next day it may be back to *optimized*. 
 <br>
-To avoid the system to automatically revert the **not optimized** setting, you must also lock the app into the 'Recent App' list. (solution described [here](https://forum.xda-developers.com/showpost.php?p=78588761&postcount=7))
+To avoid the system to automatically revert the *not optimized* setting, you must also lock the app into the 'Recent App' list. (solution described [here](https://forum.xda-developers.com/showpost.php?p=78588761&postcount=7))
 <br>
-Start the app you want to 'Protect'. Press the phone **Recent app** button. Toggle the **Lock** button on the upper right corner of the app.
+Start the app you want to protect. Go to *Recent apps* (App switcher). Toggle the *Lock* button on the upper right corner of the app.
+<br>
+This will avoid the app to be killed in background and the *Battery optimisation* setting to be reverted.
+<br>
+This is however not 100%. You may have to check system settings every once in a while. See [a bug report filed to OnePlus](https://forums.oneplus.com/threads/in-battery-optimisation-apps-are-getting-automatically-switched-from-not-optimised-to-optimised.849162/).
 
-This will avoid the app to be killed in background and the **Battery optimisation** setting to be reverted.
+
+- Turn off **System settings > Battery > Battery optimization**, switch to 'All apps' in top right menu **> Your app > Don’t optimize**
+
+> NOTE: Some of our users indicated that you need to disable Doze mode in Developer options in 1+3 and earlier.
 
 
-On some OnePlus phones there is also a thing called App Auto-Launch which essentially prevents apps from working in the background. Please disable it for your app.
+### App Auto-Launch
+
+App Auto-Launch (on some OnePlus phones) essentially prevents apps from working in the background. Please disable it for your app.
 
 <div class=\"img-block\">
   <img src=\"/assets/img/ss_oneplus_1.jpg\">
 </div>
 
-Also try:
 
-**Phone settings > Battery > Battery optimization** and switch to the All apps list **(Top menu) > Your app > Don’t optimize**
+### Enhanced / Advanced optimization
 
-> NOTE: Some of our users indicated that you need to disable Doze mode in Developer options in 1+3 and earlier.
+Turn off **System settings > Battery > Battery optimization > (three dots) > Enhanced optimization**. This option may also be called **Advanced optimisation** (OnePlus 6).
 
-
-Also disable **Settings > Battery > Battery optimization > (three dots) > Enhanced optimization**. This option may also be called **Advanced optimisation** (OnePlus 6).
-
-> NOTE: This solves the problem where you lose Bluetooth connection to your smartwatch / fitness tracker (e.g. for sleep tracking).
+> NOTE: This should help with the problem where you lose Bluetooth connection to your smartwatch / fitness tracker (e.g. for sleep tracking).
 
 <div class=\"img-block\">
   <img src=\"/assets/img/ss_oneplus6_setting_sleepstandby.jpg\">
 </div>
 
-Recent app clear behaviour manager is also a likely culprit:
+### Recent apps clearing behaviour
+
+Normally when you swipe an app away, it won't close. Android handles that well on its own. On OnePlus this may however work in a different way. Recent app clear behaviour manager might be set up in a way that swiping the app to close will kill it.
 
 <div class=\"img-block\">
   <img src=\"/assets/img/ss_oneplus_2a.jpg\">
@@ -53,5 +65,6 @@ Recent app clear behaviour manager is also a likely culprit:
 "
 
 developer_solution: "No known solution on the developer end"
-
+links: "
+- [Gadgethacks: Disable This Setting if Notifications Are Delayed on Your OnePlus](https://oneplus.gadgethacks.com/how-to/disable-setting-if-notifications-are-delayed-your-oneplus-0192639/)"
 ---

@@ -1,5 +1,7 @@
 body {
-  font: 300 16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"
+  font: 300 16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  background-color: #ffffde;
+
 }
 h1 {
   font-size: 2.4em;
@@ -25,6 +27,12 @@ blockquote {
 }
 #developer-solution-title:before, a[href="#dev-solution"]:before {
   // content: "🤖 "
+}
+section:first-child {
+  margin-bottom: 2em;
+}
+section:not(:first-child) {
+  margin-bottom: 6em;
 }
 blockquote {
   font-family: 'Courier New', Courier, monospace
@@ -185,6 +193,7 @@ blockquote {
   display: inline;
   height: 1em;
   padding-top: 0;
+  padding-bottom: 0;
 }
 #about_score .poo {
   height: 3em;
@@ -282,6 +291,7 @@ main.page-content {
 }
 img {
   padding-top: 1em;
+  padding-bottom: 1em;
   max-height: 25em;
   display: block;
   margin: 0 auto;

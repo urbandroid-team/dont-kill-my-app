@@ -71,8 +71,8 @@ Enable Autostart for desired apps.
           <img src="/assets/img/ss_xiaomi_as_3.png">
        <figcaption>Search for Your app and tap to enable</figcaption>
      </figure>
-</div>
-
+    </div>
+</div>    
 
 ### App pinning
 

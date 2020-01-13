@@ -2,7 +2,7 @@
 name: OnePlus
 manufacturer:
   - oneplus
-award: 4
+award: 5
 position: 3
 redirect_from: /vendors/oneplus.html
 explanation: "OnePlus and their Oxygen OS Android modification is known as maximizing the stock Android experience. This may be true on the UX front but the exact opposite is valid for background process limits.

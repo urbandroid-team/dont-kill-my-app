@@ -72,7 +72,13 @@ On Nokia 1 there is an alternative package that works very similar to what the c
 
 ### Nokia 3.1 and 5.1 (DuraSpeed)
 
-HMD Global included Mediatek's *DuraSpeed* task killer as a system service. Since DuraSpeed is not packaged as an app, it cannot simply be uninstalled, but it does have a secret settings switch that will enable or disable the service.
+On Mediatek-based devices, HMD has baked in [DuraSpeed](https://www.appbrain.com/app/duraspeed/com.mediatek.duraspeed) as a system service. There is no user-facing control, or whitelist; this Mediatek-developed task killer terminates all background apps without prejudice.
+
+
+DuraSpeed can be disabled through the global settings store, but this is a protected area of Android that can only be manipulated through adb, or an app that has been granted the `WRITE_SECURE_SETTINGS` permission (which must also be done with adb). Additionally, the setting does not survive a reboot. Users can fix their devices themselves using an automation app (see \"Solution for users\"), or apps can request the `WRITE_SECURE_SETTINGS` permission and then cycle the flag on startup to kill DuraSpeed. Syncthing-Fork is one app that has [taken this approach](https://github.com/Catfriend1/syncthing-android/wiki/Nokia-HMD-phone-preparations).
+
+
+Unfortunately, there are [some](https://forum.xda-developers.com/showpost.php?s=1f4fbd7602c2739781c1c5346bb06e36&p=80157506&postcount=7) [reports](https://github.com/urbandroid-team/dont-kill-my-app/issues/57#issuecomment-534246709) that even this fix does not work.
 
 
 "
@@ -122,21 +128,39 @@ Disable the *com.evenwell.emm* package via the following adb commands:
 
 ### Nokia 3.1 and 5.1
 
-DuraSpeed is not packaged as an app, it cannot simply be uninstalled, but it does have a secret settings switch that will enable or disable the service. The flag is not exposed in the Settings app; it can only be manipulated through adb.
+Regrettably, HMD did not include any sort of Settings switch to control DuraSpeed's operation. And since the task killer is a system service and not an app, it cannot simply be uninstalled. Fortunately, DuraSpeed does have a hidden kill switch: It watches the `setting.duraspeed.enabled` setting and will stop itself when the flag is set to any value that does not equal `1`. Once DuraSpeed stops itself, the phone is cured and all background apps will function normally. However, this workaround does not stick across reboots, so the flag has to be cycled at every boot using an automation app like [MacroDroid](https://play.google.com/store/apps/details?id=com.arlosoft.macrodroid).
 
 
-`adb shell settings put global setting.duraspeed.enabled 0`
+First, use adb to grant MacroDroid (or your choice of automation app) the ability to write to the global settings store:
 
 
-Toggling it will produce immediate logcat feedback.
+```
+adb shell pm grant com.arlosoft.macrodroid android.permission.WRITE_SECURE_SETTINGS
+```
 
 
-`04-15 21:13:57.544  1063  1089 D DuraSpeed/DuraSpeedService: onChange, checked: false`
+Then create a task, triggered at **Device Boot**, that performs the following:
 
 
-Background apps and notifications should be now running without any restrictions - even after a factory reset and enabling all of HMD's evenwell apps (including com.evenwell.powersaving.g3).
+1. System Setting: type **Global**, name **setting.duraspeed.enabled**, value **2**
 
 
+2. System Setting: type **Global**, name **setting.duraspeed.enabled**, value **0**
+
+
+<div class='img-block'>
+  <figure>
+     <img src='/assets/img/nokia/duraspeed_macrodroid_kyrasantae.png'>
+     <figcaption>MacroDroid example task</figcaption>
+  </figure>
+  <figure>
+     <img src='/assets/img/nokia/duraspeed_tasker_yoryan.jpg'>
+     <figcaption>Tasker example task</figcaption>
+  </figure>
+</div>
+
+
+Run this task and verify there are no errors. If all is well, then DuraSpeed will be immediately disabled, and it will also be disabled on reboot.
 
 "
 

@@ -1,5 +1,6 @@
 parameter,emptyImg,fullImg,attribution
 '', 'poo.svg', 'poo_full.svg', ''
+'?0', 'empty.svg', 'empty.svg', ''
 '?1', 'stalin_empty.svg', 'stalin_full.svg', 'Icon: stalin by Greg Ellinger from the Noun Project'
 '?2', 'poo.svg', 'poo_full.svg', ''
 '?3', 'thumbsdown_empty.svg', 'thumbsdown_full.svg', ''

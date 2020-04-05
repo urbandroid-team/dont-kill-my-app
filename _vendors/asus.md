@@ -6,10 +6,8 @@ award: 4
 position: 6
 redirect_from: /vendors/asus.html
 explanation: "
-We are still collecting feedback on Asus devices so the following may not be a exhaustive list of issues.
 
-
-On Asus devices there seems to be an optimization app called *Power Master* pre-installed with some modifications made by default, eg. blocking apps from starting and killing background tasks when your screen turns off.
+On Asus devices there is an optimization app called *Power Master* pre-installed with some modifications made by default, eg. blocking apps from starting and killing background tasks when your screen turns off.
 
 
 However, if you know how, you can easily disable these.

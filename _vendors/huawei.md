@@ -75,7 +75,7 @@ Also, you may not have PowerGenie on your phone, but your apps may still get kil
 
 * *Phone Settings > Advanced Settings > Battery Manager > Protected apps* – set your app as *Protected*
 
-* *Phone Settings > Apps > Your app > Battery > Power-intensive prompt* [uncheck] and *Keep running after screen off [check]*
+* *Phone Settings > Apps > Your app > Battery > Power-intensive prompt* [uncheck] and *Keep running after screen off* [check]
 
 * *Phone settings > Apps > Advanced (At the bottom) > Ignore optimisations >* Press *Allowed > All apps >* Find your app on the list and set to *Allow*
 

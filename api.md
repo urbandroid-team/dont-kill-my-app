@@ -18,7 +18,10 @@ Doki by Double Dot Labs is an UI Library helping you with displaying information
 
 #### [AutoStarter](https://github.com/judemanutd/AutoStarter)
 
-AutoStart by Jude Fernandes is a library that helps bring up the autostart permission manager for different OEMs so that users can allows apps to start automatically. AOSP does not use this permission, but some OEMs (usually highly rated in our list) require it. This permission is essential for alarm clocks, calendars health tracking apps or anything which needs to work permanently or regularly on a phone.
+AutoStart by Jude Fernandes is a library that helps bring up the autostart permission manager for different OEMs so that users can allows apps to start automatically. AOSP does not use this permission, but some OEMs (usually highly rated in our list) require it. This permission is essential for alarm clocks, calendars health tracking apps or anything which needs to work permanently or regularly on a device.
+
+#### [SuperFreezZ](https://gitlab.com/SuperFreezZ/SuperFreezZ)
+Android app (beta) making it possible to entirely freeze all background activities of any app.
 
 ### URL API Parameters
 
@@ -63,7 +66,7 @@ Special case: Add `?0` parameter to prevent showing any score icon.
 **Don't kill my app** provides a JSON API for developers to use on their websites or in their apps.
 
 
-Please let us know when you use the API via email jiri.richter@urbandroid.org and give credit to dontkillmyapp.com.
+Please let us know when you use the API via e-mail at jiri.richter@urbandroid.org and give credit to dontkillmyapp.com.
 
 
 ### JSON API v2 docs

@@ -83,7 +83,7 @@ When you open the recent apps tray, drag your app downwards (it will be locked).
 
 developer_solution: "
 
-So far, no workarounds on the dev side are known.
+No known solution on the dev end.
 
 "
 ---

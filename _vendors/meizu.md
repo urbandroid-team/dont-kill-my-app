@@ -18,6 +18,6 @@ Adjust your settings:
 
 * Enable **Device Settings > Apps > your app > Battery > Power-intensive prompt** and **Keep running after screen off**
 "
-developer_solution: "No known solution so far on the dev end"
+developer_solution: "No known solution on the dev end"
 
 ---

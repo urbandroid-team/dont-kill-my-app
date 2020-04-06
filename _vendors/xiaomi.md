@@ -84,5 +84,4 @@ When you open the recent apps tray, drag your app downwards (it will be locked).
 developer_solution: "No known solution on the dev end."
 
 
-"
 ---

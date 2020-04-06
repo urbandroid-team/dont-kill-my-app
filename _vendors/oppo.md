@@ -16,13 +16,13 @@ user_solution: "
 Background services are being killed (including accessibility services, which then need re-enabling) every time you turn the screen off. So far, a workaround for this is:
 
 
-* pin your app to the recent apps screen
+* Pin your app to the recent apps screen.
 
-* enable your app in the app list inside the security app's \"startup manager\" and \"floating app list\" (com.coloros.safecenter / com.coloros.safecenter.permission.Permission)
+* Enable your app in the app list inside the security app's \"startup manager\" and \"floating app list\" (com.coloros.safecenter / com.coloros.safecenter.permission.Permission).
 
-* turn off battery optimizations
+* Turn off battery optimizations.
 
-* give the service a persistent notification to remain in the foreground
+* Give the service a persistent notification to remain in the foreground.
 
 
 All four of those need to be done before the app would function.
@@ -41,6 +41,6 @@ Here are links to some other resources verifying that some of the above steps wo
 
 "
 
-developer_solution: "No known solution on developer end"
+developer_solution: "No known solution on the dev end"
 
 ---

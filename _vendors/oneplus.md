@@ -30,7 +30,7 @@ This is however not 100%. You may have to check system settings every once in a 
 
 - Turn off **System settings > Battery > Battery optimization**, switch to 'All apps' in top right menu **> Your app > Don’t optimize**
 <br>
-<small>**NOTE:** Some of our users indicated that you need to disable Doze mode in Developer options in 1+3 and earlier.</small>
+<small>**NOTE:** Some of our users indicated that you need to disable Doze mode in "Developer options" in 1+3 and earlier.</small>
 
 
 ### App Auto-Launch
@@ -57,7 +57,7 @@ If you need any apps to run in background, disable it.
 
 2. Sleep standby optimization
 <br>
-OnePlus tries to learn when you are usually asleep, and in those times it will then disable the phone's network connections. 
+OnePlus tries to learn when you are usually asleep, and in those times it will then disable the device's network connections. 
 This setting will prevent push notifications from being delivered.
 
 
@@ -86,7 +86,7 @@ Normally when you swipe an app away, it won't close. Android handles that well o
 
 "
 
-developer_solution: "No known solution on the developer end"
+developer_solution: "No known solution on the dev end"
 links: "
 - [Gadgethacks: Disable This Setting if Notifications Are Delayed on Your OnePlus](https://oneplus.gadgethacks.com/how-to/disable-setting-if-notifications-are-delayed-your-oneplus-0192639/)"
 ---

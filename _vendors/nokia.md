@@ -13,7 +13,7 @@ explanation: "
 <div class='caution-box'>
   8/2019 update
   <br><br>
-  <b>GOOD NEWS</b>: HMD Global <a href=\"https://community.phones.nokia.com/discussion/51246/tapping-into-android-pies-adaptive-battery-for-optimum-battery-performance\">claims to disable Evenwell powersaving apps</a> on all devices running Android Pie or newer.
+  <b>Good news</b>: HMD Global <a href=\"https://community.phones.nokia.com/discussion/51246/tapping-into-android-pies-adaptive-battery-for-optimum-battery-performance\">claims to disable Evenwell powersaving apps</a> on all devices running Android Pie or newer.
   <br>
   <b>NOT SO GOOD NEWS</b>: DuraSpeed remains.
 </div>
@@ -37,7 +37,7 @@ There were three different app killing mechanisms:
   The Evenwell Power saver *(com.evenwell.powersaving.g3)* has been disabled by HMD Global for devices running Pie or greater as of 8/2019.
 </div>
 
-The text below has been left here for a historical read.
+The text below has been left here to preserve the detail and history of events.
 
 
 ~~Note: In Feb/March 2019, apparently on a few models distributed in Europe and US, the Evenwell Power Saver has been reworked to not kill the apps as aggressively, which largely resolves all issues for those models.~~
@@ -55,7 +55,7 @@ The text below has been left here for a historical read.
 ~~What this non-standard app does is every process gets killed after 20 minutes regardless it is actually supposed to be running and doing a useful job for the user. Also alarms are not triggered. The aim is apparently to save your battery by rendering tracking apps and other apps that use background processing useless.~~
 
 
-~~Moreover even 3rd party user visible alarms (alarm clock alarms) are not triggering properly on Nokia as foreground services cannot be started from background on Nokia. This is a serious issue unparalleled to any other vendor. We did not yet find a workaround for this :(. 3rd party alarms clock / calendars etc... won't be realiable on Nokia.~~
+~~Moreover even third-party user visible alarms (alarm clock alarms) are not triggering properly on Nokia as foreground services cannot be started from background on Nokia. This is a serious issue unparalleled to any other vendor. We did not yet find a workaround for this :(. 3rd party alarms clock / calendars etc… won't be realiable on Nokia.~~
 
 
 ~~You can read more on this issue here:
@@ -75,7 +75,7 @@ On Nokia 1 there is an alternative package that works very similar to what the c
 On Mediatek-based devices, HMD has baked in [DuraSpeed](https://www.appbrain.com/app/duraspeed/com.mediatek.duraspeed) as a system service. There is no user-facing control, or whitelist; this Mediatek-developed task killer terminates all background apps without prejudice.
 
 
-DuraSpeed can be disabled through the global settings store, but this is a protected area of Android that can only be manipulated through adb, or an app that has been granted the `WRITE_SECURE_SETTINGS` permission (which must also be done with adb). Additionally, the setting does not survive a reboot. Users can fix their devices themselves using an automation app (see \"Solution for users\"), or apps can request the `WRITE_SECURE_SETTINGS` permission and then cycle the flag on startup to kill DuraSpeed. Syncthing-Fork is one app that has [taken this approach](https://github.com/Catfriend1/syncthing-android/wiki/Nokia-HMD-phone-preparations).
+DuraSpeed can be disabled through the global settings store, but this is a protected area of Android that can only be manipulated through adb, or an app that has been granted the `WRITE_SECURE_SETTINGS` permission (which must also be done with ADB). Additionally, the setting does not survive a reboot. Users can fix their devices themselves using an automation app (see \"Solution for users\"), or apps can request the `WRITE_SECURE_SETTINGS` permission and then cycle the flag on startup to kill DuraSpeed. Syncthing-Fork is one app that has [taken this approach](https://github.com/Catfriend1/syncthing-android/wiki/Nokia-HMD-phone-preparations).
 
 
 Unfortunately, there are [some](https://forum.xda-developers.com/showpost.php?s=1f4fbd7602c2739781c1c5346bb06e36&p=80157506&postcount=7) [reports](https://github.com/urbandroid-team/dont-kill-my-app/issues/57#issuecomment-534246709) that even this fix does not work.

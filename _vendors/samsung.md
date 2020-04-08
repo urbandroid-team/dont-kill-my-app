@@ -1,5 +1,5 @@
 ---
-name: Samsung
+name: Samsung a10s
 subtitle: Especially after Android P update
 manufacturer:
   - samsung

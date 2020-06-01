@@ -1,24 +1,36 @@
 ---
 name: Xiaomi
-layout: vendor
-position: 3
-award: 3
-permalink: xiaomi
+subtitle: except Android One
+manufacturer:
+  - xiaomi
+position: 4
+award: 4
 redirect_from: /vendors/xiaomi.html
 explanation: "
 Traditionally Xiaomi and their Android customization called MIUI belongs to the most troubled on the market with respect to non-standard background process limitations and non-standard permissions.
 There are no APIs and no documentation for those extensions. In default settings background processing simply does not work right and apps using them will break.
+
+
+> NOTE: Android One devices by Xiaomi work much better than MIUI-based devices. So if you like Xiaomi we definitely recommend to look for their Android One offering.
 "
 
 user_solution: '
 
 ### MIUI 10
 
+
 To let your app run successfully in the background, make sure your settings look like the following (here for example is Sleep as Android):
-<img src="/assets/img/ss_xiaomi_1.png">
+
+
+<div class="img-block">
+  <img src="/assets/img/ss_xiaomi_1a.png">
+  <img src="/assets/img/ss_xiaomi_1b.png">
+  <img src="/assets/img/ss_xiaomi_1c.png">
+</div>
 
 
 ### Power management
+
 
 Please enable:
 
@@ -37,15 +49,30 @@ Please enable:
 
 ### App battery saver
 
+
 *Security > Battery > App Battery Saver > your app > No restriction*
+
 
 ### Autostart
 
 (according to [Xiaomi](https://in.c.mi.com/thread-253478-1-0.html):
 
+
 Open *Security app > Permissions > Auto-start*
 
+
 Enable Autostart for desired apps.
+
+<div class="img-block">
+  <img src="/assets/img/ss_xiaomi_as_1.png">
+  <img src="/assets/img/ss_xiaomi_as_2.png">
+    <div class="img-block">
+     <figure>
+          <img src="/assets/img/ss_xiaomi_as_3.png">
+       <figcaption>Search for Your app and tap to enable</figcaption>
+     </figure>
+    </div>
+</div>    
 
 ### App pinning
 

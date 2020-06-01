@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Kursimi i energjisë</string>
+    <string name="fih_power_saving_apply_notify">Kursimi i energjisë aktiv</string>
+    <string name="fih_power_saving_apply_notify_msg">Nuk është aktivizuar asnjë njësi</string>
+    <string name="fih_power_saving_apply_ticker_msg">Kursimi i energjisë aktiv, nuk është aktivizuar asnjë njësi</string>
+    <string name="fih_power_saving_background_activity_text">"Aktivizoni menaxherin e aktivitetit në sfond për të zgjatur kohëzgjatjen e baterisë, por mund të mos arrini t'i merrni në çast njoftimet e disa aplikacioneve ose emaileve. Mund ta menaxhoni kohëzgjatjen e baterisë duke shtuar ose hequr aplikacionet te ose nga lista e bardhë."</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">Aktivizimi i mekanizmit mund të bëjë që aplikacionet të mos arrijnë të marrin informacione në kohë reale nga interneti gjatë çaktivizimit të ekranit.</string>
+    <string name="fih_power_saving_dialog_ok">Në rregull</string>
+    <string name="fih_power_saving_doze_high_consumption">Konsumi i lartë i energjisë</string>
+    <string name="fih_power_saving_lpm_dialog_msg">Regjimi i ulët i energjisë është aktivizuar.</string>
+    <string name="fih_power_saving_permission_first_time_or_always_deny">Për të funksionuar si duhet, ky aplikacion kërkon leje shtesë. Lejoni lejen kur të kërkohet.</string>
+    <string name="fih_power_saving_permission_lpm_notification_summary">Trokit për ta lejuar</string>
+    <string name="fih_power_saving_permission_lpm_notification_title">%s kërkon leje</string>
+    <string name="fih_power_saving_permission_msg">Për të funksionuar si duhet, ky aplikacion kërkon leje shtesë. Menaxhoni lejen e %s te Cilësimi.</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">"Aktivizimi i mekanizmit mund të bëjë që aplikacionet me funksione alarmesh ose njoftimesh të mos arrijnë ta zgjojnë pajisjen në kohën e duhur. Rekomandohet që t'i shtoni ato aplikacione te lista e bardhë e zgjimit periodik nga faqja e cilësimeve."</string>
+    <string name="lock_screen_ap_protect_title">Menaxheri i aktivitetit në sfond</string>
+    <string name="switch_off_text">Çaktivizuar</string>
+    <string name="switch_on_text">Aktivizuar</string>
+</resources>

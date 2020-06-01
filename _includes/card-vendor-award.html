@@ -1,18 +1,23 @@
-<a class="card card-vendor-award card-award-color-{{vendor.position}}" href="{{ vendor.url }}">
+<a class="card card-vendor-award card-award-color-{{vendor.position}}" href="/{{ vendor.manufacturer.first }}">
+
   <h2>
     <span class="card-award-text-color-{{vendor.position}}">#{{vendor.position}} {{vendor.name}}</span>
+    <div class="card-subtitle card-award-text-color-{{vendor.position}}">{{vendor.subtitle}}</div>
   </h2>
+
+  {%- if page.award != "" and page.award != 0 -%}
   <p class="award">
     {% assign p = 5 | minus: vendor.award %}
 
     {% for i in (1..vendor.award) %}
-      <img src="/assets/img/poo_full.svg" class="poo" alt="">
+      <img src="/assets/img/placeholder.svg" class="poo score-full" alt="">
     {% endfor %}
 
     {% for i in (1..p) %}
-      <img src="/assets/img/poo.svg" class="poo" alt="">
+      <img src="/assets/img/placeholder.svg" class="poo score-empty" alt="">
     {% endfor %}
 
   </p>
+  {%- endif -%}
   <!-- <p>{{vendor.excerpt}}</p> -->
 </a>

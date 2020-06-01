@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">រក្សាថាមពល</string>
+    <string name="fih_power_saving_apply_notify">បើករក្សាថាមពល</string>
+    <string name="fih_power_saving_apply_notify_msg">\nគ្មានធាតុត្រូវបានអនុញ្ញាត</string>
+    <string name="fih_power_saving_apply_ticker_msg">បើករក្សាថាមពល ​គ្មានធាតុបានបើក</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">ដើម្បី​បើក​យន្តការ​នេះ​អាច​មាន​លទ្ធផល​នៅ​ក្នុង​កម្មវិធី​នេះ​មិន​អាច​ទទួល​បាន​ព័​ត៌​មាន​ពេលវេលា​ពិត​ពី​អ៊ីនធឺណិត​ក្នុង​អំឡុង​ពេល​អេក្រង់​បិទ​។</string>
+    <string name="fih_power_saving_dialog_cancel">បោះបង់</string>
+    <string name="fih_power_saving_dialog_ok">យល់​ព្រម</string>
+    <string name="fih_power_saving_lpm_dialog_msg">របៀប​ថាមពល​កំរិត​ទាប​ត្រូវ​បាន​ធ្វើ​ឱ្យ​សកម្ម​។</string>
+    <string name="fih_power_saving_notice_dialog_title">សម្គាល់</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">ដើម្បី​បើក​យន្តការ​នេះ​អាច​មាន​លទ្ធផល​នៅ​ក្នុង​កម្មវិធី​នេះ​ជាមួយ​នឹង​មុខងារ​ជូន​ដំណឹង​ឬ​ការ​ជូន​ដំណឹង​មិន​អាច​ក្រោក​ឡើង​ឧបករណ៍​នៅ​លើ​ពេល​វេលា​។ វា​ត្រូវ​បាន​ផ្ដល់​អនុសាសន៍​ដើម្បី​បន្ថែម​កម្មវិធី​ទាំង​នោះ​ទៅ​ក្នុង​បញ្ជី​ពណ៌​ស​កាលកំណត់ wakeup ពី​ទំព័រ​ការ​កំណត់​របស់​ខ្លួន​។</string>
+    <string name="switch_off_text">បិទ</string>
+    <string name="switch_on_text">បើក</string>
+</resources>

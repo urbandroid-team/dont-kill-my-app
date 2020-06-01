@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bam_notification_btn_nevershowthis">DIT NOOIT WEERGEVEN</string>
+    <string name="bam_notification_btn_turnon">INSCHAKELEN</string>
+    <string name="bam_notification_content_text">Schakel dit in om de gebruiksduur van uw accu te verlengen!</string>
+    <string name="bam_notification_content_title">Er zijn apps actief op de achtergrond die accustroom verbruiken.</string>
+    <string name="fih_power_saving_background_activity_text">Beheer van activiteiten op de achtergrond inschakelen om de gebruiksduur van de batterij te verlengen, maar de meldingen van sommige apps of e-mails worden mogelijk niet onmiddellijk opgehaald. U kunt de gebruiksduur van de batterij beheren door de apps aan de witte lijst toe te voegen of hieruit te verwijderen.</string>
+    <string name="fih_power_saving_background_activity_text_blacklist">Beheer van activiteiten op de achtergrond inschakelen om de gebruiksduur van de batterij te verlengen, maar de meldingen van sommige apps of e-mails worden mogelijk niet onmiddellijk opgehaald. U kunt de gebruiksduur van de batterij beheren door de apps aan de zwarte lijst toe te voegen of hieruit te verwijderen.</string>
+    <string name="fih_power_saving_dialog_cancel">Annuleren</string>
+    <string name="fih_power_saving_dialog_ok">OK</string>
+    <string name="fih_power_saving_doze_high_consumption">Hoog energieverbruik</string>
+    <string name="fih_power_saving_permission_cancel">Annuleren</string>
+    <string name="lock_screen_ap_protect_title">Beheer van activiteiten op de achtergrond</string>
+    <string name="switch_off_text">Uit</string>
+    <string name="switch_on_text">Aan</string>
+</resources>

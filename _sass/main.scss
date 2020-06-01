@@ -1,23 +1,47 @@
+body {
+  font: 300 16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  background-color: #ffffde;
+
+}
+h1 {
+  font-size: 2.4em;
+}
+h2 {
+  font-size: 1.5em
+  // margin-top: 2em;
+}
 h3 {
   font-weight: 700;
 }
 em {
   color: rgba(0,0,0,0.7);
 }
+blockquote {
+  padding-left: 0.5em;
+}
 #explanation-title:before, a[href="#explanation"]:before {
-  content: "💩 "
+  // content: "💩 "
 }
 #user-solution-title:before, a[href="#user-solution"]:before {
-  content: "💪 "
+  // content: "💪 "
 }
 #developer-solution-title:before, a[href="#dev-solution"]:before {
-  content: "🤖 "
+  // content: "🤖 "
+}
+section:first-child {
+  margin-bottom: 2em;
+}
+section:not(:first-child) {
+  margin-bottom: 6em;
 }
 blockquote {
   font-family: 'Courier New', Courier, monospace
 }
 .text-center {
   text-align: center;
+}
+.text-right {
+  text-align: right;
 }
 .site-footer {
   font-size: 0.7em;
@@ -53,6 +77,15 @@ blockquote {
     text-align: right;
     // max-width: 50%;
     font-size: 2em;
+  }
+  h2 {
+    margin-bottom: 0;
+  }
+  & .card-subtitle {
+    // color: #888;
+    min-height: 1em;
+    font-size: 0.7em;
+    font-weight: 100;
   }
 }
 .card-vendor {
@@ -121,9 +154,23 @@ blockquote {
   color: #000000;
 }
 
+.card-award-color-11 {
+  background-color: #ffeda0;
+}
+.card-award-text-color-11 {
+  color: #000000;
+}
+
+.card-award-color-12 {
+  background-color: #ffeda0;
+}
+.card-award-text-color-12 {
+  color: #000000;
+}
+
 
 .card-vendor:hover {
-  background-color: #F57C00;
+  background-color: grey;
 }
 .card-vendor-award {
   border-radius: 10px;
@@ -146,21 +193,80 @@ blockquote {
   display: inline;
   height: 1em;
   padding-top: 0;
+  padding-bottom: 0;
+}
+#about_score .poo {
+  height: 3em;
 }
 .score {
   margin-bottom: 1em;
 }
 #score {
-  margin-left: 1em;
+  margin: 0.5em;
+  display: inline-block;
+}
+.score-empty {
+  opacity: 0.5;
+}
+#copyembed {
+  text-decoration: underline;
+  cursor: pointer;
+  &:active {
+    color: orange;
+  }
+}
+.customization-switch {
+  height: 2em;
+  display: inline;
+  padding: 1em;
 }
 .card-vendor-award:hover {
-  background-color: #cddc39;
+  background-color: grey;
 }
+#vendor-btn-contribute {
+  // float: right;
+  background-image: url('/assets/img/pencil-outline.svg');
+  background-size: contain;
+  height: 1.2em;
+  margin: 0.4em;
+  padding: 0.4em;
+  // padding-bottom: 0.6em;
+  padding-left: 2.4em;
+  // border: 1px solid rgba(0,0,0,0.8);
+  // border-radius: 4px;
+  background-repeat: no-repeat;
+  &:hover {
+    font-weight: bold;
+    // transform: scale(1.1)
+  }
+}
+#vendor-btn-feedback {
+  // float: right;
+  background-image: url('/assets/img/pencil-outline.svg');
+  background-size: contain;
+  height: 1.2em;
+  margin: 0.4em;
+  padding: 0.4em;
+  // padding-bottom: 0.6em;
+  padding-left: 2.4em;
+  // border: 1px solid rgba(0,0,0,0.8);
+  // border-radius: 4px;
+  background-repeat: no-repeat;
+  &:hover {
+    font-weight: bold;
+    // transform: scale(1.1)
+  }
+}
+
 a, a:visited {
   color: #F57C00;
 }
 a:hover {
   text-decoration: none;
+}
+
+.page-link#press {
+  color: rgba(0,0,0,0.5);
 }
 #vendor-menu {
   margin-top: 1em;
@@ -175,8 +281,8 @@ a:hover {
     padding: 1em 2em;
     // flex: 1 1 0;
     &:hover {
-      background-color: grey;
-      color: white;
+      background-color: lightgrey;
+      color: grey;
     }
   }
 }
@@ -185,9 +291,20 @@ main.page-content {
 }
 img {
   padding-top: 1em;
+  padding-bottom: 1em;
   max-height: 25em;
   display: block;
   margin: 0 auto;
+}
+.img-block {
+  text-align: center;
+  img {
+    display: inline-block;
+  }
+  figure {
+    display: inline-block;
+    vertical-align: top;
+  }
 }
 
 @media only screen and (min-width: 601px) {
@@ -218,4 +335,26 @@ img {
   -moz-hyphens: auto;
   -webkit-hyphens: auto;
   hyphens: auto;
+}
+
+.caution-box {
+    color: #D8000C;
+    background-color: #FFD2D2;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 10px;
+}
+
+#vendor-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+
+}
+
+#user-solution-section-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+
 }

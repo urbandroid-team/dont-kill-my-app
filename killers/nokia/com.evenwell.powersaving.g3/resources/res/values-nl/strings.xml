@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Energiebesparing</string>
+    <string name="fih_power_saving_apply_notify">Energiebesparing aan</string>
+    <string name="fih_power_saving_apply_notify_msg">Geen item ingeschakeld</string>
+    <string name="fih_power_saving_apply_ticker_msg">Energiebesparing aan, geen item ingeschakeld</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">Als u functie inschakelt, ontvangen toepassingen mogelijk geen realtime informatie van internet wanneer scherm uit staat.</string>
+    <string name="fih_power_saving_dialog_cancel">Beëindig</string>
+    <string name="fih_power_saving_dialog_ok">OK</string>
+    <string name="fih_power_saving_lpm_dialog_msg">Energiebesparende modus is geactiveerd.</string>
+    <string name="fih_power_saving_notice_dialog_title">Opmerken</string>
+    <string name="fih_power_saving_permission_cancel">Beëindig</string>
+    <string name="fih_power_saving_permission_first_time_or_always_deny">Deze app vereist een extra machtiging om goed te werken. Verleen machtiging wanneer dat wordt gevraagd.</string>
+    <string name="fih_power_saving_permission_lpm_notification_summary">Tikken om toe te staan</string>
+    <string name="fih_power_saving_permission_lpm_notification_title">%s vereist machtigingen</string>
+    <string name="fih_power_saving_permission_msg">Deze app vereist extra machtigingen om goed te werken. Beheer machtiging van %s in Instelling.</string>
+    <string name="fih_power_saving_permission_settings">Instellingen</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">Als u functie inschakelt, kunnen toepassingen met alarm- of meldingsfunctie apparaat mogelijk niet op tijd wekken. Het wordt aanbevolen deze toepassingen vanaf instellingspagina toe te voegen aan witte lijst voor periodiek wekken.</string>
+    <string name="switch_off_text">Uit</string>
+    <string name="switch_on_text">Actief</string>
+</resources>

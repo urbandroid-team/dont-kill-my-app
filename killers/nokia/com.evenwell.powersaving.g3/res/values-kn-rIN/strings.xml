@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">ಪವರ್ ಸೇವರ್</string>
+    <string name="bam_notification_btn_nevershowthis">ಇದನ್ನು ಎಂದಿಗೂ ತೋರಿಸಬೇಡಿ</string>
+    <string name="bam_notification_btn_turnon">ಆನ್ ಮಾಡಿ</string>
+    <string name="bam_notification_content_text">ಬ್ಯಾಟರಿ ಬಾಳಿಕೆಯನ್ನು ವರ್ಧಿಸಲು ಇದನ್ನು ಆನ್ ಮಾಡಿ!</string>
+    <string name="bam_notification_content_title">ಹಿನ್ನಲೆಯಲ್ಲಿ ಕೆಲವೊಂದು ಅಪ್ಲಿಕೇಶನ್‌ಗಳು ಬ್ಯಾಟರಿಯನ್ನು ಬಳಸುತ್ತಿವೆ.</string>
+    <string name="fih_power_saving_apply_notify">ಪವರ್‌ ಸೇವರ್ ಆನ್‌‌</string>
+    <string name="fih_power_saving_apply_notify_msg">ಯಾವುದೇ ಐಟಂ ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</string>
+    <string name="fih_power_saving_apply_ticker_msg">ಪವರ್‌ ಸೇವರ್ ಆನ್‌‌, ಯಾವುದೇ ಐಟಂ ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</string>
+    <string name="fih_power_saving_background_activity_text">ಬ್ಯಾಟರಿ ಬಾಳಿಕೆಯನ್ನು ವಿಸ್ತರಿಸಲು ಹಿನ್ನಲೆ ಚಟುವಟಿಕೆ ನಿರ್ವಾಹಕವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ, ಆದರೆ ಕೆಲವು ಅಪ್ಲಿಗಳು ಅಥವಾ ಇಮೇಲ್‌ಗಳ ಅಧಿಸೂಚನೆಗಳನ್ನು ತಕ್ಷಣವೇ ಮರುಪಡೆಯಲು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ. ಶ್ವೇತಪಟ್ಟಿಯಿಂದ ಅಥವಾ ಶ್ವೇತಪಟ್ಟಿಗೆ ಅಪ್ಲಿಗಳನ್ನು ಸೇರಿಸುವ ಅಥವಾ ತೆಗೆದುಹಾಕುವ ಮೂಲಕ ನೀವು ಬ್ಯಾಟರಿ ಬಾಳಿಕೆಯನ್ನು ನಿರ್ವಹಿಸಬಹುದು.</string>
+    <string name="fih_power_saving_background_activity_text_blacklist">ಬ್ಯಾಟರಿ ಬಾಳಿಕೆಯನ್ನು ವಿಸ್ತರಿಸಲು ಹಿನ್ನಲೆ ಚಟುವಟಿಕೆ ನಿರ್ವಾಹಕವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ, ಆದರೆ ಕೆಲವು ಅಪ್ಲಿಕೇಶನ್‌ಗಳು ಅಥವಾ ಇಮೇಲ್‌ಗಳ ಅಧಿಸೂಚನೆಗಳನ್ನು ತಕ್ಷಣವೇ ಮರುಪಡೆಯಲು ಸಾಧ್ಯವಾಗದಿರಬಹುದು. ಬ್ಲ್ಯಾಕ್‌ಲಿಸ್ಟ್ ನಿಂದ ಅಥವಾ ಬ್ಲ್ಯಾಕ್‌ಲಿಸ್ಟ್‌ಗೆ ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಸೇರಿಸುವ ಅಥವಾ ತೆಗೆದುಹಾಕುವ ಮೂಲಕ ನೀವು ಬ್ಯಾಟರಿ ಬಾಳಿಕೆಯನ್ನು ನಿರ್ವಹಿಸಬಹುದು.</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">ಯಾಂತ್ರಿಕ ವ್ಯವಸ್ಥೆ ಆನ್ ಮಾಡಲು, ಸ್ಕ್ರೀನ್‌ ಆಫ್‌ ಮಾಡುವುದರಿಂದ ಇಂಟರ್ನೆಟ್‌‌ನಿಂದ ನೈಜಸಮಯದ ಮಾಹಿತಿಯನ್ನು ಸ್ವೀಕರಿಸಲು ಅಪ್ಲಿಕೇಶನ್‌ಗಳಿಗೆ ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ.</string>
+    <string name="fih_power_saving_dialog_cancel">ರದ್ದುಮಾಡಿ</string>
+    <string name="fih_power_saving_dialog_ok">ಸರಿ</string>
+    <string name="fih_power_saving_doze_high_consumption">ಅಧಿಕ ಪವರ್ ಅನುಭೋಗ</string>
+    <string name="fih_power_saving_lpm_dialog_msg">ಕಡಿಮೆ ಪವರ್‌ ಮೋಡ್‌ ಸಕ್ರಿಯವಾಗಿದೆ.</string>
+    <string name="fih_power_saving_notice_dialog_title">ಸೂಚನಪತ್ರ</string>
+    <string name="fih_power_saving_permission_cancel">ರದ್ದುಮಾಡಿ</string>
+    <string name="fih_power_saving_permission_first_time_or_always_deny">ಸರಿಯಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸಲು, ಈ ಅಪ್ಲಿಕೇಶನ್‌ಗೆ ಹೆಚ್ಚುವರಿ ಅನುಮತಿಯ ಅಗತ್ಯವಿದೆ. ಕೇಳಿದಾಗ ಅನುಮತಿಗೆ ಅವಕಾಶ ನೀಡಿ.</string>
+    <string name="fih_power_saving_permission_lpm_notification_summary">ಅನುಮತಿಸಲು ಟ್ಯಾಪ್‌ ಮಾಡಿ</string>
+    <string name="fih_power_saving_permission_lpm_notification_title">%s ಅನುಮತಿಗಳ ಅಗತ್ಯವಿದೆ</string>
+    <string name="fih_power_saving_permission_msg">"ಸರಿಯಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸಲು, ಈ ಅಪ್ಲಿಕೇಶನ್‌ಗೆ ಹೆಚ್ಚುವರಿ ಅನುಮತಿಗಳ ಅಗತ್ಯವಿದೆ. ಸೆಟ್ಟಿಂಗ್‌ನಲ್ಲಿ %s's ಅನುಮತಿಯನ್ನು ನಿರ್ವಹಿಸಿ."</string>
+    <string name="fih_power_saving_permission_settings">ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">ಯಾಂತ್ರಿಕ ವ್ಯವಸ್ಥೆ ಆನ್ ಮಾಡಲು, ಸ್ಕ್ರೀನ್‌ ಆಫ್‌ ಮಾಡುವುದರಿಂದ ಅಲಾರಂ ಅಥವಾ ಅಧಿಸೂಚನೆ ಫಂಕ್ಷನ್‌‌ಗಳನ್ನು ಹೊಂದಿರುವ ಅಪ್ಲಿಕೇಶನ್‌ಗಳು ಸಮಯಕ್ಕೆ ಸರಿಯಾಗಿ ಸಾಧನವನ್ನು ಎಚ್ಚರಗೊಳಿಸಲು ಸಾಧ್ಯವಾಗದಿರುವುದಕ್ಕೆ ಕಾರಣವಾಗಬಹುದು. ಅದರ ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಪುಟದಿಂದ ಆವರ್ತಕ ವೇಕಪ್ ಶ್ವೇತಪಟ್ಟಿಗೆ ಆ ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಸೇರಿಸಲು ಶಿಫಾರಸು ಮಾಡಲಾಗಿದೆ.</string>
+    <string name="lock_screen_ap_protect_title">ಹಿನ್ನಲೆ ಚಟುವಟಿಕೆ ನಿರ್ವಾಹಕ</string>
+    <string name="switch_off_text">ಆಫ್</string>
+    <string name="switch_on_text">ಆನ್</string>
+</resources>

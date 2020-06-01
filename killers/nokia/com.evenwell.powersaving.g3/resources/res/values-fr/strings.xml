@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Économie d\'énergie</string>
+    <string name="fih_power_saving_apply_notify">Économie d\'énergie activée</string>
+    <string name="fih_power_saving_apply_notify_msg">Aucun élément activé.</string>
+    <string name="fih_power_saving_apply_ticker_msg">Économiseur d\'énergie activé, aucun élément activé</string>
+    <string name="fih_power_saving_background_activity_text">Autorisez le gestionnaire des activités en arrière-plan de prolonger l\'autonomie de la batterie, mais les notifications de certaines applications ou certains e-mails peuvent ne pas être récupérées instantanément. Vous pouvez gérer l\'autonomie de la batterie en ajoutant les applications à la liste blanche ou en les retirant de celle-ci.</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">Le fait d\'activer le mécanisme peut conduire à ce que les applications ne puissent pas recevoir les informations en temps réel à partir d\'Internet lorsque l\'écran est éteint.</string>
+    <string name="fih_power_saving_dialog_cancel">Annuler</string>
+    <string name="fih_power_saving_dialog_ok">OK</string>
+    <string name="fih_power_saving_doze_high_consumption">Consommation d\'énergie importante</string>
+    <string name="fih_power_saving_lpm_dialog_msg">Le mode faible puissance est activé.</string>
+    <string name="fih_power_saving_notice_dialog_title">Avis</string>
+    <string name="fih_power_saving_permission_cancel">Annuler</string>
+    <string name="fih_power_saving_permission_first_time_or_always_deny">Pour fonctionner correctement, cette application nécessite une autorisation supplémentaire. Veuillez accorder les autorisations lorsque vous y êtes invité.</string>
+    <string name="fih_power_saving_permission_lpm_notification_summary">Appuyez pour autoriser</string>
+    <string name="fih_power_saving_permission_lpm_notification_title">%s nécessite des autorisations</string>
+    <string name="fih_power_saving_permission_msg">Pour fonctionner correctement, cette application nécessite des autorisations supplémentaires. Veuillez gérer les autorisations de %s dans Réglage.</string>
+    <string name="fih_power_saving_permission_settings">Paramètres</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">Le fait d\'activer le mécanisme peut conduire à ce que les applications avec des fonctions d\'alarme ou de notification ne puissent pas réveiller l\'appareil à temps. Il est recommandé d\'ajouter ces applications à la liste blanche de réveil périodique sur la page de réglage.</string>
+    <string name="lock_screen_ap_protect_title">Gestionnaire des activités en arrière-plan</string>
+    <string name="switch_off_text">Désactivé</string>
+    <string name="switch_on_text">Activé</string>
+</resources>

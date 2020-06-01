@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Oszczędzanie energii</string>
+    <string name="fih_power_saving_apply_notify">Oszczędzanie energii wł.</string>
+    <string name="fih_power_saving_apply_notify_msg">Brak włączonych elementów</string>
+    <string name="fih_power_saving_apply_ticker_msg">Oszczędzanie energii wł.; brak włączonych elementów</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">Włączenie mechanizmu może spowodować, że aplikacja nie będzie odbierać informacji w czasie rzeczywistym z internetu, gdy ekran jest wyłączony.</string>
+    <string name="fih_power_saving_dialog_cancel">रद्द करें‏</string>
+    <string name="fih_power_saving_dialog_ok">ठीक</string>
+    <string name="fih_power_saving_lpm_dialog_msg">Włączony tryb niskiego poziomu energii.</string>
+    <string name="fih_power_saving_notice_dialog_title">Uwaga</string>
+    <string name="fih_power_saving_permission_cancel">रद्द करें‏</string>
+    <string name="fih_power_saving_permission_first_time_or_always_deny">Aby działać odpowiednio, ta aplikacja potrzebuje dodatkowych uprawnień. Po wyświetleniu monitu zaakceptuj uprawnienia.</string>
+    <string name="fih_power_saving_permission_lpm_notification_summary">Dotknij, aby zezwolić</string>
+    <string name="fih_power_saving_permission_lpm_notification_title">%s wymaga uprawnień</string>
+    <string name="fih_power_saving_permission_msg">Aby działać odpowiednio, ta aplikacja potrzebuje dodatkowych uprawnień. Uprawnienia %s można zmienić w Ustawieniach.</string>
+    <string name="fih_power_saving_permission_settings">सेटिंग्स</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">Włączenie mechanizmu może spowodować, że aplikacje z funkcją alarmu albo powiadomień nie będą mogły budzić urządzenia na czas. Zalecane jest dodanie tych aplikacji bo białej listy okresowego budzenia na stronie ich ustawień.</string>
+    <string name="switch_off_text">बंद</string>
+    <string name="switch_on_text">Aktywny</string>
+</resources>

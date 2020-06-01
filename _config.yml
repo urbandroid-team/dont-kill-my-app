@@ -21,18 +21,34 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dontkillmyapp.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: UrbandroidTeam
 github_username:  urbandroid-team
+repository: urbandroid-team/dont-kill-my-app
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-target-blank
   - jekyll-redirect-from
 
 collections:
   vendors:
     output: true
+  api:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: "_vendors"
+    values:
+      layout: vendor
+      permalink: :title
+  -
+    scope:
+      path: "_api"
+    values:
+      layout: api
+      permalink: /api/v2/:title.json
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bam_notification_btn_nevershowthis">KATU USIONYESHE HII</string>
+    <string name="bam_notification_btn_turnon">WASHA</string>
+    <string name="bam_notification_content_text">Washa hii ili uboreshe maisha ya betri!</string>
+    <string name="bam_notification_content_title">Kuna Programu zinazotumia betri kichini chini.</string>
+    <string name="fih_power_saving_background_activity_text_blacklist">Wezesha kidhibiti cha shughuli za chinichini ili kuongeza maisha ya betri, lakini taarifa za baadhi ya Programu au Barua pepe zinaweza kosa kupakuliwa papo hapo. Unaweza kudhibiti maisha ya betri kwa kuongeza au kuondoa Programu kwenda au kutoka orodha ya zilizozuiwa.</string>
+    <string name="fih_power_saving_dialog_cancel">Ghairi</string>
+    <string name="fih_power_saving_dialog_ok">Sawa</string>
+    <string name="fih_power_saving_permission_cancel">Ghairi</string>
+    <string name="lock_screen_ap_protect_title">Kidhibiti cha shughuli za chinichini</string>
+    <string name="switch_off_text">Imezimwa</string>
+    <string name="switch_on_text">Imewashwa</string>
+</resources>

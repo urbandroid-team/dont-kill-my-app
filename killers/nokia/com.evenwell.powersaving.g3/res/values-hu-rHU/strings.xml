@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Energiatakarékos mód</string>
+    <string name="bam_notification_btn_nevershowthis">SOHA NE JELENJEN MEG</string>
+    <string name="bam_notification_btn_turnon">BEKAPCSOLÁS</string>
+    <string name="bam_notification_content_text">Kapcsolja be ezt az akkumulátor üzemidejének javításához!</string>
+    <string name="bam_notification_content_title">A háttérben az akkumulátor üzemidejét csökkentő alkalmazások futnak.</string>
+    <string name="fih_power_saving_apply_notify">Energiatakarékos mód be</string>
+    <string name="fih_power_saving_apply_notify_msg">Nincs engedélyezett elem</string>
+    <string name="fih_power_saving_apply_ticker_msg">Energiatakarékos mód be, nincs engedélyezett elem</string>
+    <string name="fih_power_saving_background_activity_text">A Háttértevékenység-kezelés engedélyezése megnöveli a használati időt, de bizonyos alkalmazások vagy e-mailek értesítései nem jelennek meg azonnal. Az alkalmazások hozzáadásával a fehérlistához vagy azok eltávolításával abból kezelheti az energiahasználatot.</string>
+    <string name="fih_power_saving_background_activity_text_blacklist">A Háttértevékenység-kezelés engedélyezése megnöveli a használati időt, de bizonyos alkalmazások vagy e-mailek értesítései nem jelennek meg azonnal. Az alkalmazások hozzáadásával a fektelistához vagy azok eltávolításával abból kezelheti az energiahasználatot.</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">A mechanizmus bekapcsolása után előfordulhat, hogy az alkalmazások nem csatlakoznak valós időben az internethez, amikor ki van kapcsolva a képernyő.</string>
+    <string name="fih_power_saving_dialog_cancel">Mégse</string>
+    <string name="fih_power_saving_dialog_ok">OK</string>
+    <string name="fih_power_saving_doze_high_consumption">Nagy energiafogyasztás</string>
+    <string name="fih_power_saving_lpm_dialog_msg">Alacsony energiahasználat mód aktiválva.</string>
+    <string name="fih_power_saving_notice_dialog_title">Figyelmeztetés</string>
+    <string name="fih_power_saving_permission_cancel">Mégse</string>
+    <string name="fih_power_saving_permission_first_time_or_always_deny">Az alkalmazás megfelelő működéséhez további jogosultságok szükségesek. A rákérdezéskor engedélyezzük a jogosultságot.</string>
+    <string name="fih_power_saving_permission_lpm_notification_summary">Engedélyezés koppintással</string>
+    <string name="fih_power_saving_permission_lpm_notification_title">%s engedélyköteles</string>
+    <string name="fih_power_saving_permission_msg">Az alkalmazás megfelelő működéséhez további jogosultságok szükségesek. A(z) %s jogosultságait a Beállításoknál kezelheti.</string>
+    <string name="fih_power_saving_permission_settings">Beállítások</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">A mechanizmus bekapcsolása után előfordulhat, hogy a riasztási vagy értesítési funkciót tartalmazó alkalmazások nem képesek időben felébreszteni a készüléket. Javasoljuk, hogy adja hozzá az alkalmazásokat az ismétlődő ébresztési fehérlistához a beállításokat tartalmazó oldalon.</string>
+    <string name="lock_screen_ap_protect_title">Háttértevékenység-kezelés</string>
+    <string name="switch_off_text">KI</string>
+    <string name="switch_on_text">Be</string>
+</resources>

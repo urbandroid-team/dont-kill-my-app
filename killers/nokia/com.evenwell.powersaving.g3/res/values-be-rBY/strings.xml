@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Эканомія энергіі</string>
+    <string name="fih_power_saving_apply_notify">Эканомія энергіі ўключана</string>
+    <string name="fih_power_saving_apply_notify_msg">Уключаных элементаў няма</string>
+    <string name="fih_power_saving_apply_ticker_msg">Эканомія энергіі ўключана, уключаных элементаў няма</string>
+    <string name="fih_power_saving_background_activity_text">Уключыце менеджэра працы ў фонавым рэжыме, каб падоўжыць тэрмін службы акумулятара, але абвяшчэнні некаторых праграм або электронныя лісты могуць не атрымлівацца імгненна. Можна кіраваць тэрмінам службы акумулятара праз даданне ці выдаленне праграм у белы спіс ці з яго.</string>
+    <string name="fih_power_saving_data_turn_on_dialog_msg">Уключэнне механізму можа прывесці да таго, што праграмы не змогуць атрымліваць інфармацыю з Інтэрнэта падчас адключэння экрана.</string>
+    <string name="fih_power_saving_dialog_cancel">Скасаваць</string>
+    <string name="fih_power_saving_dialog_ok">ОК</string>
+    <string name="fih_power_saving_doze_high_consumption">Высокае спажыванне энергіі</string>
+    <string name="fih_power_saving_lpm_dialog_msg">Рэжым нізкага спажывання энергіі актываваны.</string>
+    <string name="fih_power_saving_notice_dialog_title">Абвяшчэннi</string>
+    <string name="fih_power_saving_permission_cancel">Скасаваць</string>
+    <string name="fih_power_saving_permission_first_time_or_always_deny">Каб працаваць належным чынам, гэта праграма патрабуе дадатковага дазволу. Дадайце дазвол, калі яго запытаюць.</string>
+    <string name="fih_power_saving_permission_lpm_notification_summary">Дакраніцеся, каб дазволіць</string>
+    <string name="fih_power_saving_permission_lpm_notification_title">%s патрабуе дазволаў</string>
+    <string name="fih_power_saving_permission_msg">Каб працаваць належным чынам, гэта праграма патрабуе дадатковых дазволаў. Кіруйце дазволам %s у Параметрах.</string>
+    <string name="fih_power_saving_permission_settings">Настройкі</string>
+    <string name="fih_power_saving_pw_turn_on_dialog_msg">Уключэнне механізму можа прывесці да таго, што праграмы з функцыяй будзільніка ці абвяшчэння не змогуць разбудзіць прыладу ў належны час. Рэкамендуецца дадаць гэтыя праграмы ў белы спіс перыдычных будзільнікаў са старонкі яго наладкі.</string>
+    <string name="lock_screen_ap_protect_title">Менеджэр працы ў фонавым рэжыме</string>
+    <string name="switch_off_text">Выключана.</string>
+    <string name="switch_on_text">Уключаны</string>
+</resources>

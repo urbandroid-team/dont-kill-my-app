@@ -8,64 +8,101 @@
   <main id="vendor-menu">
     {%- if page.explanation and page.explanation != "" -%}
       <nav>
-        <a href="#explanation">Story</a>
+        <a href="#explanation"><img src="/assets/img/story.svg" class="poo" alt=""> Story</a>
       </nav>
     {%- endif -%}
     {%- if page.user_solution and page.user_solution != "" -%}
       <nav>
-        <a href="#user-solution">Solution for users</a>
+        <a href="#user-solution"><img src="/assets/img/muscle.svg" class="poo" alt=""> Solution for users</a>
       </nav>
     {%- endif -%}
     {%- if page.developer_solution and page.developer_solution != "" -%}
       <nav>
-        <a href="#dev-solution">Solution for developers</a>
+        <a href="#dev-solution"><img src="/assets/img/android.svg" class="poo" alt=""> Solution for devs</a>
+      </nav>
+    {%- endif -%}
+    {%- if page.award and page.award != "" -%}
+      <nav>
+        <a href="#badge"><img src="/assets/img/badge.svg" class="poo score-full" alt=""> Badge</a>
       </nav>
     {%- endif -%}
   </main>
 
   <main class="page-content" aria-label="Content">
     <div class="wrapper">
-      <h1>{{ page.name }}</h1>
+      <section id="vendor-head">
+        <h1>{{ page.name }}
+          {%- if page.award and page.award != "" and page.award != "0" -%}
+            <span id="score"><a href="/about_score">
+                {% assign p = 5 | minus: page.award %}
 
+                {% for i in (1..page.award) %}
+                <img src="/assets/img/placeholder.svg" class="poo score-full" alt="">
+                {% endfor %}
 
-      {%- if page.award and page.award != "" -%}
-      <div class="score">
-        <strong>Pooper score:</strong>
-        <span id="score">
-            {% assign p = 5 | minus: page.award %}
+                {% for i in (1..p) %}
+                <img src="/assets/img/placeholder.svg" class="poo score-empty" alt="">
+                {% endfor %}
+            </a></span>
+          {%- endif -%}
 
-            {% for i in (1..page.award) %}
-            <img src="/assets/img/poo_full.svg" class="poo" alt="">
-            {% endfor %}
-
-            {% for i in (1..p) %}
-            <img src="/assets/img/poo.svg" class="poo" alt="">
-            {% endfor %}
-        </span>
-      </div>
-      {%- endif -%}
+        </h1>
+        <div class="text-right">
+          <!-- <img src="/assets/img/pencil-outline.svg" alt=""> -->
+          <a href="https://github.com/urbandroid-team/dont-kill-my-app/edit/master/{{page.path}}" id="vendor-btn-contribute">Contribute</a>
+        </div>
+      </section>
 
       {{ content }}
 
       {%- if page.explanation and page.explanation != "" -%}
-        <h2 id="explanation-title"><a id="explanation"></a>Story</h2>
-        <p>{{ page.explanation | markdownify }}</p>
+        <section id="explanation-section">
+          <h2 id="explanation-title"><img src="/assets/img/story.svg" class="poo" alt=""> <a id="explanation"></a>Story</h2>
+          <p>{{ page.explanation | markdownify }}</p>
+        </section>
       {%- endif -%}
 
       {%- if page.user_solution and page.user_solution != "" -%}
-      <h2 id="user-solution-title"><a id="user-solution"></a>Solution for users</h2>
-      <p>{{ page.user_solution | markdownify }}</p>
+        <section id="user-solution-section">
+          <div id="user-solution-section-header">
+            <h2 id="user-solution-title"><a id="user-solution"></a><img src="/assets/img/muscle.svg" class="poo" alt=""> Solution for users</h2>
+            <div class="text-right">
+              {% assign feedbackUrl = "https://github.com/urbandroid-team/dont-kill-my-app/issues/new?title=Feedback for" %}
+              <a href="{{ 'https://github.com/urbandroid-team/dont-kill-my-app/issues/new?title=Feedback for ' | append: page.name | append: ' page' | uri_escape }}" id="vendor-btn-feedback">Feedback</a>
+            </div>
+          </div>
+          <p>{{ page.user_solution | markdownify }}</p>
+        </section>
       {%- endif -%}
 
       {%- if page.developer_solution and page.developer_solution != "" -%}
-      <h2 id="developer-solution-title"><a id="dev-solution"></a>Solution for developers</h2>
-      <p>{{ page.developer_solution | markdownify }}</p>
+        <section id="developer-solution-section">
+          <h2 id="developer-solution-title"><a id="dev-solution"></a><img src="/assets/img/android.svg" class="poo" alt=""> Solution for devs</h2>
+          <p>{{ page.developer_solution | markdownify }}</p>
+        </section>
+      {%- endif -%}
+
+      {%- if page.links and page.links != "" -%}
+      <section id="links-section">
+        <h2 id="links-title"><a id="links"></a><img src="/assets/img/read.svg" class="poo" alt=""> Further read</h2>
+        {{ page.links | markdownify }}
+      </section>
+      {%- endif -%}
+
+      {%- if page.award and page.award != "" -%}
+        <section id="badge-section">
+          <h2 id="badge-title"><a id="badge"></a><img src="/assets/img/placeholder.svg" class="poo score-full" alt=""> Badge</h2>
+          <p id="embed"><a href="{{page.url}}"><img id="badge-shareable" width="306px" src="/assets/img/placeholder.svg"></a></p>
+          <p class="text-center" id="copyembed" onclick="copyEmbedToClipboard()">Copy embed code to clipboard</p>
+        </section>
       {%- endif -%}
 
     </div>
   </main>
 
   {%- include footer.html -%}
+
+
 
 </body>
 

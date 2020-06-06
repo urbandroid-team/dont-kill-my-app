@@ -1,3 +1,5 @@
+
+
 ---
 name: Xiaomi
 subtitle: except Android One
@@ -30,6 +32,9 @@ To let your app run successfully in the background, make sure your settings look
 
 
 ### Power management
+
+
+
 
 
 Please enable:

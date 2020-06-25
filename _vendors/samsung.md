@@ -4,7 +4,7 @@ subtitle: Especially after Android P update
 manufacturer:
   - samsung
 award: 5
-position: 2
+position: 3
 redirect_from: /vendors/samsung.html
 explanation: "
 <div class='caution-box'>

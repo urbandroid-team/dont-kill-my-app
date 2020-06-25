@@ -5,7 +5,7 @@ manufacturer:
   - huawei
 redirect_from: /vendors/huawei.html
 award: 5
-position: 1
+position: 2
 explanation: "
 
 <div class='caution-box'>

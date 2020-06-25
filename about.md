@@ -10,7 +10,12 @@ excerpt: "
 
 To squeeze a little extra battery out of your phone,
 Android OEMs with highest negative score below break apps and make your
-phone less capable. [Read more](/problem)"
+phone less capable. [Read more](/problem)
+
+
+**NEWS:** Benchmark to measure how well your phone supports background processes is available in [DontKillMyApp app on Play Store](https://play.google.com/store/apps/details?id=com.urbandroid.dontkillmyapp). 
+
+"
 
 ---
 

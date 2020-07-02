@@ -9,6 +9,7 @@ menu: true
 * [Android Police](https://www.androidpolice.com/2019/01/13/dontkillmyapp-com-shames-oems-that-needlessly-kill-useful-background-processes-to-save-battery-life/)
 * [Android Police on DKMA benchmark](https://www.androidpolice.com/2020/06/24/dontkillmyapp-is-a-new-benchmark-for-how-aggressively-your-phone-kills-background-apps/)
 * [Android Central](https://www.androidcentral.com/phone-makers-are-misusing-androids-memory-management-and-google-isnt-doing-anything)
+* [DDay Italy on DKMA Benchmark](https://dday.it/redazione/36019/smartphone-android-pronti-a-tutto-per-risparmiare-batteria-ne-abbiamo-misurati-11-i-migliori-e-i-peggiori)
 * [NokiaMob](https://nokiamob.net/2019/01/06/nokia-android-phones-might-have-too-aggressive-background-tasks-manager/)
 * [Hacker News comment thread](https://news.ycombinator.com/item?id=18901006)
 * [SoyaCincau](https://www.soyacincau.com/2019/01/14/dont-kill-my-apps-battery-saver/)

@@ -15,7 +15,7 @@ explanation: "
 Also a serios doze mode bug in Android 6.0 even prevented foreground services to do their job (see [Solution for devs](#dev-solution) for workaround), but luckily this was fixed in 7.0.
 
 
-  After Android 8 users or even the system (Adaptive battery) can decide to prevent your apps background processes from working and you may need to check the Background restrictions (or limits) option in your phone settings.
+  After Android 8 users or even the system (Adaptive battery in Android 9) can decide to prevent your apps background processes from working and you may need to check the Background restrictions (or limits) option in your phone settings.
 "
 
 

@@ -5,23 +5,14 @@ manufacturer:
   - google
 redirect_from: /vendors/stock_android.html
 explanation: "
-We are giving AOSP or stock Android a zero negative score. Even if it's not perfect and you can still expect issues with background processing (see below) on devices with Android 6+, it is still the best we have :(. The truth is, if OEMs would stop adding battery saving features on top of AOSP, Android would be a much better place for users and app developers.
+  On Pixels and Nexuses you have the least change something goes wrong with background processing, but still there are
+  several places to look at!
 
+  Some use-cases are no more possible or paradoxically more battery consuming (e.g. gathering sensor data through sensor batching,see [Solution for developers](#dev-solution)) with the introduction of [Doze mode](https://developer.android.com/training/monitoring-device-state/doze-standby) in Android 6+ and you may need to opt the app out of battery optimizations to make it work properly.
 
-So even stock Android may kill your app when doing tasks valuable to the user. Especially if users enable Background restrictions for a particular app.
+Also a serios doze mode bug in Android 6.0 even prevented foreground services to do their job (see [Solution for devs](#dev-solution) for workaround), but luckily this was fixed in 7.0.
 
-
-Moreover, in Android 6.0 Google did dramatically restrict background processing with their Doze mode [https://developer.android.com/training/monitoring-device-state/doze-standby](https://developer.android.com/training/monitoring-device-state/doze-standby).
-
-
-This attempt to unify various battery saving features across the Android ecosystem fell flat. It wasn't only that
-Doze mode did not keep various vendors from implementing their own battery saving. Doze mode made some background
-processing scenarios impossible on Android or paradoxically more battery consuming e.g. gathering sensor data through
- sensor batching (see [Solution for developers](#dev-solution)).
-
-
-A serious bug in doze mode in Android 6.0 even prevented foreground services to do their job (see [Solution for devs](#dev-solution) for workaround), but luckily this was fixed in 7.0.
-
+  After Android 8 users or even the system (Adaptive battery) can decide to prevent your apps background processes from working and you may need to check the Background restrictions (or limits) option in your phone settings.
 "
 
 

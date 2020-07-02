@@ -2,10 +2,12 @@
 name: Other vendors
 position: 9999
 explanation: |
-  Whatever device you are using, don't blame the developers as the first thing when something goes wrong.
-  First check your phone settings whether some background processing is not restricted on your device.
+  On Pixels and Nexuses you have the least change something goes wrong with background processing, but still there are
+  several places to look at!
 
-  See below for general solutions that apply for various vendors.
+  Some use-cases are no more possible with the introduction of Doze mode in Android 6+ and you may need to opt the app out of battery optimizations to make it work properly.
+
+  After Android 8 users or even the system (Adaptive battery) can decide to prevent your apps background processes from working and you may need to check the Background restrictions (or limits) option in your phone settings.
 
 user_solution: |
 

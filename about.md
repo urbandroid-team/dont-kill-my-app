@@ -5,29 +5,27 @@ permalink: problem
 machine_name: problem
 menu: true
 excerpt: "
-**Smartphones are turning back into dumbphones.**
+**Don't kill apps, make them work!**
 
 
-To squeeze a little extra battery out of your phone,
-Android OEMs with highest negative score below break apps and make your
-phone less capable. [Read more](/problem)
+Android manufacturers listed below prefer battery life over proper funtionality of your apps. See below on how you can fix it, or [Read more](/problem)"
 
 
-**NEWS:** Benchmark to measure how well your phone supports background processes is available in [DontKillMyApp app on Play Store](https://play.google.com/store/apps/details?id=com.urbandroid.dontkillmyapp). 
+**NEWS:** Benchmark your phone background processes with the [DontKillMyApp Benchmark app on Play Store](https://play.google.com/store/apps/details?id=com.urbandroid.dontkillmyapp).
 
 "
 
 ---
 
-Smartphones are getting more and more powerful, but the battery capacity is lagging behind. Vendors are always trying to squeeze some battery saving features into the firmware with each new Android release.
+Smartphones are getting more and more powerful, but the battery capacity is lagging behind. Manufacturers are always trying to squeeze some battery saving features into the firmware with each new Android release.
 
-But some go so far that they break useful apps just to get a little more juice out of your device. This even gets so absurd that with some vendors (e.g. Nokia, Xiaomi, OnePlus, Samsung or Huawei) our smart phones are becoming **dumbphones** again.
+But some go so far that they break useful apps just to get a little more juice out of your device. This even gets so absurd that with some vendors (e.g. OnePlus, Huawei, Samsung or Xiaomi) our smart phones are becoming **dumbphones** again.
 
-Dumbphones are unable to do any useful tasks for you in the background unless you actively use your device at the time. This affects most of the apps which are not just another browser window. Most affected are alarm clocks, health trackers, automation apps or simply anything which needs to do some job for you at a particular moment when you don't use your phone.
+Dumbphones are unable to do any useful tasks for you in the background unless you actively use your device at the time. This affects most of the apps which are not just another browser window. Most affected are alarm clocks, health trackers, automation apps, calendars or simply anything which needs to do some job for you at a particular moment when you don't use your phone.
 
 With Android 6 (Marshmallow), Google has introduced Doze mode to the base Android, in an attempt to unify battery saving across the various Android phones.
 
-Unfortunately, vendors (e.g. Xiaomi, Huawei, OnePlus or even Samsung..) did not seem to catch that ball and they all have their own battery savers, usually very poorly written, saving battery only superficially with side effects.
+Unfortunately, some manufacturers (e.g. Xiaomi, Huawei, OnePlus or even Samsung..) did not seem to catch that ball and they all have their own battery savers, usually very poorly written, saving battery only superficially with side effects.
 
 Naturally users blame developers for their apps failing to deliver. But the truth is developers do the maximum they can. Always investigating new device specific hacks to keep their (your!) apps working. But in many cases they simply fall short as vendors have full control over processes on your phone.
 

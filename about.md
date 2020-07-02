@@ -8,7 +8,7 @@ excerpt: "
 **Don't kill apps, make them work!**
 
 
-Android manufacturers listed below prefer battery life over proper funtionality of your apps. See below on how you can fix it, or [Read more](/problem)
+Android manufacturers listed below prefer battery life over proper functionality of your apps. See below on how you can fix it, or [Read more](/problem)
 
 
 **NEWS:** See how is your phone doing with the [DontKillMyApp Benchmark app on Play Store](https://play.google.com/store/apps/details?id=com.urbandroid.dontkillmyapp).

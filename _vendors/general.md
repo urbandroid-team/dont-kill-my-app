@@ -10,16 +10,6 @@ explanation: |
 
 
 user_solution: |
-  Look for any vendor-specific battery saver on your device and ideally uninstall if possible, disable if possible.
-
-  If not, you are left with the option to root your device or uninstall it though **adb** (requires some expert skills though):
-
-  `adb shell`
-
-  `pm uninstall --user 0 com.useless.piece.of.trash`
-
-  Look through the vendor-specific phone settings and search for anything related to battery optimization or background processing.
-  If you find it try to disable it.
 
   ## Android 6+
 
@@ -44,10 +34,22 @@ user_solution: |
 
   ## If all fails
 
-    Look through the vendor-specific phone settings and search for anything related to battery optimization or background processing.
-    If you find it try to disable it.
+  Look for any vendor-specific battery saver on your device and ideally uninstall if possible, disable if possible.
 
-    Try the generic approach below as some vendors tent to hook more fuctionality into this than AOSP
+
+  If not, you are left with the option to root your device or uninstall it though **adb** (requires some expert skills though):
+
+  `adb shell`
+
+  `pm uninstall --user 0 com.useless.piece.of.trash`
+
+
+  Look through the vendor-specific phone settings and search for anything related to battery optimization or background processing.
+  If you find it try to disable it.
+
+
+  Try the generic approach below as some vendors tent to hook more fuctionality into this than AOSP
+
 
   **Phone settings > Battery & power saving > Battery usage > Ignore optimizations > Turn on** to ignore battery optimization for your app.
 

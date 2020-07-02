@@ -2,14 +2,22 @@
 name: Other vendors
 position: 9999
 explanation: |
-  On Pixels and Nexuses you have the least change something goes wrong with background processing, but still there are
-  several places to look at!
+  Whatever device you are using, don't blame the developers as the first thing when something goes wrong.
+  First check your phone settings whether some background processing is not restricted on your device.
 
-  Some use-cases are no more possible with the introduction of Doze mode in Android 6+ and you may need to opt the app out of battery optimizations to make it work properly.
-
-  After Android 8 users or even the system (Adaptive battery) can decide to prevent your apps background processes from working and you may need to check the Background restrictions (or limits) option in your phone settings.
+  See below for general solutions that apply for various vendors.
 
 user_solution: |
+  Look for any vendor-specific battery saver on your device and ideally uninstall if possible, disable if possible.
+
+  If not, you are left with the option to root your device or uninstall it though **adb** (requires some expert skills though):
+
+  `adb shell`
+
+  `pm uninstall --user 0 com.useless.piece.of.trash`
+
+  Look through the vendor-specific phone settings and search for anything related to battery optimization or background processing.
+  If you find it try to disable it.
 
   ## Android 6+
 
@@ -32,17 +40,7 @@ user_solution: |
 
   `dumpsys deviceidle disable`
 
-  ## Generic advice for manufacturers which are not listed
-
-    If your phone is not a Pixel or Nexus and your manufacturer is not listed elsewhere, please try to following generic advice.
-
-    Look for any vendor-specific battery saver on your device and ideally uninstall if possible, disable if possible.
-
-    If not, you are left with the option to root your device or uninstall it though **adb** (requires some expert skills though):
-
-    `adb shell`
-
-    `pm uninstall --user 0 com.useless.piece.of.trash`
+  ## If all fails
 
     Look through the vendor-specific phone settings and search for anything related to battery optimization or background processing.
     If you find it try to disable it.
@@ -50,8 +48,6 @@ user_solution: |
     Try the generic approach below as some vendors tent to hook more fuctionality into this than AOSP
 
   **Phone settings > Battery & power saving > Battery usage > Ignore optimizations > Turn on** to ignore battery optimization for your app.
-
-    If nothing helps go systematically through the menus and look for any battery related settings. Try to turn off anything which leads to any battery saving.
 
 
 ---

@@ -42,7 +42,7 @@ user_solution: "
 
   <figure>
     <img src=\"/assets/img/huawei/ss_huawei_app_launch_4.png\">
-    <figcaption>3. Make sure to enable all toggles</figcaption>
+    <figcaption>3. Make sure to ENABLE! all toggles.</figcaption>
   </figure>
 
 </div>

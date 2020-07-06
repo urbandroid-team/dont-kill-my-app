@@ -25,6 +25,31 @@ In some of the EMUI versions (we know about EMUI 4 at and we have some reports a
 
 user_solution: "
 
+### App Launch on some EMUI 8, 9 and 10 devices (Huawei P20, Huawei P20 Lite, Huawei Mate 10...)
+
+* *Phone settings > Battery > App launch* and then set your app to “Manage manually” and make sure everything is turned on.
+
+<div class=\"img-block\">
+  <figure>
+    <img src=\"/assets/img/huawei/ss_huawei_app_launch_1.jpg\">
+    <figcaption>1. *Phone settings > Battery > App launch*. This feature may or may not be available for all devices or labeled differently.</figcaption>
+  </figure>
+
+  <figure>
+    <img src=\"/assets/img/huawei/ss_huawei_app_launch_3.jpg\">
+    <figcaption>2. Turn off “Manage all autmatically”</figcaption>
+  </figure>
+
+  <figure>
+    <img src=\"/assets/img/huawei/ss_huawei_app_launch_4.jpg\">
+    <figcaption>3. Make sure to enable all toggles</figcaption>
+  </figure>
+
+</div>
+
+Also for reliable background processes you may need to uninstall PowerGenie as described below.
+
+
 ### EMUI 9+ devices
 
 
@@ -83,14 +108,6 @@ Also, you may not have PowerGenie on your phone, but your apps may still get kil
 ### Huawei P9 Plus
 
 * *Phone settings > Apps > Settings > Special access > Ignore battery optimisation >* select allow for your app.
-
-
-### Huawei P20, Huawei P20 Lite, Huawei Mate 10
-
-* *Phone settings > Battery > App launch* and then set your app to “Manage manually” and make sure everything is turned on.
-
-Also for reliable background processes you may need to uninstall PowerGenie as described above.
-
 
 
 ### Huawei Honor 9 Lite, Huawei Mate 9 Pro

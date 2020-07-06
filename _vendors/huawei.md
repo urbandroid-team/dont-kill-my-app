@@ -31,17 +31,17 @@ user_solution: "
 
 <div class=\"img-block\">
   <figure>
-    <img src=\"/assets/img/huawei/ss_huawei_app_launch_1.jpg\">
+    <img src=\"/assets/img/huawei/ss_huawei_app_launch_1.png\">
     <figcaption>1. *Phone settings > Battery > App launch*. This feature may or may not be available for all devices or labeled differently.</figcaption>
   </figure>
 
   <figure>
-    <img src=\"/assets/img/huawei/ss_huawei_app_launch_3.jpg\">
+    <img src=\"/assets/img/huawei/ss_huawei_app_launch_3.png\">
     <figcaption>2. Turn off “Manage all autmatically”</figcaption>
   </figure>
 
   <figure>
-    <img src=\"/assets/img/huawei/ss_huawei_app_launch_4.jpg\">
+    <img src=\"/assets/img/huawei/ss_huawei_app_launch_4.png\">
     <figcaption>3. Make sure to enable all toggles</figcaption>
   </figure>
 

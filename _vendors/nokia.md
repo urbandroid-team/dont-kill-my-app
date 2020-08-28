@@ -144,9 +144,13 @@ Then create a task, triggered at **Device Boot**, that performs the following:
 
 1. System Setting: type **Global**, name **setting.duraspeed.enabled**, value **2**
 
+2. System Setting: type **System**, name **setting.duraspeed.enabled**, value **2**
 
-2. System Setting: type **Global**, name **setting.duraspeed.enabled**, value **0**
+3. System Setting: type **Global**, name **setting.duraspeed.enabled**, value **0**
 
+4. System Setting: type **System**, name **setting.duraspeed.enabled**, value **0**
+
+NOTE: You need both "Global" and "System" type settings, but the screenshots below show only Global.
 
 <div class='img-block'>
   <figure>

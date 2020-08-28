@@ -17,7 +17,7 @@ Yes, Samsung - a dominant vendor in the Android market - is now using one of the
 "
 
 user_solution: "
-
+noki
 ## What optimization apps does Samsung have?
 
 - Android Pie and higher: Device care
@@ -25,6 +25,7 @@ user_solution: "
 - Android Oreo or Nougat: Device maintenance 
 
 - Android Marshmallow or below: Smart manager
+
 
 ## Galaxy S9 / S10
 

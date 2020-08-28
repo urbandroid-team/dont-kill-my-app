@@ -18,6 +18,12 @@ Yes, Samsung - a dominant vendor in the Android market - is now using one of the
 
 user_solution: "
 
+## What optimization apps does Samsung have?
+
+- Android Pie and higher: Device care
+- Android Oreo or Nougat: Device maintenance 
+- Android Marshmallow or below: Smart manager
+
 ## Galaxy S9 / S10
 
 Battery optimization is *turned on by default*. At some unclear moments (maybe on app update, OS update?), the settings also do revert back to the defaults, forcing you to turn them off again and again.

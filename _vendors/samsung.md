@@ -21,7 +21,9 @@ user_solution: "
 ## What optimization apps does Samsung have?
 
 - Android Pie and higher: Device care
+
 - Android Oreo or Nougat: Device maintenance 
+
 - Android Marshmallow or below: Smart manager
 
 ## Galaxy S9 / S10

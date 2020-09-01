@@ -5,7 +5,7 @@ manufacturer:
   - google
 redirect_from: /vendors/stock_android.html
 explanation: "
-  On Pixels and Nexuses you have the least change something goes wrong with background processing, but still there are
+  On Pixels and Nexuses you have the least chance something goes wrong with background processing, but still there are
   several places to look at!
 
 

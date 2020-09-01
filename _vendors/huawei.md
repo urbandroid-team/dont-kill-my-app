@@ -75,7 +75,7 @@ You need to:
 3. Enable [Developer options](https://developer.android.com/studio/debug/dev-options.html)
 
 
-4. Enable USB debugging within Developer options on your phone
+4. Enable USB debugging within Developer options on your device
 
 
 5. Run the following commands on your computer:
@@ -92,7 +92,7 @@ We did not yet have this confirmed but it is possible you can alternatively just
 <div class=\"caution-box\">
 Please still follow the steps below - Huawei phones usually have multiple powersaving mechanisms.
 <br><br>
-Also, you may not have PowerGenie on your phone, but your apps may still get killed by another mechanism.
+Also, you may not have PowerGenie on your device, but your apps may still get killed by another mechanism.
 </div>
 
 
@@ -142,7 +142,7 @@ force stop abnormal wakelock app uid: 10185
 
 ```
 
-The good news is that in order to not kill itself or others Huawei/Honor's services, before killing an app, hwPfwService looks at the tag of the wakelock and if the tag is one the hard-coded whitelisted tags, it does not kill the app.
+The good news is that in order to not kill itself or others, Huawei/Honor's services, before killing an app, hwPfwService looks at the tag of the wakelock and if the tag is one the hard-coded whitelisted tags, it does not kill the app.
 The whitelisted wakelock tags are: \"AudioMix\", \"AudioIn\", \"AudioDup\", \"AudioDirectOut\", \"AudioOffload\" and \"LocationManagerService\".
 
 

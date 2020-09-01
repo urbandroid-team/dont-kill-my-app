@@ -6,8 +6,8 @@ redirect_from: /vendors/wiko.html
 award: 3
 position: 7
 explanation: "
-We are still collecting feedback on Wiko devices so the following may not be a exhaustive list of issues. But Wiko
-devices are definitely problematic in terms of non-standard background process optimizations and adjustments to the settings that need to be done to make apps work properly.
+We are still collecting feedback on Wiko devices, so the following may not be a exhaustive list of issues. Wiko
+devices are however definitely problematic in terms of non-standard background process optimizations and adjustments to the settings that need to be done to make apps work properly.
 "
 
 user_solution: "
@@ -26,17 +26,17 @@ user_solution: "
 
   <figure>
     <img src=\"/assets/img/wiko/wiko_2.png\">
-    <figcaption>2. Turn Eco. Mode OFF<br/>and tap Optimized mode</figcaption>
+    <figcaption>2. Turn Eco. Mode OFF<br/>and tap \"Optimized mode\"</figcaption>
   </figure>
 
   <figure>
     <img src=\"/assets/img/wiko/wiko_3.png\">
-    <figcaption>3. Disable optimized mode<br/> or make sure Your app is not optimized</figcaption>
+    <figcaption>3. Disable \"Optimized mode\"<br/>, or make sure your app is not optimized</figcaption>
   </figure>
 
   <figure>
     <img src=\"/assets/img/wiko/wiko_4.png\">
-    <figcaption>4. Go to advanced settings</figcaption>
+    <figcaption>4. Go to \"Advanced settings\"</figcaption>
   </figure>
 
   <figure>
@@ -46,7 +46,7 @@ user_solution: "
 
   <figure>
     <img src=\"/assets/img/wiko/wiko_6.png\">
-    <figcaption>6. Make sure Your app<br/> is on the list</figcaption>
+    <figcaption>6. Make sure your app<br/> is on the list</figcaption>
   </figure>
 
 </div>
@@ -55,13 +55,13 @@ user_solution: "
 #### Alternatively:
 
 Go to dialer and put the code `*#*#86569726#*#*` and uncheck *Lowram Enable* And *Background enable*.<br>
-**NOTE**: this needs to be done again after reboot.
+**Note**: This needs to be done again after reboot.
 
 "
 
 developer_solution: "
 
-So far no workarounds on developer side are known.
+So far, no workarounds on the dev side are known.
 
 "
 

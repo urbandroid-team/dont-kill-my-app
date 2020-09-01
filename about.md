@@ -5,14 +5,15 @@ permalink: problem
 machine_name: problem
 menu: true
 excerpt: "
-**Smartphones are turning back into dumbphones.**
+**Don't kill apps, make them work!**
 
 
-The Android OEMs below break your apps and make your
-device less capable. [Read more](/problem)"
-Their aim is to squeeze a little extra battery out of your phone,
-resulting in the ranking (by negative impact) below
+Android manufacturers listed below prefer battery life over proper functionality of your apps. See below on how you can fix it, or [Read more](/problem)
 
+
+**NEWS:** See how is your phone doing with the [DontKillMyApp Benchmark](https://play.google.com/store/apps/details?id=com.urbandroid.dontkillmyapp) app on Play Store.
+
+"
 
 ---
 
@@ -36,7 +37,7 @@ This is the true aim of this site. **To help set things right whenever possible.
 The issues have been reported to Google on the Android Public Tracker:
 
 * [Chinese OEMs constantly violating Android compliance](https://issuetracker.google.com/issues/122098785)
-* [Request: Don't let manufacturers ruin how apps start themselves](https://issuetracker.google.com/issues/123653024)
+* [Request: Don't let manufacturers to ruin how apps start themselves](https://issuetracker.google.com/issues/123653024)
 
 
 ### Sources

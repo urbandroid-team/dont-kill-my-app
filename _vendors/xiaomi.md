@@ -16,6 +16,15 @@ There are no APIs and no documentation for those extensions. In default settings
 
 user_solution: '
 
+### MIUI 11
+
+To let your app run in the background, make sure settings for your app look like the following:
+
+<div class="img-block">
+  <img src="/assets/img/xiaomi/ss_miui11_batterysaversettings1.png">
+  <img src="/assets/img/xiaomi/ss_miui11_batterysaversettings2.png">
+</div>
+
 ### MIUI 10
 
 

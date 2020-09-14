@@ -22,7 +22,7 @@ We want to be maximally transparent about how we evaluate vendors and give them 
 <img src="/assets/img/placeholder.svg" class="poo score-full" alt="">
 <img src="/assets/img/placeholder.svg" class="poo score-empty" alt=""></h4>
 
-* Foreground services killed by default ant the user cannot reliably configure it otherwise
+* Foreground services killed by default and the user cannot reliably configure it otherwise
 
 <h4><img src="/assets/img/placeholder.svg" class="poo score-full" alt="">
 <img src="/assets/img/placeholder.svg" class="poo score-full" alt="">

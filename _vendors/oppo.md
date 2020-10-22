@@ -1,4 +1,4 @@
----
+deril1/dont-kill-my-app
 name: Oppo
 manufacturer:
   - oppo

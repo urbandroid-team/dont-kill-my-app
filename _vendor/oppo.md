@@ -1,17 +1,17 @@
-deril1/dont-kill-my-app
-name: Oppo
-manufacturer:
+
+name: deril1
+manufacturer:_vendors/oppo.md
   - oppo
 award: 3
 position: 9
 redirect_from: /vendors/samsung.html
 explanation: "
-We have currently only information for Oppo F1S, but on other models the situation may well be similar.
+We have currently only information for Oppo A12, but on other models the situation may well be similar.
 "
 
 user_solution: "
 
-## Oppo F1S
+## Oppo A12 RAM 4GB
 
 Background services are being killed (including accessibility services, which then need re-enabling) every time you turn the screen off. So far, a workaround for this is:
 

@@ -21,8 +21,8 @@ user_solution: '
 To let your app run in the background, make sure settings for your app look like the following:
 
 <div class="img-block">
-  <img src="/assets/img/xiaomi/ss_miui11_batterysaversettings1.png">
-  <img src="/assets/img/xiaomi/ss_miui11_batterysaversettings2.png">
+  <img src="/assets/img/xiaomi/ss_miui11_batterysaversettings1.jpg">
+  <img src="/assets/img/xiaomi/ss_miui11_batterysaversettings2.jpg">
 </div>
 
 ### MIUI 10

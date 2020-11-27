@@ -52,6 +52,11 @@ Also for reliable background processes you may need to uninstall PowerGenie as d
 
 ### EMUI 9+ devices
 
+#### Classic battery optimization
+
+Open Settings, and search for and access Battery optimization. Touch the little inverted triangle next to Don't allow, touch All apps, locate and touch your app, and select Don't allow.
+
+#### PowerGenie
 
 Huawei is extremely inventive in breaking apps on their devices. In addition to all the non-standard power management measures described below, they introduced a new task killer app build right into EMUI 9 on Android Pie.
 
@@ -95,6 +100,11 @@ Please still follow the steps below - Huawei phones usually have multiple powers
 Also, you may not have PowerGenie on your device, but your apps may still get killed by another mechanism.
 </div>
 
+### EMUI 5.X and 8.X
+
+#### Classic battery optimization
+
+Open Settings, and search for and access Ignore battery optimization. Touch the little inverted triangle next to Allow, touch All apps, locate and touch the app, and select Allow.
 
 ### EMUI 6+ devices (and some EMUI 5 devices)
 

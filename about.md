@@ -51,7 +51,7 @@ The info on the site is gathered from multiple sources. The big part is from the
 * [Kayako](https://support.kayako.com/article/1461-why-aren-t-push-notifications-working-on-my-android-app)
 * [DAVx<sup>5</sup>](https://www.davx5.com/faq/synchronization-is-not-run-as-expected)
 * [Nine](http://nine-faq.9folders.com/categories/2758-troubleshooting)
-* [Maël A for Huawei/Honor](mailto:mael.a@tutanota.com)
+* Maël A for Huawei/Honor
 
 ### How we evaluate the negative score
 

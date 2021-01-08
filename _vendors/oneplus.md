@@ -21,7 +21,7 @@ user_solution: "
 <br>
 To avoid the system to automatically revert the *not optimized* setting, you must also lock the app into the 'Recent App' list. (solution described [here](https://forum.xda-developers.com/showpost.php?p=78588761&postcount=7))
 <br>
-Start the app you want to protect. Go to *Recent apps* (App switcher). Toggle the *Lock* button on the upper right corner of the app.
+Start the app you want to protect. Go to *Recent apps* (App switcher). Toggle the *Lock* button on the upper right corner of the app (in newer versions you might have to long press on the app which will open a menu with the lock option).
 <br>
 This will avoid the app to be killed in background and the *Battery optimisation* setting to be reverted.
 <br>
@@ -50,7 +50,7 @@ App Auto-Launch (on some OnePlus phones) essentially prevents apps from working 
 <br>
 You'll see two options there. Both are enabled by default:
 
-1. Deep optimization
+1. Deep optimization or Adaptive Battery
 <br>
 This is the main app killer. 
 If you need any apps to run in background, disable it.

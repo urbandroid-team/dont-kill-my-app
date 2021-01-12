@@ -17,7 +17,7 @@ Yes, Samsung - a dominant vendor in the Android market - is now using one of the
 "
 
 user_solution: "
-noki
+
 ## What optimization apps does Samsung have?
 
 - Android Pie and higher: Device care
@@ -27,11 +27,9 @@ noki
 - Android Marshmallow or below: Smart manager
 
 
-## Galaxy S9 / S10
+## Galaxy S10
 
 Battery optimization is *turned on by default*. At some unclear moments (maybe on app update, OS update?), the settings also do revert back to the defaults, forcing you to turn them off again and again.
-
-Below are walkthrough screenshots for Galaxy S10. Please let us know your feedback about whether it works for S9 (or others) as well. Thanks!
 
 ### Sleeping apps
 
@@ -82,6 +80,73 @@ Checklist:
 </div>
 
 <div class=\"caution-box\">Warning: Make sure <strong>Put unused apps to sleep</strong> and <strong>Auto-disable unused apps</strong> is disabled. Otherwise, Samsung will put your apps back to sleep after a few days (3 by default) even if you have woken them up manually!</div>
+
+## Galaxy S9
+
+Battery optimizations are *turned on by default*. It is possible the disabled restrictions might get revert after OS update or reboot.
+
+
+Checklist:
+
+* Disable **Put unused apps to sleep**
+
+* Remove your app from the list of **Sleeping apps** - list of apps not allowed to run on the background
+
+* Remove your app from the list of **Deep sleeping apps** - list of apps that can only work when you open them
+
+* Add your app to the list of **Apps that won't be put to sleep**
+
+* Disable **Auto-optimization**
+
+<div class=\"img-block\">
+  <figure>
+    <img src=\"/assets/img/samsung/s9_1.png\">
+    <figcaption>1. Start <strong>Device care</strong><br>from phone settings. </figcaption>
+  </figure>
+
+  <figure>
+    <img src=\"/assets/img/samsung/s9_2.png\">
+    <figcaption>2. Tap <strong>Battery</strong>. </figcaption>
+  </figure>
+
+   <figure>
+       <img src=\"/assets/img/samsung/s9_3.png\">
+       <figcaption>3. Open <strong>App power management</strong>. </figcaption>
+     </figure>
+
+   <figure>
+       <img src=\"/assets/img/samsung/s9_4.png\">
+       <figcaption>4. Disable the option <br><strong>Put unused apps to Sleep </strong>. </figcaption>
+     </figure>
+
+   <figure>
+       <img src=\"/assets/img/samsung/s9_5.png\">
+       <figcaption>5. Remove your app from<br> the lists in <strong>Sleeping apps</strong><br>and <strong>Deep sleeping apps</strong>. </figcaption>
+     </figure>
+
+   <figure>
+       <img src=\"/assets/img/samsung/s9_6.png\">
+       <figcaption>6. Add you app to the list<br> in <strong>Apps that won't be put to sleep</strong>. </figcaption>
+     </figure>
+
+  <figure>
+    <img src=\"/assets/img/samsung/s9_7.png\">
+    <figcaption>7. Go back to <strong>Device care</strong><br> and tap the 3-dot menu. </figcaption>
+  </figure>
+
+  <figure>
+    <img src=\"/assets/img/samsung/s9_8.png\">
+    <figcaption>8. Tap on <strong>Advanced</strong>. </figcaption>
+  </figure>
+
+  <figure>
+    <img src=\"/assets/img/samsung/s9_9.png\">
+    <figcaption>9. Disable <strong>Auto-optimization</strong>. </figcaption>
+  </figure>
+
+</div>
+
+<div class=\"caution-box\">Warning: Make sure <strong>Put unused apps to sleep</strong> is disabled. Otherwise, Samsung will put your apps back to sleep after a few days (3 by default) even if you have woken them up manually!</div>
 
 ## Galaxy S8 (j6ltedx) and later
 

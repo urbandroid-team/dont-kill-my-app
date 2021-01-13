@@ -7,7 +7,7 @@ manufacturer:
 redirect_from:
   - /vendors/nokia.html
 award: 2
-position: 10
+position: 11
 explanation: "
 
 <div class='caution-box'>

@@ -50,6 +50,19 @@ user_solution: "
 Also for reliable background processes you may need to uninstall PowerGenie as described below.
 
 
+### Startup manager
+
+Startup manager seems to be a new kid on the block, preventing apps run automatically after the phone starts up.
+
+* Go to Settings > All > Startup manager.
+
+<div class=\"img-block\">
+  <figure>
+    <img src=\"/assets/img/huawei/startup.jpg\">
+    <figcaption>1. *Phone settings > All > Startup manager* and allow the app.</figcaption>
+  </figure>
+</div>
+
 ### EMUI 9+ devices
 
 #### Classic battery optimization

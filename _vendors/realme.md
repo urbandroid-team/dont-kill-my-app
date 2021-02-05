@@ -90,7 +90,7 @@ It will disrupt background processes.
 
 * <strong>Smart Performance Mode</strong> - optimized mode depending on the workload, may break background processes
 
-*  <strong>No Performance Improvement</strong> - maximally optimized, will break background processes to save battery
+*  <strong>No Performance Improvement</strong> - no additional boost of performance
 
 
 ## App quick freeze

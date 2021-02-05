@@ -3,7 +3,7 @@ name: Sony
 manufacturer:
   - sony
 award: 2
-position: 12
+position: 13
 redirect_from: /vendors/sony.html
 explanation: "
 Sony gets a high bar in our listing of toxic Android vendors, as historically Sony introduced the first very effective non-standard background process optimization and opened Pandora's box.

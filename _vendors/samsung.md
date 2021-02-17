@@ -38,8 +38,38 @@ user_solution: "
 
 On Android 11 Samsung will prevent apps work in background by default unless you exclude apps from battery optimizations. This is a severe divergence from standard Android process management policies. To keep your apps working properly make sure you enable:<br>
 _Settings > Apps > Your App > Battery > Battery optimization > All apps > Your app > Don't optimize_.<br>
-Yes this is a long way to go :disappointed:! Devs cannot ask for it automatically as they risk beeing kicked out from Play Store due to policy violations.
+Yes, this is a long way to go! Devs cannot ask for it automatically as they risk being kicked out from Play Store due to policy violations.
 
+<div class=\"img-block\">
+  <figure>
+    <img src=\"/assets/img/samsung/samsung1.png\">
+    <figcaption>Settings -> Apps, then select Your app</figcaption>
+  </figure>
+
+  <figure>
+    <img src=\"/assets/img/samsung/samsung3.png\">
+    <figcaption>Your app -> Battery</figcaption>
+  </figure>
+
+  <figure>
+    <img src=\"/assets/img/samsung/samsung4.png\">
+    <figcaption>Battery -> Battery optimization</figcaption>
+  </figure>
+
+</div>
+
+<div class=\"img-block\">
+  <figure>
+    <img src=\"/assets/img/samsung/samsung5.png\">
+    <figcaption>Settings -> Switch to All apps listing</figcaption>
+  </figure>
+
+  <figure>
+    <img src=\"/assets/img/samsung/samsung6.png\">
+    <figcaption>Find Your app<br> switch off the battery optimization</figcaption>
+  </figure>
+
+</div>
 
 ## Galaxy S10
 

@@ -4,14 +4,18 @@ subtitle: Especially after Android P update
 manufacturer:
   - samsung
 award: 5
-position: 3
+position: 1
 redirect_from: /vendors/samsung.html
 explanation: "
 <div class='caution-box'>
-UPDATE: We record significantly increased number of app killing on Samsung's Android Pie flavor. The hints show adaptive battery being much more eager than in stock Android.<br>After 3 days any unused app will not be able to start from background (e.g. alarms will not work anymore). Imagine, you won't use your alarm clock for a the weekend +1 day and bang! no alarms any more and you miss work! We strongly suggest to turn off <strong>Adaptive battery</strong> and <strong>Put apps to sleep</strong> options per instructions below.
+UPDATE 2021: Despite Android team promise to enforce OEMs to be transparent about non-standard app killing, in Android 11 Samsung has introduced a new severe (default ON) restriction. Apps can no longer hold wake lock in foreground services. This breaks many use-cases, for instance health apps are now unable to gather sensoric data for their users. See details [here](https://issuetracker.google.com/issues/179644471) and read below for workarounds.
+</div>
+
+
+We record significantly increased number of app killing on Samsung's Android Pie flavor. The hints show adaptive battery being much more eager than in stock Android.<br>After 3 days any unused app will not be able to start from background (e.g. alarms will not work anymore). Imagine, you won't use your alarm clock for a the weekend +1 day and bang! no alarms any more and you miss work! We strongly suggest to turn off <strong>Adaptive battery</strong> and <strong>Put apps to sleep</strong> options per instructions below.
 <br><br>
 Important: The latest feedback suggests even when those options get disabled, Samsung may re-enable than later after a firmware update!
-</div>
+
 
 Yes, Samsung - a dominant vendor in the Android market - is now using one of the nastiest battery saving techniques in the industry. They kill background processes and render alarm clocks and other apps which rely on background processing useless. See below for workarounds.
 "
@@ -20,11 +24,20 @@ user_solution: "
 
 ## What optimization apps does Samsung have?
 
+- Android 11: Battery optimization
+
 - Android Pie and higher: Device care
 
 - Android Oreo or Nougat: Device maintenance 
 
 - Android Marshmallow or below: Smart manager
+
+
+## Android 11
+
+On Android 11 Samsung will prevent apps work in background by default unless you exclude apps from battery optimizations. This is a severe divergence from standard Android process management policies. To keep your apps working properly make sure you enable:<br>
+_Settings > Apps > Your App > Battery > Battery optimization > All apps > Your app > Don't optimize_.<br>
+Yes this is a long way to go :disappointed:! Devs cannot ask for it automatically as they risk beeing kicked out from Play Store due to policy violations.
 
 
 ## Galaxy S10

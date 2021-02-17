@@ -13,8 +13,13 @@ user_solution: |
 
   ## Android 6+
 
-  Always check the following setting
-  **Phone settings > Battery & power saving > Battery usage > Ignore optimizations > Turn on** to ignore battery optimization for your app.
+  Always check the following setting:
+
+  - on older devices:<br>
+  _Phone settings > Battery & power saving > Battery usage > Ignore optimizations > Turn on_ to ignore battery optimization for your app.
+
+  - on newer devices:<br>
+  _Settings > Apps > Your app > Battery > Optimize battery usage > All (from the top) > Your app_ (toggle to disable).
 
   ## Android 8+
 

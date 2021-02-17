@@ -8,7 +8,8 @@ position: 1
 redirect_from: /vendors/samsung.html
 explanation: "
 <div class='caution-box'>
-UPDATE 2021: Despite Android team promise to enforce OEMs to be transparent about non-standard app killing, in Android 11 Samsung has introduced a new severe (default ON) restriction. Apps can no longer hold wake lock in foreground services. This breaks many use-cases, for instance health apps are now unable to gather sensoric data for their users. See details [here](https://issuetracker.google.com/issues/179644471) and read below for workarounds.
+UPDATE 2021: Despite Android team promise to enforce OEMs to be transparent about non-standard app killing, in Android 11 Samsung has introduced a new severe (default ON) restriction. Apps can no longer hold wake lock in foreground services. This breaks many use-cases, for instance health apps are now unable to gather sensoric data for their users.
+See details <a href=\"https://issuetracker.google.com/issues/179644471\">here</a> and read below for workarounds.
 </div>
 
 

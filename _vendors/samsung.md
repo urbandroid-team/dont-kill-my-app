@@ -25,9 +25,9 @@ user_solution: "
 
 ## What optimization apps does Samsung have?
 
-- Android 11: Battery optimization
+- Android 11: Battery optimization, Auto-optimize, Adaptive battery, Background restrictions, lists of Sleeping apps, Unused apps, Deep sleeping apps, Never sleeping apps
 
-- Android Pie and higher: Device care
+- Android Pie and higher: Device care, lists of Sleeping apps, Unused apps, Auto-disable unused apps
 
 - Android Oreo or Nougat: Device maintenance 
 
@@ -82,13 +82,16 @@ Sleeping apps menu is the sniper's nest for Samsung's app killing policies. Make
 
 Checklist:
 
-* Disable **Put unused apps to sleep**
+* List of apps in *System settings > Device care > Battery > (⁝) menu > Settings*:
 
-* Disable **Auto-disable unused apps**
+1. Disable **Put unused apps to sleep**
 
-* Remove your app from the list of sleeping apps
+2. Disable **Auto-disable unused apps**
 
-* Disable **background restrictions** for your app
+3. Remove your app from the list of Sleeping apps
+
+4. Disable **background restrictions** for your app
+
 
 <div class=\"img-block\">
   <figure>
@@ -124,6 +127,110 @@ Checklist:
 </div>
 
 <div class=\"caution-box\">Warning: Make sure <strong>Put unused apps to sleep</strong> and <strong>Auto-disable unused apps</strong> is disabled. Otherwise, Samsung will put your apps back to sleep after a few days (3 by default) even if you have woken them up manually!</div>
+
+On some phones, the same lists are placed in *Battery > Background usage limits*.
+
+<div class=\"img-block\">
+  <figure>
+    <img src=\"/assets/img/samsung/S10_sleeping_10.jpg\">
+    <figcaption>1. Open Battery > Background usage limits. </figcaption>
+  </figure>
+
+  <figure>
+    <img src=\"/assets/img/samsung/S10_sleeping_2.png\">
+    <figcaption>2. Check the lists.</figcaption>
+  </figure>
+
+</div>
+
+
+### New options after update on Android 11
+
+Apart from the various lists of apps, Android 11 on S10 has some new restrictions added:
+
+* **Optimize battery usage** in *Settings > Apps > (⁝) menu > Special Access > Optimize battery usage*
+
+* **Adaptive Battery** in *Battery > More battery settings*
+
+* **Adaptive power saving** in *Battery > (⁝) menu > Automation*
+
+* **Auto-optimize daily** in *Battery > (⁝) menu > Automation*
+
+* **Auto start at set times** in **Battery > (⁝) menu > Automation*
+
+
+#### Optimize battery usage
+
+<div class=\"img-block\">
+  <figure>
+    <img src=\"/assets/img/samsung/s10_obu_1.png\">
+    <figcaption>1. Open Apps section.</figcaption>
+  </figure>
+
+  <figure>
+    <img src=\"/assets/img/samsung/s10_obu_2.png\">
+    <figcaption>2. Tap on the (⁝) menu.</figcaption>
+  </figure>
+
+  <figure>
+    <img src=\"/assets/img/samsung/s10_obu_3.png\">
+    <figcaption>3. Choose Special Access.</figcaption>
+  </figure>
+
+  <figure>
+    <img src=\"/assets/img/samsung/s10_obu_4.png\">
+    <figcaption>4. Open Optimiza battery usage.</figcaption>
+  </figure>
+
+  <figure>
+    <img src=\"/assets/img/samsung/s10_obu_5.png\">
+    <figcaption>5. Expand the list to All apps.</figcaption>
+  </figure>
+
+  <figure>
+    <img src=\"/assets/img/samsung/s10_obu_6.png\">
+    <figcaption>6. Toggle the apps.</figcaption>
+  </figure>
+
+</div>
+
+
+#### Adaptive battery
+
+<div class=\"img-block\">
+  <figure>
+    <img src=\"/assets/img/samsung/s10_ab_1.jpg\">
+    <figcaption>1. Open Battery > (⁝) menu.</figcaption>
+  </figure>
+
+  <figure>
+    <img src=\"/assets/img/samsung/s10_ab_2.png\">
+    <figcaption>2. Choose Automation.</figcaption>
+  </figure>
+
+</div>
+
+#### Automation
+
+<div class=\"img-block\">
+  <figure>
+    <img src=\"/assets/img/samsung/s10_battery_1.png\">
+    <figcaption>1. Open Battery > (⁝) menu.</figcaption>
+  </figure>
+
+  <figure>
+    <img src=\"/assets/img/samsung/s10_battery_2.png\">
+    <figcaption>2. Choose Automation.</figcaption>
+  </figure>
+
+  <figure>
+    <img src=\"/assets/img/samsung/s10_battery_3.png\">
+    <figcaption>3. Adjust.</figcaption>
+  </figure>
+
+</div>
+
+
 
 ## Galaxy S9
 

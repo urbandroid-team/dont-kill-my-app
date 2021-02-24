@@ -16,6 +16,11 @@ There are no APIs and no documentation for those extensions. In default settings
 
 user_solution: '
 
+### App pinning
+
+When you open the recent apps tray, drag your app downwards (it will be locked). So, even if you clear recent apps, it will not clear them from the background. Drag downwards again to clear your app from the background.
+
+
 ### MIUI 12
 
 To let your app run in the background, make sure settings for your app look like the following:
@@ -92,10 +97,6 @@ Enable \"Autostart\" for desired apps.
      </figure>
     </div>
 </div>    
-
-### App pinning
-
-When you open the recent apps tray, drag your app downwards (it will be locked). So, even if you clear recent apps, it will not clear them from the background. Drag downwards again to clear your app from the background.
 
 '
 

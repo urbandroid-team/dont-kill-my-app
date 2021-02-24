@@ -23,15 +23,28 @@ Yes, Samsung - a dominant vendor in the Android market - is now using one of the
 
 user_solution: "
 
+1. [ Summary ](#what-optimization-apps-does-samsung-have) <br>
+
+2. [ Android 11 ](#android-11) <br>
+
+3. [ Galaxy S10 ](#galaxy-s10) <br>
+
+4. [ Galaxy S9 ](#galaxy-s9) <br>
+
+5. [ Galaxy S8 and later ](#galaxy-s8-and-later) <br>
+
+6. [ Other Samsung phones ](#other-samsung-phones) <br>
+
+
 ## What optimization apps does Samsung have?
 
-- Android 11: Battery optimization, Auto-optimize, Adaptive battery, Background restrictions, lists of Sleeping apps, Unused apps, Deep sleeping apps, Never sleeping apps
+- **Android 11**: Battery optimization, Auto-optimize, Adaptive battery, Background restrictions, lists of Sleeping apps, Unused apps, Deep sleeping apps, Never sleeping apps
 
-- Android Pie and higher: Device care, lists of Sleeping apps, Unused apps, Auto-disable unused apps
+- **Android Pie and higher**: Device care, lists of Sleeping apps, Unused apps, Auto-disable unused apps
 
-- Android Oreo or Nougat: Device maintenance 
+- **Android Oreo or Nougat**: Device maintenance
 
-- Android Marshmallow or below: Smart manager
+- **Android Marshmallow or below**: Smart manager
 
 
 ## Android 11
@@ -82,7 +95,7 @@ Sleeping apps menu is the sniper's nest for Samsung's app killing policies. Make
 
 Checklist:
 
-* List of apps in *System settings > Device care > Battery > (⁝) menu > Settings*:
+* List of apps in *System settings > Device care > Battery* > (⁝) *menu > Settings*:
 
 1. Disable **Put unused apps to sleep**
 
@@ -148,15 +161,15 @@ On some phones, the same lists are placed in *Battery > Background usage limits*
 
 Apart from the various lists of apps, Android 11 on S10 has some new restrictions added:
 
-* **Optimize battery usage** in *Settings > Apps > (⁝) menu > Special Access > Optimize battery usage*
+* **Optimize battery usage** in *Settings > Apps* > (⁝) *menu > Special Access > Optimize battery usage*
 
 * **Adaptive Battery** in *Battery > More battery settings*
 
-* **Adaptive power saving** in *Battery > (⁝) menu > Automation*
+* **Adaptive power saving** in *Battery* > (⁝) *menu > Automation*
 
-* **Auto-optimize daily** in *Battery > (⁝) menu > Automation*
+* **Auto-optimize daily** in *Battery* > (⁝) *menu > Automation*
 
-* **Auto start at set times** in **Battery > (⁝) menu > Automation*
+* **Auto start at set times** in *Battery* > (⁝) *menu > Automation*
 
 
 #### Optimize battery usage
@@ -299,7 +312,7 @@ Checklist:
 
 <div class=\"caution-box\">Warning: Make sure <strong>Put unused apps to sleep</strong> is disabled. Otherwise, Samsung will put your apps back to sleep after a few days (3 by default) even if you have woken them up manually!</div>
 
-## Galaxy S8 (j6ltedx) and later
+## Galaxy S8 and later
 
 With the introduction of their flagship Galaxy S8 (and with some earlier experiments), Samsung has introduced a flawed attempt at prolonging battery life called **App power monitor**.
 
@@ -310,7 +323,7 @@ For your apps to work correctly, please whitelist them in **App power monitor**.
 How to do it:
 
 
-Open the **Settings > Device maintenance > Battery** and at the bottom you’ll see a list of your most frequently used apps. You can manage apps individually or in a group by selecting them then tapping the big **Save power** button. Apps that are sleeping will appear in the **Sleeping apps** list at the bottom (tap it to expand the list). Scrolling further — all the way to the very bottom — and you’ll find **Unmonitored apps**. These are apps that you specifically want to exclude (whitelist) from **App power monitor** evil reach.
+Open the *Settings > Device maintenance > Battery*, and at the bottom you’ll see a list of your most frequently used apps. You can manage apps individually or in a group by selecting them then tapping the big **Save power** button. Apps that are sleeping will appear in the **Sleeping apps** list at the bottom (tap it to expand the list). Scrolling further — all the way to the very bottom — and you’ll find **Unmonitored apps**. These are apps that you specifically want to exclude (whitelist) from **App power monitor** evil reach.
 
 
 When inside the **Unmonitored apps** menu, you can tap the 3-dot menu to add or delete apps from the list. Rather than bothering with any of that, you can just turn off the **App power monitor** feature completely as it has little-to-no impact on battery life and only serves to handicap the normal functioning of your Galaxy device.
@@ -318,9 +331,11 @@ When inside the **Unmonitored apps** menu, you can tap the 3-dot menu to add or 
 
 It’s excessive and in some cases downright misleading, using scare tactics to keep you reliant on Samsung’s software when other Android devices get by just fine without it.
 
-## On other Samsung phones, the path may look like this:
+## Other Samsung phones
 
-**Phone settings > Applications > select three dot menu (top right corner) > Special Access > Optimize Battery usage >** Find your app on the list and make sure that it is not selected.
+On other Samsung phones, the path may look like this:<br>
+
+*Phone settings > Applications > select three dot menu (top right corner) > Special Access > Optimize Battery usage >* Find your app on the list and make sure that it is not selected.
 
 > Note: If you enable \"Edge Lighting\" for your app, the app will not be able to wake up your screen. To allow your app to wake up your screen, please remove it from the Edge Lighting applications list.
 

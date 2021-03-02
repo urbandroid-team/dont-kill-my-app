@@ -16,19 +16,25 @@ There are no APIs and no documentation for those extensions. In default settings
 
 user_solution: '
 
-### App pinning
+### App pinning / App locking
 
-When you open the recent apps tray, drag your app downwards (it will be locked). So, even if you clear recent apps, it will not clear them from the background. Drag downwards again to clear your app from the background.
+When you open the recent apps tray, drag your app downwards (it will be locked). So, even if you clear recent apps, it will not clear them from the background. Drag downwards again to clear your app from the background. <br>
+On some phones, you need to long-press Your app and then choose the padlock icon from the menu:
 
+<div class="img-block">
+  <img src="/assets/img/xiaomi/locking.jpg">
+</div>
 
 ### MIUI 12
 
-To let your app run in the background, make sure settings for your app look like the following:
+To let your app run in the background, make sure settings for your app look like the following (some
 
 <div class="img-block">
   <img src="/assets/img/xiaomi/miui12_settings1.jpg">
   <img src="/assets/img/xiaomi/miui12_settings2.jpg">
   <img src="/assets/img/xiaomi/miui12_settings3.jpg">
+  <figcaption> Some options might be missing for your app<br> (depends on the permissions the app needs). </figcaption>
+
 </div>
 
 ### MIUI 11

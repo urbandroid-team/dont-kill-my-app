@@ -15,7 +15,7 @@ See details <a href=\"https://issuetracker.google.com/issues/179644471\">here</a
 
 We record significantly increased number of app killing on Samsung's Android Pie flavor. The hints show adaptive battery being much more eager than in stock Android.<br>After 3 days any unused app will not be able to start from background (e.g. alarms will not work anymore). Imagine, you won't use your alarm clock for a the weekend +1 day and bang! no alarms any more and you miss work! We strongly suggest to turn off <strong>Adaptive battery</strong> and <strong>Put apps to sleep</strong> options per instructions below.
 <br><br>
-Important: The latest feedback suggests even when those options get disabled, Samsung may re-enable than later after a firmware update!
+Important: The latest feedback suggests even when those options get disabled, Samsung may re-enable them later after a firmware update!
 
 
 Yes, Samsung - a dominant vendor in the Android market - is now using one of the nastiest battery saving techniques in the industry. They kill background processes and render alarm clocks and other apps which rely on background processing useless. See below for workarounds.

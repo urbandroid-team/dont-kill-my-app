@@ -6,6 +6,9 @@ machine_name: press
 menu: true
 ---
 
+* ### Urbandroid talking about Don't kill my app at Droidcon Italy 2020
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/pRrGzH1YZ8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 * [Android Police](https://www.androidpolice.com/2019/01/13/dontkillmyapp-com-shames-oems-that-needlessly-kill-useful-background-processes-to-save-battery-life/)
 * [Android Police on DKMA benchmark](https://www.androidpolice.com/2020/06/24/dontkillmyapp-is-a-new-benchmark-for-how-aggressively-your-phone-kills-background-apps/)
 * [Android Central](https://www.androidcentral.com/phone-makers-are-misusing-androids-memory-management-and-google-isnt-doing-anything)

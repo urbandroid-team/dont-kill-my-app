@@ -11,7 +11,11 @@ excerpt: "
 Android manufacturers listed below prefer battery life over proper functionality of your apps. See below on how you can fix it, or [Read more](/problem)
 
 
-**NEWS:** See how is your phone doing with the [DontKillMyApp Benchmark](https://play.google.com/store/apps/details?id=com.urbandroid.dontkillmyapp) app on Play Store.
+**NEWS:** 
+
+* See how is your phone doing with the [DontKillMyApp Benchmark](https://play.google.com/store/apps/details?id=com.urbandroid.dontkillmyapp) app on Play Store.
+
+* Watch DKMA maintainers from [Urbandroid talk about DKMA](/press)
 
 "
 

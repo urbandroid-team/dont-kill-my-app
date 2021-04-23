@@ -77,6 +77,8 @@ Turn off **System settings > Battery > Battery optimization > (three dots) > Enh
 
 ### Recent apps clearing behaviour
 
+This applies to [Android 9 and below](https://forums.oneplus.com/threads/apps-deep-clear-missing-in-android-10.1121748/):
+
 Normally when you swipe an app away, it won't close. Android handles that well on its own. On OnePlus this may however work in a different way. Recent app clear behaviour manager might be set up in a way that swiping the app to close will kill it.
 
 <div class=\"img-block\">

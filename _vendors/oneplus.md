@@ -13,6 +13,18 @@ When releasing their 1+5 and 1+6 phones, OnePlus introduced one of the most seve
 
 user_solution: "
 
+### App locking -
+
+1. Swipe up and hold for opening recent apps.
+
+2.  Find Your app.
+
+3. Long press anywhere on the window and tap lock.
+
+<div class=\"img-block\">
+  <img src=\"/assets/img/oneplus_locking.jpg\">
+</div>
+
 ### Battery optimization
 
 - Turn off **System Settings > Apps > Gear Icon > Special Access > Battery Optimization**.

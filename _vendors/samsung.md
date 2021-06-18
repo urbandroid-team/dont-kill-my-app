@@ -9,7 +9,7 @@ redirect_from: /vendors/samsung.html
 explanation: "
 <div class='caution-box'>
 UPDATE 04/2021: Is Samsung now killing even foreground services? Could this be real, or is it a chimera?<br>
-https://github.com/urbandroid-team/dont-kill-my-app/issues/307#issuecomment-827649020 <br>
+[Here you can read more details](https://github.com/urbandroid-team/dont-kill-my-app/issues/307#issuecomment-827649020) <br>
 <br>
 Even disabling the system battery restrictions does not save the app from being killed. Let's find out, if it is a bug or a feature...
 

@@ -13,13 +13,20 @@ When releasing their 1+5 and 1+6 phones, OnePlus introduced one of the most seve
 
 user_solution: "
 
-### App locking -
+### App locking
 
-1. Swipe up and hold for opening recent apps.
+Locking the app in the Recent app may avoid the app to be killed in background and the *Battery optimisation* setting to be reverted.
+<br>
 
-2.  Find Your app.
+This is however not 100%. You may have to check system settings every once in a while. See [a bug report filed to OnePlus](https://forums.oneplus.com/threads/in-battery-optimisation-apps-are-getting-automatically-switched-from-not-optimised-to-optimised.849162/).
 
-3. Long press anywhere on the window and tap lock.
+
+1. Start the app you want to protect. Go to *Recent apps* - swipe up and hold for opening recent apps (Apps switcher).
+
+2. Long press anywhere on the window and tap the *Lock* button on the upper right corner of the app.
+
+3. The locked app will have the closed paddle lock icon.
+
 
 <div class=\"img-block\">
   <img src=\"/assets/img/oneplus_locking.jpg\">
@@ -31,13 +38,8 @@ user_solution: "
 <br>
 <small>**WARNING:** Recently OnePlus phones started reverting this setting randomly for random apps. So if you set it to be *not optimized*, the next day it may be back to *optimized*. 
 <br>
-To avoid the system to automatically revert the *not optimized* setting, you must also lock the app into the 'Recent App' list. (solution described [here](https://forum.xda-developers.com/showpost.php?p=78588761&postcount=7))
+To avoid the system to automatically revert the *not optimized* setting, you must also lock the app into the 'Recent App' list, see the solution above or [here](https://forum.xda-developers.com/showpost.php?p=78588761&postcount=7).
 <br>
-Start the app you want to protect. Go to *Recent apps* (App switcher). Toggle the *Lock* button on the upper right corner of the app (in newer versions you might have to long press on the app which will open a menu with the lock option).
-<br>
-This will avoid the app to be killed in background and the *Battery optimisation* setting to be reverted.
-<br>
-This is however not 100%. You may have to check system settings every once in a while. See [a bug report filed to OnePlus](https://forums.oneplus.com/threads/in-battery-optimisation-apps-are-getting-automatically-switched-from-not-optimised-to-optimised.849162/).</small>
 
 
 - Turn off **System settings > Battery > Battery optimization**, switch to 'All apps' in top right menu **> Your app > Don’t optimize**

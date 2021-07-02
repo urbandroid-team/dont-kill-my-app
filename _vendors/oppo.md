@@ -6,10 +6,21 @@ award: 3
 position: 9
 redirect_from: /vendors/samsung.html
 explanation: "
-We have currently only information for Oppo F1S, but on other models the situation may well be similar.
+On all Oppo devices situation is very similar. Also, we have information for Oppo F1S.
 "
 
 user_solution: "
+
+## Common scenario
+* Go to [Settings] > [Battery] > [Custom Power Saver] > Select [App] > Enable [Run in Background] 
+
+
+[First](https://ipics.oppo.com/oppo_in/answer/FAQ_10282_1) 
+[Second](https://ipics.oppo.com/oppo_in/answer/FAQ_10282_2)
+[Third](https://ipics.oppo.com/oppo_in/answer/FAQ_10282_3)
+
+More information you can find [here](https://oppo-in.custhelp.com/app/answers/detail/a_id/10282/~/keep-app-running-in-the-background)
+
 
 ## Oppo F1S
 

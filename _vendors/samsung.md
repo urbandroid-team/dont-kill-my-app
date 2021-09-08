@@ -27,39 +27,43 @@ Important: The latest feedback suggests even when those options get disabled, Sa
 
 
 Yes, Samsung - a dominant vendor in the Android market - is now using one of the nastiest battery saving techniques in the industry. They kill background processes and render alarm clocks and other apps which rely on background processing useless. See below for workarounds.
+<br>
+<br>
+NOTE: It is very hard to keep up with all the changes in the system settings layout and their modifications across all the combinations of phones and Android versions. If you find a different layout, or different name, let us know.
+
 "
 
 user_solution: "
 
-1. [ Summary ](#what-optimization-apps-does-samsung-have) <br>
-
-2. [ Android 11 ](#android-11) <br>
-
-3. [ Galaxy S10 ](#galaxy-s10) <br>
-
-4. [ Galaxy S9 ](#galaxy-s9) <br>
-
-5. [ Galaxy S8 and later ](#galaxy-s8-and-later) <br>
-
-6. [ Other Samsung phones ](#other-samsung-phones) <br>
-
-
 ## What optimization apps does Samsung have?
 
-- **Android 11**: Battery optimization, Auto-optimize, Adaptive battery, Background restrictions, lists of Sleeping apps, Unused apps, Deep sleeping apps, Never sleeping apps
+- **Android 11**: Battery optimization, Auto-optimize, Adaptive battery, Adaptive power-saving, Background restrictions, lists of Sleeping apps, Unused apps, Deep sleeping apps, Never sleeping apps
 
-- **Android Pie and higher**: Device care, lists of Sleeping apps, Unused apps, Auto-disable unused apps
+- **Android Pie and higher**: Device care, Background restrictions, lists of Sleeping apps, Unused apps, Auto-disable unused apps
 
-- **Android Oreo or Nougat**: Device maintenance
+- **Android Oreo and Nougat**: App power monitor, Background restrictions
 
 - **Android Marshmallow or below**: Smart manager
 
 
+1. [ Android 11 ](#android-11) <br>
+
+2. [ Android Pie and 10 ](#android-pie-and-10) <br>
+
+3. [ Android Oreo and Nougat ](#android-oreo-and-nougat) <br>
+
+4. [ Android Marshmallow and older ](#android-marshmallow-and-older ) <br>
+
+
 ## Android 11
 
-On Android 11 Samsung will prevent apps work in background by default unless you exclude apps from battery optimizations. This is a severe divergence from standard Android process management policies. To keep your apps working properly make sure you enable:<br>
-_Settings > Apps > Your App > Battery > Battery optimization > All apps > Your app > Don't optimize_.<br>
+On Android 11 Samsung will prevent apps work in background by default unless you exclude apps from battery optimizations. This is a severe divergence from standard Android process management policies.<br>
 Yes, this is a long way to go! Devs cannot ask for it automatically as they risk being kicked out from Play Store due to policy violations.
+
+### Battery optimization
+
+To keep your apps working properly make sure you enable:<br>
+_Settings -> Apps -> Your App -> Battery -> Battery optimization -> All apps -> Your app -> Don't optimize_.<br>
 
 <div class=\"img-block\">
   <figure>
@@ -92,95 +96,10 @@ Yes, this is a long way to go! Devs cannot ask for it automatically as they risk
 
 </div>
 
-## Galaxy S10
 
-Battery optimization is *turned on by default*. At some unclear moments (maybe on app update, OS update?), the settings also do revert back to the defaults, forcing you to turn them off again and again.
+### Optimize battery usage
 
-### Sleeping apps
-
-Sleeping apps menu is the sniper's nest for Samsung's app killing policies. Make sure to follow the instructions very carefully to prevent the apps from being killed.
-
-
-Checklist:
-
-* List of apps in *System settings > Device care > Battery* > (⁝) *menu > Settings*:
-
-1. Disable **Put unused apps to sleep**
-
-2. Disable **Auto-disable unused apps**
-
-3. Remove your app from the list of Sleeping apps
-
-4. Disable **background restrictions** for your app
-
-
-<div class=\"img-block\">
-  <figure>
-    <img src=\"/assets/img/samsung/s10_1.jpg\">
-    <figcaption>1. Start <strong>Device care</strong><br>from phone settings</figcaption>
-  </figure>
-
-  <figure>
-    <img src=\"/assets/img/samsung/s10_2.jpg\">
-    <figcaption>2. Tap Battery</figcaption>
-  </figure>
-
-  <figure>
-    <img src=\"/assets/img/samsung/s10_3.jpg\">
-    <figcaption>3. Tap the 3-dot menu > Settings</figcaption>
-  </figure>
-
-  <figure>
-    <img src=\"/assets/img/samsung/s10_5.jpg\">
-    <figcaption>4. Disable all toggles<br>(except Notifications)</figcaption>
-  </figure>
-
-  <figure>
-    <img src=\"/assets/img/samsung/s10_6.jpg\">
-    <figcaption>5. Tap \"Sleeping apps\"</figcaption>
-  </figure>
-
-  <figure>
-    <img src=\"/assets/img/samsung/s10_8.jpg\">
-    <figcaption>6. Wake up all the apps<br>using the trashcan icon</figcaption>
-  </figure>
-
-</div>
-
-<div class=\"caution-box\">Warning: Make sure <strong>Put unused apps to sleep</strong> and <strong>Auto-disable unused apps</strong> is disabled. Otherwise, Samsung will put your apps back to sleep after a few days (3 by default) even if you have woken them up manually!</div>
-
-On some phones, the same lists are placed in *Battery > Background usage limits*.
-
-<div class=\"img-block\">
-  <figure>
-    <img src=\"/assets/img/samsung/S10_sleeping_10.jpg\">
-    <figcaption>1. Open Battery > Background usage limits. </figcaption>
-  </figure>
-
-  <figure>
-    <img src=\"/assets/img/samsung/S10_sleeping_2.png\">
-    <figcaption>2. Check the lists.</figcaption>
-  </figure>
-
-</div>
-
-
-### New options after update on Android 11
-
-Apart from the various lists of apps, Android 11 on S10 has some new restrictions added:
-
-* **Optimize battery usage** in *Settings > Apps* > (⁝) *menu > Special Access > Optimize battery usage*
-
-* **Adaptive Battery** in *Battery > More battery settings*
-
-* **Adaptive power saving** in *Battery* > (⁝) *menu > Automation*
-
-* **Auto-optimize daily** in *Battery* > (⁝) *menu > Automation*
-
-* **Auto start at set times** in *Battery* > (⁝) *menu > Automation*
-
-
-#### Optimize battery usage
+*Settings > Apps* > (⁝) *menu > Special Access > Optimize battery usage*
 
 <div class=\"img-block\">
   <figure>
@@ -216,22 +135,7 @@ Apart from the various lists of apps, Android 11 on S10 has some new restriction
 </div>
 
 
-#### Adaptive battery
-
-<div class=\"img-block\">
-  <figure>
-    <img src=\"/assets/img/samsung/s10_ab_1.jpg\">
-    <figcaption>1. Open Battery > (⁝) menu.</figcaption>
-  </figure>
-
-  <figure>
-    <img src=\"/assets/img/samsung/s10_ab_2.png\">
-    <figcaption>2. Choose Automation.</figcaption>
-  </figure>
-
-</div>
-
-#### Automation
+### Auto-optimize daily + Adaptive power saving
 
 <div class=\"img-block\">
   <figure>
@@ -251,24 +155,119 @@ Apart from the various lists of apps, Android 11 on S10 has some new restriction
 
 </div>
 
+On some phones the route differs:
+
+<div class=\"img-block\">
+ <figure>
+    <img src=\"/assets/img/samsung/s9_7.png\">
+    <figcaption>1. <strong>Device care</strong><br> and tap the 3-dot menu. </figcaption>
+  </figure>
+
+  <figure>
+    <img src=\"/assets/img/samsung/s9_8.png\">
+    <figcaption>2. Tap on <strong>Advanced</strong>. </figcaption>
+  </figure>
+
+  <figure>
+    <img src=\"/assets/img/samsung/s9_9.png\">
+    <figcaption>3. Disable <strong>Auto-optimization</strong>. </figcaption>
+  </figure>
+
+</div>
+
+### Adaptive battery
+
+<div class=\"img-block\">
+  <figure>
+    <img src=\"/assets/img/samsung/s10_ab_1.jpg\">
+    <figcaption>1. Open Battery -> More battery settings.</figcaption>
+  </figure>
+
+  <figure>
+    <img src=\"/assets/img/samsung/s10_ab_2.png\">
+    <figcaption>2. Disable Adaptive battery.</figcaption>
+  </figure>
+
+</div>
+
+### Lists of Sleeping apps, Unused apps, Deep sleeping apps, Never sleeping apps
+
+<div class=\"img-block\">
+  <figure>
+    <img src=\"/assets/img/samsung/S10_sleeping_10.jpg\">
+    <figcaption>1. Open Battery > Background usage limits. </figcaption>
+  </figure>
+
+  <figure>
+    <img src=\"/assets/img/samsung/S10_sleeping_2.png\">
+    <figcaption>2. Check the lists.</figcaption>
+  </figure>
+
+</div>
+
+<div class=\"caution-box\">Warning: Make sure <strong>Put unused apps to sleep</strong> is disabled. Otherwise, Samsung will put your apps back to sleep after a few days (3 by default) even if you have woken them up manually!</div>
 
 
-## Galaxy S9
+## Android Pie and 10
 
 Battery optimizations are *turned on by default*. It is possible the disabled restrictions might get revert after OS update or reboot.
+By default any app which is not started in 3 days is put to sleep and background tasks including alarms will stop working.
 
+### Put unused apps to sleep
 
-Checklist:
+_Phone settings -> Device care -> Tap on the Battery item_ -> (⁝) _3-dot menu > Settings_
+<br>
+Uncheck Your app from this list.
 
-* Disable **Put unused apps to sleep**
+### Auto-disable unused apps
 
-* Remove your app from the list of **Sleeping apps** - list of apps not allowed to run on the background
+_Phone settings -> Device care -> Tap on the Battery item_ -> (⁝) _3-dot menu > Settings_
+<br>
+Uncheck Your app from this list.
 
-* Remove your app from the list of **Deep sleeping apps** - list of apps that can only work when you open them
+### Background restrictions
 
-* Add your app to the list of **Apps that won't be put to sleep**
+Check that _Phone settings -> Apps -> Sleep as Android -> Battery -> Background restriction_ state as **App can use battery in background** for the apps you need to run in the background.
 
-* Disable **Auto-optimization**
+### Sleeping apps
+
+Sleeping apps menu is the sniper's nest for Samsung's app killing policies. Make sure to follow the instructions very carefully to prevent the apps from being killed.
+
+<div class=\"img-block\">
+  <figure>
+    <img src=\"/assets/img/samsung/s10_1.jpg\">
+    <figcaption>1. Start <strong>Device care</strong><br>from phone settings</figcaption>
+  </figure>
+
+  <figure>
+    <img src=\"/assets/img/samsung/s10_2.jpg\">
+    <figcaption>2. Tap Battery</figcaption>
+  </figure>
+
+  <figure>
+    <img src=\"/assets/img/samsung/s10_3.jpg\">
+    <figcaption>3. Tap the 3-dot menu > Settings</figcaption>
+  </figure>
+
+  <figure>
+    <img src=\"/assets/img/samsung/s10_5.jpg\">
+    <figcaption>4. Disable all toggles<br>(except Notifications)</figcaption>
+  </figure>
+
+  <figure>
+    <img src=\"/assets/img/samsung/s10_6.jpg\">
+    <figcaption>5. Tap \"Sleeping apps\"</figcaption>
+  </figure>
+
+  <figure>
+    <img src=\"/assets/img/samsung/s10_8.jpg\">
+    <figcaption>6. Wake up all the apps<br>using the trashcan icon</figcaption>
+  </figure>
+
+</div>
+
+On some phones, the layout may differ:
+
 
 <div class=\"img-block\">
   <figure>
@@ -301,51 +300,80 @@ Checklist:
        <figcaption>6. Add you app to the list<br> in <strong>Apps that won't be put to sleep</strong>. </figcaption>
      </figure>
 
+</div>
+
+
+<div class=\"caution-box\">Warning: Make sure <strong>Put unused apps to sleep</strong> and <strong>Auto-disable unused apps</strong> is disabled. Otherwise, Samsung will put your apps back to sleep after a few days (3 by default) even if you have woken them up manually!</div>
+
+### Game Boosting features
+
+Samsung optimizing features that monitor your phone usage and can alter your settings. Although such feature might be useful, in some cases you don't wish to loose all background processed. This can results in termination of background processes when you play games (for example blue light filter apps will stop, or notification are delayed).
+<br>
+There are Game Booster app, Game optimizing service, and Game Launcher.
+<br>
+
+
+1. Go to Apps and then click the Samsung app settings. Scroll to the Game Booster.<br>
+2. Turn off as much as you can. Then click Block During Game and shut off everything.<br>
+3. Next, in apps, find the game optimizing service - this cannot be disabled, but you can remove all permissions.<br>
+4. Last, search apps again and find the Game Launcher. You can remove the permissions and then disabled it.<br>
+
+<div class=\"img-block\">
   <figure>
-    <img src=\"/assets/img/samsung/s9_7.png\">
-    <figcaption>7. Go back to <strong>Device care</strong><br> and tap the 3-dot menu. </figcaption>
+    <img src=\"/assets/img/samsung/game_booster_1.jpg\">
+    <figcaption>1. Open Samsung app settings. </figcaption>
   </figure>
 
   <figure>
-    <img src=\"/assets/img/samsung/s9_8.png\">
-    <figcaption>8. Tap on <strong>Advanced</strong>. </figcaption>
+    <img src=\"/assets/img/samsung/game_booster_2.jpg\">
+    <figcaption>2. Find Game booster app.</figcaption>
   </figure>
 
   <figure>
-    <img src=\"/assets/img/samsung/s9_9.png\">
-    <figcaption>9. Disable <strong>Auto-optimization</strong>. </figcaption>
+    <img src=\"/assets/img/samsung/game_booster.jpg\">
+    <figcaption>3. Disable all the options. </figcaption>
+  </figure>
+
+  <figure>
+    <img src=\"/assets/img/samsung/game_booster_4.jpg\">
+    <figcaption>4. In Samsung app settings find Game optimizing. </figcaption>
+  </figure>
+
+  <figure>
+    <img src=\"/assets/img/samsung/game_booster_5.jpg\">
+    <figcaption>5. Remove all its permission.</figcaption>
+  </figure>
+
+  <figure>
+    <img src=\"/assets/img/samsung/game_booster_3.jpg\">
+    <figcaption>6. Find Game launcher and disable it.</figcaption>
   </figure>
 
 </div>
 
-<div class=\"caution-box\">Warning: Make sure <strong>Put unused apps to sleep</strong> is disabled. Otherwise, Samsung will put your apps back to sleep after a few days (3 by default) even if you have woken them up manually!</div>
 
-## Galaxy S8 and later
+## Android Oreo and Nougat 8 + 7
 
-With the introduction of their flagship Galaxy S8 (and with some earlier experiments), Samsung has introduced a flawed attempt at prolonging battery life called **App power monitor**.
+With the introduction of their flagship Galaxy S8 (and with some earlier experiments), Samsung has introduced an  attempt at prolonging battery life called <strong>App power monitor</strong>. <br>
 
+### App power monitor
 
-For your apps to work correctly, please whitelist them in **App power monitor**.
+App power monitor can be turned off completely, or you can manage the apps individually.<br>
+For your apps to work correctly in the background, you need to whitelist them in _App power monitor_ and add them to <strong>Unmonitored apps</strong>:<br>
+<br>
+Open the _Settings -> Device maintenance -> Battery_, and at the bottom you’ll see a list of your most frequently used apps.<br>
+Apps that are sleeping will appear in the <strong>Sleeping apps</strong> list at the bottom (tap it to expand the list).<br>
+List of <strong>Unmonitored apps</strong> is at the very bottom (longer scrolling is needed) - these are apps that you specifically want to exclude (whitelist) from *App power monitor* evil reach. <br>
+When inside the _Unmonitored apps_ menu, you can tap the 3-dot menu to add or delete apps from the list.<br>
 
-
-How to do it:
-
-
-Open the *Settings > Device maintenance > Battery*, and at the bottom you’ll see a list of your most frequently used apps. You can manage apps individually or in a group by selecting them then tapping the big **Save power** button. Apps that are sleeping will appear in the **Sleeping apps** list at the bottom (tap it to expand the list). Scrolling further — all the way to the very bottom — and you’ll find **Unmonitored apps**. These are apps that you specifically want to exclude (whitelist) from **App power monitor** evil reach.
-
-
-When inside the **Unmonitored apps** menu, you can tap the 3-dot menu to add or delete apps from the list. Rather than bothering with any of that, you can just turn off the **App power monitor** feature completely as it has little-to-no impact on battery life and only serves to handicap the normal functioning of your Galaxy device.
-
-
-It’s excessive and in some cases downright misleading, using scare tactics to keep you reliant on Samsung’s software when other Android devices get by just fine without it.
-
-## Other Samsung phones
+## Android Marshmallow and below
 
 On other Samsung phones, the path may look like this:<br>
 
 *Phone settings > Applications > select three dot menu (top right corner) > Special Access > Optimize Battery usage >* Find your app on the list and make sure that it is not selected.
 
 > Note: If you enable \"Edge Lighting\" for your app, the app will not be able to wake up your screen. To allow your app to wake up your screen, please remove it from the Edge Lighting applications list.
+
 
 "
 

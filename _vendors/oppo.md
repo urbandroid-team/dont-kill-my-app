@@ -24,6 +24,18 @@ Background services are being killed (including accessibility services, which th
 
 * Give the service a persistent notification to remain in the foreground.
 
+<div class=\"img-block\">
+  <figure>
+    <img src=\"/assets/img/oppo/oppo_autolaunch1.jpg\">
+    <figcaption>Open App management.</figcaption>
+  </figure>
+
+  <figure>
+    <img src=\"/assets/img/oppo/oppo_autolaunch2.jpg\">
+    <figcaption>Toggle to allow Your app.</figcaption>
+  </figure>
+
+</div>
 
 All four of those need to be done before the app would function.
 

@@ -24,6 +24,8 @@ Background services are being killed (including accessibility services, which th
 
 * Give the service a persistent notification to remain in the foreground.
 
+All four of those need to be done before the app would function.
+
 <div class=\"img-block\">
   <figure>
     <img src=\"/assets/img/oppo/oppo_autolaunch1.jpg\">
@@ -37,7 +39,18 @@ Background services are being killed (including accessibility services, which th
 
 </div>
 
-All four of those need to be done before the app would function.
+<div class=\"img-block\">
+  <figure>
+    <img src=\"/assets/img/oppo/oppo_background1.jpg\">
+    <figcaption>App info -> Battery usage</figcaption>
+  </figure>
+
+  <figure>
+    <img src=\"/assets/img/oppo/oppo_background2.jpg\">
+    <figcaption>Choose Run in background.</figcaption>
+  </figure>
+
+</div>
 
 Here are links to some other resources verifying that some of the above steps work on other Oppo devices:
 

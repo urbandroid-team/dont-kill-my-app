@@ -11,9 +11,13 @@ On at least Unihertz's Atom L and Atom XL devices, there is a third-party backgr
 "
 
 user_solution: "
+
 * Follow [other vendors](https://dontkillmyapp.com/general) optimization steps, such as enabling 'ignore optimizations,' for your app.
+
 * Go to **Settings > Intelligent assistance > App blocker**. Find your app, tap it.
+
 * Uncheck all settings, which include **Boot blocker**, **Start blocker**, **Background blocker**, and **Background cleanup**.
+
 "
 
 developer_solution: "No developer solution at the moment"

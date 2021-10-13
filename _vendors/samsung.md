@@ -57,6 +57,14 @@ user_solution: "
 On Android 11 Samsung will prevent apps work in background by default unless you exclude apps from battery optimizations. This is a severe divergence from standard Android process management policies.<br>
 Yes, this is a long way to go! Devs cannot ask for it automatically as they risk being kicked out from Play Store due to policy violations.
 
+### Lock the app in Recent
+
+1. Open Recent apps.<br>
+2. Find Your app.<br>
+3. Long-press the icon of the app.<br>
+4. Select <strong>Lock the app</strong>.
+
+
 ### Battery optimization
 
 To keep your apps working properly make sure you enable:<br>

@@ -6,6 +6,9 @@ machine_name: press
 menu: true
 ---
 
+* ### Don't kill my app at Droidcon Berlin 2021
+    <iframe src="//player.vimeo.com/video/642393010?autopause=0&amp;autoplay=0&amp;color=00adef&amp;portrait=0&amp;byline=0&amp;title=0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" data-vimeo-tracked="true" data-ready="true"></iframe>
+
 * ### Urbandroid talking about Don't kill my app at Droidcon Italy 2020
     <iframe width="560" height="315" src="https://www.youtube.com/embed/pRrGzH1YZ8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

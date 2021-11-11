@@ -13,8 +13,6 @@ Android manufacturers listed below prefer battery life over proper functionality
 
 **NEWS:** 
 
-* Are you an app dev? Let Google know who are the worst OEMs. [Fill this Form!](https://docs.google.com/forms/d/e/1FAIpQLSd9P3gLKgMbVwQnAra6UhOjnCWtKpp55kYmigUKo8-ynmvdPg/viewform?resourcekey=0-e65sRbpisoGmtEe_zPZnMg)
-
 * Watch us talk about DKMA at [Droidcon](/press)
 
 * See how is your phone doing with the [DontKillMyApp Benchmark](https://play.google.com/store/apps/details?id=com.urbandroid.dontkillmyapp) app on Play Store.

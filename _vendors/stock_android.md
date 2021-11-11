@@ -1,5 +1,5 @@
 ---
-name: AOSP (Pixel, Nexus...)
+name: AOSP (Android One, Pixel, Nexus)
 manufacturer:
   - stock_android
   - google

@@ -6,8 +6,6 @@ manufacturer:
   - hmd global
 redirect_from:
   - /vendors/nokia.html
-award: 2
-position: 13
 explanation: "
 
 <div class='caution-box'>

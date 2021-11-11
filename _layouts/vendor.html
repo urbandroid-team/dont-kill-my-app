@@ -4,19 +4,39 @@
 {%- include head.html -%}
 {%- include header.html -%}
 
+{% for vendor in site.vendors-content %}
+  {% for m in page.manufacturer %}
+    {% if m == vendor.manufacturer or m == vendor.manufacturer[0] %}
+
+      {% assign filename = vendor.path | split: "/" | last | split: "." | first %}
+
+      {% case filename %}
+      {% when "explanation" %}
+        {% assign explanation_content = vendor.content %}
+      {% when "user" %}
+        {% assign user_content = vendor.content %}
+      {% when "dev" %}
+        {% assign dev_content = vendor.content %}
+      {% endcase %}
+
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
 <body>
   <main id="vendor-menu">
-    {%- if page.explanation and page.explanation != "" -%}
+    {%- if explanation_content and explanation_content != "" -%}
       <nav>
         <a href="#explanation"><img src="/assets/img/story.svg" class="poo" alt=""> Story</a>
       </nav>
     {%- endif -%}
-    {%- if page.user_solution and page.user_solution != "" -%}
+    {%- if user_content and user_content != "" -%}
       <nav>
         <a href="#user-solution"><img src="/assets/img/muscle.svg" class="poo" alt=""> Solution for users</a>
       </nav>
     {%- endif -%}
-    {%- if page.developer_solution and page.developer_solution != "" -%}
+    {%- if dev_content and dev_content != "" -%}
       <nav>
         <a href="#dev-solution"><img src="/assets/img/android.svg" class="poo" alt=""> Solution for devs</a>
       </nav>
@@ -55,14 +75,14 @@
 
       {{ content }}
 
-      {%- if page.explanation and page.explanation != "" -%}
+      {%- if explanation_content and explanation_content != "" -%}
         <section id="explanation-section">
           <h2 id="explanation-title"><img src="/assets/img/story.svg" class="poo" alt=""> <a id="explanation"></a>Story</h2>
-          <p>{{ page.explanation | markdownify }}</p>
+          <p>{{ explanation_content | markdownify }}</p>
         </section>
       {%- endif -%}
 
-      {%- if page.user_solution and page.user_solution != "" -%}
+      {%- if user_content and user_content != "" -%}
         <section id="user-solution-section">
           <div id="user-solution-section-header">
             <h2 id="user-solution-title"><a id="user-solution"></a><img src="/assets/img/muscle.svg" class="poo" alt=""> Solution for users</h2>
@@ -71,14 +91,14 @@
               <a href="{{ 'https://github.com/urbandroid-team/dont-kill-my-app/issues/new?title=Feedback for ' | append: page.name | append: ' page' | uri_escape }}" id="vendor-btn-feedback">Feedback</a>
             </div>
           </div>
-          <p>{{ page.user_solution | markdownify }}</p>
+          <p>{{ user_content | markdownify }}</p>
         </section>
       {%- endif -%}
 
-      {%- if page.developer_solution and page.developer_solution != "" -%}
+      {%- if dev_content and dev_content != "" -%}
         <section id="developer-solution-section">
           <h2 id="developer-solution-title"><a id="dev-solution"></a><img src="/assets/img/android.svg" class="poo" alt=""> Solution for devs</h2>
-          <p>{{ page.developer_solution | markdownify }}</p>
+          <p>{{ dev_content | markdownify }}</p>
         </section>
       {%- endif -%}
 

@@ -35,6 +35,8 @@ collections:
     output: true
   api:
     output: true
+  vendors-content:
+    output: false
 
 defaults:
   -

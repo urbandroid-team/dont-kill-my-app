@@ -1,0 +1,6 @@
+---
+manufacturer:
+    - huawei
+
+---
+

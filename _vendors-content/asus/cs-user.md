@@ -1,0 +1,6 @@
+---
+manufacturer:
+    - asus
+
+---
+nic user

@@ -1,0 +1,7 @@
+---
+manufacturer: 
+    - asus
+
+---
+
+nic explain

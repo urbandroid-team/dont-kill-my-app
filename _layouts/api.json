@@ -1,15 +1,37 @@
 ---
+
 ---
+{%- for vendor in site.vendors-content -%}
+  {%- for m in page.manufacturer -%}
+    {%- if m == vendor.manufacturer or m == vendor.manufacturer[0] -%}
+
+      {%- assign filename = vendor.path | split: "/" | last | split: "." | first -%}
+
+      {%- case filename -%}
+      {%- when "explanation" -%}
+        {%- assign explanation_content = vendor.content -%}
+      {%- when "user" -%}
+        {%- assign user_content = vendor.content -%}
+      {%- when "dev" -%}
+        {%- assign dev_content = vendor.content -%}
+      {%- when "links" -%}
+        {%- assign links_content = vendor.content -%}
+      {%- endcase -%}
+
+      {%- break -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}
 {
   "name": {{ page.name | jsonify }},
   "manufacturer": [{% for v in page.manufacturer %}"{{ v }}"{% unless forloop.last %},{% endunless %}{% endfor %}],
   "url": {{ "/" | append:page.manufacturer.first | jsonify }},
   "award": {{ page.award | jsonify }},
   "position": {{ page.position | jsonify }},
-  "explanation": {{ page.explanation | markdownify | replace: 'src="/assets/img/',
+  "explanation": {{ explanation_content | markdownify | replace: 'src="/assets/img/',
       'src="https://dontkillmyapp.com/assets/img/' | jsonify }},
-  "user_solution": {{ page.user_solution | markdownify | replace: 'src="/assets/img/',
+  "user_solution": {{ user_content | markdownify | replace: 'src="/assets/img/',
       'src="https://dontkillmyapp.com/assets/img/' | jsonify }},
-  "developer_solution": {{ page.developer_solution | markdownify | replace: 'src="/assets/img/',
+  "developer_solution": {{ dev_content | markdownify | replace: 'src="/assets/img/',
       'src="https://dontkillmyapp.com/assets/img/' | jsonify }}
 }

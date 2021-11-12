@@ -4,3 +4,4 @@ manufacturer:
 
 ---
 
+No developer solution at the moment

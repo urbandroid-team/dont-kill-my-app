@@ -17,6 +17,8 @@
         {% assign user_content = vendor.content %}
       {% when "dev" %}
         {% assign dev_content = vendor.content %}
+      {% when "links" %}
+        {% assign links_content = vendor.content %}
       {% endcase %}
 
       {% break %}
@@ -102,10 +104,10 @@
         </section>
       {%- endif -%}
 
-      {%- if page.links and page.links != "" -%}
+      {%- if links_content and links_content != "" -%}
       <section id="links-section">
         <h2 id="links-title"><a id="links"></a><img src="/assets/img/read.svg" class="poo" alt=""> Further read</h2>
-        {{ page.links | markdownify }}
+        {{ links_content | markdownify }}
       </section>
       {%- endif -%}
 

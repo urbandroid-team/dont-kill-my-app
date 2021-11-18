@@ -54,8 +54,9 @@
     <div class="wrapper">
       <section id="vendor-head">
         <h1>{{ page.name }}
-          {%- if page.award and page.award != "" and page.award != "0" -%}
+          {%- if page.award and page.award != "" -%}
             <span id="score"><a href="/about_score">
+              {%- if page.award != 0 -%}
                 {% assign p = 5 | minus: page.award %}
 
                 {% for i in (1..page.award) %}
@@ -65,6 +66,9 @@
                 {% for i in (1..p) %}
                 <img src="/assets/img/placeholder.svg" class="award-icon score-empty" alt="">
                 {% endfor %}
+              {%- else -%}
+                <img src="/assets/img/trophy.svg" class="award-icon" alt="">
+              {%- endif -%}
             </a></span>
           {%- endif -%}
 

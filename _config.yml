@@ -22,6 +22,7 @@ url: "https://dontkillmyapp.com" # the base hostname & protocol for your site, e
 twitter_username: UrbandroidTeam
 github_username:  urbandroid-team
 repository: urbandroid-team/dont-kill-my-app
+lang: en
 
 # Build settings
 markdown: kramdown

@@ -1,6 +1,6 @@
 ---
 name: Samsung
-subtitle: Especially after Android P update
+subtitle: especially after Android P update
 manufacturer:
   - samsung
 award: 5

@@ -6,4 +6,5 @@ manufacturer:
   - hmd global
 redirect_from:
   - /vendors/nokia.html
+award: 0
 ---

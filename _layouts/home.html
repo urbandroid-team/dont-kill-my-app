@@ -32,8 +32,12 @@ layout: default
 
     {% assign sorted_vendors = unique_vendors | sort:"position" %}
 
-    {%- for vendor in sorted_vendors -%} {% if vendor.award %}
+    {%- for vendor in sorted_vendors -%} {% if vendor.award > 0 %}
       {%- include card-vendor-award.html -%}
+    {%- endif -%} {%- endfor -%}
+
+    {%- for vendor in sorted_vendors -%} {% if vendor.award == 0 %}
+      {%- include card-vendor-trophy.html -%}
     {%- endif -%} {%- endfor -%}
 
     {%- for vendor in sorted_vendors -%} {% unless vendor.award %}

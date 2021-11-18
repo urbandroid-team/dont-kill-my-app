@@ -30,22 +30,22 @@
   <main id="vendor-menu">
     {%- if explanation_content and explanation_content != "" -%}
       <nav>
-        <a href="#explanation"><img src="/assets/img/story.svg" class="poo" alt=""> Story</a>
+        <a href="#explanation"><img src="/assets/img/story.svg" class="award-icon" alt=""> Story</a>
       </nav>
     {%- endif -%}
     {%- if user_content and user_content != "" -%}
       <nav>
-        <a href="#user-solution"><img src="/assets/img/muscle.svg" class="poo" alt=""> Solution for users</a>
+        <a href="#user-solution"><img src="/assets/img/muscle.svg" class="award-icon" alt=""> Solution for users</a>
       </nav>
     {%- endif -%}
     {%- if dev_content and dev_content != "" -%}
       <nav>
-        <a href="#dev-solution"><img src="/assets/img/android.svg" class="poo" alt=""> Solution for devs</a>
+        <a href="#dev-solution"><img src="/assets/img/android.svg" class="award-icon" alt=""> Solution for devs</a>
       </nav>
     {%- endif -%}
     {%- if page.award and page.award != "" -%}
       <nav>
-        <a href="#badge"><img src="/assets/img/badge.svg" class="poo score-full" alt=""> Badge</a>
+        <a href="#badge"><img src="/assets/img/badge.svg" class="award-icon score-full" alt=""> Badge</a>
       </nav>
     {%- endif -%}
   </main>
@@ -59,11 +59,11 @@
                 {% assign p = 5 | minus: page.award %}
 
                 {% for i in (1..page.award) %}
-                <img src="/assets/img/placeholder.svg" class="poo score-full" alt="">
+                <img src="/assets/img/placeholder.svg" class="award-icon score-full" alt="">
                 {% endfor %}
 
                 {% for i in (1..p) %}
-                <img src="/assets/img/placeholder.svg" class="poo score-empty" alt="">
+                <img src="/assets/img/placeholder.svg" class="award-icon score-empty" alt="">
                 {% endfor %}
             </a></span>
           {%- endif -%}
@@ -79,7 +79,7 @@
 
       {%- if explanation_content and explanation_content != "" -%}
         <section id="explanation-section">
-          <h2 id="explanation-title"><img src="/assets/img/story.svg" class="poo" alt=""> <a id="explanation"></a>Story</h2>
+          <h2 id="explanation-title"><img src="/assets/img/story.svg" class="award-icon" alt=""> <a id="explanation"></a>Story</h2>
           <p>{{ explanation_content | markdownify }}</p>
         </section>
       {%- endif -%}
@@ -87,7 +87,7 @@
       {%- if user_content and user_content != "" -%}
         <section id="user-solution-section">
           <div id="user-solution-section-header">
-            <h2 id="user-solution-title"><a id="user-solution"></a><img src="/assets/img/muscle.svg" class="poo" alt=""> Solution for users</h2>
+            <h2 id="user-solution-title"><a id="user-solution"></a><img src="/assets/img/muscle.svg" class="award-icon" alt=""> Solution for users</h2>
             <div class="text-right">
               {% assign feedbackUrl = "https://github.com/urbandroid-team/dont-kill-my-app/issues/new?title=Feedback for" %}
               <a href="{{ 'https://github.com/urbandroid-team/dont-kill-my-app/issues/new?title=Feedback for ' | append: page.name | append: ' page' | uri_escape }}" id="vendor-btn-feedback">Feedback</a>
@@ -99,21 +99,21 @@
 
       {%- if dev_content and dev_content != "" -%}
         <section id="developer-solution-section">
-          <h2 id="developer-solution-title"><a id="dev-solution"></a><img src="/assets/img/android.svg" class="poo" alt=""> Solution for devs</h2>
+          <h2 id="developer-solution-title"><a id="dev-solution"></a><img src="/assets/img/android.svg" class="award-icon" alt=""> Solution for devs</h2>
           <p>{{ dev_content | markdownify }}</p>
         </section>
       {%- endif -%}
 
       {%- if links_content and links_content != "" -%}
       <section id="links-section">
-        <h2 id="links-title"><a id="links"></a><img src="/assets/img/read.svg" class="poo" alt=""> Further read</h2>
+        <h2 id="links-title"><a id="links"></a><img src="/assets/img/read.svg" class="award-icon" alt=""> Further read</h2>
         {{ links_content | markdownify }}
       </section>
       {%- endif -%}
 
       {%- if page.award and page.award != "" -%}
         <section id="badge-section">
-          <h2 id="badge-title"><a id="badge"></a><img src="/assets/img/placeholder.svg" class="poo score-full" alt=""> Badge</h2>
+          <h2 id="badge-title"><a id="badge"></a><img src="/assets/img/placeholder.svg" class="award-icon score-full" alt=""> Badge</h2>
           <p id="embed"><a href="{{page.url}}"><img id="badge-shareable" width="306px" src="/assets/img/placeholder.svg"></a></p>
           <p class="text-center" id="copyembed" onclick="copyEmbedToClipboard()">Copy embed code to clipboard</p>
         </section>

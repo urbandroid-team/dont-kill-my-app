@@ -17,7 +17,7 @@ manufacturer:
 
   <figure>
     <img src="/assets/img/huawei/ss_huawei_app_launch_3.png">
-    <figcaption>2. Turn off “Manage all autmatically”</figcaption>
+    <figcaption>2. Turn off “Manage all automatically”</figcaption>
   </figure>
 
   <figure>

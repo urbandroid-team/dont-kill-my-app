@@ -319,6 +319,23 @@ There are Game Booster app, Game optimizing service, and Game Launcher.
 </div>
 
 
+### Optimize battery usage
+Battery optimizations are hidden under each app's settings section. To disable the optimization for the app, you need to expand the sub-menu, so the list reveals the apps, that are restricted.
+Open _System settings -> Apps -> Your app -> Optimize battery usage_, expand the list, and then set the app to "not optimized" with the toggle.
+
+<div class="img-block">
+  <figure>
+    <img src="/assets/img/samsung/battery_optimization_9_1.jpg">
+    <figcaption>1. Optimize battery usage.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/img/samsung/battery_optimization_9_2.jpg">
+    <figcaption>2. Expand the list.</figcaption>
+  </figure>
+
+</div>
+
 ## Android Oreo and Nougat 8 + 7
 
 With the introduction of their flagship Galaxy S8 (and with some earlier experiments), Samsung has introduced an  attempt at prolonging battery life called <strong>App power monitor</strong>. <br>

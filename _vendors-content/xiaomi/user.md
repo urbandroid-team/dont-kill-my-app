@@ -19,9 +19,7 @@ MUIU Optimizations were reported on MUIU 12 so far, but it is possible this opti
 
 <div class="img-block">
   <img src="/assets/img/xiaomi/miui_optimization_1.jpg">
-  <img src="/assets/img/xiaomi/miui_optimization_2.jpg">
-  <img src="/assets/img/xiaomi/miui_optimization_3.jpg">
-  <img src="/assets/img/xiaomi/miui_optimization_4.jpg">
+  <img src="/assets/img/xiaomi/miui_opti.gif">
 
 </div>
 

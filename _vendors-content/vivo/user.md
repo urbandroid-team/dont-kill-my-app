@@ -11,9 +11,7 @@ Based on the information by Vivo, this option should be present on all Vivo phon
 Newer OS version: *Settings > More settings > Applications > Autostart* to turn on/off the app switch.<br>
 For Funtouch OS 2.6 and lower version: *i Manager > App manager > Autostart manager* to turn on/off the app switch.
 
-## Vivo Y91
-
-### Lock the app in taskbar
+## Lock the app in taskbar
 
 Apps locked in the taskbar are safe from getting terminated when they run on the background.
 <br>
@@ -41,7 +39,22 @@ Apps locked in the taskbar are safe from getting terminated when they run on the
 
 </div>
 
-### Allow the app to keep running even during high power consumption
+Another layout for locking the app.
+
+<div class="img-block">
+  <figure>
+    <img src="/assets/img/vivo/vivo_lock.jpg">
+    <figcaption>1. Choose "Lockdown" in the top right submenu.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/img/vivo/vivo_locked.jpg">
+    <figcaption>2. App is now locked</figcaption>
+  </figure>
+
+</div>
+
+## Allow the app to keep running even during high power consumption
 
 <br>
 1. Go to system Settings > Battery.
@@ -68,3 +81,22 @@ Apps locked in the taskbar are safe from getting terminated when they run on the
 
 </div>
 
+Another layout for the similar feature, this time unde the name *Background power consumption management*.
+
+<div class="img-block">
+  <figure>
+    <img src="/assets/img/vivo/vivo_battery_1.jpg">
+    <figcaption>1. Open Battery section.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/img/vivo/vivo_battery_2.jpg">
+    <figcaption>2. Open Background power consumption management..</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/img/vivo/vivo_battery_3.jpg">
+    <figcaption>3. Enable for your app.</figcaption>
+  </figure>
+
+</div>

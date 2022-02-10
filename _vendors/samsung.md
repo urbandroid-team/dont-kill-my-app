@@ -1,4 +1,4 @@
----
+ojcu---
 name: Samsung
 subtitle: especially after Android P update
 manufacturer:

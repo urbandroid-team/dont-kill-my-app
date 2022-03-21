@@ -45,7 +45,7 @@ manufacturer:
   If you find it try to disable it.
 
 
-  Try the generic approach below as some vendors tent to hook more fuctionality into this than AOSP
+  Try the generic approach below as some vendors tend to hook more fuctionality into this than AOSP
 
 
   **Phone settings > Battery & power saving > Battery usage > Ignore optimizations > Turn on** to ignore battery optimization for your app.

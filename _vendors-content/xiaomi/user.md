@@ -13,9 +13,9 @@ On some phones, you need to long-press Your app and then choose the padlock icon
   <img src="/assets/img/xiaomi/locking.jpg">
 </div>
 
-### MUIU Optimizations
+### MIUI Optimizations
 
-MUIU Optimizations were reported on MUIU 12 so far, but it is possible this option is present on older versions too (let us know, if you have found this option on your phone). It is hidden in the Developers settings, so you need to switch to developer mode first (10x tap on MIUI version in About phone).
+MIUI Optimizations were reported on MIUI 12 so far, but it is possible this option is present on older versions too (let us know, if you have found this option on your phone). It is hidden in the Developers settings, so you need to switch to developer mode first (10x tap on MIUI version in About phone).
 
 <div class="img-block">
   <img src="/assets/img/xiaomi/miui_optimization_1.jpg">

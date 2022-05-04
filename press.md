@@ -6,6 +6,8 @@ machine_name: press
 menu: true
 ---
 
+* [My GPS tools review](https://mygpstools.com/dontkillmyapp-review)
+
 * ### DKMA at Droidcon Berlin 2021
     <iframe style="border-width: 0px;" width="560" height="315" src="//player.vimeo.com/video/642393010?autopause=0&amp;autoplay=0&amp;color=00adef&amp;portrait=0&amp;byline=0&amp;title=0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" data-vimeo-tracked="true" data-ready="true"></iframe>
 

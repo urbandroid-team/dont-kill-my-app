@@ -6,7 +6,6 @@ machine_name: press
 menu: true
 ---
 
-* [My GPS tools review](https://mygpstools.com/dontkillmyapp-review)
 
 * ### DKMA at Droidcon Berlin 2021
     <iframe style="border-width: 0px;" width="560" height="315" src="//player.vimeo.com/video/642393010?autopause=0&amp;autoplay=0&amp;color=00adef&amp;portrait=0&amp;byline=0&amp;title=0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" data-vimeo-tracked="true" data-ready="true"></iframe>
@@ -14,6 +13,8 @@ menu: true
 * ### DKMA at Droidcon Italy 2020
     <iframe width="560" height="315" src="https://www.youtube.com/embed/pRrGzH1YZ8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+* [My GPS tools review](https://mygpstools.com/dontkillmyapp-review)
 * [Android Police](https://www.androidpolice.com/2019/01/13/dontkillmyapp-com-shames-oems-that-needlessly-kill-useful-background-processes-to-save-battery-life/)
 * [Android Police on DKMA benchmark](https://www.androidpolice.com/2020/06/24/dontkillmyapp-is-a-new-benchmark-for-how-aggressively-your-phone-kills-background-apps/)
 * [Android Central](https://www.androidcentral.com/phone-makers-are-misusing-androids-memory-management-and-google-isnt-doing-anything)

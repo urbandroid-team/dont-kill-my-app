@@ -3,3 +3,9 @@
 
 @import "minima";
 @import "main";
+
+a:visited {
+  &:hover {
+    color: #111;
+  }
+}

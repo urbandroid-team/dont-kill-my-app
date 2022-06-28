@@ -13,7 +13,6 @@ menu: true
 * ### DKMA at Droidcon Italy 2020
     <iframe width="560" height="315" src="https://www.youtube.com/embed/pRrGzH1YZ8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
 * [Android Police about CTS-D](https://www.androidpolice.com/google-cts-d-app-killing/)
 * [My GPS tools review](https://mygpstools.com/dontkillmyapp-review)
 * [Android Police](https://www.androidpolice.com/2019/01/13/dontkillmyapp-com-shames-oems-that-needlessly-kill-useful-background-processes-to-save-battery-life/)

@@ -13,6 +13,10 @@ Android manufacturers listed below prefer battery life over proper functionality
 
 **NEWS:** 
 
+* App devs can now report device-specific issues affecting their apps directly to Google through [this IssueTracker template](https://issuetracker.google.com/issues/new?component=735851&template=1348774). 
+
+* What is CTS-D and why it should concern you? [Read up on Android Police](https://www.androidpolice.com/google-cts-d-app-killing/).
+
 * Watch us talk about DKMA at [Droidcon](/press)
 
 * See how is your phone doing with the [DontKillMyApp Benchmark](https://play.google.com/store/apps/details?id=com.urbandroid.dontkillmyapp) app on Play Store.

@@ -130,7 +130,7 @@ function changeScoreImages(imgRelativePathEmptyScore, imgRelativePathFullScore) 
 }
 
 function changeScoreParameterInBadgeSrc(parameter) {
-  $('#badge-shareable').attr('src', 'https://dontkillmyapp.com/badge{{page.url}}' + parameter
+  $('#badge-shareable').attr('src', 'https://dontkillmyapp.com/badge' + window.location.pathname + parameter
   + '.svg')
 }
 

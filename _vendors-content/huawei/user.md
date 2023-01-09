@@ -86,6 +86,17 @@ If apps keep getting killed try running `adb shell pm stopservice hwPfwService`.
 
 We did not yet have this confirmed but it is possible you can alternatively just disable PowerGenie in *Phone settings > Apps*. This setting would need to be re-applied every time you reboot your device.
 
+#### SystemManager
+
+Recently, Huawei incorporated Avast antivirus into their "Manager" app. If your apps get reported as infected, it is possible to uninstall it:
+
+`adb shell pm uninstall -k --user 0 com.huawei.systemmanager`
+
+Note, that then you will not have acces to Battery Optimization setting. If yor apps don't launch after system startup, you can then uninstall:
+
+`adb shell pm uninstall -k --user 0 com.huawei.iaware`
+
+which removes the Huawei whitelist for apps which request "BOOT_COMPLETED" permission.
 
 <div class="caution-box">
 Please still follow the steps below - Huawei phones usually have multiple powersaving mechanisms.

@@ -92,7 +92,7 @@ Recently, Huawei incorporated Avast antivirus into their "Manager" app. If your 
 
 `adb shell pm uninstall -k --user 0 com.huawei.systemmanager`
 
-Note, that then you will not have acces to Battery Optimization setting. If yor apps don't launch after system startup, you can then uninstall:
+Note, that then you will not have acces to Battery Optimization setting, the Huawei storage cleaner app and other possible parts of the Manager app. If yor apps don't launch after system startup, you can then uninstall:
 
 `adb shell pm uninstall -k --user 0 com.huawei.iaware`
 

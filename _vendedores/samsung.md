@@ -1,4 +1,4 @@
----
+---martineza8779@gmail.com
 name: Samsung
 subtitle: especially after Android P update
 manufacturer:

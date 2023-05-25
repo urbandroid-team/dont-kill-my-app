@@ -1,17 +1,27 @@
 ---
-manufacturer: 
-    - xiaomi
+manufacturer:
+- xiaomi
 
 ---
 
 
 ### Check Autostart permission
 
-There is a way to check the state of Autostart permission on MIUI devices programtically.
-Devices (MIUI 10, 11, 12) are working for it.
-
+There is a way to check if the Autostart has been enabled,
+<br>
 [https://github.com/XomaDev/MIUI-autostart](https://github.com/XomaDev/MIUI-autostart)
 
+
+This has been tested on devices:
+
+    - MIUI 10 (firebase)
+    - MIUI 11 (physical device 11.0.9)
+    - MIUI 12 (physical device 12.5)
+    - MIUI 13 (untested, but work)
+    - MIUI 14 (physical device 14.0.2)
+
+
+### Usage
 
 ```java
 // make sure device is MIUI device, else an 

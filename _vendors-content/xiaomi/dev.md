@@ -1,6 +1,6 @@
 ---
-manufacturer:
-- xiaomi
+manufacturer: 
+    - xiaomi
 
 ---
 

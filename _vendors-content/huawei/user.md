@@ -44,17 +44,17 @@ Also for reliable background processes you may need to uninstall PowerGenie as d
   </figure>
 
   <figure>
-    <img src="/assets/img/huawei/12_Huawei_3">
+    <img src="/assets/img/huawei/12_Huawei_3.jpg">
     <figcaption>3. Make sure to ENABLE! all toggles.</figcaption>
   </figure>
 
   <figure>
-    <img src="/assets/img/huawei/12_Huawei_4">
+    <img src="/assets/img/huawei/12_Huawei_4.jpg">
     <figcaption>4. go to .</figcaption>
   </figure>
 
   <figure>
-    <img src="/assets/img/huawei/12_Huawei_4">
+    <img src="/assets/img/huawei/12_Huawei_5.jpg">
     <figcaption>3. Make sure to ENABLE! all toggles.</figcaption>
   </figure>
 

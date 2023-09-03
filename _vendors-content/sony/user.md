@@ -8,7 +8,7 @@ manufacturer:
 ## Stamina mode
 
 Never use Stamina mode if you want your device to do something useful when not actively using it. Despite the official description, it does not affect only mobile data and WiFi, it also terminuates any background processes.
-Stamine mode can be find (and disabled) at either *Battery* section or *Power management* section.
+Stamine mode can be found (and disabled) at either *Battery* section or *Power management* section.
 
 <div class="img-block">
   <figure>

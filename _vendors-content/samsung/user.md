@@ -10,10 +10,28 @@ manufacturer: samsung
 - **Android Oreo and Nougat**: App power monitor, Background restrictions
 - **Android Marshmallow or below**: Smart manager
 
-1. [ Android 11 ](#android-11) <br>
-2. [ Android Pie and 10 ](#android-pie-and-10) <br>
-3. [ Android Oreo and Nougat ](#android-oreo-and-nougat) <br>
-4. [ Android Marshmallow and older ](#android-marshmallow-and-older ) <br>
+1. [ Android 13 ](#android-13) 
+2. [ Android 11 ](#android-11) <br>
+3. [ Android Pie and 10 ](#android-pie-and-10) <br>
+4. [ Android Oreo and Nougat ](#android-oreo-and-nougat) <br>
+5. [ Android Marshmallow and older ](#android-marshmallow-and-older ) <br>
+
+
+## Android 13
+
+The settings are mostly the same as Android 11 below, with a few changes:
+
+* The "Optimize battery usage" option doesn't exist anymore under "Special Access".
+* Under "Device Care" there is no "Automation" or "Advanced" option anymore.
+
+So the **existing options** to change would be:
+1. The per-app setting.
+2. Adaptive battery.
+3. Put unused apps to sleep.
+
+> The _"Put unused apps to sleep"_ option is the major headache we see on Samsung - a non-standard app-killing feature that isn't present in AOSP implemented only by Samsung which puts an app you did not use for X days to a mode with restricted background processing. On some releases, the period was short as 3 days. So if you did not use your alarm clock over the weekend your alarm would not ring.
+
+
 
 ## Android 11
 

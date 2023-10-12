@@ -19,7 +19,7 @@ On some phones, you need to long-press Your app and then choose the padlock icon
 On MIUI 14, there is a new permission to start from the background for each app, in *Settings > Apps > Your app > App permissions > Background autostart*.
 
 <div class="img-block">
-  <img src="/assets/img/xiaomi/miui14_autostart.jpg">
+  <img src="/assets/img/xiaomi/miui14_autostart.png">
 
 </div>
 

@@ -1,4 +1,4 @@
----
+work - automatis bot
 manufacturer: 
     - vivo
 

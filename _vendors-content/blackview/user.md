@@ -146,6 +146,7 @@ You can either whitelist Your app from the DuraSpeed, or disable it completely.
 This optimization was actually confirmed by Blackview support (for BV9200 running Android 12).
 This feature is present in <strong>System Manager</strong> app (there is a separate app, not the regular Android Settings!).
 
+<div class="img-block">
   <figure>
     <img src="/assets/img/blackview/bv_autoclean1.png">
     <figcaption>1. Select <strong>Auto cleanup</strong>. </figcaption>

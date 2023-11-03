@@ -147,7 +147,7 @@ This optimization was actually confirmed by Blackview support (for BV9200 runnin
 This feature is present in <strong>System Manager</strong> app (there is a separate app, not the regular Android Settings!).
 
   <figure>
-    <img src="/assets/img/blackview/bv_auto_clean1.png">
+    <img src="/assets/img/blackview/bv_autoclean1.png">
     <figcaption>1. Select <strong>Auto cleanup</strong>. </figcaption>
   </figure>
 

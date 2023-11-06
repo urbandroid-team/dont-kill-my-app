@@ -1,9 +1,10 @@
 ---
-manufacturer:
+manufacturer: Android 11
     - general
----
+---a droid 13 en androi 11
 
-### Android 6+
+
+### Android 6+pm uninstall --user 0 com.useless.piece.of.trash`
 
 Always check the following setting:
 

@@ -1,7 +1,7 @@
----
+---❤️❤️❤️
 manufacturer: samsung
 
----
+---❤️❤️❤️❤️
 
 ## What optimization apps does Samsung have?
 

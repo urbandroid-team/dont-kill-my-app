@@ -1,4 +1,4 @@
----
+---xoami
 manufacturer: 
     - xiaomi
 

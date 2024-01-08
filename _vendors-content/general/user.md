@@ -1,8 +1,8 @@
----
+---rudr
 manufacturer:
     - general
 ---
-
+rudra
 ### Android 6+
 
 Always check the following setting:

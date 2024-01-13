@@ -4,10 +4,13 @@ manufacturer:
 
 ---
 
+## STAMINA mode
 
-## Stamina mode
+### "Prefer battery time"
 
-Never use Stamina mode if you want your device to do something useful when not actively using it. Despite the official description, it does not affect only mobile data and WiFi, it also terminuates any background processes.
+Newer Android versions on Sony devices have an extra "STAMINA level" setting under STAMINA mode. Avoid setting it to "Prefer battery time" if you need AOSP behaviour.
+
+For older Android versions, never use STAMINA mode if you want your device to do something useful when not actively using it. Despite the official description, it does not affect only mobile data and WiFi, it also terminuates any background processes.
 Stamine mode can be found (and disabled) at either *Battery* section or *Power management* section.
 
 <div class="img-block">

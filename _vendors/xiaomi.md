@@ -3,7 +3,7 @@ name: Xiaomi
 subtitle: except Android One
 manufacturer:
   - xiaomi
-position: 4
+position: 2
 award: 4
 redirect_from: /vendors/xiaomi.html
 

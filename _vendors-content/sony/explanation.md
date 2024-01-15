@@ -4,7 +4,6 @@ manufacturer:
 
 ---
 
-Sony gets a high bar in our listing of toxic Android vendors, as historically Sony introduced the first very effective non-standard background process optimization and opened Pandora's box.
+For recent Android versions on Sony devices, AOSP's Battery saver mode is rebranded as **STAMINA mode**. If left on default settings, it behaves close to AOSP, but there is an additional opt-in setting under STAMINA mode called **Prefer battery time** which will have more aggressive limitations on background activity.
 
-
-It is called **Stamina mode**, and it instantly breaks all background processes and all alarms if enabled.
+For older devices, Sony gets a high bar in our listing of toxic Android vendors, as historically Sony introduced the first very effective non-standard background process optimization and opened Pandora's box. STAMINA mode on their older devices instantly breaks all background processes and all alarms if enabled.

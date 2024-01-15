@@ -4,10 +4,13 @@ manufacturer:
 
 ---
 
+## STAMINA mode
 
-## Stamina mode
+### "Prefer battery time"
 
-Never use Stamina mode if you want your device to do something useful when not actively using it. Despite the official description, it does not affect only mobile data and WiFi, it also terminuates any background processes.
+Newer Android versions on Sony devices have an extra "STAMINA level" setting under STAMINA mode. Avoid setting it to "Prefer battery time" if you need AOSP behaviour.
+
+For older Android versions, never use STAMINA mode if you want your device to do something useful when not actively using it. Despite the official description, it does not affect only mobile data and WiFi, it also terminuates any background processes.
 Stamine mode can be found (and disabled) at either *Battery* section or *Power management* section.
 
 <div class="img-block">
@@ -54,17 +57,3 @@ _System settings ​→ Apps & Notifications ​→ Advanced ​→ Special app 
 ## Battery optimisation
 
 Try to make your app not battery optimized in *Phone settings > Battery > Three dots in the top right corner > Battery optimisation > Apps > your app*."
-
-developer_solution: "
-There is no workaround to prevent background process optimizations in *Stamina mode*, but at least apps can detect that Stamina mode is enabled with the following command:
-
-
-```
-if (Build.MANUFACTURER.equals("sony") && android.provider.Settings.Secure.getInt(context.getContentResolver(), "somc.stamina_mode", 0) > 0) {
-    // show warning
-}
-```
-
-
-The problem is this will only tell if Stamina is enabled, but not if it is currently applied, but we can assume it is when not charged and battery is under X% (TBS)
-

@@ -82,7 +82,7 @@ You need to:
 
 `adb shell pm uninstall -k --user 0 com.huawei.android.hwaps`
 
-If apps keep getting killed try running `adb shell pm stopservice hwPfwService`.
+If apps keep getting killed try running `adb shell am stopservice hwPfwService`.
 
 We did not yet have this confirmed but it is possible you can alternatively just disable PowerGenie in *Phone settings > Apps*. This setting would need to be re-applied every time you reboot your device.
 

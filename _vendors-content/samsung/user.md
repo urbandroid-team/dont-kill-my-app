@@ -44,6 +44,7 @@ The settings are mostly the same as Android 11 below, with a few changes:
   <figure>
     <img src="/assets/img/samsung/samsung13_per_app_4.png">
       </figure>
+      
 </div>
 
 
@@ -65,6 +66,7 @@ The settings are mostly the same as Android 11 below, with a few changes:
   <figure>
     <img src="/assets/img/samsung/samsung13_adaptive_battery_4.png">
       </figure>
+      
 </div>
 
 ### Remove permissions if app is unused
@@ -88,6 +90,7 @@ The settings are mostly the same as Android 11 below, with a few changes:
   <figure>
     <img src="/assets/img/samsung/samsung13_alarms_2.png">
       </figure>
+      
 </div>
 
 
@@ -105,6 +108,7 @@ The settings are mostly the same as Android 11 below, with a few changes:
   <figure>
     <img src="/assets/img/samsung/samsung13_autooptimizations_3.png">
       </figure>
+      
 </div>
 
 ### Adaptive power saving
@@ -150,6 +154,7 @@ The settings are mostly the same as Android 11 below, with a few changes:
   <figure>
     <img src="/assets/img/samsung/samsung13_lists_4.png">
       </figure>
+      
 </div>
 
 > The _"Put unused apps to sleep"_ option is the major headache we see on Samsung - a non-standard app-killing feature that isn't present in AOSP implemented only by Samsung which puts an app you did not use for X days to a mode with restricted background processing. On some releases, the period was as short as 3 days. So if you did not use your alarm clock over the weekend your alarm would not ring.

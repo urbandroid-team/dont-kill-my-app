@@ -23,20 +23,143 @@ The settings are mostly the same as Android 11 below, with a few changes:
 
 * The "Optimize battery usage" option doesn't exist anymore under "Special Access".
 * Under "Device Care" there is no "Automation" or "Advanced" option anymore.
+* Lock Recent App is not available.
+* "Auto-optimize daily", "Adaptive power saving", and "Optimize battery usage" are not available
 
-So the **existing options** to change would be:
-1. The per-app setting.
-2. Adaptive battery.
-3. Put unused apps to sleep.
+### Per-app battery optimizations
 
-> The _"Put unused apps to sleep"_ option is the major headache we see on Samsung - a non-standard app-killing feature that isn't present in AOSP implemented only by Samsung which puts an app you did not use for X days to a mode with restricted background processing. On some releases, the period was short as 3 days. So if you did not use your alarm clock over the weekend your alarm would not ring.
+<div class="img-block">
+  <figure>
+    <img src="/assets/img/samsung/samsung13_per_app_1.png">
+      </figure>
+
+  <figure>
+    <img src="/assets/img/samsung/samsung13_per_app_2.png">
+      </figure>
+
+  <figure>
+    <img src="/assets/img/samsung/samsung13_per_app_3.png">
+      </figure>
+
+  <figure>
+    <img src="/assets/img/samsung/samsung13_per_app_4.png">
+      </figure>
+</div>
+
+
+### Adaptive battery
+
+<div class="img-block">
+  <figure>
+    <img src="/assets/img/samsung/samsung13_adaptive_battery_1.png">
+      </figure>
+
+  <figure>
+    <img src="/assets/img/samsung/samsung13_adaptive_battery_2.png">
+      </figure>
+
+  <figure>
+    <img src="/assets/img/samsung/samsung13_adaptive_battery_3.png">
+      </figure>
+
+  <figure>
+    <img src="/assets/img/samsung/samsung13_adaptive_battery_4.png">
+      </figure>
+</div>
+
+### Remove permissions if app is unused
+
+<div class="img-block">
+  <figure>
+    <img src="/assets/img/samsung/samsung13_remove_permissions.png">
+      </figure>
+
+</div>
+
+
+
+### List of "Alarms and Reminders"
+
+<div class="img-block">
+  <figure>
+    <img src="/assets/img/samsung/samsung13_alarms_1.png">
+      </figure>
+
+  <figure>
+    <img src="/assets/img/samsung/samsung13_alarms_2.png">
+      </figure>
+</div>
+
+
+### Auto-optimizations
+
+<div class="img-block">
+  <figure>
+    <img src="/assets/img/samsung/samsung13_autooptimizations_1.png">
+      </figure>
+
+  <figure>
+    <img src="/assets/img/samsung/samsung13_autooptimizations_2.png">
+      </figure>
+
+  <figure>
+    <img src="/assets/img/samsung/samsung13_autooptimizations_3.png">
+      </figure>
+</div>
+
+### Adaptive power saving
+
+<div class="img-block">
+  <figure>
+    <img src="/assets/img/samsung/samsung13_adaptive_power_1.png">
+      </figure>
+
+  <figure>
+    <img src="/assets/img/samsung/samsung13_adaptive_power_2.png">
+      </figure>
+
+  <figure>
+    <img src="/assets/img/samsung/samsung13_adaptive_power_3.png">
+      </figure>
+
+  <figure>
+    <img src="/assets/img/samsung/samsung13_adaptive_power_4.png">
+      </figure>
+
+   <figure>
+    <img src="/assets/img/samsung/samsung13_adaptive_power_5.png">
+      </figure>   
+      
+</div>
+
+### Lists of Sleeping apps, Unused apps, Deep sleeping apps, Never sleeping apps
+
+<div class="img-block">
+  <figure>
+    <img src="/assets/img/samsung/samsung13_lists_1.png">
+      </figure>
+
+  <figure>
+    <img src="/assets/img/samsung/samsung13_lists_2.png">
+      </figure>
+
+  <figure>
+    <img src="/assets/img/samsung/samsung13_lists_3.png">
+      </figure>
+
+  <figure>
+    <img src="/assets/img/samsung/samsung13_lists_4.png">
+      </figure>
+</div>
+
+> The _"Put unused apps to sleep"_ option is the major headache we see on Samsung - a non-standard app-killing feature that isn't present in AOSP implemented only by Samsung which puts an app you did not use for X days to a mode with restricted background processing. On some releases, the period was as short as 3 days. So if you did not use your alarm clock over the weekend your alarm would not ring.
 
 
 
 ## Android 11
 
-On Android 11 Samsung will prevent apps work in background by default unless you exclude apps from battery optimizations. This is a severe divergence from standard Android process management policies.<br>
-Yes, this is a long way to go! Devs cannot ask for it automatically as they risk being kicked out from Play Store due to policy violations.
+On Android 11 Samsung will prevent apps work in the background by default unless you exclude apps from battery optimizations. This is a severe divergence from standard Android process management policies.<br>
+Yes, this is a long way to go! Devs cannot ask for it automatically as they risk being kicked out from the Play Store due to policy violations.
 
 ### Lock the app in Recent
 

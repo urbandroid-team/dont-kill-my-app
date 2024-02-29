@@ -34,7 +34,7 @@ The settings are mostly the same as Android 11 below, with a few changes:
       </figure>
 
   <figure>
-    <img src="/assets/img/samsung/samsung13_per_app_2.png">
+    <img src="/assets/img/samsung/samsung13_per_app_2.jpg">
       </figure>
 
   <figure>
@@ -42,7 +42,7 @@ The settings are mostly the same as Android 11 below, with a few changes:
       </figure>
 
   <figure>
-    <img src="/assets/img/samsung/samsung13_per_app_4.png">
+    <img src="/assets/img/samsung/samsung13_per_app_4.jpg">
       </figure>
       
 </div>
@@ -88,7 +88,7 @@ The settings are mostly the same as Android 11 below, with a few changes:
       </figure>
 
   <figure>
-    <img src="/assets/img/samsung/samsung13_alarms_2.png">
+    <img src="/assets/img/samsung/samsung13_alarms_2.jpg">
       </figure>
       
 </div>
@@ -106,7 +106,7 @@ The settings are mostly the same as Android 11 below, with a few changes:
       </figure>
 
   <figure>
-    <img src="/assets/img/samsung/samsung13_autooptimizations_3.png">
+    <img src="/assets/img/samsung/samsung13_autooptimizations_3.jpg">
       </figure>
       
 </div>
@@ -131,7 +131,7 @@ The settings are mostly the same as Android 11 below, with a few changes:
       </figure>
 
    <figure>
-    <img src="/assets/img/samsung/samsung13_adaptive_power_5.png">
+    <img src="/assets/img/samsung/samsung13_adaptive_power_5.jpg">
       </figure>   
       
 </div>
@@ -152,7 +152,7 @@ The settings are mostly the same as Android 11 below, with a few changes:
       </figure>
 
   <figure>
-    <img src="/assets/img/samsung/samsung13_lists_4.png">
+    <img src="/assets/img/samsung/samsung13_lists_4.jpg">
       </figure>
       
 </div>

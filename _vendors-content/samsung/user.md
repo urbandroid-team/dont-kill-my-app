@@ -64,7 +64,7 @@ The settings are mostly the same as Android 11 below, with a few changes:
       </figure>
 
   <figure>
-    <img src="/assets/img/samsung/samsung13_adaptive_battery_4.png">
+    <img src="/assets/img/samsung/samsung13_adaptive_battery_4.jpg">
       </figure>
       
 </div>

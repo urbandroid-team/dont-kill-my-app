@@ -1,4 +1,4 @@
----
+techno---
 manufacturer:
     - general
 ---

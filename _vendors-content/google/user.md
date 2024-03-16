@@ -6,6 +6,22 @@ manufacturer:
 ---
 
 
+## Android 14
+
+If you see background processing issues, overall it is a good idea to make your app _not battery optimized_ to ensure it gets the freedom it needs to perform in the background.
+
+
+For that:
+
+1. Go to **Settings > Apps > _Your app_ > App battery usage**
+
+2. Ensure that the toggle switch next to **Allow background usage** is enabled.
+
+3. Tap on the words **Allow background usage**. This opens a "hidden" menu.
+
+4. Choose **Unrestricted**.
+
+
 ## Android P
 
 There's a special option in **Settings > Apps > Your app > Advanced > Battery > Background restrictions**. If users accidentally enable this option, it will break their apps. And users do enable that option!

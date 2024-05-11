@@ -1,21 +1,21 @@
 ---
-manufacturer:
-    - htc
+制造商：
+-htc
 
 ---
 
-If there are apps that you don’t want battery optimization enabled, you can turn the feature off in those apps.
+如果有您不希望启用电池优化的应用程序，您可以在这些应用程序中关闭该功能。
 
-* Open up **Phone Settings**.
+*打开**电话设置**.
 
-* Tap **Power**.
+*单击**力量**.
 
-* Tap **Battery optimization**.
+*单击**电池优化**.
 
-* Tap **Not optimized > All apps** to see the complete list of apps.
+*单击**未优化>所有应用**查看应用程序的完整列表。
 
-* To turn off battery optimization in an app, tap the app name, and then tap **Don’t optimize > Done**.
+*若要关闭应用程序中的电池优化，请点击应用程序名称，然后点击**不优化>完成**.
 
-Repeat this process to turn off optimization in other apps.
+重复此过程以关闭其他应用程序中的优化。
 
-To filter the list and see which apps have battery optimization disabled, tap All apps > Not optimized.
+若要过滤列表并查看哪些应用程序禁用了电池优化，请点击【所有应用程序】>【未优化】。

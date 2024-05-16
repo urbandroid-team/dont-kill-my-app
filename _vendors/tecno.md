@@ -6,6 +6,7 @@ explanation: 'Aggressive battery setting causes app to be completely halted, lik
 user_solution: 'Go to Settings> Battery Lab> Battery Saving Settings > Disable "Power Saving Management For Apps"'
 developer_solution: 'n/a'
 award: 3
+position: 13
 ---
 
 Y U say stock Android!?

@@ -6,4 +6,5 @@ manufacturer:
 award: 3
 position: 13
 redirect_from: /vendors/tecno.html
+
 ---

@@ -1,65 +1,65 @@
 ---
-manufacturer: 
-    - vivo
+制造商：
+-vivo
 
 ---
 
 
-## Autostart
+##自动启动
 
-Based on the information by Vivo, this option should be present on all Vivo phones.<br>
-Newer OS version: *Settings > More settings > Applications > Autostart* to turn on/off the app switch.<br>
-For Funtouch OS 2.6 and lower version: *i Manager > App manager > Autostart manager* to turn on/off the app switch.
+根据Vivo提供的信息，该选项应在所有Vivo手机上提供。<溴>
+较新的操作系统版本：*设置>更多设置>应用程序>自动启动*打开/关闭应用程序开关。<溴>
+对于Funtouch OS2.6和更低版本：*I管理器>应用管理器>自动启动管理器*打开/关闭应用程序开关。
 
-## Lock the app in taskbar
+##锁定任务栏中的应用程序
 
-Apps locked in the taskbar are safe from getting terminated when they run on the background.
-<br>
-1. Swipe up in your home screen while the app is open in background, and swipe the app icon <strong>down</strong>.
-<br>
-2. Tap the lock icon.
-<br>
-3. Done - now the app is locked in the taskbar.
+锁定在任务栏中的应用程序在后台运行时不会被终止。
+<溴>
+1.应用程序在后台打开时，在主屏幕中向上滑动，然后滑动应用程序图标<强大的>向下</强大的>.
+<溴>
+2.点击锁定图标。
+<溴>
+3.完成-现在应用程序已锁定在任务栏中。
 
-<div class="img-block">
-  <figure>
-    <img src="/assets/img/vivo/vivo_1.jpg">
-    <figcaption>1. Swipe up the app down <br> while it is open in the background.</figcaption>
-  </figure>
+<div班级="img-block">
+  <数字>
+    <IMGsrc="/assets/img/vivo/vivo_1.jpg">
+    <figcaption>1.向上向下滑动应用<溴>当它在后台打开时。</figcaption>
+  </数字>
 
-  <figure>
-    <img src="/assets/img/vivo/vivo_2.jpg">
-    <figcaption>2. Tap on the lock icon that appears.</figcaption>
-  </figure>
+  <数字>
+    <IMGsrc="/assets/img/vivo/vivo_2.jpg">
+    <figcaption>2.轻敲显示的锁定图标。</figcaption>
+  </数字>
 
-  <figure>
-    <img src="/assets/img/vivo/vivo_3.jpg">
-    <figcaption>3. App is locked.</figcaption>
-  </figure>
-
-</div>
-
-Another layout for locking the app.
-
-<div class="img-block">
-  <figure>
-    <img src="/assets/img/vivo/vivo_lock.jpg">
-    <figcaption>1. Choose "Lockdown" in the top right submenu.</figcaption>
-  </figure>
-
-  <figure>
-    <img src="/assets/img/vivo/vivo_locked.jpg">
-    <figcaption>2. App is now locked</figcaption>
-  </figure>
+  <数字>
+    <IMGsrc="/assets/img/vivo/vivo_3.jpg">
+    <figcaption>3、应用被锁定。</figcaption>
+  </数字>
 
 </div>
 
-## Allow the app to keep running even during high power consumption
+另一个用于锁定应用程序的布局。
 
-<br>
-1. Go to system Settings > Battery.
-<br>
-2. Go to High background power consumption.
+<div班级="img-block">
+  <数字>
+    <IMGsrc="/assets/img/vivo/vivo_lock.jpg">
+    <figcaption>1、在右上角的子菜单中选择“锁定”。</figcaption>
+  </数字>
+
+  <数字>
+    <IMGsrc="/assets/img/vivo/vivo_locked.jpg">
+    <figcaption>2、应用已锁定</figcaption>
+  </数字>
+
+</div>
+
+##高耗电时允许应用继续运行
+
+<溴>
+1、进入系统设置-电池。
+<溴>
+2.进入高背景功耗。
 <br>
 3. Find your app in the list and enable the high battery consumption.
 

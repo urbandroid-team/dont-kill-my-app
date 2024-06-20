@@ -1,4 +1,4 @@
----
+---infinix hot 11 play
 manufacturer:
     - general
 ---

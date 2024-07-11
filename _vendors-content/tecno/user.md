@@ -1,4 +1,4 @@
----
+<a href="https://dontkillmyapp.com/tecno"><img id="badge-shareable" width="306px" src="https://dontkillmyapp.com/badge/tecno3.svg"></a>---
 manufacturer:
     - tecno
 

@@ -25,11 +25,11 @@ Not only does one need to toggle the system setting - but you can install additi
 
 Samsung developed an app named **Good Guardians**. This app is tightly integrated with the phone on a low level and has many modules. Any feedback about these features is welcomed.
 
-* **Memory Guardian**, and in the "Customize" tab of the module, there are two modes: "Default" and "Quick switching mode".
+* **Memory Guardian**: in the "Customize" tab of the module, there are two modes: "Default" and "Quick switching mode".
   
 "Keep more apps in the background. When using the previously used app again, it is more likely to run with the last state of the app, not starting from the beginning."
 
-* **Battery Guardian** offers a few battery-saving controls.
+* **Battery Guardian**: offers a few battery-saving controls.
 
 * **Galaxy app booster**: no information so far...
 

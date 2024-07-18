@@ -37,6 +37,13 @@ Samsung developed an app named **Good Guardians**. This app is tightly integrate
 
 You can "lock" one app in the Recent apps to prevent it from being terminated.
 
+<div class="img-block">
+  <figure>
+    <img src="/assets/img/samsung/samsung_keep_open.jpg">
+      </figure>
+
+</div>
+
 ### Turning off the screen trick
 
 If you want an app to keep running in the background when you turn off your phone's screen/lock your phone, then don't go to Home (Home screen) of your phone and then turn off the screen. Open the app and let it stay in the foreground, and only then turn off your screen/lock your phone. This might prevent the app from closing. When you unlock your phone, you will see that the app is running in the same state.

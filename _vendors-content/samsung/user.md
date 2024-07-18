@@ -5,7 +5,7 @@ manufacturer: samsung
 
 ## What optimization apps does Samsung have?
 
-- **Android 11**: Battery optimization, Auto-optimize, Adaptive battery, Adaptive power-saving, Background restrictions, lists of Sleeping apps, Unused apps, Deep sleeping apps, Never sleeping apps
+- **Android 11 and newer**: Battery optimization, Auto-optimize, Adaptive battery, Adaptive power-saving, Background restrictions, lists of Sleeping apps, Unused apps, Deep sleeping apps, Never sleeping apps
 - **Android Pie and higher**: Device care, Background restrictions, lists of Sleeping apps, Unused apps, Auto-disable unused apps
 - **Android Oreo and Nougat**: App power monitor, Background restrictions
 - **Android Marshmallow or below**: Smart manager
@@ -15,6 +15,31 @@ manufacturer: samsung
 3. [ Android Pie and 10 ](#android-pie-and-10) <br>
 4. [ Android Oreo and Nougat ](#android-oreo-and-nougat) <br>
 5. [ Android Marshmallow and older ](#android-marshmallow-and-older ) <br>
+
+
+## Android 14
+
+Not only does one need to toggle the system setting - but you can install additional Samsung "apps", and that will "most likely" let other apps run in the background.
+
+### Good Guardians
+
+Samsung developed an app named **Good Guardians**. This app is tightly integrated with the phone on a low level and has many modules. Any feedback about these features is welcomed.
+
+* **Memory Guardian**, and in the "Customize" tab of the module, there are two modes: "Default" and "Quick switching mode".
+  
+"Keep more apps in the background. When using the previously used app again, it is more likely to run with the last state of the app, not starting from the beginning."
+
+* **Battery Guardian** offers a few battery-saving controls.
+
+* **Galaxy app booster**: no information so far...
+
+### Keep open
+
+You can "lock" one app in the Recent apps to prevent it from being terminated.
+
+### Turning off the screen trick
+
+If you want an app to keep running in the background when you turn off your phone's screen/lock your phone, then don't go to Home (Home screen) of your phone and then turn off the screen. Open the app and let it stay in the foreground, and only then turn off your screen/lock your phone. This might prevent the app from closing. When you unlock your phone, you will see that the app is running in the same state.
 
 
 ## Android 13

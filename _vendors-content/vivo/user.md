@@ -13,9 +13,9 @@ For Funtouch OS 2.6 and lower version: *i Manager > App manager > Autostart mana
 
 ## Lock the app in taskbar
 
-Apps locked in the taskbar are safe from getting terminated when they run on the background.
+Apps locked in the taskbar are safe from getting terminated when they run in the background.
 <br>
-1. Swipe up in your home screen while the app is open in background, and swipe the app icon <strong>down</strong>.
+1. Swipe up in your home screen while the app is open in the background, and swipe the app icon <strong>down</strong>.
 <br>
 2. Tap the lock icon.
 <br>
@@ -97,6 +97,34 @@ Another layout for the similar feature, this time unde the name *Background powe
   <figure>
     <img src="/assets/img/vivo/vivo_battery_3.jpg">
     <figcaption>3. Enable for your app.</figcaption>
+  </figure>
+
+</div>
+
+
+## Battery optimization
+
+In the Battery section for each app, you can put the app into *not-optimized* pile of apps, which will prevent the app from being closed by the optimization processes.
+
+<div class="img-block">
+  <figure>
+    <img src="/assets/img/vivo/vivo_battery_optimization_1.jpg">
+    <figcaption>1. Hold down the app icon, and click App Info.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/img/vivo/vivo_battery_optimization_2.jpg">
+    <figcaption>2. In App Info menu, scroll to Battery and click on the percent use.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/img/vivo/vivo_battery_optimization_3.jpg">
+    <figcaption>3. From the Battery Usage, click on Battery Optimization.</figcaption>
+  </figure>
+
+   <figure>
+    <img src="/assets/img/vivo/vivo_battery_optimization_4.jpg">
+    <figcaption>4. Make sure to set the app to "Not optimized".</figcaption>
   </figure>
 
 </div>

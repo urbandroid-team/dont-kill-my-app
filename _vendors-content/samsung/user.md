@@ -36,6 +36,7 @@ Samsung developed an app named **Good Guardians**. This app is tightly integrate
 ### Keep open
 
 You can "lock" one app in the Recent apps to prevent it from being terminated.
+Simply click the icon of the app in the Recent App screen and use the option "stay opened".
 
 <div class="img-block">
   <figure>

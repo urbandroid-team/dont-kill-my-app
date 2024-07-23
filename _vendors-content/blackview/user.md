@@ -144,7 +144,9 @@ You can either whitelist Your app from the DuraSpeed, or disable it completely.
 ## Auto Clean-up
 
 This optimization was actually confirmed by Blackview support (for BV9200 running Android 12).
-This feature is present in <strong>System Manager</strong> app (there is a separate app, not the regular Android Settings!).
+This feature is present in <strong>System Manager</strong> app (there is a separate app, not the regular Android Settings!):
+
+*System Manager → App Management → Permission Manager → Auto Clean → Select APP → TURN ON*.
 
 <div class="img-block">
   <figure>
@@ -158,3 +160,10 @@ This feature is present in <strong>System Manager</strong> app (there is a separ
   </figure>
 
 </div>
+
+## Allow location updates for location-tracking apps
+
+This is a solution for location-tracking apps (like navigation and GPS tracking apps):
+
+1. *Settings → Location → Use location* → **ON** - pretty obvious!
+2. *Settings → Apps and Notifications → See all apps → Select APP → Tap on Location* → Select **Allow all the time**

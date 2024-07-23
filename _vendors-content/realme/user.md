@@ -46,6 +46,13 @@ It will disrupt background processes.
 
 * <strong>Allow background activity</strong>
 
+<div class="img-block">
+  <figure>
+    <img src="/assets/img/realme/realme_allow_background_activity.jpg">
+    <figcaption>Background + Foreground activity</figcaption>
+  </figure>
+</div>
+
 
 ## Power saver options
 

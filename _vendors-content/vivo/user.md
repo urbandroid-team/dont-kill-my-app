@@ -11,8 +11,35 @@ Based on the information by Vivo, this option should be present on all Vivo phon
 Newer OS version: *Settings > More settings > Applications > Autostart* to turn on/off the app switch.<br>
 For Funtouch OS 2.6 and lower version: *i Manager > App manager > Autostart manager* to turn on/off the app switch.
 
-## Lock the app in taskbar
+## Unrestricted battery usage
 
+As reported from the Android 13 version; you can set a non-restricted battery usage for each app individually.
+
+<div class="img-block">
+  <figure>
+    <img src="/assets/img/vivo/vivo_battery_unrestricted.jpg">
+    <figcaption> System settings → the app of your choice → Battery </figcaption>
+  </figure>
+
+</div>
+
+## Background power usage restrictions
+
+Also reported from Android 13, can be set up for each app in the Battery section.
+
+<div class="img-block">
+  <figure>
+    <img src="/assets/img/vivo/vivo_background_power_usage.jpg">
+    <figcaption> Setting  → Battery  → Background power consumption management </figcaption>
+  </figure>
+
+</div>
+
+
+
+## Lock the app
+
+### Lock the app in the taskbar
 Apps locked in the taskbar are safe from getting terminated when they run in the background.
 <br>
 1. Swipe up in your home screen while the app is open in the background, and swipe the app icon <strong>down</strong>.
@@ -39,7 +66,9 @@ Apps locked in the taskbar are safe from getting terminated when they run in the
 
 </div>
 
-Another layout for locking the app.
+### Lock the app in the Recent Apps
+
+Locking the app in the Recent Apps screen can look slightly different on each version of Android - in the Recent Apps screen, find the app you wish to lock, tap its sub-menu, and find the "lock" / "lockdown" option
 
 <div class="img-block">
   <figure>
@@ -50,6 +79,11 @@ Another layout for locking the app.
   <figure>
     <img src="/assets/img/vivo/vivo_locked.jpg">
     <figcaption>2. App is now locked</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/img/vivo/vivo_lock_3.jpg">
+    <figcaption>2. Another design of the lock</figcaption>
   </figure>
 
 </div>

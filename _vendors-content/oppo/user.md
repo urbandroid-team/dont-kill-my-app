@@ -55,4 +55,31 @@ Here are links to some other resources verifying that some of the above steps wo
 
 * [Quora](https://www.quora.com/How-do-you-add-apps-into-Whitelist-in-OPPO-F1s-phone)
 
+## Allow Auto Start-up
 
+On Color OS 6, you need to enable automatic start from the background in the App's info page.
+
+<div class="img-block">
+  <figure>
+    <img src="/assets/img/oppo/oppo_autostart.jpg">
+    <figcaption>App info -> Allow Auto Start-up</figcaption>
+  </figure>
+
+</div>
+
+## Power Saver modes
+
+You can choose one of three power-saving options under each app and allow the app to run in the background. If something like smart restriction is enabled and if the app is not cleared from the tasks, it should be running background processes but if the app is closed, the background services are paused and are resumed immediately when the app is opened again.
+
+<div class="img-block">
+  <figure>
+    <img src="/assets/img/oppo/oppo_power_saver_1.jpg">
+    <figcaption>App info ->Power Saver</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/img/oppo/oppo_power_saver_2.jpg">
+    <figcaption>Choices for the Power saver modes.</figcaption>
+  </figure>
+
+</div>

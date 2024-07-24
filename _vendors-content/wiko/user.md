@@ -43,26 +43,26 @@ manufacturer:
 
   </div>
 
-  The Battery optimization's whiteliste can be also hidden in the sub-menu in the top right corner.
+  The Battery optimization's whitelise can be also hidden in the sub-menu in the top right corner.
   
-   <div class="img-block">
+  <div class="img-block">
   <figure>
-    <img src="/assets/img/wiko/wiko_battery_opt_1.png">
+    <img src="/assets/img/wiko/wiko_battery_opt_1.jpg">
     <figcaption>1. Open the Battery section.</strong></figcaption>
   </figure>
 
   <figure>
-    <img src="/assets/img/wiko/wiko_battery_opt_2.png">
+    <img src="/assets/img/wiko/wiko_battery_opt_2.jpg">
     <figcaption>2. Tap the submenu button in the top right corner.</figcaption>
   </figure>
 
     <figure>
-    <img src="/assets/img/wiko/wiko_battery_opt_3.png">
+    <img src="/assets/img/wiko/wiko_battery_opt_3.jpg">
     <figcaption>3. Switch the view to **All apps**.</figcaption>
   </figure>
 
     <figure>
-    <img src="/assets/img/wiko/wiko_battery_opt_4.png">
+    <img src="/assets/img/wiko/wiko_battery_opt_4.jpg">
     <figcaption>4. Configure Your app to be **Non-optimized**.</figcaption>
   </figure>
 

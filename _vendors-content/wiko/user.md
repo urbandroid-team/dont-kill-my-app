@@ -18,8 +18,8 @@ manufacturer:
     <img src="/assets/img/wiko/wiko_2.png">
     <figcaption>2. Turn Eco Mode OFF<br/></figcaption>
   </figure>
-
-</div>
+ 
+ </div>
 
 ## Optimized mode
 
@@ -42,6 +42,32 @@ manufacturer:
   </figure>
 
   </div>
+
+  The Battery optimization's whiteliste can be also hidden in the sub-menu in the top right corner.
+  
+   <div class="img-block">
+  <figure>
+    <img src="/assets/img/wiko/wiko_battery_opt_1.png">
+    <figcaption>1. Open the Battery section.</strong></figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/img/wiko/wiko_battery_opt_2.png">
+    <figcaption>2. Tap the submenu button in the top right corner.</figcaption>
+  </figure>
+
+    <figure>
+    <img src="/assets/img/wiko/wiko_battery_opt_3.png">
+    <figcaption>3. Switch the view to **All apps**.</figcaption>
+  </figure>
+
+    <figure>
+    <img src="/assets/img/wiko/wiko_battery_opt_4.png">
+    <figcaption>4. Configure Your app to be **Non-optimized**.</figcaption>
+  </figure>
+
+  </div>
+
   
 ## Whitelist app background
 

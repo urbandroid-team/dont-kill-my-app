@@ -46,6 +46,8 @@ MIUI Optimizations were reported on MIUI 12 so far, but this option may be prese
 
 </div>
 
+There were some reports, that the MIUI optimization was missing in the menu - [here is a workaround guide](https://piunikaweb.com/2021/04/19/miui-optimization-missing-in-developer-options-try-this-workaround/).
+
 
 ### MIUI 12
 

@@ -3,18 +3,24 @@ manufacturer: samsung
 
 ---
 
+
+
 ## What optimization apps does Samsung have?
 
-- **Android 11 and newer**: Battery optimization, Auto-optimize, Adaptive battery, Adaptive power-saving, Background restrictions, lists of Sleeping apps, Unused apps, Deep sleeping apps, Never sleeping apps
+- **Android 13**: per-app battery optimization, Adaptive battery, Remove permissions, List of Alarms&Reminders, Adaptive power-saving, lists of Sleeping apps, Unused apps, Deep sleeping apps, Never sleeping apps
+- **Android 11 + 12**: Battery optimization, Auto-optimize, Adaptive battery, Adaptive power-saving, Background restrictions, lists of Sleeping apps, Unused apps, Deep sleeping apps, Never sleeping apps
 - **Android Pie and higher**: Device care, Background restrictions, lists of Sleeping apps, Unused apps, Auto-disable unused apps
 - **Android Oreo and Nougat**: App power monitor, Background restrictions
 - **Android Marshmallow or below**: Smart manager
 
-1. [ Android 13 ](#android-13) 
+
+1. [ Android 14 ](#android-14) 
+2. [ Android 13 ](#android-13) 
 2. [ Android 11 ](#android-11) <br>
 3. [ Android Pie and 10 ](#android-pie-and-10) <br>
 4. [ Android Oreo and Nougat ](#android-oreo-and-nougat) <br>
 5. [ Android Marshmallow and older ](#android-marshmallow-and-older ) <br>
+
 
 
 ## Android 14

@@ -4,8 +4,13 @@ manufacturer: samsung
 ---
 
 <div class='caution-box'>
-Despite Android team promise to enforce OEMs to be transparent about non-standard app killing, in Android 11 Samsung has introduced a new severe (default ON) restriction. Apps can no longer hold wake lock in foreground services. This breaks many use-cases, for instance health apps are now unable to gather sensoric data for their users.
+Despite the Android team's promise to enforce OEMs to be transparent about non-standard app killing, in Android 11 Samsung has introduced a new severe (default ON) restriction. Apps can no longer hold wake lock in foreground services. This breaks many use-cases, for instance, health apps are now unable to gather sensoric data for their users.
 See details <a href="https://issuetracker.google.com/issues/179644471">here</a> and read below for workaround.<br>
+<br>
+
+UPDATE 07/2024: <a href="https://android-developers.googleblog.com/2023/05/improving-consistency-of-background-work-on-android.html">Samsung officially promised to drop the non-standard optimizations</a>:<br>
+"To strengthen the Android platform, our collaboration with Google has resulted in a unified policy that we expect will create a more consistent and reliable user experience for Galaxy users. Since One UI 6.0, foreground services of apps targeting Android 14 will be guaranteed to work as intended so long as they are developed according to Android's new foreground service API policy.”<br>
+If anyone has information about this or experience with Android 14 on Samsung phones, please, let us know any feedback on this.
 <br>
 
 UPDATE 04/2021: Is Samsung now killing even foreground services? Could this be real, or is it a chimera?<br>

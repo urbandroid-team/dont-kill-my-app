@@ -59,7 +59,7 @@ If the app is locked here in this "Boost speed" feature, it may be spared by *Ul
 
 ### MIUI Optimizations
 
-MIUI Optimizations were reported on MIUI 12 so far, but this option may be present on older versions too (let us know, if you have found this option on your phone). It is hidden in the Developers settings, so you need to switch to developer mode first (10x tap on MIUI version in About phone).
+MIUI Optimizations were reported on MIUI 12 so far, but this option may be present on older versions too (let us know, if you have found this option on your phone). It is hidden in the Developers settings, so you need to switch to developer mode first (10x tap on MIUI version in About phone). As with all "optimizations", the MIUI optimizations can break the background tasks.
 
 <div class="img-block">
   <img src="/assets/img/xiaomi/miui_optimization_1.jpg">

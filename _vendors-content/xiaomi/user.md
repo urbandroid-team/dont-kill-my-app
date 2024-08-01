@@ -6,12 +6,33 @@ manufacturer:
 
 ### App pinning / App locking
 
-When you open the recent apps tray, drag your app downwards (it will be locked). So, even if you clear recent apps, it will not clear them from the background. Drag downwards again to clear your app from the background. <br>
+When you open the recent apps tray, drag your app downwards (it will be locked). Locked/pinned apps will gain further protection and not be cleared from the background, even if you clear recent apps. Drag downwards again to clear your app from the background. <br>
 On some phones, you need to long-press Your app and then choose the padlock icon from the menu:
 
 <div class="img-block">
   <img src="/assets/img/xiaomi/locking.jpg">
 </div>
+
+Another method of app locking is hidden a little deeper:
+
+<div class="img-block">
+  <figure>
+    <img src="/assets/img/xiaomi/xiaomi_lock_1.jpg">
+    <figcaption>Open Security app → Boost speed</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/img/xiaomi/xiaomi_lock_2.jpg">
+    <figcaption>Open the Settings cog icon</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/img/xiaomi/xiaomi_lock_3.jpg">
+    <figcaption>Go to Lock apps and pick your app</figcaption>
+  </figure>
+
+</div>
+
 
 
 ### Autostart permission

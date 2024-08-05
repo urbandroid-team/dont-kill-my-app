@@ -1,57 +1,57 @@
 ---
-manufacturer:
-    - huawei
+制造商：
+-华为
 
 ---
 
 
-### App Launch on some EMUI 8, 9 and 10 devices (Huawei P20, Huawei P20 Lite, Huawei Mate 10...)
+###在部分EMUI8、9和10设备上发布应用程序(华为P20、华为P20Lite、华为Mate10...)
 
-* *Phone settings > Battery > App launch* and then set your app to “Manage manually” and make sure everything is turned on.
+* *手机设置>电池>应用启动*然后将应用程序设置为“手动管理”，并确保所有功能都已打开。
 
-<div class="img-block">
-  <figure>
-    <img src="/assets/img/huawei/ss_huawei_app_launch_1.png">
-    <figcaption>1. *Phone settings > Battery > App launch*. This feature may or may not be available for all devices or labeled differently.</figcaption>
-  </figure>
+<div班级="img-block">
+  <数字>
+    <IMGsrc="/assets/img/huawei/ss_huawei_app_launch_1.PNG">
+    <figcaption>1.*手机设置>电池>应用程序启动*。此功能可能对所有设备可用，也可能不适用于所有设备或标签不同。</figcaption>
+  </数字>
 
-  <figure>
-    <img src="/assets/img/huawei/ss_huawei_app_launch_3.png">
-    <figcaption>2. Turn off “Manage all automatically”</figcaption>
-  </figure>
+  <数字>
+    <IMGsrc="/assets/img/huawei/ss_huawei_app_launch_3.PNG">
+    <figcaption>2、关闭“全部自动管理”</figcaption>
+  </数字>
 
-  <figure>
-    <img src="/assets/img/huawei/ss_huawei_app_launch_4.png">
-    <figcaption>3. Make sure to ENABLE! all toggles.</figcaption>
-  </figure>
+  <数字>
+    <IMGsrc="/assets/img/huawei/ss_huawei_app_launch_4.PNG">
+    <figcaption>3.确保启用！所有切换。</figcaption>
+  </数字>
 
 </div>
 
-Also for reliable background processes you may need to uninstall PowerGenie as described below.
+同样，为了可靠的后台进程，您可能需要卸载PowerGenie，如下所述。
 
 
-### Startup manager
+###启动管理器
 
-Startup manager seems to be a new kid on the block, preventing apps run automatically after the phone starts up.
+启动管理器似乎是一个新的孩子在块，防止应用程序自动运行后，手机启动。
 
-* Go to Settings > All > Startup manager.
+*进入【设置】>【全部】>【启动管理器】。
 
-<div class="img-block">
-  <figure>
-    <img src="/assets/img/huawei/startup.jpg">
-    <figcaption>1. *Phone settings > All > Startup manager* and allow the app.</figcaption>
-  </figure>
+<div班级="img-block">
+  <数字>
+    <IMGsrc="/assets/img/huawei/startup.jpg">
+    <figcaption>1、*手机设置->全部->启动管理器*，允许应用。</figcaption>
+  </数字>
 </div>
 
-### EMUI 9+ devices
+###EMUI9+设备
 
-#### Classic battery optimization
+####经典电池优化
 
-Open Settings, and search for and access Battery optimization. Touch the little inverted triangle next to Don't allow, touch All apps, locate and touch your app, and select Don't allow.
+打开设置，搜索并访问电池优化。触摸“不允许”旁边的小倒三角，触摸“所有应用程序”，定位并触摸您的应用程序，然后选择“不允许”。
 
-#### PowerGenie
+####PowerGenie
 
-Huawei is extremely inventive in breaking apps on their devices. In addition to all the non-standard power management measures described below, they introduced a new task killer app build right into EMUI 9 on Android Pie.
+华为在破解其设备上的应用程序方面极具创造力。除了下文介绍的所有非标准电源管理措施外，他们还在Android Pie上的EMUI9中引入了一款新的任务杀手应用程序。
 
 
 It is called <b>PowerGenie</b> and it kills all apps that are not on its whitelist. You cannot add custom apps on their pre-defined whitelist. This means there is no other way to fix proper app functionality on Huawei than uninstalling PowerGenie.

@@ -1,3 +1,4 @@
+https://github.com/RikkaApps/Shizuku.git
 ---
 manufacturer:
     - general

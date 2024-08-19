@@ -541,4 +541,3 @@ On other Samsung phones, the path may look like this:<br>
 *Phone settings > Applications > select three dot menu (top right corner) > Special Access > Optimize Battery usage >* Find your app on the list and make sure that it is not selected.
 
 > Note: If you enable "Edge Lighting" for your app, the app will not be able to wake up your screen. To allow your app to wake up your screen, please remove it from the Edge Lighting applications list.
-

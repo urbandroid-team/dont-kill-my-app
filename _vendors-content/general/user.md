@@ -1,4 +1,4 @@
----
+adb shell sh /storage/emulated/0/Android/data/moe.shizuku.privileged.api/start.sh---
 manufacturer:
     - general
 ---
@@ -49,3 +49,4 @@ Try the generic approach below as some vendors tend to hook more functionality i
 
 
 **Phone settings > Battery & power saving > Battery usage > Ignore optimizations > Turn on** to ignore battery optimization for your app.
+diamond 99999999999999999

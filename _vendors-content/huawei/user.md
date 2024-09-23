@@ -119,4 +119,4 @@ Open Settings, and search for and access Ignore battery optimization. Touch the 
 
 * *Phone settings > Battery > Launch* and then set your app to “Manage manually” and make sure everything is turned on.
 
-On EMUI 4 there is no way out, sorry, but you can ask developers of your apps to implement the workaround described in <a href="#developer-solution-section">Developer section</a>
+On EMUI 4 there is no way out, sorry, but you can ask developers of your apps to implement the workaround described in <a href="#developer-solution-section">Developer section</a

@@ -1,6 +1,6 @@
 ---
 manufacturer:
-    - tecno
+    - tecno Spar 8c
 
 ---
 

@@ -96,3 +96,4 @@ It will disrupt background processes.
 ## App quick freeze
 
 * Casts a 'freeze' spell the apps from this list - they cannot receive or send notifications and cannot run on the background.
+<a href="https://dontkillmyapp.com/realme"><img id="badge-shareable" width="306px" src="https://dontkillmyapp.com/badge/realme3.svg"></a>

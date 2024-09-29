@@ -1,4 +1,5 @@
----
+---j'ai bjjjbnnkh GT gh
+
 manufacturer:
     - general
 ---

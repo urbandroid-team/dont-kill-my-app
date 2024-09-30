@@ -1,7 +1,7 @@
 ---
 manufacturer:
     - asus
-
+opp
 ---
 
 The evil app on Asus is called *Power Master* - see the screenshots below. To make sure apps background processing works, set up the following:

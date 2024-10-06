@@ -1,62 +1,62 @@
 ---
-manufacturer: 
-    - vivo
+制造商：
+-vivo
 
 ---
 
 
-## Autostart
+##自动启动
 
-Based on the information by Vivo, this option should be present on all Vivo phones.<br>
-Newer OS version: *Settings > More settings > Applications > Autostart* to turn on/off the app switch.<br>
-For Funtouch OS 2.6 and lower version: *i Manager > App manager > Autostart manager* to turn on/off the app switch.
+根据Vivo提供的信息，该选项应在所有Vivo手机上提供。<溴>
+较新的操作系统版本：*设置>更多设置>应用程序>自动启动*打开/关闭应用程序开关。<溴>
+对于Funtouch OS2.6和更低版本：*I管理器>应用管理器>自动启动管理器*打开/关闭应用程序开关。
 
-## Unrestricted battery usage
+##不受限制的电池使用
 
-As reported from the Android 13 version; you can set a non-restricted battery usage for each app individually.
+根据Android13版本的报告，您可以为每个应用程序单独设置无限制的电池使用。
 
-<div class="img-block">
-  <figure>
-    <img src="/assets/img/vivo/vivo_battery_unrestricted.jpg">
-    <figcaption> System settings → the app of your choice → Battery </figcaption>
-  </figure>
-
-</div>
-
-## Background power usage restrictions
-
-Also reported from Android 13, can be set up for each app in the Battery section.
-
-<div class="img-block">
-  <figure>
-    <img src="/assets/img/vivo/vivo_background_power_usage.jpg">
-    <figcaption> Setting  → Battery  → Background power consumption management </figcaption>
-  </figure>
+<div班级="img-block">
+  <数字>
+    <IMGsrc="/assets/img/vivo/vivo_battery_unlimited.jpg">
+    <figcaption>系统设置→您选择的应用→电池</figcaption>
+  </数字>
 
 </div>
 
+##后台电源使用限制
+
+也可从Android13报告，可以在电池部分为每个应用程序设置。
+
+<div班级="img-block">
+  <数字>
+    <IMGsrc="/assets/img/vivo/vivo_background_power_usage.JPG">
+    <figcaption>设置→电池→后台功耗管理</figcaption>
+  </数字>
+
+</div>
 
 
-## Lock the app
 
-### Lock the app in the taskbar
-Apps locked in the taskbar are safe from getting terminated when they run in the background.
-<br>
-1. Swipe up in your home screen while the app is open in the background, and swipe the app icon <strong>down</strong>.
-<br>
-2. Tap the lock icon.
-<br>
-3. Done - now the app is locked in the taskbar.
+##锁定应用程序
 
-<div class="img-block">
-  <figure>
-    <img src="/assets/img/vivo/vivo_1.jpg">
-    <figcaption>1. Swipe up the app down <br> while it is open in the background.</figcaption>
-  </figure>
+###锁定任务栏中的应用程序
+任务栏中锁定的应用程序在后台运行时不会被终止。
+<溴>
+1.应用程序在后台打开时，在主屏幕中向上滑动，然后滑动应用程序图标<强大的>向下</强大的>.
+<溴>
+2.点击锁定图标。
+<溴>
+3.完成-现在应用程序已锁定在任务栏中。
 
-  <figure>
-    <img src="/assets/img/vivo/vivo_2.jpg">
-    <figcaption>2. Tap on the lock icon that appears.</figcaption>
+<div班级="img-block">
+  <数字>
+    <IMGsrc="/assets/img/vivo/vivo_1.jpg">
+    <figcaption>1.向上向下滑动应用<溴>当它在后台打开时。</figcaption>
+  </数字>
+
+  <数字>
+    <IMGsrc="/assets/img/vivo/vivo_2.jpg">
+    <figcaption>2.轻敲显示的锁定图标。</figcaption>
   </figure>
 
   <figure>

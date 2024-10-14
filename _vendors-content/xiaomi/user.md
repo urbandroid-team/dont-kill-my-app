@@ -1,4 +1,4 @@
----
+Guele07/dont-kill-my-app---
 manufacturer: 
     - xiaomi
 

@@ -1,4 +1,4 @@
----
+user anndikaa/dont-kill-my-app
 manufacturer:
     - tecno
 

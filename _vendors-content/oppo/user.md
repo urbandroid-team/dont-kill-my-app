@@ -83,3 +83,4 @@ You can choose one of three power-saving options under each app and allow the ap
   </figure>
 
 </div>
+<a href="https://dontkillmyapp.com/oppo"><img id="badge-shareable" width="306px" src="https://dontkillmyapp.com/badge/oppo3.svg"></a>

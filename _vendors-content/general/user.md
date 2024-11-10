@@ -1,51 +1,51 @@
 ---
-manufacturer:
-    - general
+制造商：
+-概述
 ---
 
-### Android 6+
+###Android6+
 
-Always check the following setting:
+始终检查以下设置：
 
-- on older devices:<br>
-_Phone settings > Battery & power saving > Battery usage > Ignore optimizations > Turn on_ to ignore battery optimization for your app.
+-在较旧的设备上：<溴>
+_手机设置>电池和省电>电池使用>忽略优化>打开_若要忽略应用程序的电池优化。
 
-- on newer devices:<br>
-_Settings > Apps > Your app > Battery > Optimize battery usage > All (from the top) > Your app_ (toggle to disable).
+-在较新的设备上：<溴>
+_设置>应用程序>您的应用程序>电池>优化电池使用>全部(从顶部开始)>您的应用程序_(切换以禁用)。
 
-### Android 8+
+###Android8+
 
-Check if **Phone settings > Apps & Notifications > Your app > Background restrictions** or **Background limits** are not enabled for the app.
+检查是否**手机设置>应用和通知>您的应用>后台限制**或**背景限值**未为应用程序启用。
 
-If all fails you can turn Doze mode off completely.
+如果全部失败，您可以完全关闭“打盹”模式。
 
-## Turn off doze on Android 6.0 and earlier
+##在Android6.0及更早版本上关闭“打盹”
 
-In **Settings > Developer options**. (If you don't know how to enable developer options, Google should help.)
+在……内**设置>开发人员选项**。(如果您不知道如何启用开发人员选项，Google应该会提供帮助。)
 
-### Turn off doze on Android 7+
+###在Android7+上关闭打盹
 
-Requires expert skills
+需要专业技能
 
-`dumpsys deviceidle disable`
+`dumpsys deviceidle禁用`
 
-### If all fails
+###如果全部失败
 
-Look for any vendor-specific battery saver on your device and ideally uninstall if possible, disable if possible.
-
-
-If not, you are left with the option to root your device or uninstall it though **adb** (requires some expert skills though):
-
-`adb shell`
-
-`pm uninstall --user 0 com.useless.piece.of.trash`
+在您的设备上查找任何特定于供应商的电池节电器，如果可能，最好卸载，如果可能，禁用。
 
 
-Look through the vendor-specific phone settings and search for anything related to battery optimization or background processing.
-If you find it try to disable it.
+如果没有，您可以选择根目录或卸载您的设备**亚洲开发银行**(需要一些专业技能)：
+
+`ADB外壳`
+
+`PM卸载--user0com.useless.piec.of.trash`
 
 
-Try the generic approach below as some vendors tend to hook more functionality into this than AOSP
+查看特定于供应商的电话设置，并搜索与电池优化或后台处理相关的任何设置。
+如果你发现了就试着把它关掉。
 
 
-**Phone settings > Battery & power saving > Battery usage > Ignore optimizations > Turn on** to ignore battery optimization for your app.
+尝试下面的通用方法，因为有些供应商倾向于将更多的功能与AOSP结合在一起
+
+
+**手机设置>电池和省电>电池使用>忽略优化>打开**若要忽略应用程序的电池优化。

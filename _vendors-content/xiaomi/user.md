@@ -1,8 +1,8 @@
 ---
-manufacturer: 
-    - xiaomi
+manufacturer:
 
----
+---infinex
+
 
 ### App pinning / App locking
 

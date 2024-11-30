@@ -63,3 +63,4 @@ _System settings ​→ Apps & Notifications ​→ Advanced ​→ Special app 
 Try to make your app not battery optimized in *Phone settings > Battery > Three dots in the top right corner > Battery optimisation > Apps > your app*."
 
 
+https://dontkillmyapp.com/badge/htc3.svg

@@ -1,25 +1,25 @@
 ---
-manufacturer: 
-    - vivo
+制造商：
+-vivo
 
 ---
 
 
-## Autostart
+##自动启动
 
-Based on the information by Vivo, this option should be present on all Vivo phones.<br>
-Newer OS version: *Settings > More settings > Applications > Autostart* to turn on/off the app switch.<br>
-For Funtouch OS 2.6 and lower version: *i Manager > App manager > Autostart manager* to turn on/off the app switch.
+根据Vivo提供的信息，该选项应在所有Vivo手机上提供。<溴>
+较新的操作系统版本：*设置>更多设置>应用程序>自动启动*打开/关闭应用程序开关。<溴>
+对于Funtouch OS2.6和更低版本：*I管理器>应用管理器>自动启动管理器*打开/关闭应用程序开关。
 
-## Unrestricted battery usage
+##不受限制的电池使用
 
-As reported from the Android 13 version; you can set a non-restricted battery usage for each app individually.
+根据Android13版本的报告，您可以为每个应用程序单独设置无限制的电池使用。
 
-<div class="img-block">
-  <figure>
-    <img src="/assets/img/vivo/vivo_battery_unrestricted.jpg">
-    <figcaption> System settings → the app of your choice → Battery </figcaption>
-  </figure>
+<div班级="img-block">
+  <数字>
+    <IMGsrc="/assets/img/vivo/vivo_battery_unlimited.jpg">
+    <figcaption>系统设置→您选择的应用→电池</figcaption>
+  </数字>
 
 </div>
 

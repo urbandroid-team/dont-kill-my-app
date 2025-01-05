@@ -1,0 +1,85 @@
+---
+制造商：
+-OPPO
+
+---
+
+##Oppo F1S
+
+每次关闭屏幕时，后台服务(包括辅助功能服务，然后需要重新启用)都会被终止。目前，解决此问题的解决方法是：
+
+
+*将您的应用程序固定至最近的应用程序屏幕。
+
+*在安全应用的“启动管理器”和“浮动应用列表”(com.coloros.safecenter/com.ColorOS.安全中心。许可。许可)。
+
+*关闭电池优化。
+
+*向服务发出持续通知以保持在前台。
+
+这四个步骤都需要在应用程序运行之前完成。
+
+<div班级="img-block">
+  <数字>
+    <IMGsrc="/assets/img/oppo/oppo_autolaunch1.jpg">
+    <figcaption>打开应用程序管理。</figcaption>
+  </数字>
+
+  <数字>
+    <IMGsrc="/assets/img/oppo/oppo_autolaunch2.jpg">
+    <figcaption>切换以允许您的应用程序。</figcaption>
+  </数字>
+
+</div>
+
+<div班级="img-block">
+  <数字>
+    <IMGsrc="/assets/img/oppo/oppo_background1.jpg">
+    <figcaption>应用信息->电池使用</figcaption>
+  </数字>
+
+  <数字>
+    <IMGsrc="/assets/img/oppo/oppo_background2.jpg">
+    <figcaption>选择在后台运行。</figcaption>
+  </数字>
+
+</div>
+
+以下是一些其他资源的链接，用于验证上述某些步骤是否适用于其他Oppo设备：
+
+* [XDA开发人员](https://forum.xda-developers.com/android/general/coloros-5-0-how-to-allow-apps-running-t3847738)
+
+* [XDA开发人员](https://forum.xda-developers.com/find-X/help/killing-apps-screen-off-arghh-t3818105)
+
+* [Oppo客户服务门户](https://oppo-au.custhelp.com/app/answers/detail/a_id/1313/~/如何在后台锁定应用程序%3F)
+
+* [Quora](https://www.quora.com/How-do-you-add-apps-into-Whitelist-in-OPPO-F1s-phone)
+
+##允许自动启动
+
+在Color OS6上，您需要在应用的信息页面中启用后台自动启动。
+
+<div class="img-block">
+  <figure>
+    <img src="/assets/img/oppo/oppo_autostart.jpg">
+    <figcaption>App info -> Allow Auto Start-up</figcaption>
+  </figure>
+
+</div>
+
+## Power Saver modes
+
+You can choose one of three power-saving options under each app and allow the app to run in the background. If something like smart restriction is enabled and if the app is not cleared from the tasks, it should be running background processes but if the app is closed, the background services are paused and are resumed immediately when the app is opened again.
+
+<div class="img-block">
+  <figure>
+    <img src="/assets/img/oppo/oppo_power_saver_1.jpg">
+    <figcaption>App info ->Power Saver</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/img/oppo/oppo_power_saver_2.jpg">
+    <figcaption>Choices for the Power saver modes.</figcaption>
+  </figure>
+
+</div>

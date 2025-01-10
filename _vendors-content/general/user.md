@@ -1,7 +1,7 @@
----
+zte
 manufacturer:
     - general
----
+zte
 
 ### Android 6+
 

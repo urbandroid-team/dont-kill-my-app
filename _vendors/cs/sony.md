@@ -1,0 +1,12 @@
+---
+name: Sony
+manufacturer:
+  - sony
+award: 2
+position: 14
+redirect_from: /vendors/sony.html
+explanation: "Sony gets a high bar in our listing of toxic Android vendors, as historically Sony introduced the first very effective non-standard background process optimization and opened Pandora's box.\nIt is called **Stamina mode**, and it instantly breaks all background processes and all alarms if enabled."
+user_solution: "## Stamina mode\nNever use Stamina mode if you want your device to do something useful when not actively using it. Despite the official description, it does not affect only mobile data and WiFi, it also terminuates any background processes.\nStamine mode can be find (and disabled) at either *Battery* section or *Power management* section.\n<div class=\"img-block\">\n  <figure>\n    <img src=\"/assets/img/sony/sony_stamina.jpg\">\n    <figcaption>Older Androids.</figcaption>\n  </figure>\n  <figure>\n    <img src=\"/assets/img/sony/sony_stamina2.png\">\n    <figcaption>Newer Androids.</figcaption>\n  </figure>\n</div>\n## Adaptive battery\nAdaptive battery was reported on Android 11, but it can be present on earlier versions too.\n<div class=\"img-block\">\n  <figure>\n    <img src=\"/assets/img/sony/sony_adaptive.png\">\n  </figure>\n</div>\n## Power-saving feature\nThe app you need to run in the background needs to be set as *Excepted* from Power-saving feature.\n_System settings ​→ Apps & Notifications ​→ Advanced ​→ Special app access ​→ Power saving feature_\n<div class=\"img-block\">\n  <figure>\n    <img src=\"/assets/img/sony/sony_powersave.png\">\n    <figcaption>Switch Your app to <strong>Excepted</strong>.</figcaption>\n  </figure>\n</div>\n## Battery optimisation\nTry to make your app not battery optimized in *Phone settings > Battery > Three dots in the top right corner > Battery optimisation > Apps > your app*."
+developer_solution: "There is no workaround to prevent background process optimizations in *Stamina mode*, but at least apps can detect that Stamina mode is enabled with the following command:\n```\nif (Build.MANUFACTURER.equals(\"sony\") && android.provider.Settings.Secure.getInt(context.getContentResolver(), \"somc.stamina_mode\", 0) > 0) {\n    // show warning\n}\n```\nThe problem is this will only tell if Stamina is enabled, but not if it is currently applied, but we can assume it is when not charged and battery is under X% (TBS)"
+---
+

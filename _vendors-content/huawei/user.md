@@ -5,6 +5,24 @@ manufacturer:
 ---
 
 
+### Smart Tune-up
+
+There is a pre-installed app called system manager which also might kill apps depending on a setting within the app, and it has "smart" feature killing apps.
+
+<div class="img-block">
+  <figure>
+    <img src="/assets/img/huawei/huawei_system_manager_1.png">
+    <figcaption>1. Open the System Manager and tap the cog icon.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/img/huawei/huawei_system_manager_2.png">
+    <figcaption>2. Disable the Smart tune-up feature.</figcaption>
+  </figure>
+
+</div>
+
+
 ### App Launch on some EMUI 8, 9 and 10 devices (Huawei P20, Huawei P20 Lite, Huawei Mate 10...)
 
 * *Phone settings > Battery > App launch* and then set your app to “Manage manually” and make sure everything is turned on.

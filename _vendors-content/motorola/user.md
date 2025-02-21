@@ -4,6 +4,15 @@ manufacturer:
 
 ---
 
+## Adaptive battery
+
+The Adaptive battery might be quite aggresive on some phones. It is designed for "infrequently used apps", but from the feedback it looks like the definition of infrequently used apps is quite wide.
+
+1. Go to your phone's settings.
+2. Open the Battery section.
+3. Disable the Adaptive battery option.
+
+
 ## Background activity restrictions
 
 There can be a restriction on background activity enabled for each app. 

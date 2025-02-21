@@ -11,12 +11,12 @@ There is a pre-installed app called system manager which also might kill apps de
 
 <div class="img-block">
   <figure>
-    <img src="/assets/img/huawei/huawei_system_manager_1.png">
+    <img src="/assets/img/huawei/huawei_system_manager_1.jpg">
     <figcaption>1. Open the System Manager and tap the cog icon.</figcaption>
   </figure>
 
   <figure>
-    <img src="/assets/img/huawei/huawei_system_manager_2.png">
+    <img src="/assets/img/huawei/huawei_system_manager_2.jpg">
     <figcaption>2. Disable the Smart tune-up feature.</figcaption>
   </figure>
 

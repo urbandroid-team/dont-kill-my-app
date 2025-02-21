@@ -39,6 +39,12 @@ Samsung developed an app named **Good Guardians**. This app is tightly integrate
 
 * **Galaxy app booster**: no information so far...
 
+### Good Lock apps
+
+Yet another extra app you may need to keep the apps running on Samsung phones. It was developed with the cooperation with Samsung. Any feedback about this app or its features is welcomed.
+
+* **The long live app**: might protect the apps from killing in the background.
+
 ### Keep open
 
 You can "lock" one app in the Recent apps to prevent it from being terminated.

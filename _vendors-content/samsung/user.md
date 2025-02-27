@@ -14,7 +14,7 @@ manufacturer: samsung
 - **Android Marshmallow or below**: Smart manager
 
 
-1. [ Android 14 ](#android-14) 
+1. [ Android 14 ](#android-14) <br>
 2. [ Android 13 ](#android-13) 
 2. [ Android 11 ](#android-11) <br>
 3. [ Android Pie and 10 ](#android-pie-and-10) <br>
@@ -61,7 +61,7 @@ You can "lock" one app in the Recent apps to prevent it from being terminated.
 If you want an app to keep running in the background when you turn off your phone's screen/lock your phone, then don't go to Home (Home screen) of your phone and then turn off the screen. Open the app and let it stay in the foreground, and only then turn off your screen/lock your phone. This might prevent the app from closing. When you unlock your phone, you will see that the app is running in the same state.
 
 
-## Android 13
+## Android 14
 
 The settings are mostly the same as Android 11 below, with a few changes:
 
@@ -205,7 +205,7 @@ The settings are mostly the same as Android 11 below, with a few changes:
 
 
 
-## Android 11
+## Android  14
 
 On Android 11 Samsung will prevent apps work in the background by default unless you exclude apps from battery optimizations. This is a severe divergence from standard Android process management policies.<br>
 Yes, this is a long way to go! Devs cannot ask for it automatically as they risk being kicked out from the Play Store due to policy violations.
@@ -365,7 +365,7 @@ On some phones the route differs:
 <div class="caution-box">Warning: Make sure <strong>Put unused apps to sleep</strong> is disabled. Otherwise, Samsung will put your apps back to sleep after a few days (3 by default) even if you have woken them up manually!</div>
 
 
-## Android Pie and 10
+## Android Pie and 14
 
 Battery optimizations are *turned on by default*. It is possible the disabled restrictions might get revert after OS update or reboot.
 By default any app which is not started in 3 days is put to sleep and background tasks including alarms will stop working.

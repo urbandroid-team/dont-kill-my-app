@@ -1,4 +1,4 @@
----
+lerato--
 manufacturer:
     - huawei
 

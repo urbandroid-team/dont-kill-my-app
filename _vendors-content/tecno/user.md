@@ -1,4 +1,11 @@
----
+"name": "Tecno",
+      "manufacturer": ["tecno"],
+      "url": "/tecno",
+      "award": 3,
+      "position": 13,
+      "explanation": "\n",
+      "user_solution": "\n",
+      "developer_solution": "\n"
 manufacturer:
     - tecno
 

@@ -1,8 +1,7 @@
----
+122553---
 manufacturer: 
     - oppo
-
----
+3366
 
 ## Oppo F1S
 

@@ -49,3 +49,4 @@ Try the generic approach below as some vendors tend to hook more functionality i
 
 
 **Phone settings > Battery & power saving > Battery usage > Ignore optimizations > Turn on** to ignore battery optimization for your app.
+Nothing Phone 1 

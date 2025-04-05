@@ -1,4 +1,4 @@
----
+---Itel a70
 manufacturer:
     - general
 ---

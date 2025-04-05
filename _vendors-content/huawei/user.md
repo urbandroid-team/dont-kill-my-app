@@ -47,6 +47,36 @@ There is a pre-installed app called system manager which also might kill apps de
 
 Also for reliable background processes you may need to uninstall PowerGenie as described below.
 
+### for EMUI 12
+* *Phone settings > Battery > App launch* and then set your app to “Manage manually” and make sure everything is turned on.
+
+<div class="img-block">
+  <figure>
+    <img src="/assets/img/huawei/12_Huawei_1.jpg">
+    <figcaption>1. *Phone settings > Battery > App launch*. This feature may or may not be available for all devices or labeled differently.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/img/huawei/12_Huawei_2.jpg">
+    <figcaption>2. Turn off “Manage all automatically”</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/img/huawei/12_Huawei_3.jpg">
+    <figcaption>3. Make sure to ENABLE! all toggles.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/img/huawei/12_Huawei_4.jpg">
+    <figcaption>4. go to .</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/img/huawei/12_Huawei_5.jpg">
+    <figcaption>3. Make sure to ENABLE! all toggles.</figcaption>
+  </figure>
+
+</div>
 
 ### Startup manager
 

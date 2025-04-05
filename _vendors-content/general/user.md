@@ -1,4 +1,4 @@
----
+--fyfryrtfyftff-
 manufacturer:
     - general
 ---

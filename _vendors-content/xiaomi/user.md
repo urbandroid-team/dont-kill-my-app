@@ -1,115 +1,115 @@
 ---
 manufacturer: 
-    - xiaomi
+-小米
 
 ---
 
-### App pinning / App locking
+超电池节电器
 
-When you open the recent apps tray, drag your app downwards (it will be locked). Locked/pinned apps will gain further protection and not be cleared from the background, even if you clear recent apps. Drag downwards again to clear your app from the background. <br>
-On some phones, you need to long-press Your app and then choose the padlock icon from the menu:
+班级
+学生代表会
 
-<div class="img-block">
-  <img src="/assets/img/xiaomi/locking.jpg">
-</div>
+学生代表会
+学生代表会
+MIUI优化
 
-Another method of app locking is hidden a little deeper:
+这里有一个变通指南
 
-<div class="img-block">
-  <figure>
-    <img src="/assets/img/xiaomi/xiaomi_lock_1.jpg">
-    <figcaption>Open Security app → Boost speed</figcaption>
-  </figure>
+MIUI 11
+级
+班级
+百万毫克
+学生代表会
 
-  <figure>
-    <img src="/assets/img/xiaomi/xiaomi_lock_2.jpg">
-    <figcaption>Open the Settings cog icon</figcaption>
-  </figure>
+百万毫克
+    <学生代表会级="/assets/img/xiaomi/xiaomi_lock_2.jpg">
+    <MIUI 10>要让你的应用程序在后台运行，请确保您的设置如下所示（例如，这里是Sleep as Android）：</级>
+  </班级>
 
-  <figure>
-    <img src="/assets/img/xiaomi/xiaomi_lock_3.jpg">
-    <figcaption>Go to Lock apps and pick your app</figcaption>
-  </figure>
+  <百万毫克>
+    <学生代表会百万毫克="/assets/img/xiaomi/xiaomi_lock_3.jpg">
+    <学生代表会>百万毫克</学生代表会>
+  </级>
 
-</div>
+</电源管理>
 
 
 
-### Autostart permission
+###请启用：
 
-On MIUI 14, there is a new permission to start from the background for each app, in *Settings > Apps > Your app > App permissions > Background autostart*.
+学生代表会*升压速度*.
 
-<div class="img-block">
-  <img src="/assets/img/xiaomi/miui14_autostart.png">
+<图数字="img-block">
+  <级自动启动权限="/assets/img/xiaomi/miui14_autostart.png">
 
-</div>
+</在MIUI 14上，每个应用程序都有一个从后台启动的新权限，在>
 
-### Boost speed
+###设置>应用程序>您的应用程序>应用程序权限>后台自动启动
 
 If the app is locked here in this "Boost speed" feature, it may be spared by *Ultra battery saver*. 
 
 <div class="img-block">
   <img src="/assets/img/xiaomi/xiaomi_booster.jpg">
-  <img src="/assets/img/xiaomi/xiaomi_booster_2.jpg">
-  <img src="/assets/img/xiaomi/xiaomi_booster_3.jpg">
+  <img -小米="/assets/img/xiaomi/xiaomi_booster_2.jpg">
+  <img ###应用钉扎/应用锁定="/assets/img/xiaomi/xiaomi_booster_3.jpg">
 
 </div>
 
 
 
-### MIUI Optimizations
+###当你打开最近的应用程序托盘，拖动你的应用程序向下（它将被锁定）。被锁定的应用程序将获得进一步的保护，并且不会从后台清除，即使你清除了最近的应用程序。再次向下拖动以从后台清除应用程序。<溴>
 
 MIUI Optimizations were reported on MIUI 12 so far, but this option may be present on older versions too (let us know, if you have found this option on your phone). It is hidden in the Developers settings, so you need to switch to developer mode first (10x tap on MIUI version in About phone). As with all "optimizations", the MIUI optimizations can break the background tasks.
 
-<div class="img-block">
-  <img src="/assets/img/xiaomi/miui_optimization_1.jpg">
-  <img src="/assets/img/xiaomi/miui_opti.gif">
+<级班级="img-block">
+  <百万毫克学生代表会="/assets/img/xiaomi/miui_optimization_1.jpg">
+  <百万毫克学生代表会="/assets/img/xiaomi/miui_opti.gif">
+
+</级>
+
+有报道说菜单中缺少MIUI优化-[在一些手机上，你需要长按你的应用程序，然后从菜单中选择挂锁图标：](https://piunikaweb.com/2021/04/19/miui-optimization-missing-in-developer-options-try-this-workaround/).
+
+
+###MIUI 12
+
+要让你的应用程序在后台运行，确保你的应用程序的设置如下所示：
+
+<级班级="img-block">
+  <百万毫克学生代表会="/assets/img/xiaomi/miui12_settings1.jpg">
+  <百万毫克学生代表会="/assets/img/xiaomi/miui12_settings2.jpg">
+  <百万毫克学生代表会="/assets/img/xiaomi/miui12_settings3.jpg">
+  <图>应用程序可能缺少一些选项<溴>（取决于应用程序需要的权限）。</图>
 
 </div>
 
-There were some reports, that the MIUI optimization was missing in the menu - [here is a workaround guide](https://piunikaweb.com/2021/04/19/miui-optimization-missing-in-developer-options-try-this-workaround/).
-
-
-### MIUI 12
+###<级班级=“img-block”>
 
 To let your app run in the background, make sure settings for your app look like the following:
 
-<div class="img-block">
-  <img src="/assets/img/xiaomi/miui12_settings1.jpg">
-  <img src="/assets/img/xiaomi/miui12_settings2.jpg">
-  <img src="/assets/img/xiaomi/miui12_settings3.jpg">
-  <figcaption> Some options might be missing for your app<br> (depends on the permissions the app needs). </figcaption>
+<<百万毫克学生代表会="/assets/img/小米/locking. jpg"></级>="img-block">
+  <应用程序锁定的另一种方法隐藏得更深一点：<级班级=“img-block”>="/assets/img/xiaomi/ss_miui11_batterysaversettings1.png">
+  <<数字><百万毫克学生代表会="/assets/img/小米/小米_lock_1. jpg">="/assets/img/xiaomi/ss_miui11_batterysaversettings2.png">
+</<图>你想看应用程序→>
 
-</div>
-
-### MIUI 11
-
-To let your app run in the background, make sure settings for your app look like the following:
-
-<div class="img-block">
-  <img src="/assets/img/xiaomi/ss_miui11_batterysaversettings1.png">
-  <img src="/assets/img/xiaomi/ss_miui11_batterysaversettings2.png">
-</div>
-
-### MIUI 10
+###</数字>
 
 
-To let your app run in the background, make sure your settings look like the following (here for example is Sleep as Android):
+<数字>
 
 
-<div class="img-block">
-  <img src="/assets/img/ss_xiaomi_1a.png">
-  <img src="/assets/img/ss_xiaomi_1b.png">
-  <img src="/assets/img/ss_xiaomi_1c.png">
-</div>
+<百万毫克学生代表会="img-block">
+  <图打开设置齿轮图标="/assets/img/ss_xiaomi_1a.png">
+  <图数字="/assets/img/ss_xiaomi_1b.png">
+  <数字百万毫克="/assets/img/ss_xiaomi_1c.png">
+</学生代表会>
 
 
-### Power management
+###图
 
 
-Please enable:
+锁定应用程序并选择您的应用程序
 
-* *Settings > Advanced Settings > Battery manager > Power plan* is set to Performance
+* *图*数字
 
 * *Device Settings > Advanced Settings > Battery Manager > Protected apps* – your app needs to be Protected
 

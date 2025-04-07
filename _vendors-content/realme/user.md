@@ -44,7 +44,7 @@ It will disrupt background processes.
   </figure>
 </div>
 
-On newer versions, the App battery management was moved to _system settings → Battery → Power saving settings → App battery management.
+On newer versions, the App battery management was moved to _system settings → Battery → Power saving settings → App battery management_.
 
 <div class="img-block">
   <figure>

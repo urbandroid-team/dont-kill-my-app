@@ -4,12 +4,17 @@ manufacturer:
 
 ---
 
-Luckily, the system restrictions are all gathered at one place in the system settings in Battery section, and also have some description there.
+Luckily, the system restrictions are all gathered at one place in the system settings in the Battery section, and also have some description there.
 
 <div class="img-block">
   <figure>
     <img src="/assets/img/realme/realme_1.jpg">
     <figcaption>Settings -> Battery</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/img/realme/realme_new_battery.jpg">
+    <figcaption>Settings -> Battery section on other versions.</figcaption>
   </figure>
 
 </div>
@@ -21,7 +26,7 @@ Luckily, the system restrictions are all gathered at one place in the system set
 Can be set to launch automatically at a set battery level.<br>
 It may terminate background processes.<br>
 
-* <strong>Super power sawing mode</strong>  - extra saving option, allows you to have at most 6 apps to use.<br>
+* <strong>Super power saving mode</strong>  - extra saving option, allows you to have at most 6 apps to use.<br>
 It will disrupt background processes.
 
 
@@ -39,6 +44,20 @@ It will disrupt background processes.
   </figure>
 </div>
 
+On newer versions, the App battery management was moved to _system settings → Battery → Power saving settings → App battery management.
+
+<div class="img-block">
+  <figure>
+    <img src="/assets/img/realme/realme_power_saving_settings.jpg">
+    <figcaption>1. Open the Battery section and find Power saving settings.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/img/realme/realme_app_battery_management.jpg">
+    <figcaption>Open App battery management and find the app in the list.</figcaption>
+  </figure>
+</div>
+
 
 * <strong>Allow auto-launch</strong>
 
@@ -46,11 +65,18 @@ It will disrupt background processes.
 
 * <strong>Allow background activity</strong>
 
+* <strong>Optimize battery use</strong>
+
 <div class="img-block">
   <figure>
     <img src="/assets/img/realme/realme_allow_background_activity.jpg">
     <figcaption>Background + Foreground activity</figcaption>
   </figure>
+
+   <figure>
+    <img src="/assets/img/realme/realme_optimize_battery use.jpg">
+    <figcaption>Optimize batery use</figcaption>
+  </figure>  
 </div>
 
 

@@ -74,7 +74,7 @@ On newer versions, the App battery management was moved to _system settings → 
   </figure>
 
    <figure>
-    <img src="/assets/img/realme/realme_optimize_battery use.jpg">
+    <img src="/assets/img/realme/realme_optimize_battery_use.jpg">
     <figcaption>Optimize batery use</figcaption>
   </figure>  
 </div>

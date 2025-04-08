@@ -97,7 +97,7 @@ On newer versions, the App battery management was moved to _system settings → 
 * <strong>Sleep stand-by optimization</strong> - automatically enables low power mode when the system thinks you are asleep.
 
 
-## Performance and Battery mode
+## Performance mode
 
 <div class="img-block">
   <figure>
@@ -111,7 +111,17 @@ On newer versions, the App battery management was moved to _system settings → 
   </figure>
 </div>
 
-Slightly different layout present on newer version:
+
+* <strong>High-performance</strong> - consumes more power, mode for online gaming, for example
+
+* <strong>Smart Performance Mode</strong> - optimized mode depending on the workload, may break background processes
+
+*  <strong>No Performance Improvement</strong> - no additional boost of performance
+
+## Battery mode
+
+Similar to the previous Performance mode on older versions, with a different name. 
+
 
 <div class="img-block">
   <figure>
@@ -124,13 +134,6 @@ Slightly different layout present on newer version:
     <figcaption>Available options</figcaption>
   </figure>
 </div>
-
-* <strong>High-performance</strong> - consumes more power, mode for online gaming, for example
-
-* <strong>Smart Performance Mode</strong> - optimized mode depending on the workload, may break background processes
-
-*  <strong>No Performance Improvement</strong> - no additional boost of performance
-
 
 ## App quick freeze
 

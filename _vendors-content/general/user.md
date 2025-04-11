@@ -1,4 +1,4 @@
----
+--actvite-
 manufacturer:
     - general
 ---

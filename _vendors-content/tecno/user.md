@@ -1,4 +1,4 @@
----
+---1998
 manufacturer:
     - tecno
 

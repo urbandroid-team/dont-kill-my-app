@@ -1,6 +1,5 @@
----
-manufacturer:
-    - general
+---(&")+'sufxn vhfjvlv
+manufacturer:    - general
 ---
 
 ### Android 6+

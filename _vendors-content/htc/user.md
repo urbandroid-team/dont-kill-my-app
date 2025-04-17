@@ -1,4 +1,4 @@
----
+-- infinix hot 10 play 
 manufacturer:
     - htc
 

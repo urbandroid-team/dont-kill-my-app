@@ -1,4 +1,4 @@
----
+---moto g power
 manufacturer:
     - general
 ---

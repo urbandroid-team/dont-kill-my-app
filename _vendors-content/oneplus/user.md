@@ -1,49 +1,49 @@
 ---
-manufacturer: 
-    - oneplus
+制造商：
+-一加
 
 ---
 
-### App locking
+###应用程序锁定
 
-Locking the app in the Recent app may avoid the app to be killed in background and the *Battery optimisation* setting to be reverted.
-<br>
+将应用锁定在最近的应用中，可以避免应用在后台被杀，*电池优化*要恢复的设置。
+<溴>
 
-This is however not 100%. You may have to check system settings every once in a while. See [a bug report filed to OnePlus](https://forums.oneplus.com/threads/in-battery-optimisation-apps-are-getting-automatically-switched-from-not-optimised-to-optimised.849162/).
-
-
-1. Start the app you want to protect. Go to *Recent apps* - swipe up and hold for opening recent apps (Apps switcher).
-
-2. Long press anywhere on the window and tap the *Lock* button on the upper right corner of the app.
-
-3. The locked app will have the closed padlock icon.
+然而，这并不是100%。您可能必须每隔一段时间检查系统设置。看见[向OnePlus提交错误报告](https://forums.oneplus.com/threads/in-battery-optimisation-apps-are-getting-automatically-switched-from-not-optimised-to-optimised.849162/).
 
 
-<div class="img-block">
-  <img src="/assets/img/oneplus_locking.jpg">
+1.启动您要保护的应用程序。去*近期应用*-向上滑动并按住以打开最近的应用程序(应用程序切换器)。
+
+2.长按窗口上的任何位置，然后轻敲*锁*应用程序右上角的按钮。
+
+3.已锁定的应用程序将具有已关闭的挂锁图标。
+
+
+<div班级="img-block">
+  <IMGsrc="/assets/img/oneplus_locking.jpg">
 </div>
 
-### Battery optimization
+###电池优化
 
-- Turn off **System Settings > Apps > Gear Icon > Special Access > Battery Optimization**.
-<br>
-<small>**WARNING:** Recently OnePlus phones started reverting this setting randomly for random apps. So if you set it to be *not optimized*, the next day it may be back to *optimized*. 
-<br>
-To avoid the system to automatically revert the *not optimized* setting, you must also lock the app into the 'Recent App' list, see the solution above or [here](https://forum.xda-developers.com/showpost.php?p=78588761&postcount=7).
-<br>
-
-
-- Turn off **System settings > Battery > Battery optimization**, switch to 'All apps' in top right menu **> Your app > Don’t optimize**
-<br>
-<small>**NOTE:** Some of our users indicated that you need to disable Doze mode in Developer options in 1+3 and earlier.</small>
+-关闭**系统设置-应用程序-Gear图标-特殊访问-电池优化**.
+<溴>
+<小的>**警告：**最近，OnePlus手机开始为随机应用程序随机恢复此设置。因此，如果您将其设置为*未优化*，第二天可能会回到*优化的*.
+<溴>
+以避免系统自动恢复*未优化*设置，您还必须将应用锁定到“最近使用的应用”列表中，请参阅上面的解决方案或[在这里](https://forum.xda-developers.com/showpost.php?p=78588761&postcount=7).
+<溴>
 
 
-### App Auto-Launch
+-关闭**系统设置>电池>电池优化**，切换到右上角菜单中的“所有应用程序”**>您的应用>不优化**
+<溴>
+<小的>**笔记：**我们的一些用户指出，在1+3和更早版本中，您需要在Developer选项中禁用Doze模式。</小的>
 
-App Auto-Launch (on some OnePlus phones) essentially prevents apps from working in the background. Please disable it for your app.
 
-<div class="img-block">
-  <img src="/assets/img/ss_oneplus_1.jpg">
+###应用程序自动启动
+
+应用程序自动启动(在部分OnePlus手机上)实际上会阻止应用程序在后台工作。请为您的应用程序禁用它。
+
+<div班级="img-block">
+  <IMGsrc="/assets/img/ss_oneplus_1.jpg">
 </div>
 
 

@@ -1,4 +1,4 @@
----
+--sui-
 manufacturer:
     - general
 ---

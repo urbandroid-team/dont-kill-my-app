@@ -1,3 +1,4 @@
+تفعيل
 ---
 manufacturer:
     - general

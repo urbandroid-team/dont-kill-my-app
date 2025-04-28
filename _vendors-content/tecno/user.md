@@ -1,9 +1,10 @@
----
+-553
+--
 manufacturer:
     - tecno
 
 ---
-
+553
 ## Power Saving Management
 
 Go to _Settings → Battery Lab → Battery Saving Settings → Disable **Power Saving Management For Apps**_

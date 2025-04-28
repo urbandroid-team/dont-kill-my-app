@@ -29,7 +29,7 @@ There is a pre-installed app called system manager which also might kill apps de
 
 <div class="img-block">
   <figure>
-    <img src="/assets/img/huawei/ss_huawei_app_launch_1.png">
+    <img src="/assets/img/huaw7iei/ss_huawei_app_launch_1.png">
     <figcaption>1. *Phone settings > Battery > App launch*. This feature may or may not be available for all devices or labeled differently.</figcaption>
   </figure>
 

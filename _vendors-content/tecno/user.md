@@ -1,4 +1,6 @@
----
+<figure>
+<img src="/assets/img/tecno/tecno_auto_start_apps.jpg">
+  </figure>    ---
 manufacturer:
     - tecno
 

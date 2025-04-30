@@ -1,5 +1,6 @@
 ---
-manufacturer:
+manhttps://dontkillmyapp.com/tecno
+ufacturer:
     - tecno
 
 ---

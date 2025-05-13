@@ -4,6 +4,19 @@ manufacturer:
 
 ---
 
+
+## Improve battery while inactive
+
+A new option in some of the Motorola phones, enhanced by unknown AI algorithms. It is added by the *Battery care* app and does seem to kill the apps even if you disable the option in _Settings -> Battery -> Improve battery while inactive_. The only fix is to uninstall the com.motorola.batterycare package using adb: adb shell pm uninstall -k --user 0 com.motorola.batterycare.
+
+<div class="img-block">
+  <figure>
+    <img src="/assets/img/motorola/moto_AI_battery.png">
+    <figcaption>Improve batteru while inactive</figcaption>
+  </figure>
+
+</div>
+
 ## Adaptive battery
 
 The Adaptive battery might be quite aggresive on some phones. It is designed for "infrequently used apps", but from the feedback it looks like the definition of infrequently used apps is quite wide.

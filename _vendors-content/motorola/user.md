@@ -12,7 +12,7 @@ A new option in some of the Motorola phones, enhanced by unknown AI algorithms. 
 <div class="img-block">
   <figure>
     <img src="/assets/img/motorola/moto_AI_battery.png">
-    <figcaption>Improve batteru while inactive</figcaption>
+    <figcaption>Improve battery while inactive</figcaption>
   </figure>
 
 </div>

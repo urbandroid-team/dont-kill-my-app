@@ -3,7 +3,7 @@ name: Unihertz
 manufacturer:
   - unihertz
 award: 2
-position: 15
+position: 16
 redirect_from: /vendors/unihertz.html
 
 ---

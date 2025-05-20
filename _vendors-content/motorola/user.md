@@ -28,6 +28,7 @@ Another new option on newer Android version on Motorolas, hidden from the plain 
 4. Tap the option with the toggle.
 5. Set the battery usage as 'Unrestricted'.
 
+<div class="img-block">
   <figure>
     <img src="/assets/img/motorola/moto_ai_per-app_1.png">
     <figcaption>Allow battery usage.</figcaption>

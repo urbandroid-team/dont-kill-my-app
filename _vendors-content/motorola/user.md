@@ -17,6 +17,36 @@ A new option in some of the Motorola phones, enhanced by unknown AI algorithms. 
 
 </div>
 
+
+## Allow background usage
+
+Another new option on newer Android version on Motorolas, hidden from the plain sight. In setting for each app, you can find *App battery usage* toggle. But it did not stop there, you need to tap the option with the toggle to get to the hidden menu with *Unrestricted battery usage*.
+
+1. Go to your phone's settings -> Apps -> Find your app.
+2. Open Apps battery usage.
+3. Allow Background battery usage.
+4. Tap the option with the toggle.
+5. Set the battery usage as 'Unrestricted'.
+
+  <figure>
+    <img src="/assets/img/motorola/moto_ai_per-app_1.png">
+    <figcaption>Allow battery usage.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/img/motorola/moto_ai_per-app_2.png">
+    <figcaption>Tap the option Allow battery usage.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/img/motorola/moto_ai_per-app_3.png">
+    <figcaption>Set as 'unrestricted'.</figcaption>
+  </figure>
+
+</div>
+
+
+
 ## Adaptive battery
 
 The Adaptive battery might be quite aggresive on some phones. It is designed for "infrequently used apps", but from the feedback it looks like the definition of infrequently used apps is quite wide.

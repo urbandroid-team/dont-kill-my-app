@@ -1,4 +1,4 @@
----
+qlskzkwxl---
 manufacturer: samsung
 
 ---

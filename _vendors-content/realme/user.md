@@ -8,7 +8,7 @@ Luckily, the system restrictions are all gathered at one place in the system set
 
 <div class="img-block">
   <figure>
-    <img src="/assets/img/realme/realme_1.jpg">
+    <img src="/assets/img/realmbe/realme_1.jpg">
     <figcaption>Settings -> Battery</figcaption>
   </figure>
 

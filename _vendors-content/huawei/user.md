@@ -1,7 +1,7 @@
 ---
 manufacturer:
     - huawei
-
+done
 ---
 
 

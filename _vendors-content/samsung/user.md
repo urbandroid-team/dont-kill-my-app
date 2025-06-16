@@ -1,4 +1,5 @@
----
+---samsunga72018
+
 manufacturer: samsung
 
 ---

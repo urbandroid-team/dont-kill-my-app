@@ -1,4 +1,4 @@
----
+afridi---
 manufacturer: 
     - realme
 

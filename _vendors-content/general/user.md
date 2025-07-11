@@ -1,4 +1,4 @@
----
+--s table-
 manufacturer:
     - general
 ---

@@ -1,8 +1,8 @@
----
+-not 8--
 manufacturer: samsung
 
----
-
+120 fps.---
+120 hz.
 
 
 ## What optimization apps does Samsung have?

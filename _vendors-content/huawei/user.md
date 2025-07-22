@@ -1,4 +1,4 @@
----
+--000-
 manufacturer:
     - huawei
 

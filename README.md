@@ -1,4 +1,4 @@
-# Android vendors, don't kill my app!
+award: (int between 1 and 5)# Android vendors, don't kill my app!
 
 ### [dontkillmyapp.com](https://dontkillmyapp.com)
 

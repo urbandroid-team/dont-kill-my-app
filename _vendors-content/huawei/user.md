@@ -115,6 +115,7 @@ Also, you may not have PowerGenie on your device, but your apps may still get ki
 
 #### Classic battery optimization
 
+
 Open Settings, and search for and access Ignore battery optimization. Touch the little inverted triangle next to Allow, touch All apps, locate and touch the app, and select Allow.
 
 ### EMUI 6+ devices (and some EMUI 5 devices)

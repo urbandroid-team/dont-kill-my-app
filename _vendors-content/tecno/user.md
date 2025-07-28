@@ -1,8 +1,8 @@
 ---
 manufacturer:
-    - tecno
+xzg    - tecno
 
----
+--xff-
 
 ## Power Saving Management
 

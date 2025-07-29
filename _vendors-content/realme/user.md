@@ -1,6 +1,6 @@
 ---
 manufacturer: 
-    - realme
+    -itel90
 
 ---
 

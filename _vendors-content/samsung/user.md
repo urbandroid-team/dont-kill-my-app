@@ -1,7 +1,6 @@
----
-manufacturer: samsung
+1000000
+manufacturer: sa1000000
 
----
 
 
 

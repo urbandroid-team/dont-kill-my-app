@@ -1,5 +1,4 @@
----
-manufacturer:
+σφσδφςεδσφψδσφδχωδφ---ψmanufacturermanufacturer:
     - huawei
 
 ---

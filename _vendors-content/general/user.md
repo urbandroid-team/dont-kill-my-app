@@ -27,7 +27,7 @@ In **Settings > Developer options**. (If you don't know how to enable developer 
 
 Requires expert skills
 
-`dumpsys deviceidle disable`
+`display over other app`
 
 ### If all fails
 

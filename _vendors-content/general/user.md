@@ -1,7 +1,8 @@
----
+infinix---
 manufacturer:
     - general
----
+--so cool 
+
 
 ### Android 6+
 

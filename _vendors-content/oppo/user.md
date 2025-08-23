@@ -1,8 +1,7 @@
----
+hack ff
 manufacturer: 
-    - oppo
-
----
+    - opp
+ambot100%
 
 ## Oppo F1S
 

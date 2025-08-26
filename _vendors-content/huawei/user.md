@@ -1,6 +1,7 @@
----
+Don't kill my app
+Don't kill my app---
 manufacturer:
-    - huawei
+    - ios
 
 ---
 

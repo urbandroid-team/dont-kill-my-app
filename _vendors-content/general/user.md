@@ -2,7 +2,7 @@
 manufacturer:
     - general
 ---
-
+_vendors-content/sony/user.md
 ### Android 6+
 
 Always check the following setting:

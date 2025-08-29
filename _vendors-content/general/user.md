@@ -1,3 +1,4 @@
+nubia
 ---
 manufacturer:
     - general

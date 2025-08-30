@@ -2,7 +2,7 @@
 manufacturer: 
     - realme
 
----
+---adb shell sh /storage/emulated/0/Android/data/moe.shizuku.privileged.api/start.sh
 
 Luckily, the system restrictions are all gathered at one place in the system settings in the Battery section, and also have some description there.
 

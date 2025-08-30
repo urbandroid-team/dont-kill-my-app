@@ -1,5 +1,6 @@
+freefiremax. 
 ---
-manufacturer: samsung
+fmanufacturer: samsung
 
 ---
 
@@ -16,10 +17,11 @@ manufacturer: samsung
 
 1. [ Android 14 ](#android-14) 
 2. [ Android 13 ](#android-13) 
-2. [ Android 11 ](#android-11) <br>
-3. [ Android Pie and 10 ](#android-pie-and-10) <br>
-4. [ Android Oreo and Nougat ](#android-oreo-and-nougat) <br>
-5. [ Android Marshmallow and older ](#android-marshmallow-and-older ) <br>
+2. [ Android 11 ](#android-
+3. 11) <br>
+4. [ Android Pie and 10 ](#android-pie-and-10) <br>
+5. [ Android Oreo and Nougat ](#android-oreo-and-nougat) <br>
+6. [ Android Marshmallow and older ](#android-marshmallow-and-older ) <br>
 
 
 

@@ -1,4 +1,4 @@
----
+Symphony--
 manufacturer:
     - general
 ---

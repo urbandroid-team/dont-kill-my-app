@@ -1,4 +1,4 @@
----
+---bskgej
 manufacturer:
     - htc
 

@@ -31,7 +31,7 @@ Requires expert skills
 
 ### If all fails
 
-Look for any vendor-specific battery saver on your device and ideally uninstall if possible, disable if possible.
+Look for any vendor-specific battery saver on your device and ideally uninstall if possible, disable if possible. 120 fps
 
 
 If not, you are left with the option to root your device or uninstall it though **adb** (requires some expert skills though):

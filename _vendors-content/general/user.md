@@ -1,4 +1,4 @@
----
+quiero los emojis ---
 manufacturer:
     - general
 ---

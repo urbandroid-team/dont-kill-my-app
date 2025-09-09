@@ -1,4 +1,4 @@
----
+120
 manufacturer:
     - general
 ---

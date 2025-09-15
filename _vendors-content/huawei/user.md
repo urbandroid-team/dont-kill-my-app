@@ -1,4 +1,4 @@
----
+rtygff---
 manufacturer:
     - huawei
 

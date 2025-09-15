@@ -1,4 +1,4 @@
----
+ZTE ---
 manufacturer:
     - general
 ---

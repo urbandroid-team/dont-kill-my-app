@@ -1,5 +1,5 @@
 ---
-manufacturer:
+m500anufacturer:
     - huawei
 
 ---

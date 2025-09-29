@@ -1,4 +1,5 @@
----
+120 fps
+120fps---
 manufacturer: samsung
 
 ---

@@ -1,4 +1,6 @@
----
+---yug
+hhb
+njg
 manufacturer:
     - htc
 

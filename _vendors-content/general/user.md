@@ -1,4 +1,4 @@
----
+HUAWEI
 manufacturer:
     - general
 ---

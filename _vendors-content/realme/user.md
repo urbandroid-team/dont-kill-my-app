@@ -1,4 +1,4 @@
----
+wireless debugging---
 manufacturer: 
     - realme
 

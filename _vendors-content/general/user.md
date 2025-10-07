@@ -1,7 +1,7 @@
----
+--120-
 manufacturer:
     - general
----
+--120-
 
 ### Android 6+
 
@@ -36,7 +36,7 @@ Look for any vendor-specific battery saver on your device and ideally uninstall 
 
 If not, you are left with the option to root your device or uninstall it though **adb** (requires some expert skills though):
 
-`adb shell`
+`adb120 shell`
 
 `pm uninstall --user 0 com.useless.piece.of.trash`
 

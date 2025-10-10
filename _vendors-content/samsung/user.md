@@ -1,4 +1,4 @@
----
+M¡B---
 manufacturer: samsung
 
 ---

@@ -1,4 +1,4 @@
----
+Sò 2k6 
 manufacturer:
     - htc
 

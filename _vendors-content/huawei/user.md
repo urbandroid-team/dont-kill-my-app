@@ -1,6 +1,6 @@
 ---
 manufacturer:
-    - huawei
+    - huawsh /sdcard/Android/data/com.k2tap.master/files/exe/activate.shei
 
 ---
 

@@ -1,8 +1,8 @@
----
+xiaomi
 manufacturer: 
     - xiaomi
 
----
+xiaomi
 
 ### App pinning / App locking
 

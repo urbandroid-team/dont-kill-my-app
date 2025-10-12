@@ -1,7 +1,7 @@
----
+1123giftover
 manufacturer:
     - general
----
+    14"
 
 ### Android 6+
 

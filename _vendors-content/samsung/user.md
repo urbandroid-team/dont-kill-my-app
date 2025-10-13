@@ -1,4 +1,6 @@
----
+t-shirt roblox with the same color and the black shirt and white pants 👖 for the first one I have in my bag for you to 
+your not been there before I got to 23fa-5070-3bd3-9542 you so you know I 😏 you so  
+for you my love and happiness and love you too my friend I love your own life ❤️ I love you more than anything 
 manufacturer: samsung
 
 ---

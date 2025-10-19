@@ -1,4 +1,8 @@
----
+tisist
+God
+giddy. 
+fits
+itk
 manufacturer: 
     - xiaomi
 

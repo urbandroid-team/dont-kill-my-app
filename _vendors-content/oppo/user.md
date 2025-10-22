@@ -1,4 +1,4 @@
----
+oppo a3x---
 manufacturer: 
     - oppo
 

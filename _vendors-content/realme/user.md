@@ -138,3 +138,121 @@ Similar to the previous Performance mode on older versions, with a different nam
 ## App quick freeze
 
 * Casts a 'freeze' spell the apps from this list - they cannot receive or send notifications and cannot run on the background.
+
+
+
+
+
+
+
+
+
+## For realme ui 2
+fix kill background maybe and try
+
+## First: 
+
+1. Select Settings
+
+2. Select Battery
+
+3. Select More Battery Settings
+
+4. Select Optimize Battery Use
+
+5. Select the app and then select "Don't Optimize"
+
+
+
+<div class="img-block">
+  <figure>
+    <img src="/assets/img/realme/realmeRUI2/realme_rui2_select_baterry_1.jpg">
+    <figcaption>Battery -> Battery mode</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/img/realme/realmeRUI2/realme_rui2_mode_baterry_2.jpg">
+    <figcaption>Battery Battery mode</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/img/realme/realmeRUI2/realme_rui2_batre_optimize_3.jpg">
+    <figcaption>Optimize </figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/img/realme/realmeRUI2/realme_rui2_select_dontoptimize_4.jpg">
+    <figcaption>Optimize options</figcaption>
+  </figure>
+<div>
+
+
+
+
+
+## Second: 
+
+1. Select privacy
+
+2. Select permission manager
+
+3. Select storage
+
+4. Select the applications to be allowed
+
+
+
+
+<div class="img-block">
+  <figure>
+    <img src="/assets/img/realme/realmeRUI2/realme_rui2_select_privacy_5.jpg">
+    <figcaption>Privacy -> privacy mode</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/img/realme/realmeRUI2/realme_rui2_select_permisions_6.jpg">
+    <figcaption>permission manager</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/img/realme/realmeRUI2/realme_rui2_select_storage_7.jpg">
+    <figcaption>storage</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/img/realme/realmeRUI2/realme_rui2_select_allow_8.jpg">
+    <figcaption>Available options</figcaption>
+  </figure>
+<div>
+
+
+
+
+
+## Third:
+
+1. Select the AppInfo application
+
+2. Select Battery Usage
+
+3. Then allow Ground Clearing
+
+4. Allow background (if needed)
+
+5. Allow auto launch
+
+
+<div class="img-block">
+  <figure>
+    <img src="/assets/img/realme/realmeRUI2/realme_rui2_appinfo_select_battery_9.jpg">
+    <figcaption>AppInfo -> batery usage</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/img/realme/realmeRUI2/realme_rui2_select_allowbackgroud_10.jpg">
+    <figcaption>Available options background</figcaption>
+  </figure>
+<div>
+
+
+

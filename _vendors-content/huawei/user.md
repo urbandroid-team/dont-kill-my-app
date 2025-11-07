@@ -1,3 +1,4 @@
+![153000](https://github.com/user-attachments/assets/8ed5faf6-b1d3-4624-ada7-ae1fec4708fd)
 ---
 manufacturer:
     - huawei

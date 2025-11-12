@@ -1,5 +1,4 @@
----
-manufacturer: 
+---anufacturer: 
     - xiaomi
 
 ---

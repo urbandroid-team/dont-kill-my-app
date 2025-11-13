@@ -1,4 +1,4 @@
-# Android vendors, don't kill my app!
+https://github.com/urbandroid-team/dont-kill-my-app/issues/3031# Android vendors, don't kill my app!
 
 ### [dontkillmyapp.com](https://dontkillmyapp.com)
 

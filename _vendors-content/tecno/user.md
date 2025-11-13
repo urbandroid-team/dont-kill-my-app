@@ -1,3 +1,4 @@
+good app
 ---
 manufacturer:
     - tecno

@@ -1,4 +1,35 @@
----
+28883982989282(((3(282!#
+
+
+
+
+
+
+чщвбч
+ч
+в
+вв
+
+м
+м
+у
+ч
+с
+м
+
+а
+ч
+ч
+ы
+ы
+в
+сща а
+аа
+  
+  
+  в
+  в
+  в---
 manufacturer: 
     - meizu
 
@@ -12,4 +43,15 @@ Adjust your settings:
 
 * Enable **Device Settings > Apps > your app > Battery > Power-intensive prompt** and **Keep running after screen off**
 
-* **Security > Permissions > Background processes > allow running in background**
+* *твльвьь а лбу
+*
+*
+* в
+*
+* вв
+* а
+* п
+* п
+* п
+* у
+* *Security > Permissions > Background processes > allow running in background**

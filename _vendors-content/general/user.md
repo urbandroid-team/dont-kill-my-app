@@ -48,4 +48,4 @@ If you find it try to disable it.
 Try the generic approach below as some vendors tend to hook more functionality into this than AOSP
 
 
-**Phone settings > Battery & power saving > Battery usage > Ignore optimizations > Turn on** to ignore battery optimization for your app.
+**Phone settings > Battery & power saving > Battery usage > Ignore optimizations > Turn on** to ignore battery optimization for your app.adb shell /data/app/~~6wPM7AYMYJzWjlTEc0iJQA==/moe.shizuku.privileged.api-bHqVpEJOqgYb8e20tuMWUA==/lib/arm64/libshizuku.so

@@ -9,7 +9,7 @@ manufacturer:
 When you open the recent apps tray, drag your app downwards (it will be locked). Locked/pinned apps will gain further protection and not be cleared from the background, even if you clear recent apps. Drag downwards again to clear your app from the background. <br>
 On some phones, you need to long-press Your app and then choose the padlock icon from the menu:
 
-<div class="img-block">
+<div class="img-[block">
   <img src="/assets/img/xiaomi/locking.jpg">
 </div>
 
@@ -156,6 +156,7 @@ On some XiaoMi phones, several settings options are hidden from you. Luckily, th
 
 * [**Hidden Settings For MIUI** from Yunus Ceyhan](https://play.google.com/store/apps/details?id=com.ceyhan.sets)
 
-* [**MIUI Hidden Settings Activity Launcher, poco, note** from More by NetVor - Android Solutions](https://play.google.com/store/apps/details?id=com.netvor.hiddensettings)
+* [**MIUI Hidden Settings Activity Launcher, poco, note** from More by NetVor - Android Solutions](https://play.google.com/st
+* ore/apps/details?id=com.netvor.hiddensettings)
 
-* [**MQS - Quick Settings for MIUI** from Ruby Faick](https://play.google.com/store/apps/details?id=com.zonarmr.miuiengineermode)
+* [**MQS - Quick Settings for MIUI** from Ruby Faick](https://play.google.com/store//details?id=com.zonarmr.miuiengineermode)

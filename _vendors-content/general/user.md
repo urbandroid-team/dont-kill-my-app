@@ -1,7 +1,7 @@
----
+99999---
 manufacturer:
     - general
----
+---9999999
 
 ### Android 6+
 

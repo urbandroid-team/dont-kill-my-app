@@ -71,8 +71,8 @@ The Sleep Mode optimization will automatically turn on airplane mode at night wh
 
 </div>
 
-* **Power Boost Reminder** = OFF (Optional)
-* **Screen off push block** = OFF
+* **Power Boost Reminder** = ON (Optional)
+* **Screen off push block** = ON
 
 <div class="img-block">
   <figure>
@@ -90,7 +90,7 @@ The Sleep Mode optimization will automatically turn on airplane mode at night wh
 
 </div>
   
-* **Screen off scheduled push** = OFF
+* **Screen off scheduled push** = ON
 
 <div class="img-block">
   <figure>
@@ -100,7 +100,7 @@ The Sleep Mode optimization will automatically turn on airplane mode at night wh
 </div>
   
 * **Battery Optimization** =  Optional
-* **Battery Saver** = OFF
+* **Battery Saver** = ON
   
 ## Smart Scenes
 

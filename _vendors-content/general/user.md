@@ -1,6 +1,6 @@
----
-manufacturer:
-    - general
+dinesh
+manufacturer:  male
+- general
 ---
 
 ### Android 6+

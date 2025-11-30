@@ -1,4 +1,9 @@
----
+Starting with root...
+
+
+Can't open root shell, try again...
+
+Still not :---
 manufacturer: 
     - oneplus
 

@@ -1,4 +1,4 @@
----
+10c---
 manufacturer:
     - tecno
 

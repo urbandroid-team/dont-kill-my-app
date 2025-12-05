@@ -1,4 +1,4 @@
----
+---redmi
 manufacturer:
     - general
 ---

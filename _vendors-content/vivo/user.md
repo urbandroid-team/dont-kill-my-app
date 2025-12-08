@@ -1,4 +1,4 @@
----
+ROOT---
 manufacturer: 
     - vivo
 

@@ -1,8 +1,7 @@
----
+see oppo
+--
 manufacturer: 
-    - oppo
-
----
+    oppo
 
 ## Oppo F1S
 

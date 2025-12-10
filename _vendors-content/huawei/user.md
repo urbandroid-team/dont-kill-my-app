@@ -1,4 +1,4 @@
----
+free fire
 manufacturer:
     - huawei
 

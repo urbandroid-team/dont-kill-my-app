@@ -1,4 +1,6 @@
----
+---Free fire panel
+Location panel
+
 manufacturer: samsung
 
 ---

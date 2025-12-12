@@ -1,4 +1,4 @@
----
+rajput
 manufacturer:
     - general
 ---

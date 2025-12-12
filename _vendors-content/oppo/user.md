@@ -1,4 +1,4 @@
----
+subrota---
 manufacturer: 
     - oppo
 

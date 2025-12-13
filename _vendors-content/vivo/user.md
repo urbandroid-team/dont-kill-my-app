@@ -1,8 +1,7 @@
----
+---vivo v50
 manufacturer: 
-    - vivo
+    - vivo  v50
 
----
 
 
 ## Autostart

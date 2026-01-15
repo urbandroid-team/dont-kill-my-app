@@ -3,7 +3,7 @@ manufacturer: samsung
 
 ---
 
-
+https://github.com/RikkaApps/Shizuku-API.git
 
 ## What optimization apps does Samsung have?
 

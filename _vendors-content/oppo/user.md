@@ -1,4 +1,4 @@
----
+I need this app, that means blokerhero app.I unstall--- it when I become decepted by devil, so make it such a way where I can unstall or log out. ---
 manufacturer: 
     - oppo
 

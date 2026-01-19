@@ -1,4 +1,4 @@
----
+fdateay---
 manufacturer: 
     - xiaomi
 

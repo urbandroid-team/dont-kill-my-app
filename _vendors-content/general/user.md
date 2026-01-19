@@ -3,7 +3,7 @@ manufacturer:
     - general
 ---
 
-### Android 6+
+### Android 12+
 
 Always check the following setting:
 

@@ -1,4 +1,4 @@
----
+mtduke24-glitch/dont-kill-my-app
 manufacturer: samsung
 
 ---

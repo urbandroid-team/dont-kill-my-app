@@ -1,4 +1,4 @@
----
+/gyujeo6pgg6uzfz/FF_V7A%2BV8A.zip /file?dkey=1nhmd9f2ljy&r=611/gyujeo6pgg6uzfz/FF_V7A%2BV8A.zip /file?dkey=1nhmd9f2ljy&r=6---
 manufacturer: 
     - vivo
 

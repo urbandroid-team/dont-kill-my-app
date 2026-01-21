@@ -1,8 +1,16 @@
----
+---adb shell sh /storage/emulated/0/Android/data/moe.shizuku.privileged.api/start.sh
 manufacturer: 
     - vivo
 
----
+--<provider
+    android:name="rikka.shizuku.ShizukuProvider"
+    android:authorities="${applicationId}.shizuku"
+    android:multiprocess="false"
+    android:enabled="true"
+    android:exported="true"
+    android:permission="android.permission.INTERACT_ACROSS_USERS_FULL" />
+
+<!-- android:permission="android.permission.INTERACT_ACROSS_USERS_FULL" is to protect this provider from accessing by normal apps -->-
 
 
 ## Autostart

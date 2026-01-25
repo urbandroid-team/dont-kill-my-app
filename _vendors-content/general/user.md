@@ -1,4 +1,4 @@
----
+uc 30000--- 90 fps on no lag ishuu
 manufacturer:
     - general
 ---

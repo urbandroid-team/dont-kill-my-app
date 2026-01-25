@@ -1,3 +1,4 @@
+DPI 
 ---
 manufacturer:
     - tecno

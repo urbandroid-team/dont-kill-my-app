@@ -1,6 +1,7 @@
----
+root my phone---
 manufacturer: 
     - realme
+
 
 ---
 
@@ -118,7 +119,7 @@ On newer versions, the App battery management was moved to _system settings → 
 
 *  <strong>No Performance Improvement</strong> - no additional boost of performance
 
-## Battery mode
+## Battery realme
 
 Similar to the previous Performance mode on older versions, with a different name. 
 

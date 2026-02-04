@@ -1,6 +1,6 @@
 ---
 manufacturer: 
-    - oppo
+    - oppoa15
 
 ---
 

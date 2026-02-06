@@ -1,4 +1,4 @@
----
+---RUOK
 manufacturer:
     - huawei
 

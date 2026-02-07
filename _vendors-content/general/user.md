@@ -1,7 +1,7 @@
----
+cepat dan aman---
 manufacturer:
     - general
----
+cepat dan aman---
 
 ### Android 6+
 

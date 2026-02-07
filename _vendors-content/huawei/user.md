@@ -1,4 +1,4 @@
----
+-123--
 manufacturer:
     - huawei
 

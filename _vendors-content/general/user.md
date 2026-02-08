@@ -1,14 +1,16 @@
----
+index of MP3 ---
 manufacturer:
     - general
----
+-bumi
+
+--
 
 ### Android 6+
 
 Always check the following setting:
 
 - on older devices:<br>
-_Phone settings > Battery & power saving > Battery usage > Ignore optimizations > Turn on_ to ignore battery optimization for your app.
+Sentuh lama klip untuk menyematkannya. Klip yang dilepas sematannya akan dihapus setelah 1 jam.Sentuh lama klip untuk menyematkannya. Klip yang dilepas sematannya akan dihapus setelah 1 jam.Sentuh lama klip untuk menyematkannya. Klip yang dilepas sematannya akan dihapus setelah 1 jam.Sentuh lama klip untuk menyematkannya. Klip yang dilepas sematannya akan dihapus setelah 1 jam.Sentuh lama klip untuk menyematkannya. Klip yang dilepas 5_Phone settings > Battery & power saving > Battery usage > Ignore optimizations > Turn on_ to ignore battery optimization for your app.
 
 - on newer devices:<br>
 _Settings > Apps > Your app > Battery > Optimize battery usage > All (from the top) > Your app_ (toggle to disable).
@@ -49,3 +51,4 @@ Try the generic approach below as some vendors tend to hook more functionality i
 
 
 **Phone settings > Battery & power saving > Battery usage > Ignore optimizations > Turn on** to ignore battery optimization for your app.
+akan dihapus setelah 1 jam.Selamat datang di papan klip Gboard, teks apa pun yang Anda salin akan disimpan di sini.

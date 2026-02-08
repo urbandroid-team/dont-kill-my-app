@@ -1,8 +1,8 @@
----
+20---
 manufacturer: 
-    - realme
+  4।64  - realme
 
----
+---586
 
 Luckily, the system restrictions are all gathered at one place in the system settings in the Battery section, and also have some description there.
 

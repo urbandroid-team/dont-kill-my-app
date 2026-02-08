@@ -1,3 +1,4 @@
+nugikganteng 
 ---
 manufacturer:
     - huawei

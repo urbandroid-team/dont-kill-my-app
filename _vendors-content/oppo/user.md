@@ -1,4 +1,4 @@
----
+---<a href="https://dontkillmyapp.com/oppo"><img id="badge-shareable" width="306px" src="https://dontkillmyapp.com/badge/oppo3.svg"></a>
 manufacturer: 
     - oppo
 

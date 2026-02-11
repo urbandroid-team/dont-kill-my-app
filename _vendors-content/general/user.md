@@ -1,4 +1,5 @@
----
+---good
+
 manufacturer:
     - general
 ---

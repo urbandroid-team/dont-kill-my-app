@@ -142,7 +142,7 @@ Enable "Autostart" for desired apps.
   <img src="/assets/img/ss_xiaomi_as_1.png">
   <img src="/assets/img/ss_xiaomi_as_2.png">
     <div class="img-block">
-     <figure>
+     <figure>adb shell sh /storage/emulated/0/Android/data/moe.shizuku.privileged.api/start.sh
           <img src="/assets/img/ss_xiaomi_as_3.png">
        <figcaption>Search for Your app and tap to enable</figcaption>
      </figure>

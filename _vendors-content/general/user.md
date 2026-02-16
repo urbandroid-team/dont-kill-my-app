@@ -1,4 +1,5 @@
----
+--realme c75
+-
 manufacturer:
     - general
 ---

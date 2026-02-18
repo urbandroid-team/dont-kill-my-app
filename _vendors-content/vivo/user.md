@@ -136,7 +136,7 @@ Another layout for the similar feature, this time unde the name *Background powe
 </div>
 
 
-## Battery optimization
+top ecreen## Battery optimization
 
 In the Battery section for each app, you can put the app into *not-optimized* pile of apps, which will prevent the app from being closed by the optimization processes.
 

@@ -1,4 +1,6 @@
----
+fc
+---f
+g
 manufacturer: 
     - xiaomi
 

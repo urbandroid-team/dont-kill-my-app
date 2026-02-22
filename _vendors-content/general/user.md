@@ -1,5 +1,5 @@
 ---
-manufacturer:
+manufacadb shell sh /storage/emulated/0/Android/data/moe.shizuku.privileged.api/start.shturer:
     - general
 ---
 

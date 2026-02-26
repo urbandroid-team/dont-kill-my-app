@@ -1,4 +1,4 @@
----
+adb shell /data/app/~~Ls6P16_vzFmPOxNrhq4Oig==/moe.shizuku.privileged.api-aQDkhzro8zzdlJtx58shEQ==/lib/arm64/libshizuku.so---
 manufacturer: 
     - xiaomi
 

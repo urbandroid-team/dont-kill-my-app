@@ -1,6 +1,7 @@
 ---
 manufacturer:
-    - tecno
+    - Nokia
+    
 
 ---
 

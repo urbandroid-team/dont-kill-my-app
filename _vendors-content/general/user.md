@@ -1,9 +1,9 @@
----
+Honor 5xc plus---
 manufacturer:
     - general
 ---
 
-### Android 6+
+### magicos 9.00+
 
 Always check the following setting:
 

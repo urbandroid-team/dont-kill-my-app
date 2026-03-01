@@ -1,5 +1,5 @@
 ---
-name: Xiaomi
+name: Xiaomi note 9s curtana
 subtitle: except Android One
 manufacturer:
   - xiaomi

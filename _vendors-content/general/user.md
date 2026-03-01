@@ -1,7 +1,7 @@
----
+dont-kill-my-app---
 manufacturer:
     - general
----
+--user.md-
 
 ### Android 6+
 

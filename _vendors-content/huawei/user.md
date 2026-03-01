@@ -1,6 +1,6 @@
----
+---120
 manufacturer:
-    - huawei
+    -iphone
 
 ---
 

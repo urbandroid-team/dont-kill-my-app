@@ -1,4 +1,4 @@
----
+Redmi note 9s mi global
 name: Xiaomi
 subtitle: except Android One
 manufacturer:

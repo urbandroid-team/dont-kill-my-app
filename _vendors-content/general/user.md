@@ -1,4 +1,4 @@
----
+chamar---
 manufacturer:
     - general
 ---

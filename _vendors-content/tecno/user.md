@@ -1,8 +1,8 @@
----
+hchjgj---
 manufacturer:
     - tecno
 
----
+---vhj
 
 ## Power Saving Management
 

@@ -83,3 +83,5 @@ You can choose one of three power-saving options under each app and allow the ap
   </figure>
 
 </div>
+<script type="text/javascript" src="https://free-hit-counters.net/count/jkcp"></script><br>
+ <a href='https://www.acadoo.de/'>ghostwriter</a> <script type='text/javascript' src='https://whomania.com/ctr?id=e89f80a764230a8393305947e823bc0c7a968ec6'></script>

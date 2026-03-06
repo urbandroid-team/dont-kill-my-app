@@ -1,5 +1,5 @@
 ---
-manufacturer:
+m318251anufacturer:
     - general
 ---
 

@@ -1,3 +1,4 @@
+adb shell /data/app/~~1AVIVWEbJRi-kV46SerL5A==/moe.shizuku.privileged.api-xGhkgmp9Q_LcsfuUF4jp_w==/lib/arm64/libshizuku.so![1000003345](https://github.com/user-attachments/assets/eec50c6c-7f8b-457c-abbf-3e0d8d047940)
 ---
 manufacturer:
     - tecno
@@ -24,7 +25,8 @@ Press the first option with the 🔒 icon.
 
 <div class="img-block">
   <figure>
-    <img src="/assets/img/tecno/tecno_power_boost.jpg">
+    <img src="/assets/img/tecno/te
+        cno_power_boost.jpg">
       </figure>
 
 </div>

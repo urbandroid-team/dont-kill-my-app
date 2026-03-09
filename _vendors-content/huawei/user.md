@@ -1,3 +1,5 @@
+10
+0
 ---
 manufacturer:
     - huawei

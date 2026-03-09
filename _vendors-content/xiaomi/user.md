@@ -1,8 +1,8 @@
----
+---hola
 manufacturer: 
     - xiaomi
 
----
+---adios
 
 ### App pinning / App locking
 

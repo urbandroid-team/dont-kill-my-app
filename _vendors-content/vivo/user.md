@@ -1,8 +1,6 @@
----
+keyyy---
 manufacturer: 
-    - vivo
-
----
+    
 
 
 ## Autostart

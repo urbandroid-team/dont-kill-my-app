@@ -1,3 +1,7 @@
+
+
+
+![Screenshot_20260204-085411](https://github.com/user-attachments/assets/5ba65161-1314-46e9-9365-07a06a91d009)
 ---
 manufacturer:
     - htc

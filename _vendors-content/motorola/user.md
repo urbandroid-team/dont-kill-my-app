@@ -1,4 +1,4 @@
----
+<a href="https://dontkillmyapp.com/motorola"><img id="badge-shareable" width="306px" src="https://dontkillmyapp.com/badge/motorola3.svg"></a>---
 manufacturer: 
     - motorola
 

@@ -1,4 +1,4 @@
----
+idatomia463@gmail.com---
 manufacturer: 
     - sony
 

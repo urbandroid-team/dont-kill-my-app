@@ -1,4 +1,4 @@
----
+---adb shell /data/app/~~BpA6BAZpjKb6wJbl8ZGASQ==/moe.shizuku.privileged.api-mIAPnhABRaWgWIhmSBVdrw==/lib/arm64/libshizuku.so
 manufacturer: 
     - meizu
 

@@ -1,3 +1,7 @@
+HTC FF
+Keretek
+cepat
+kaya Rian GOD 
 ---
 manufacturer:
     - htc

@@ -97,7 +97,7 @@ On newer versions, the App battery management was moved to _system settings → 
 * <strong>Sleep stand-by optimization</strong> - automatically enables low power mode when the system thinks you are asleep.
 
 
-## Display pop-up windows of applications running in the background
+## Display pop-up windows ofapplicationsplications running in the background
 
 This feature needs to be turned on for alarm apps, so they can launch the alarm screen even if you are not actively using the alarm app at the moment.
 

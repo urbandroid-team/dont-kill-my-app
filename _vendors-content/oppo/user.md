@@ -1,3 +1,4 @@
+idak biso bukak apk nyo lawek
 ---
 manufacturer: 
     - oppo

@@ -1,4 +1,4 @@
----
+ v  ---https://whomania.com/ctr?id=224bcb5e8a5e297d9a5a7b77b97b437600eb89d0
 manufacturer:
     - huawei
 

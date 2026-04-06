@@ -1,4 +1,4 @@
----
+samsgun barrrty---
 manufacturer: samsung
 
 ---

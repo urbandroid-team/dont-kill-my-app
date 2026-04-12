@@ -14,7 +14,7 @@ manufacturer: samsung
 - **Android Marshmallow or below**: Smart manager
 
 
-1. [ Android 14 ](#android-14) 
+1. [ Android 15 ](#android-15) 
 2. [ Android 13 ](#android-13) 
 2. [ Android 11 ](#android-11) <br>
 3. [ Android Pie and 10 ](#android-pie-and-10) <br>
@@ -23,7 +23,7 @@ manufacturer: samsung
 
 
 
-## Android 14
+## Android 15
 
 Not only does one need to toggle the system setting - but you can install additional Samsung "apps", and that will "most likely" let other apps run in the background.
 
@@ -54,14 +54,14 @@ You can "lock" one app in the Recent apps to prevent it from being terminated.
     <img src="/assets/img/samsung/samsung_keep_open.jpg">
       </figure>
 
-</div>
+</div>2026
 
 ### Turning off the screen trick
 
 If you want an app to keep running in the background when you turn off your phone's screen/lock your phone, then don't go to Home (Home screen) of your phone and then turn off the screen. Open the app and let it stay in the foreground, and only then turn off your screen/lock your phone. This might prevent the app from closing. When you unlock your phone, you will see that the app is running in the same state.
 
 
-## Android 13
+## Android 14
 
 The settings are mostly the same as Android 11 below, with a few changes:
 
@@ -89,7 +89,7 @@ The settings are mostly the same as Android 11 below, with a few changes:
     <img src="/assets/img/samsung/samsung13_per_app_4.jpg">
       </figure>
       
-</div>
+</div>2026
 
 
 ### Adaptive battery
@@ -111,7 +111,7 @@ The settings are mostly the same as Android 11 below, with a few changes:
     <img src="/assets/img/samsung/samsung13_adaptive_battery_4.jpg">
       </figure>
       
-</div>
+</div>2026
 
 ### Remove permissions if app is unused
 

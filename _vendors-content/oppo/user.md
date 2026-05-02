@@ -1,4 +1,4 @@
----
+#Oppo f19---
 manufacturer: 
     - oppo
 

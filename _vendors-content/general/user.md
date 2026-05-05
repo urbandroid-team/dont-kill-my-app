@@ -1,4 +1,5 @@
----
+-ي
+--
 manufacturer:
     - general
 ---

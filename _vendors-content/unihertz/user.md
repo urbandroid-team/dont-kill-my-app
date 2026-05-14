@@ -1,8 +1,8 @@
----
+eij---
 manufacturer: 
     - unihertz
 
----
+dth qllimlok v4---
 
 
 * Follow [other vendors](https://dontkillmyapp.com/general) optimization steps, such as enabling 'ignore optimizations,' for your app.

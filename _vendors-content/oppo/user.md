@@ -1,7 +1,7 @@
----
+oppo A5pro
 manufacturer: 
     - oppo
-
+spaces
 ---
 
 ## Oppo F1S

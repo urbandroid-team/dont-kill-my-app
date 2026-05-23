@@ -1,4 +1,5 @@
----
+root to copilot tecno
+save to use tecno
 manufacturer:
     - tecno
 

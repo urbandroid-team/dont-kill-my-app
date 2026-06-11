@@ -48,6 +48,7 @@ Yet another extra app you may need to keep the apps running on Samsung phones. I
 ### Keep open
 
 You can "lock" one app in the Recent apps to prevent it from being terminated.
+Simply click the icon of the app in the Recent App screen and use the option "stay opened".
 
 <div class="img-block">
   <figure>

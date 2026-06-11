@@ -37,10 +37,24 @@ Another method of app locking is hidden a little deeper:
 
 ### Autostart permission
 
-On MIUI 14, there is a new permission to start from the background for each app, in *Settings > Apps > Your app > App permissions > Background autostart*.
+On MIUI 14, there is a new permission to start from the background for each app, in *Settings > Apps > Background autostart*.
 
 <div class="img-block">
-  <img src="/assets/img/xiaomi/miui14_autostart.png">
+  <figure>
+    <img src="/assets/img/xiaomi/autostart_1.jpg">
+    <figcaption>Open Settings → Apps</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/img/xiaomi/autostart_2.jpg">
+    <figcaption>Tap "Background autostart" on the top row</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/img/xiaomi/autostart_3.jpg">
+    <figcaption>Enable your app from the list</figcaption>
+  </figure>
+
 
 </div>
 
@@ -109,12 +123,6 @@ To let your app run in the background, make sure your settings look like the fol
 
 Please enable:
 
-* *Settings > Advanced Settings > Battery manager > Power plan* is set to Performance
-
-* *Device Settings > Advanced Settings > Battery Manager > Protected apps* – your app needs to be Protected
-
-* *Device Settings > Apps > your app > Battery > Power-intensive prompt* and *Keep running after screen off*
-
 * *Settings > Additional Settings > Battery & Performance > Manage apps’ battery usage* and here:
 
 1. Switch Power Saving Modes to Off
@@ -125,7 +133,8 @@ Please enable:
 ### App battery saver
 
 
-*Security > Battery > App Battery Saver > your app > No restriction*
+*Security > Battery > App Battery Saver > your app > No restriction* (older versions of Mi Security App)
+This option has been removed in newer versions of Mi Security and the new method is *Settings > Apps > Battery > No restrictions*
 
 
 ### Autostart
@@ -152,10 +161,32 @@ Enable "Autostart" for desired apps.
 
 ### Hidden settings
 
-On some XiaoMi phones, several settings options are hidden from you. Luckily, there are several apps on Play Store designed specifically for revealing these secret options and menus.
+On some Xiaomi phones, several settings options are hidden from you. Luckily, there are several apps on Play Store designed specifically for revealing these secret options and menus.
 
 * [**Hidden Settings For MIUI** from Yunus Ceyhan](https://play.google.com/store/apps/details?id=com.ceyhan.sets)
 
 * [**MIUI Hidden Settings Activity Launcher, poco, note** from More by NetVor - Android Solutions](https://play.google.com/store/apps/details?id=com.netvor.hiddensettings)
 
 * [**MQS - Quick Settings for MIUI** from Ruby Faick](https://play.google.com/store/apps/details?id=com.zonarmr.miuiengineermode)
+
+On these apps, one setting to look for is the "Battery optimization" menu. This will open the AOSP doze restrictions menu. Then, find your desired app, tap on the "Allow background usage" text and select "Unrestricted". (This menu may not be clearly visible in dark mode)
+
+<div class="img-block">
+  <figure>
+    <img src="/assets/img/xiaomi/hiddenbattery_1.jpg">
+    <figcaption>Choose your app from the menu</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/img/xiaomi/hiddenbattery_2.jpg">
+    <figcaption>Tap on the "Allow background usage" text</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/img/xiaomi/hiddenbattery_3.jpg">
+    <figcaption>Set it to unrestricted</figcaption>
+  </figure>
+
+
+</div>
+

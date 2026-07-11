@@ -1,3 +1,4 @@
+Infinix note 60 pro max 
 ---
 manufacturer:
     - general

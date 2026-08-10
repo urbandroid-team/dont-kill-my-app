@@ -1,4 +1,4 @@
----
+8---
 manufacturer: 
     - xiaomi
 

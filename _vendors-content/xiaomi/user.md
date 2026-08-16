@@ -1,4 +1,4 @@
----
+---<a href="https://dontkillmyapp.com/xiaomi"><img id="badge-shareable" width="306px" src="https://dontkillmyapp.com/badge/xiaomi3.svg"></a>
 manufacturer: 
     - xiaomi
 

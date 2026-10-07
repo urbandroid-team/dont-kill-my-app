@@ -83,3 +83,21 @@ You can choose one of three power-saving options under each app and allow the ap
   </figure>
 
 </div>
+
+## ColorOS 16 (Android 16)
+
+On recent ColorOS, the settings above are not always enough. Apps can still get killed by ColorOS's own `o-kill` (see the explanation above), even when they run with a notification. If you have adb, you can check whether this is what happened to your app:
+
+```
+adb shell dumpsys activity exit-info <app package>
+```
+
+Entries with `o-kill(...)` mean ColorOS killed the app despite your settings, so there is nothing more to change on your side.
+
+If an app has to start after a reboot, check that ColorOS did not force-stop it. Open the app once after updates or longer periods without use. With adb:
+
+```
+adb shell dumpsys package <app package> | grep -o 'stopped=[a-z]*'
+```
+
+`stopped=true` means the app will not start on boot until you open it.

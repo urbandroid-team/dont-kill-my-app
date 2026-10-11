@@ -3,8 +3,6 @@ manufacturer:
     - infinix
 ---
 
-# WIP
-
 # Halting `Battery & Power Saving` intervention
 
 <div class="img-block">
@@ -25,9 +23,9 @@ manufacturer:
 
   <figure>
     <img src="/assets/img/infinix/Battery-and-Power-Saving-3.jpg">
-    <figcaption>Uncheck "Power Saving Management For Apps" and "Adaptinve Battery".</figcaption>
+    <figcaption>Uncheck "Power Saving Management For Apps" and "Adaptive Battery".</figcaption>
   </figure>
 
-`Battery Optimization` would open system settings window, where you could choose `Not optimized`, which would reassemble the same as `Unrestricted` mode for battery usage in app's system settings. 
+`Battery Optimization` would open system settings window, where you could choose `Not optimized`, which would reassemble the same as setting `Unrestricted` mode for application's battery usage in app's system settings. 
 
 </div>

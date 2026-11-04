@@ -1,4 +1,4 @@
----
+sony---
 manufacturer:
     - htc
 

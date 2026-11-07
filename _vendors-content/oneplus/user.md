@@ -1,4 +1,9 @@
----
+KOLKORN SRISAWAT (boyausmax597com)
+ OnePlus 10T 5G CPH2415
+OxygenOS15 OxygenOS18
+ASUS ROG Strix SCAR Apple MacPro 
+IOS27 iPhone 
+OnsPlus 10T 5G---
 manufacturer: 
     - oneplus
 

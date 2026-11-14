@@ -1,6 +1,10 @@
----
+Android 
+Android 
+
+
+and---
 manufacturer: 
-    - oppo
+ andro   - oppo
 
 ---
 

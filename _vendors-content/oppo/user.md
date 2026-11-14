@@ -1,4 +1,4 @@
----
+---android
 manufacturer: 
     - oppo
 
